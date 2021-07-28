@@ -1,0 +1,42 @@
+/* Custom IDs */
+#welcome {
+    background-image: linear-gradient(#ffffffab, #ffffffab), url(../images/uottawa-background.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position-y: 15%;
+    background-attachment: scroll;
+}
+
+#navbar a:link {
+    color: #FFFFFF;
+}
+
+#navbar a:hover {
+    color: #ff8888;
+}
+
+/* Custom classes */
+.bg-maroon {
+    background-color: #800020;
+}
+
+/* Style for Extra Large Screen */
+@media (max-width:1200px) {
+    iframe {
+        height: 250px;
+    }
+}
+
+/* Style for Large Screen */
+@media (max-width:992px) {
+    iframe {
+        height: 400px;
+    }
+}
+
+/* Style for Small Screen */
+@media (max-width:575px) {
+    iframe {
+        height: 200px;
+    }
+}
