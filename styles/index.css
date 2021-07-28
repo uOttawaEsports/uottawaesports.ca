@@ -1,3 +1,6 @@
+/* Default CSS */
+
+
 /* Custom IDs */
 #welcome {
     background-image: linear-gradient(#ffffffab, #ffffffab), url(../images/uottawa-background.jpg); 
@@ -13,6 +16,14 @@
 
 #navbar a:hover {
     color: #ff8888;
+}
+
+#cvuo a {
+    color: #ff8888;
+}
+
+#cvuo a:hover {
+    color: #ff5555;
 }
 
 /* Custom classes */
