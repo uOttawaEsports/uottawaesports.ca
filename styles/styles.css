@@ -7,12 +7,9 @@
     background-attachment: scroll;
 }
 
-#navbar a:link {
-    color: #FFFFFF;
-}
 
 #navbar a:hover {
-    color: #ff8888;
+    color: #ffffff;
 }
 
 #cvuo a {
