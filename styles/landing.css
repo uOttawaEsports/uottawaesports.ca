@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+/* Default CSS */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Custom classes */
+
+.container-fluid {
+    background-image: linear-gradient(#ffffffbb, #ffffffce), url(../images/taberet-hall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically */
+    align-items: center;     /* center items horizontally */
+}
+
+.row {
+    text-align: center; /* centers <p> */
+}
+
+a {
+    width: 7rem;
+}

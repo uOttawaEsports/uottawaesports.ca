@@ -5,7 +5,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
 /* Custom IDs */
 #welcome {
     background-image: linear-gradient(#ffffffab, #ffffffab), url(../images/uottawa-background.jpg); 
