@@ -12,7 +12,16 @@
     color: #ffffff;
 }
 
-#cvuo a {
+#calendar a, a:visited {
+    color: #ff8888;
+}
+
+#calendar a:hover {
+    color: #ff5555;
+}
+
+
+#cvuo a, a:visited {
     color: #ff8888;
 }
 
@@ -25,23 +34,27 @@
     background-color: #800020;
 }
 
+.bg-grey {
+    background-color: #303031;
+}
+
 /* Style for Extra Large Screen */
 @media (max-width:1200px) {
-    iframe {
+    #welcome iframe {
         height: 250px;
     }
 }
 
 /* Style for Large Screen */
 @media (max-width:992px) {
-    iframe {
+    #welcome iframe {
         height: 400px;
     }
 }
 
 /* Style for Small Screen */
 @media (max-width:575px) {
-    iframe {
+    #welcome iframe {
         height: 200px;
     }
 }
