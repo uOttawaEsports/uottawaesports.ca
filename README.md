@@ -1,2 +1,1 @@
-Source code for [uottawaesports.ca](https://uottawaesports.ca/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f5729a3a-da27-4b8f-b7cf-7f42a316841e/deploy-status)](https://app.netlify.com/sites/uottawaesports/deploys)

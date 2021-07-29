@@ -1,7 +1,8 @@
 /* Default CSS */
+
 footer {
-    position: block; 
-    bottom: 0; 
+    position: block;
+    bottom: 0;
     width: 100%;
 }
 
@@ -11,11 +12,20 @@ footer {
     color: #ffffff;
 }
 
+#navbar a::selection {
+    background-color: #303031;
+}
+
 /* Custom classes */
+
 .bg-maroon {
     background-color: #800020;
 }
 
 .bg-grey {
     background-color: #303031;
+}
+
+.dropdown-item:active {
+    background-color: #ff00409a;
 }
