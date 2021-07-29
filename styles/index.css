@@ -4,6 +4,7 @@
     background-image: linear-gradient(#ffffffab, #ffffffab), url(../images/uottawa-background.jpg); 
     background-repeat: no-repeat; 
     background-size: cover;
+    background-position-x: 85%;
     background-position-y: 15%;
     background-attachment: scroll;
 }
