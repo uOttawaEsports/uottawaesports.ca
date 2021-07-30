@@ -49,5 +49,6 @@ body {
 }
 
 .card {
+    height: 20rem;
     width: 17.5rem;
 }
