@@ -34,3 +34,9 @@ footer {
 .dropdown-item:active {
     background-color: #ff00409a;
 }
+
+/* Existing classes */
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
