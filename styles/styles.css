@@ -1,5 +1,10 @@
 /* Default CSS */
 
+body {
+    overflow-x: hidden; /* disable horizontal scroll */
+    overflow-y: scroll;
+}
+
 footer {
     position: block;
     bottom: 0;

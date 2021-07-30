@@ -1,0 +1,53 @@
+/* Default CSS */
+
+html, body {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background: linear-gradient(90deg, #000000, #800020, #000000);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Custom IDs */
+#title {
+    background-image: linear-gradient(#ffffffc4, #ffffffc4), url(../images/uottawa-background.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position-x: 85%;
+    background-position-y: 20%;
+    background-attachment: scroll;
+}
+
+/* Custom classes */
+.text-shadow {
+    text-shadow: 0.2rem 0.2rem #ffffff48;
+}
+
+/* Existing classes */
+
+.card img {
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.card {
+    width: 17.5rem;
+}
