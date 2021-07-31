@@ -63,84 +63,84 @@ function more(name) {
         "bora-basar": {
             title: "Bora Basar",
             image: "../../../images/execs-2021-2022/placeholder.png",
-            role: "Game Head <br /> CS:GO",
+            role: "<span class='fw-bold'>Game Head</span> <br /> CS:GO",
             desc: "Hello!",
             background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs-2021-2022/uottawa-aerial.jpg);"
         },
         "peter-karpov": {
             title: "Peter Karpov",
             image: "../../../images/execs-2021-2022/placeholder.png",
-            role: "Game Head <br /> DOTA 2",
+            role: "<span class='fw-bold'>Game Head</span> <br /> DOTA 2",
             desc: "Hello!",
             background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs-2021-2022/uottawa-aerial.jpg);"
         },
         "ryan-farrell": {
             title: "Ryan Farrell",
             image: "../../../images/execs-2021-2022/placeholder.png",
-            role: "Game Head <br /> Fighting Games",
+            role: "<span class='fw-bold'>Game Head</span> <br /> Fighting Games",
             desc: "Hello!",
             background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs-2021-2022/uottawa-aerial.jpg);"
         },
         "matthew-awrey": {
             title: "Matthew Awrey",
             image: "../../../images/execs-2021-2022/placeholder.png",
-            role: "Game Head <br /> Fortnite",
+            role: "<span class='fw-bold'>Game Head</span> <br /> Fortnite",
             desc: "Hello!",
             background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs-2021-2022/uottawa-aerial.jpg);"
         },
         "narth-rajeswaran": {
             title: "Narth Rajeswaran",
             image: "../../../images/execs-2021-2022/placeholder.png",
-            role: "Game Head <br /> League of Legends",
+            role: "<span class='fw-bold'>Game Head</span> <br /> League of Legends",
             desc: "Hello!",
             background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs-2021-2022/uottawa-aerial.jpg);"
         },
         "brandon-ly": {
             title: "Brandon Ly",
             image: "../../../images/execs-2021-2022/brandon-ly.png",
-            role: "Game Head <br /> osu!",
+            role: "<span class='fw-bold'>Game Head</span> <br /> osu!",
             desc: "Hello!",
             background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs-2021-2022/uottawa-aerial.jpg);"
         },
         "benoit-gagnier": {
             title: "Benoit Gagnier",
             image: "../../../images/execs-2021-2022/placeholder.png",
-            role: "Game Head <br /> Overwatch",
+            role: "<span class='fw-bold'>Game Head</span> <br /> Overwatch",
             desc: "Hello!",
             background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs-2021-2022/uottawa-aerial.jpg);"
         },
         "griffin-taylor": {
             title: "Griffin Taylor",
             image: "../../../images/execs-2021-2022/griffin-taylor.png",
-            role: "Game Head <br /> Rainbow Six Siege",
-            desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs-2021-2022/uottawa-aerial.jpg);"
-        },
-        "alexander-joe": {
-            title: "Alexander Joe",
-            image: "../../../images/execs-2021-2022/placeholder.png",
-            role: "Game Head <br /> Rocket League",
+            role: "<span class='fw-bold'>Game Head</span> <br /> Rainbow Six Siege",
             desc: "Hello!",
             background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs-2021-2022/uottawa-aerial.jpg);"
         },
         "fabien-lefebvre": {
             title: "Fabien Lefebvre",
             image: "../../../images/execs-2021-2022/placeholder.png",
-            role: "Game Head <br /> Super Smash Bros. Melee",
+            role: "<span class='fw-bold'>Game Head</span> <br /> Rocket League",
+            desc: "Hello!",
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs-2021-2022/uottawa-aerial.jpg);"
+        },
+        "alexander-joe": {
+            title: "Alexander Joe",
+            image: "../../../images/execs-2021-2022/placeholder.png",
+            role: "<span class='fw-bold'>Game Head</span> <br /> Super Smash Bros. Melee",
             desc: "Hello!",
             background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs-2021-2022/uottawa-aerial.jpg);"
         },
         "tyler-lindsay": {
             title: "Tyler Lindsay",
             image: "../../../images/execs-2021-2022/placeholder.png",
-            role: "Game Head <br /> Super Smash Bros. Ultimate",
+            role: "<span class='fw-bold'>Game Head</span> <br /> Super Smash Bros. Ultimate",
             desc: "Hello!",
             background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs-2021-2022/uottawa-aerial.jpg);"
         },
         "martina-on": {
             title: "Martina On",
             image: "../../../images/execs-2021-2022/martina-on.png",
-            role: "Game Head <br /> VALORANT",
+            role: "<span class='fw-bold'>Game Head</span> <br /> VALORANT",
             desc: "Hello!",
             background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs-2021-2022/uottawa-aerial.jpg);"
         }
@@ -154,3 +154,13 @@ function more(name) {
     document.getElementById("modalDesc").innerHTML = modals[name].desc;
 
 }
+
+$(function () {
+    $(".card").hover(
+        function () {
+            $(this).addClass('shadow-white').css('cursor', 'pointer');
+        }, function () {
+            $(this).removeClass('shadow-white');
+        }
+    );
+});

@@ -14,11 +14,13 @@
   <link rel="stylesheet" href="../../../styles/execs.css">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/1eb2ce7a7c.js" crossorigin="anonymous"></script>
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
   <!-- Navbar -->
-  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top bg-maroon p-0">
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top bg-maroon p-0">
     <div class="container-fluid ms-1">
       <p class="navbar-brand fs-3 fw-bold m-0"><img src="../../../images/logo-square.png" alt="Logo" width="60rem"
           height="60rem" class="d-inline-block align-text-middle me-2">uOttawa Esports</p>
@@ -32,7 +34,7 @@
             <a class="nav-link" aria-current="page" href="/en/">Home</a>
           </li>
           <li class="nav-item dropdown ms-1">
-            <a class="nav-link dropdown-toggle" href="#" id="execsDropdown" role="button" data-bs-toggle="dropdown"
+            <a class="nav-link dropdown-toggle active" href="#" id="execsDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Execs
             </a>
@@ -83,17 +85,16 @@
   </nav>
   <!-- Navbar End -->
 
-  <!-- Title -->
+  <!-- Title
   <div id="title" class="container-fluid">
     <div class="row py-2">
       <h1 class="display-5 fw-bold text-center">Execs 2021-2022</h1>
     </div>
-  </div>
-  <!-- Title End -->
+  </div>Title End -->
 
   <!-- Execs -->
-  <div class="container-fluid">
-    <div class="row pt-3 py-1">
+  <div id="execs" class="container-fluid">
+    <div class="row pt-3 py-1 pb-lg-0">
       <h2 class="display-6 fw-bold text-center text-white text-shadow">Execs</h2>
     </div>
   </div>

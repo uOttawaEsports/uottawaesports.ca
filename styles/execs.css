@@ -24,13 +24,7 @@ body {
 }
 
 /* Custom IDs */
-#title {
-    background-image: linear-gradient(#ffffffc4, #ffffffc4), url(../images/uottawa-background.jpg); 
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-position-x: 85%;
-    background-position-y: 20%;
-    background-attachment: scroll;
+#execs {
     margin-top: 4.2rem;
 }
 
@@ -57,6 +51,9 @@ body {
 
 .modal-body img {
     border-radius: 50%;
-    height: 8.1rem;
     width: 100%;
+}
+
+.shadow-white {
+    box-shadow: 0 0 2rem rgba(255, 255, 255, 0.75);
 }
