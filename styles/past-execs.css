@@ -23,11 +23,6 @@ body {
     }
 }
 
-/* Custom IDs */
-#past {
-    /* height: 100vh; */
-}
-
 /* Custom classes */
 .text-shadow {
     text-shadow: 0.2rem 0.2rem #ffffff48;
