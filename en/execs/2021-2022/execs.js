@@ -154,13 +154,3 @@ function more(name) {
     document.getElementById("modalDesc").innerHTML = modals[name].desc;
 
 }
-
-$(function () {
-    $(".card").hover(
-        function () {
-            $(this).addClass('shadow-white').css('cursor', 'pointer');
-        }, function () {
-            $(this).removeClass('shadow-white');
-        }
-    );
-});
