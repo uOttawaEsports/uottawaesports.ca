@@ -31,6 +31,7 @@ body {
     background-position-x: 85%;
     background-position-y: 20%;
     background-attachment: scroll;
+    margin-top: 4.2rem;
 }
 
 /* Custom classes */
@@ -45,9 +46,17 @@ body {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     border-radius: 50%;
+    height: 14.4rem;
     width: 100%;
 }
 
 .card {
     width: 17.5rem;
+    cursor: pointer;
+}
+
+.modal-body img {
+    border-radius: 50%;
+    height: 8.1rem;
+    width: 100%;
 }
