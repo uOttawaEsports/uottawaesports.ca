@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uOttawa Esports</title>
+    <!-- Bootstrap 5.0.2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../../../styles/styles.css">
+    <link rel="stylesheet" href="../../../styles/past-execs.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1eb2ce7a7c.js" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top bg-maroon p-0">
+        <div class="container-fluid ms-1">
+            <h1 class="navbar-brand fs-3 fw-bold m-0"><img src="../../../images/logo-square.png" alt="Logo"
+                    width="60rem" height="60rem" class="d-inline-block align-text-middle me-2">uOttawa Esports</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger"
+                aria-controls="hamburger" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end text-center fs-5" id="hamburger">
+                <ul class="navbar-nav">
+                    <li class="nav-item me-1">
+                        <a class="nav-link" aria-current="page" href="/en/">Home</a>
+                    </li>
+                    <li class="nav-item dropdown ms-1">
+                        <a class="nav-link dropdown-toggle active" href="#" id="execsDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Execs
+                        </a>
+                        <ul class="dropdown-menu text-center" aria-labelledby="execsDropdown">
+                            <li><a class="dropdown-item text-dark" href="/en/execs/2021-2022/">Execs 2021-2022</a></li>
+                            <li><a class="dropdown-item text-dark fw-bold disabled" href="#">Past Execs</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="/en/events/">Events</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="/en/teams/">Teams</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="/en/contact/">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown ms-1">
+                        <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu text-center" aria-labelledby="moreDropdown">
+                            <li><a class="dropdown-item text-dark" href="#" target="_blank">Constitution</a></li>
+                            <li><a class="dropdown-item text-dark" href="https://linktr.ee/uottawaesports"
+                                    target="_blank">Linktree</a></li>
+                            <li><a class="dropdown-item text-dark" href="https://discord.gg/uAbd5uRTCA"
+                                    target="_blank">Discord</a>
+                            </li>
+                            <li><a class="dropdown-item text-dark" href="https://www.facebook.com/uOttawaEsports"
+                                    target="_blank">Facebook</a></li>
+                            <li><a class="dropdown-item text-dark" href="https://www.instagram.com/uottawaesports/"
+                                    target="_blank">Instagram</a></li>
+                            <li><a class="dropdown-item text-dark" href="https://twitch.tv/uottawaesports"
+                                    target="_blank">Twitch</a>
+                            </li>
+                            <li><a class="dropdown-item text-dark" href="https://twitter.com/uOttawaEsports"
+                                    target="_blank">Twitter</a></li>
+                            <li><a class="dropdown-item text-dark"
+                                    href="https://www.youtube.com/channel/UCZYAfKclLKB3WN7ZBwUmgoQ"
+                                    target="_blank">YouTube</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-5">
+                        <a role="button" class="btn btn-dark nav-link fs-5 p-2" href="/fr/" rel="alternate"
+                            hreflang="fr"><i class="fas fa-globe"></i> Français</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Execs -->
+    <div id="past" class="container-fluid">
+        <div class="row py-3 pb-lg-0">
+            <h1 class="display-6 fw-bold text-center text-white text-shadow">Past Execs</h1>
+        </div>
+        <div class="row d-flex justify-content-evenly">
+            <div class="card bg-dark text-white my-2 m-sm-2 mx-lg-2 my-lg-3">
+                <img src="../../../images/execs-2021-2022/placeholder.png" class="card-img-top pt-4 pb-2"
+                    alt="2020-2021">
+                <div class="card-body p-0 pb-2 text-center">
+                    <h2 class="card-title fs-4 fw-bold">Execs 2020-2021</h2>
+                    <h3 class="card-title fs-5"></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Execs End-->
+
+
+    <!-- Footer -->
+    <div w3-include-html="../../components/footer.html"></div>
+    <!-- Footer End -->
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- External JavaScript -->
+    <script type="text/javascript" src="execs.js"></script>
+
+    <!-- External Footer JavaScript -->
+    <script type="text/javascript" src="../../../scripts/footer.js"></script>
+
+</body>
+
+</html>
