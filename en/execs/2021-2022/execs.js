@@ -24,8 +24,8 @@ function more(name) {
             desc: "Hello!",
             background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
         },
-        "andrew-torsky": {
-            title: "Andrew Torsky",
+        "andrew-leblanc": {
+            title: "Andrew Leblanc",
             image: "../../../images/execs/placeholder.png",
             role: "VP Competitive",
             desc: "Hello!",
