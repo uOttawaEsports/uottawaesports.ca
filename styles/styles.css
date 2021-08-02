@@ -14,11 +14,11 @@ footer {
 /* Custom IDs */
 
 #navbar a {
-    color: #ffffffdc;
+    color: #FFFFFFdc;
 }
 
 #navbar a:hover {
-    color: #ffffff;
+    color: #FFFFFF;
     background-color: #212529;
     border-radius: .25rem;
 }
@@ -29,6 +29,13 @@ footer {
 
 #navbar .dropdown-menu {
     background-color: #494949;
+}
+
+/* Existing classes */
+.active {
+    color: #FFFFFF;
+    background-color: #212529a1;
+    border-radius: .25rem;
 }
 
 /* Custom classes */
