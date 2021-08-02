@@ -13,12 +13,22 @@ footer {
 
 /* Custom IDs */
 
+#navbar a {
+    color: #ffffffdc;
+}
+
 #navbar a:hover {
     color: #ffffff;
+    background-color: #212529;
+    border-radius: .25rem;
 }
 
 #navbar a::selection {
     background-color: #303031;
+}
+
+#navbar .dropdown-menu {
+    background-color: #494949;
 }
 
 /* Custom classes */
@@ -36,7 +46,7 @@ footer {
 }
 
 .dropdown-item:active {
-    background-color: #ff00409a;
+    background-color: #FF3A7F;
 }
 
 /* Existing classes */
