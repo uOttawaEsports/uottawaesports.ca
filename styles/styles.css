@@ -31,6 +31,10 @@ footer {
     background-color: #303031;
 }
 
+.border-right {
+    border-right: 0.15rem solid #FFFFFF;
+}
+
 .dropdown-item:active {
     background-color: #ff00409a;
 }
