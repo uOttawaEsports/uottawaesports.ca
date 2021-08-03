@@ -1,0 +1,26 @@
+/* Custom IDs */
+
+#contact-background {
+    background-image: linear-gradient(#000000bb, #000000bb), url(../images/smash-gathering.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position-x: 55%;
+    background-position-y: 15%;
+    background-attachment: scroll;
+    height: 80vh;
+}
+
+#contact {
+    height: 100%;
+}
+
+#contact img {
+    width: 100%;
+}
+
+/* Existing classes */
+
+.card {
+    height: 75%;
+    width: 75%;
+}
