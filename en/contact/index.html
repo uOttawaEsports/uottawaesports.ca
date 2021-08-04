@@ -123,11 +123,17 @@
               <h1 class="text-center">Contact</h1>
               <form name="contact" method="POST" data-netlify="true">
                 <div class="row">
-                  <div class="col-12 form-floating text-dark fw-bold mb-2 pe-lg-1" data-bs-toggle="tooltip"
-                    data-bs-placement="left" title="Enter your name.">
-                    <input id="name" name="name" type="name" class="form-control" placeholder="Name"
-                      onfocusout="validateName(this)" required>
+                  <div id="discordTooltip" class="col-lg-6 col-sm-12 form-floating text-dark fw-bold mb-2 pe-lg-1"
+                    data-bs-toggle="tooltip" data-bs-placement="left" title="Enter your name.">
+                    <input id="name" type="name" class="form-control" placeholder="Name" onfocusout="validateName(this)"
+                      required>
                     <label id="nameLabel" for="name" class="ps-4 required">Name</label>
+                  </div>
+                  <div class="col-lg-6 col-sm-12 form-floating text-dark fw-bold mb-2 ps-lg-1" data-bs-toggle="tooltip"
+                    data-bs-placement="left" title="Enter your Discord username. (Optional)">
+                    <input id="discord" type="text" class="form-control" placeholder="Last Name"
+                      onfocusout="validateDiscord(this)">
+                    <label id="discordLabel" for="discord" class="ps-4 ps-sm-4 ps-lg-3">Discord&nbsp;Username</label>
                   </div>
                 </div>
                 <div class="row">
@@ -141,13 +147,15 @@
                 <div class="row">
                   <div class="col-12 form-floating mb-2" data-bs-toggle="tooltip" data-bs-placement="left"
                     title="Select the reason for why you're contacting us.">
-                    <label id="typeLabel" for="type" class="form-label mb-0 text-dark pt-0 ps-4 fw-bold required">Enquiry&nbsp;Type</label>
+                    <label id="typeLabel" for="type"
+                      class="form-label mb-0 text-dark pt-0 ps-4 fw-bold required">Enquiry&nbsp;Type</label>
                     <select id="type" name="type" class="form-select pt-4" onfocusout="validateType(this)" required>
                       <option value selected disabled>Select one</option>
-                      <option value="Discord help">Discord help</option>
-                      <option value="Question regarding a game">Question regarding a game</option>
-                      <option value="Question regarding an event">Question regarding an event</option>
-                      <option value="Question regarding the club">Question regarding the club</option>
+                      <option value="Discord Help">Discord help</option>
+                      <option value="Game Question">Question regarding a game</option>
+                      <option value="Event Question">Question regarding an event</option>
+                      <option value="Club Question">Question regarding the club</option>
+                      <option value="Partnership/Sponsorship">Partnership/sponsorship</option>
                       <option value="Other">Other</option>
                     </select>
                   </div>
@@ -164,9 +172,8 @@
                   <div class="col-12 mb-2" data-bs-toggle="tooltip" data-bs-placement="left"
                     title="Enter the message you'd like to send us.">
                     <label for="message" class="form-label fw-bold required">Message</label>
-                    <textarea id="message" name="message" class="form-control"
-                    onfocusout="validateMessage(this)" rows="5" maxlength="5000"
-                      placeholder="How can we help you?" required></textarea>
+                    <textarea id="message" name="message" class="form-control" onfocusout="validateMessage(this)"
+                      rows="5" maxlength="5000" placeholder="How can we help you?" required></textarea>
                   </div>
                 </div>
                 <div class="row">
