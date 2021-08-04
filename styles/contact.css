@@ -20,7 +20,7 @@
 /* Existing classes */
 
 .card {
-    margin: 5rem 5rem 5rem 5rem;
+    margin: 3rem 3rem 3rem 3rem;
 }
 
 /* Custom classes */
@@ -37,11 +37,11 @@
     box-shadow: 0 0 0 .25rem rgba(220, 53, 70, 0.25);
 }
 
-.good {
+.valid {
     border: solid #008b2e;
 }
 
-.good:focus {
+.valid:focus {
     color: #212529;
     background-color: #fff;
     border-color: #008b2e;
@@ -49,9 +49,15 @@
     box-shadow: 0 0 0 .25rem rgba(220, 53, 70, 0.25);
 }
 
-
 .required:after {
     content: " *";
     font-weight: bold;
     color: #ff0000;
+}
+
+/* Style for Small Screen */
+@media (max-width:575px) {
+    .card {
+        margin: 0;
+    }
 }
