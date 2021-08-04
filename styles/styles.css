@@ -62,3 +62,17 @@ footer {
     margin-right: 0;
     margin-left: 0;
 }
+
+/* Style for Small-Medium Screen */
+@media (min-width: 992px) and (max-width:1086px) {
+    #hamburger .nav-link {
+        font-size: 0.83874rem;
+    }
+}
+
+/* Style for Medium-Large Screen */
+@media (min-width: 1087px) and (max-width:1182px) {
+    #hamburger .nav-link {
+        font-size: 1.04374rem;
+    }
+}

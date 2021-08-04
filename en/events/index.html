@@ -12,15 +12,18 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Events | uOttawa Esports">
   <meta property="og:description" content="The official website of uOttawa Esports.">
-  <meta property="og:image" content="https://raw.githubusercontent.com/uOttawaEsports/uottawaesports.ca/main/images/landing-page.png">
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/uOttawaEsports/uottawaesports.ca/main/images/landing-page.png">
   <meta property="og:url" content="https://www.uottawaesports.ca/">
   <meta property="og:site_name" content="uOttawa Esports">
   <meta name="twitter:title" content="Events | uOttawa Esports">
   <meta name="twitter:description" content="The official website of uOttawa Esports.">
-  <meta name="twitter:image" content="https://raw.githubusercontent.com/uOttawaEsports/uottawaesports.ca/main/images/landing-page.png">
+  <meta name="twitter:image"
+    content="https://raw.githubusercontent.com/uOttawaEsports/uottawaesports.ca/main/images/landing-page.png">
   <meta name="twitter:site" content="@uOttawaEsports">
   <meta name="twitter:creator" content="@uOttawaEsports">
-  <meta name="keywords" content="uOttawa Esports, uOttawa Esports Club, uOttawa Esports events, uOttawa gaming, uOttawa gaming club">
+  <meta name="keywords"
+    content="uOttawa Esports, uOttawa Esports Club, uOttawa Esports events, uOttawa gaming, uOttawa gaming club">
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="../../images/logo-square.png" />
   <!-- Bootstrap 5.0.2 CSS -->
@@ -44,55 +47,69 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end text-center fs-5" id="hamburger">
         <ul class="navbar-nav">
-          <li class="nav-item mx-1">
-            <a class="nav-link" aria-current="page" href="/en/">Home</a>
+                    <li class="nav-item mx-1">
+            <a class="nav-link" aria-current="page" href="/en/"><i class="fas fa-home me-1"></i> Home</a>
           </li>
           <li class="nav-item dropdown mx-1">
             <a class="nav-link dropdown-toggle" href="#" id="execsDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              Execs
+              <i class="fas fa-users me-1"></i> Execs
             </a>
             <ul class="dropdown-menu text-center" aria-labelledby="execsDropdown">
               <li><a class="dropdown-item text-white" href="/en/execs/2021-2022/">Execs 2021-2022</a></li>
-              <li><hr class="dropdown-divider"></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
               <li><a class="dropdown-item text-white" href="/en/execs/past/">Past Execs</a></li>
             </ul>
           </li>
-          <li class="nav-item mx-1">
-            <a class="nav-link active disabled" href="#">Events</a>
+          <li class="nav-item dropdown mx-1">
+            <a class="nav-link dropdown-toggle" href="#" id="eventsDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <i class="fas fa-calendar-alt me-1"></i> Events
+            </a>
+            <ul class="dropdown-menu text-center" aria-labelledby="eventsDropdown">
+              <li><a class="dropdown-item text-white fw-bold disabled" href="/en/events/">Upcoming Events</a></li>
+              <li><a class="dropdown-item text-white" href="/en/leaderboard/">Leaderboard</a></li>
+            </ul>
           </li>
           <li class="nav-item mx-1">
-            <a class="nav-link" href="/en/teams/">Teams</a>
+            <a class="nav-link" href="/en/teams/"><i class="fab fa-teamspeak me-1"></i> Teams</a>
           </li>
           <li class="nav-item mx-1">
-            <a class="nav-link" href="/en/contact/">Contact</a>
+            <a class="nav-link" href="/en/contact/"><i class="fas fa-comment-dots me-1"></i> Contact</a>
           </li>
           <li class="nav-item dropdown mx-1">
             <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              More
+              <i class="fas fa-angle-double-right me-1"></i> More
             </a>
             <ul class="dropdown-menu text-center" aria-labelledby="moreDropdown">
-              <li><a class="dropdown-item text-white" href="#" target="_blank">Constitution</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item text-white" href="https://discord.gg/uAbd5uRTCA" target="_blank">Discord</a>
+              <li><a class="dropdown-item text-white" href="#" target="_blank"><i class="fas fa-university me-1"></i>
+                  Constitution</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item text-white" href="https://linktr.ee/uottawaesports"
-                  target="_blank">Linktree</a></li>
-              <li><a class="dropdown-item text-white" href="https://www.facebook.com/uOttawaEsports"
-                  target="_blank">Facebook</a></li>
+              <li><a class="dropdown-item text-white" href="https://discord.gg/uAbd5uRTCA" target="_blank"><i
+                    class="fab fa-discord me-1"></i> Discord</a>
+              </li>
+              <li><a class="dropdown-item text-white" href="https://linktr.ee/uottawaesports" target="_blank"><i
+                    class="fas fa-tree me-1"></i> Linktree</a></li>
+              <li><a class="dropdown-item text-white" href="https://www.facebook.com/uOttawaEsports" target="_blank"><i
+                    class="fab fa-facebook-square me-1"></i> Facebook</a></li>
               <li><a class="dropdown-item text-white" href="https://www.instagram.com/uottawaesports/"
-                  target="_blank">Instagram</a></li>
-              <li><a class="dropdown-item text-white" href="https://twitch.tv/uottawaesports" target="_blank">Twitch</a>
+                  target="_blank"><i class="fab fa-instagram me-1"></i> Instagram</a></li>
+              <li><a class="dropdown-item text-white" href="https://twitch.tv/uottawaesports" target="_blank"><i
+                    class="fab fa-twitch me-1"></i> Twitch</a>
               </li>
-              <li><a class="dropdown-item text-white" href="https://twitter.com/uOttawaEsports"
-                  target="_blank">Twitter</a></li>
+              <li><a class="dropdown-item text-white" href="https://twitter.com/uOttawaEsports" target="_blank"><i
+                    class="fab fa-twitter me-1"></i> Twitter</a></li>
               <li><a class="dropdown-item text-white" href="https://www.youtube.com/channel/UCZYAfKclLKB3WN7ZBwUmgoQ"
-                  target="_blank">YouTube</a></li>
+                  target="_blank"><i class="fab fa-youtube me-1"></i> YouTube</a></li>
             </ul>
           </li>
           <li class="nav-item ms-lg-4 mb-2 mb-lg-0 mt-3 mt-lg-0 mx-1">
-            <a role="button" class="btn btn-dark nav-link fs-5 p-2" href="/fr/" rel="alternate" hreflang="fr"><i
+            <a role="button" class="btn btn-dark nav-link fs-5 p-2" href="/fr/events/" rel="alternate" hreflang="fr"><i
                 class="fas fa-globe"></i> Français</a>
           </li>
         </ul>
