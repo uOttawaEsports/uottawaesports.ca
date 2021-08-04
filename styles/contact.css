@@ -7,7 +7,6 @@
     background-position-x: 55%;
     background-position-y: 15%;
     background-attachment: scroll;
-    height: 80vh;
 }
 
 #contact {
@@ -21,6 +20,26 @@
 /* Existing classes */
 
 .card {
-    height: 75%;
-    width: 75%;
+    margin: 5rem 5rem 5rem 5rem;
+}
+
+/* Custom classes */
+
+.error {
+    border: solid #dc3545;
+}
+
+.error:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #dc3545;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(220, 53, 70, 0.25);
+}
+
+
+.required:after {
+    content: " *";
+    font-weight: bold;
+    color: #ff0000;
 }
