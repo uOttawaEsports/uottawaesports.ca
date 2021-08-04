@@ -121,24 +121,18 @@
             <!-- Form -->
             <div class="col-12 col-lg-6">
               <h1 class="text-center">Contact</h1>
-              <form name="contact" method="POST" data-netlify="true">
+              <form name="contact" method="POST" data-netlify="true" netlify>
                 <div class="row">
-                  <div class="col-lg-6 col-sm-12 form-floating text-dark fw-bold mb-2 pe-lg-1" data-bs-toggle="tooltip"
-                    data-bs-placement="left" title="Enter your first name.">
-                    <input id="fname" type="fname" class="form-control" placeholder="First Name"
-                      onfocusout="validateFirst(this)" required>
-                    <label id="firstLabel" for="fname" class="ps-4 required">First&nbsp;Name</label>
-                  </div>
-                  <div class="col-lg-6 col-sm-12 form-floating text-dark fw-bold mb-2 ps-lg-1" data-bs-toggle="tooltip"
-                    data-bs-placement="right" title="Enter your last name.">
-                    <input id="lname" type="lname" class="form-control" placeholder="Last Name"
-                      onfocusout="validateLast(this)" required>
-                    <label id="lastLabel" for="lname" class="ps-4 ps-sm-4 ps-lg-3 required">Last&nbsp;Name</label>
+                  <div class="col-12 form-floating text-dark fw-bold mb-2 pe-lg-1" data-bs-toggle="tooltip"
+                    data-bs-placement="left" title="Enter your name.">
+                    <input id="name" type="name" class="form-control" placeholder="Name"
+                      onfocusout="validateName(this)" required>
+                    <label id="nameLabel" for="name" class="ps-4 required">Name</label>
                   </div>
                 </div>
                 <div class="row">
                   <div id="emailTooltip" class="col-12 form-floating text-dark fw-bold mb-2" data-bs-toggle="tooltip"
-                    data-bs-placement="left" title="Format: example@gmail.com">
+                    data-bs-placement="left" title="Enter your email address.">
                     <input id="email" type="email" class="form-control" placeholder="Email Address"
                       onfocusout="validateEmail(this)" required>
                     <label id="emailLabel" for="email" class="ps-4 required">Email Address</label>
