@@ -37,7 +37,7 @@ function validateDiscord(input) {
         input.classList.remove("error");
         input.classList.add("valid");
         label.innerHTML = '<i class="fas fa-check-circle px-1 text-success"></i>  Discord&nbsp;Username';
-        document.getElementById('emailTooltip').setAttribute('data-bs-original-title', 'Enter your Discord username.');
+        document.getElementById('discordTooltip').setAttribute('data-bs-original-title', 'Enter your Discord username.');
         return true;
     }
 }
