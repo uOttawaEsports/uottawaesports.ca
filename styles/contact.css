@@ -33,6 +33,10 @@
 
 /* Custom classes */
 
+.bg-sent {
+    background-color: #e1f5ec;
+}
+
 .error {
     border: solid #dc3545;
 }
