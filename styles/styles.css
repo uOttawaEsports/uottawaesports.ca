@@ -3,7 +3,6 @@
 body {
     overflow-x: hidden;
     /* disable horizontal scroll */
-    overflow-y: scroll;
     background-color: #590016;
 }
 

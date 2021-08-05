@@ -162,3 +162,23 @@ function validate() {
     }
 
 }
+
+function resetFields() {
+    document.getElementById("name").classList.remove("valid");
+    document.getElementById("name").classList.remove("error");
+    document.getElementById("nameLabel").innerHTML = "Name";
+    document.getElementById("discord").classList.remove("valid");
+    document.getElementById("discord").classList.remove("error");
+    document.getElementById("discordLabel").innerHTML = "Discord&nbsp;Username";
+    document.getElementById("email").classList.remove("valid");
+    document.getElementById("email").classList.remove("error");
+    document.getElementById("emailLabel").innerHTML = "Email&nbsp;Address";
+    document.getElementById("reason").classList.remove("valid");
+    document.getElementById("reason").classList.remove("error");
+    document.getElementById("reasonLabel").innerHTML = "Contact&nbsp;Reason";
+    document.getElementById("subject").classList.remove("valid");
+    document.getElementById("subject").classList.remove("error");
+    document.getElementById("subjectLabel").innerHTML = "Subject";
+    document.getElementById("message").classList.remove("valid");
+    document.getElementById("message").classList.remove("error");
+}
