@@ -1,11 +1,5 @@
 /* Default CSS */
 
-body {
-    background: linear-gradient(90deg, #000000, #800020, #000000);
-    background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
-}
-
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -19,6 +13,12 @@ body {
 }
 
 /* Custom IDs */
+#execs-background {
+    background: linear-gradient(90deg, #000000, #800020, #000000);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
 #execs {
     margin-top: 4.2rem;
 }

@@ -1,8 +1,10 @@
 /* Default CSS */
 
 body {
-    overflow-x: hidden; /* disable horizontal scroll */
+    overflow-x: hidden;
+    /* disable horizontal scroll */
     overflow-y: scroll;
+    background-color: #590016;
 }
 
 footer {
@@ -41,6 +43,10 @@ footer {
 
 /* Custom classes */
 
+.bg-darkmaroon {
+    background-color: #590016;
+}
+
 .bg-maroon {
     background-color: #800020;
 }
@@ -58,12 +64,14 @@ footer {
 }
 
 /* Existing classes */
+
 .row {
     margin-right: 0;
     margin-left: 0;
 }
 
 /* Style for Small-Medium Screen */
+
 @media (min-width: 992px) and (max-width:1086px) {
     #hamburger .nav-link {
         font-size: 0.83874rem;
@@ -71,6 +79,7 @@ footer {
 }
 
 /* Style for Medium-Large Screen */
+
 @media (min-width: 1087px) and (max-width:1182px) {
     #hamburger .nav-link {
         font-size: 1.04374rem;
