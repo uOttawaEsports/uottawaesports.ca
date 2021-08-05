@@ -13,6 +13,14 @@
     height: 100%;
 }
 
+#contact a {
+    color: #ff8888;
+}
+
+#contact a:hover {
+    color: #ff5555;
+}
+
 #contact img {
     width: 100%;
 }

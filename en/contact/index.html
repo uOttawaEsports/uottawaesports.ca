@@ -121,17 +121,23 @@
     <div id="contact" class="d-flex align-items-center justify-content-center">
       <div class="card bg-dark text-white">
         <div class="card-body">
-          <div class="row">
-            <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
-              <img src="../../images/logo.png" class="w-75">
+          <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-12 col-lg-6">
+              <div class="row text-center mt-2 fs-5">
+                <p>For urgent help, please contact us through our <i class="fab fa-discord ms-1"></i> <a href="https://discord.gg/uAbd5uRTCA" target="_blank">Discord server</a>.</p>
+                <p>Please allow up to five (5) business days for a response through our contact form.</p>
+              </div>
+              <div class="row d-flex  justify-content-center">
+                <img src="../../images/logo.png" class="w-50 mt-2 mt-lg-3 mb-3">
+              </div>
             </div>
             <!-- Form -->
             <div class="col-12 col-lg-6">
               <h1 class="text-center">Contact Form</h1>
               <form name="contact-en" method="POST" data-netlify="true" autocomplete="off">
                 <div class="row">
-                  <div class="col-lg-6 col-sm-12 form-floating text-dark fw-bold mb-2 pe-0 pe-lg-1 ps-0"
-                    data-bs-toggle="tooltip" data-bs-placement="left" title="Enter your name.">
+                  <div id="nameTooltip" class="col-lg-6 col-sm-12 form-floating text-dark fw-bold mb-2 pe-0 pe-lg-1 ps-0"
+                    data-bs-toggle="tooltip" data-bs-placement="left" title="Enter your name. This way, we can address you properly.">
                     <input id="name" name="name" type="name" class="form-control" placeholder="Name" onfocusout="validateName(this)"
                       required>
                     <label id="nameLabel" for="name" class="ps-2 required">Name</label>
@@ -145,7 +151,7 @@
                 </div>
                 <div class="row">
                   <div id="emailTooltip" class="col-12 form-floating text-dark fw-bold mb-2 px-0" data-bs-toggle="tooltip"
-                    data-bs-placement="left" title="Enter your email address.">
+                    data-bs-placement="left" title="Enter your email address. We will reply to your message through the provided email address.">
                     <input id="email" name="email" type="email" class="form-control" placeholder="Email Address"
                       onfocusout="validateEmail(this)" required>
                     <label id="emailLabel" for="email" class="ps-2 required">Email Address</label>
@@ -169,7 +175,7 @@
                 </div>
                 <div class="row">
                   <div id="subjectTooltip" class="col-12 form-floating text-dark fw-bold mb-2 px-0" data-bs-toggle="tooltip"
-                    data-bs-placement="left" title="Enter the subject.">
+                    data-bs-placement="left" title="Enter the subject of your message.">
                     <input id="subject" name="subject" type="text" class="form-control" placeholder="Subject"
                       onfocusout="validateSubject(this)" required>
                     <label id="subjectLabel" for="subject" class="ps-2 required">Subject</label>

@@ -12,11 +12,13 @@ function validateName(input) {
         input.classList.remove("valid");
         input.classList.add("error");
         label.innerHTML = '<i class="fas fa-exclamation-circle px-1 text-danger"></i> Name';
+        document.getElementById('nameTooltip').setAttribute('data-bs-original-title', 'Please enter your name. This way, we can address you properly.');
         return false;
     } else {
         input.classList.remove("error");
         input.classList.add("valid");
         label.innerHTML = '<i class="fas fa-check-circle px-1 text-success"></i>  Name';
+        document.getElementById('nameTooltip').setAttribute('data-bs-original-title', 'Enter your name. This way, we can address you properly.');
         return true;
     }
 }
@@ -27,16 +29,21 @@ function validateDiscord(input) {
     let label = document.getElementById("discordLabel");
     const di = new RegExp("^.{3,32}#[0-9]{4}$");
 
-    if (!di.test(input.value)) {
+    if (!di.test(input.value) && input.value.length !== 0) {
         input.classList.remove("valid");
         input.classList.add("error");
         label.innerHTML = '<i class="fas fa-exclamation-circle px-1 text-danger"></i> Discord&nbsp;Username';
         document.getElementById('discordTooltip').setAttribute('data-bs-original-title', 'Invalid Discord username. Format: Example#1234');
         return false;
-    } else {
+    } else if (input.value.length !== 0) {
         input.classList.remove("error");
         input.classList.add("valid");
         label.innerHTML = '<i class="fas fa-check-circle px-1 text-success"></i>  Discord&nbsp;Username';
+        document.getElementById('discordTooltip').setAttribute('data-bs-original-title', 'Enter your Discord username.');
+        return true;
+    } else {
+        input.classList.remove("error");
+        label.innerHTML = 'Discord&nbsp;Username';
         document.getElementById('discordTooltip').setAttribute('data-bs-original-title', 'Enter your Discord username.');
         return true;
     }
@@ -59,7 +66,7 @@ function validateEmail(input) {
         input.classList.remove("error");
         input.classList.add("valid");
         label.innerHTML = '<i class="fas fa-check-circle px-1 text-success"></i> Email&nbsp;Address';
-        document.getElementById('discordTooltip').setAttribute('data-bs-original-title', 'Enter your email address.');
+        document.getElementById('emailTooltip').setAttribute('data-bs-original-title', 'Enter your email address. We will reply to your message through the provided email address.');
         return true;
     }
 }
@@ -77,7 +84,7 @@ function validateReason(input) {
     } else {
         input.classList.remove("error");
         input.classList.add("valid");
-        label.innerHTML = '<i class="fas fa-check-circle px-1 text-success"></i>  Contact&nbsp;Reason';
+        label.innerHTML = '<i class="fas fa-check-circle px-1 text-success"></i> Contact&nbsp;Reason';
         return true;
     }
 }
@@ -91,13 +98,13 @@ function validateSubject(input) {
         input.classList.remove("valid");
         input.classList.add("error");
         label.innerHTML = '<i class="fas fa-exclamation-circle px-1 text-danger"></i> Subject';
-        document.getElementById('subjectTooltip').setAttribute('data-bs-original-title', 'Enter the subject. Example: Discord role change');
+        document.getElementById('subjectTooltip').setAttribute('data-bs-original-title', 'Please enter the subject of your message. Example: Discord role change');
         return false;
     } else {
         input.classList.remove("error");
         input.classList.add("valid");
         label.innerHTML = '<i class="fas fa-check-circle px-1 text-success"></i>  Subject';
-        document.getElementById('subjectTooltip').setAttribute('data-bs-original-title', 'Enter the subject.');
+        document.getElementById('subjectTooltip').setAttribute('data-bs-original-title', 'Enter the subject of your message.');
         return true;
     }
 }
@@ -130,6 +137,9 @@ function validate() {
     let valid = true;
 
     if (!validateName(name)) {
+        valid = false;
+    }
+    if (!validateDiscord(discord)) {
         valid = false;
     }
     if (!validateEmail(email)) {
