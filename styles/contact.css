@@ -60,7 +60,7 @@
 .required:after {
     content: " *";
     font-weight: bold;
-    color: #ff0000;
+    color: #FF0000;
 }
 
 /* Style for Small Screen */
