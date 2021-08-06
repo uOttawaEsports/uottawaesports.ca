@@ -119,12 +119,12 @@ function validateMessage(input) {
     if (input.value.length == 0) {
         input.classList.remove("valid");
         input.classList.add("error");
-        label.placeholder = 'Please tell us how we can help you!';
+        label.placeholder = 'Please tell us how we can make your day better!';
         return false;
     } else {
         input.classList.remove("error");
         input.classList.add("valid");
-        label.placeholder = 'How can we help you?';
+        label.placeholder = 'How can we make your day better?';
         return true;
     }
 }
