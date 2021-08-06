@@ -62,7 +62,7 @@ function validateEmail(input) {
         input.classList.remove("valid");
         input.classList.add("error");
         label.innerHTML = '<i class="fas fa-exclamation-circle px-1 text-danger"></i> Email&nbsp;Address';
-        document.getElementById('emailTooltip').setAttribute('data-bs-original-title', 'Invalid email address. Format: example@domain.com');
+        document.getElementById('emailTooltip').setAttribute('data-bs-original-title', 'Invalid email address. We will reply to your message through the provided email address. Format: example@domain.com');
         return false;
     } else {
         input.classList.remove("error");
