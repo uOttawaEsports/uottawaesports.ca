@@ -22,5 +22,5 @@
 
 In 2021, Steven took on an initiative to revamp uOttawa Esports' website with the following goals in mind:
 - Producing high quality web pages compliant to Web Content Accessibility Guidelines (WCAG 2.1) level AA;
-- Enhancing the mobile view experience; and
-- Keeping the code simple by using Bootstrap, allowing for easy maintenance for future contributors.
+- Enhancing the mobile viewing experience; and
+- Keeping the code simple by using Bootstrap and JavaScript, allowing for easy maintenance for future contributors.
