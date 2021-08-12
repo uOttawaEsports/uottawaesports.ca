@@ -161,7 +161,7 @@ function more(name) {
             prog: "Computer Engineering",
             year: "3rd Year",
             game: "Rainbow Six Siege, Dishonored",
-            desc: "I'm Griffin, and I've been the Gamehead for R6 since 2020, and the IGL of the Garnet (A) team since 2019.",
+            desc: "I'm Griffin, and I've been the Game Head for R6 since 2020, and the IGL of the Garnet (A) team since 2019.",
             background: "background-image: linear-gradient(#000000a4, #000000a4), url(../../../images/execs/2021-2022/backgrounds/griffin-taylor.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
         },
         "fabien lefebvre": {
