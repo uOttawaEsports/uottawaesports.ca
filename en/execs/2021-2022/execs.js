@@ -158,10 +158,10 @@ function more(name) {
             title: "Griffin Taylor",
             image: "../../../images/execs/2021-2022/griffin-taylor.png",
             role: "<span class='fw-bold'>Game Head</span> <br /> Rainbow Six Siege",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
+            prog: "Computer Engineering",
+            year: "3",
+            game: "Rainbow Six Siege, Dishonored",
+            desc: "I'm Griffin, and I've been the Gamehead for R6 since 2020, and the IGL of the Garnet (A) team since 2019.",
             background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
         },
         "fabien lefebvre": {
