@@ -13,6 +13,7 @@
 }
 
 /* Custom IDs */
+
 #past {
     margin-top: 4.2rem;
     background: linear-gradient(90deg, #000000, #800020, #000000);
@@ -21,6 +22,7 @@
 }
 
 /* Custom classes */
+
 .text-shadow {
     text-shadow: 0.2rem 0.2rem #ffffff48;
 }

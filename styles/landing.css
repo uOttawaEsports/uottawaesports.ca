@@ -14,13 +14,17 @@ a {
     background-position-y: 25%;
     height: 100vh;
     display: flex;
-    flex-direction: column;  /* make main axis vertical */
-    justify-content: center; /* center items vertically */
-    align-items: center;     /* center items horizontally */
+    flex-direction: column;
+    /* make main axis vertical */
+    justify-content: center;
+    /* center items vertically */
+    align-items: center;
+    /* center items horizontally */
 }
 
 .row {
-    text-align: center; /* centers <p> */
+    text-align: center;
+    /* centers <p> */
 }
 
 /* Custom classes */

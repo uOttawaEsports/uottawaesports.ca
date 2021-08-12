@@ -74,7 +74,7 @@ function Teams() {
 class Content extends React.Component {
   render() {
     return (
-      <div style={{backgroundImage: "url(" + this.props.team.background + ")"}}>
+      <div style={{ backgroundImage: "url(" + this.props.team.background + ")" }}>
         <div>{this.props.team.title}</div>
         <div>{this.props.team.description}</div>
         <img src={this.props.team.image}></img>
