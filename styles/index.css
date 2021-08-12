@@ -1,7 +1,7 @@
 /* Custom IDs */
 
 #welcome {
-    background-image: linear-gradient(#000000cc, #000000cc), url(../images/uottawa-background.jpg); 
+    background-image: linear-gradient(#000000a4, #000000a4), url(../images/uottawa-background.jpg); 
     background-repeat: no-repeat; 
     background-size: cover;
     background-position-x: 85%;

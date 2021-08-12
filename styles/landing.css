@@ -7,7 +7,7 @@ a {
 /* Existing classes */
 
 .container-fluid {
-    background-image: linear-gradient(#000000cc, #000000cc), url(../images/taberet-hall.jpg);
+    background-image: linear-gradient(#000000a4, #000000a4), url(../images/taberet-hall.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
