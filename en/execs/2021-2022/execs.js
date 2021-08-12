@@ -6,11 +6,11 @@ function more(name) {
             title: "Jaxon Murphy",
             image: "../../../images/execs/2021-2022/jaxon-murphy.png",
             role: "Co-President",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            prog: "Economics and Management",
+            year: "4th Year",
+            game: "CS:GO, Destiny, Monster Hunter",
+            desc: "Hey y’all I’m Jaxon, and I’ve been a Co-President of the club since 2020! If it’s worth anything, I can name every national flag in the world.",
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(https://media2.giphy.com/media/13Uqp5IGFpmDle/giphy.gif); background-repeat: no-repeat; background-size: cover;"
         },
         "dhruv kumar": {
             title: "Dhruv Kumar",
@@ -20,7 +20,7 @@ function more(name) {
             year: "",
             game: "",
             desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         /* Execs */
         "alex lisitsas": {
@@ -31,7 +31,7 @@ function more(name) {
             year: "",
             game: "",
             desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         "andrew leblanc": {
             title: "Andrew Leblanc",
@@ -41,7 +41,7 @@ function more(name) {
             year: "",
             game: "",
             desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         "calvin koehl": {
             title: "Calvin Koehl",
@@ -51,7 +51,7 @@ function more(name) {
             year: "",
             game: "",
             desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         "steven li": {
             title: "Steven Li",
@@ -61,7 +61,7 @@ function more(name) {
             year: "3rd Year",
             game: "VALORANT, Simulation games",
             desc: "Hey, I'm Steven! I love playing video games, keeping up with politics, and volunteering!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         "prem gupta": {
             title: "Prem Gupta",
@@ -71,7 +71,7 @@ function more(name) {
             year: "",
             game: "",
             desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         "VACANT": {
             title: "VACANT",
@@ -81,7 +81,7 @@ function more(name) {
             game: "",
             role: "VP Social",
             desc: "The position for VP Social is currently vacant.",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         /* Game Heads */
         "bora basar": {
@@ -92,7 +92,7 @@ function more(name) {
             year: "",
             game: "",
             desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         "peter karpov": {
             title: "Peter Karpov",
@@ -102,7 +102,7 @@ function more(name) {
             year: "",
             game: "",
             desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         "ryan farrell": {
             title: "Ryan Farrell",
@@ -112,7 +112,7 @@ function more(name) {
             year: "",
             game: "",
             desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         "matthew awrey": {
             title: "Matthew Awrey",
@@ -122,7 +122,7 @@ function more(name) {
             year: "",
             game: "",
             desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         "narth rajeswaran": {
             title: "Narth Rajeswaran",
@@ -132,7 +132,7 @@ function more(name) {
             year: "",
             game: "",
             desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         "brandon ly": {
             title: "Brandon Ly",
@@ -142,7 +142,7 @@ function more(name) {
             year: "",
             game: "",
             desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         "benoit gagnier": {
             title: "Benoit Gagnier",
@@ -152,7 +152,7 @@ function more(name) {
             year: "",
             game: "",
             desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         "griffin taylor": {
             title: "Griffin Taylor",
@@ -162,7 +162,7 @@ function more(name) {
             year: "3rd Year",
             game: "Rainbow Six Siege, Dishonored",
             desc: "I'm Griffin, and I've been the Gamehead for R6 since 2020, and the IGL of the Garnet (A) team since 2019.",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/2021-2022/backgrounds/griffin-taylor.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         "fabien lefebvre": {
             title: "Fabien Lefebvre",
@@ -172,7 +172,7 @@ function more(name) {
             year: "",
             game: "",
             desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         "alexander joe": {
             title: "Alexander Joe",
@@ -182,7 +182,7 @@ function more(name) {
             year: "",
             game: "",
             desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         "tyler lindsay": {
             title: "Tyler Lindsay",
@@ -192,7 +192,7 @@ function more(name) {
             year: "",
             game: "",
             desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         },
         "martina on": {
             title: "Martina On",
@@ -202,7 +202,7 @@ function more(name) {
             year: "",
             game: "",
             desc: "Hello!",
-            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg);"
+            background: "background-image: linear-gradient(#000000e5, #000000e5), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover;"
         }
     }
 
