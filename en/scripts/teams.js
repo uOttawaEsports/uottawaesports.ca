@@ -7,13 +7,13 @@ const teams = {
     title: "CS:GO",
     description: "lorem ipsum...",
     image: "../../images/logo-square.png",
-    background: "../../images/uottawa-aerial.jpg",
+    background: "../../images/uottawa-background.jpg",
   },
   "dota 2": {
     title: "DOTA 2",
-    description: "",
-    image: "",
-    background: "",
+    description: "dota",
+    image: "../../images/logo-square.png",
+    background: "../../images/uottawa-aerial.jpg",
   },
   "league of legends": {
     title: "League of Legends",
@@ -45,28 +45,32 @@ function Teams() {
   const [team, setTeam] = useState("cs:go");
 
   return (
-    <div className="d-flex">
-      <div className="d-flex flex-column" style={{ marginLeft: '10rem' }}>
-        <button className="btn bg-danger" onClick={() => { setTeam("cs:go") }} >
-          CS:GO
-        </button>
-        <button className="btn bg-danger" onClick={() => { setTeam("dota 2") }} >
-          DOTA 2
-        </button>
-        <button className="btn bg-danger" onClick={() => { setTeam("league of legends") }} >
-          League of Legends
-        </button>
-        <button className="btn bg-danger" onClick={() => { setTeam("rainbow six siege") }} >
-          Rainbow Six Siege
-        </button>
-        <button className="btn bg-danger" onClick={() => { setTeam("rocket league") }}>
-          Rocket League
-        </button>
-        <button className="btn bg-danger" onClick={() => { setTeam("valorant") }}>
-          VALORANT
-        </button>
+    <div class="container-fluid" style={{ backgroundImage: "url(" + teams[team].background + ")", height: "100vh", width: "100%", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundAttachment: "scroll" }}>
+      <div className="row">
+      <div className="d-flex">
+        <div className="d-flex flex-column col-12 col-lg-3" style={{ marginLeft: '5rem' }}>
+          <button className="btn bg-danger" onClick={() => { setTeam("cs:go") }} style={{ marginBottom: '2rem' }}>
+            CS:GO
+          </button>
+          <button className="btn bg-danger" onClick={() => { setTeam("dota 2") }} >
+            DOTA 2
+          </button>
+          <button className="btn bg-danger" onClick={() => { setTeam("league of legends") }} >
+            League of Legends
+          </button>
+          <button className="btn bg-danger" onClick={() => { setTeam("rainbow six siege") }} >
+            Rainbow Six Siege
+          </button>
+          <button className="btn bg-danger" onClick={() => { setTeam("rocket league") }}>
+            Rocket League
+          </button>
+          <button className="btn bg-danger" onClick={() => { setTeam("valorant") }}>
+            VALORANT
+          </button>
+        </div>
+        <Content team={teams[team]} />
       </div>
-      <Content team={teams[team]} />
+      </div>
     </div>
   );
 }
@@ -74,8 +78,8 @@ function Teams() {
 class Content extends React.Component {
   render() {
     return (
-      <div style={{ backgroundImage: "url(" + this.props.team.background + ")" }}>
-        <div>{this.props.team.title}</div>
+      <div className="col-12 col-lg-9">
+        <div>Hello: {this.props.team.title}</div>
         <div>{this.props.team.description}</div>
         <img src={this.props.team.image}></img>
       </div>
