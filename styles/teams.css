@@ -1,5 +1,15 @@
 /* Custom IDs */
 
+#teams-content img {
+    width: 100%;
+}
+
+#header {
+    background: linear-gradient(45deg, #000000, #800020);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+}
+
 #nav-sticky {
     /* position: relative; */
     position: -webkit-sticky;
@@ -11,6 +21,7 @@
     width: 75%;
 }
 
+/* Button backgrounds */ 
 #csgo-bg {
     background-image: url(../images/teams/buttons/csgo-bg.png);
 }
@@ -35,6 +46,61 @@
     background-image: url(../images/teams/buttons/val-bg.png);
 }
 
+/* Content backgrounds */
+#csgo {
+    scroll-margin-top: 4.375rem;
+    background-image: linear-gradient(#000000a6, #000000a6), url(../images/teams/content/csgo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+#dota2 {
+    scroll-margin-top: 4.375rem;
+    background-image: linear-gradient(#000000a6, #000000a6), url(../images/teams/content/dota2-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%; 
+}
+
+#league-of-legends {
+    scroll-margin-top: 4.375rem;
+    background-image: linear-gradient(#000000a6, #000000a6), url(../images/teams/content/lol-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+#rainbow-six-siege {
+    scroll-margin-top: 4.375rem;
+    background-image: linear-gradient(#000000a6, #000000a6), url(../images/teams/content/r6-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+#rocket-league {
+    scroll-margin-top: 4.375rem;
+    background-image: linear-gradient(#000000a6, #000000a6), url(../images/teams/content/rl-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+#valorant {
+    scroll-margin-top: 4.375rem;
+    background-image: linear-gradient(#000000a6, #000000a6), url(../images/teams/content/val-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
 /* Custom classes */
 
 .hover-button{
@@ -53,10 +119,28 @@
     transition-duration: 0.2s;
 }
 
+.team {
+    height: 50rem;
+}
+
 /* Disable teams navigation on smaller displays */
 
 @media only screen and (max-width: 992px) {
     #teams-navigation {
         display: none;
+    }
+}
+
+/* Keyframes */
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
     }
 }

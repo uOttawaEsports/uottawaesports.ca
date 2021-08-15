@@ -1,17 +1,3 @@
-/* Default CSS */
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
 /* Custom IDs */
 
 #execs-background {
@@ -55,4 +41,18 @@
 .modal-body img {
     border-radius: 50%;
     width: 100%;
+}
+
+/* Keyframes */
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
