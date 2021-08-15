@@ -37,7 +37,7 @@
 
 @media (max-width:992px) {
     #welcome iframe {
-        height: 400px;
+        height: 500px;
     }
 }
 
@@ -45,6 +45,6 @@
 
 @media (max-width:575px) {
     #welcome iframe {
-        height: 200px;
+        height: 300px;
     }
 }

@@ -1,0 +1,62 @@
+/* Custom IDs */
+
+#nav-sticky {
+    /* position: relative; */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#nav-sticky img {
+    width: 75%;
+}
+
+#csgo-bg {
+    background-image: url(../images/teams/buttons/csgo-bg.png);
+}
+
+#dota2-bg {
+    background-image: url(../images/teams/buttons/dota2-bg.png);
+}
+
+#lol-bg {
+    background-image: url(../images/teams/buttons/lol-bg.png);
+}
+
+#r6-bg {
+    background-image: url(../images/teams/buttons/r6-bg.png);
+}
+
+#rl-bg {
+    background-image: url(../images/teams/buttons/rl-bg.png);
+}
+
+#val-bg {
+    background-image: url(../images/teams/buttons/val-bg.png);
+}
+
+/* Custom classes */
+
+.hover-button{
+    box-shadow: 0 0 2rem #000000;
+    transition-duration: 0.2s;
+    border-radius: 2rem;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.hover-button:hover {
+    box-shadow: 0 0 1rem #ffffff;
+    transition-duration: 0.2s;
+}
+
+/* Disable teams navigation on smaller displays */
+
+@media only screen and (max-width: 992px) {
+    #teams-navigation {
+        display: none;
+    }
+}
