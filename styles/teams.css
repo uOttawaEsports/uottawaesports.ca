@@ -1,9 +1,5 @@
 /* Custom IDs */
 
-#teams-content img {
-    width: 100%;
-}
-
 #header {
     background: linear-gradient(45deg, #000000, #800020);
     background-size: 400% 400%;
@@ -119,11 +115,37 @@
     transition-duration: 0.2s;
 }
 
-/* Disable teams navigation on smaller displays */
+.team-bg img {
+    width: 100%;
+}
+
+.team-logo img {
+    width: 75%;
+}
+
+/* Disable teams navigation on smaller screens */
 
 @media only screen and (max-width: 992px) {
     #teams-navigation {
         display: none;
+    }
+}
+
+/* Team logos on smaller screens */
+
+@media (max-width: 992px) {
+    .team-logo img {
+        width: 35%;
+    }
+
+    #teams-content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .team-logo img {
+        width: 50%;
     }
 }
 
