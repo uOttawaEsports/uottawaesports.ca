@@ -9,19 +9,11 @@
     background-attachment: scroll;
 }
 
-#calendar a {
+.pink-link a {
     color: #ff8888;
 }
 
-#calendar a:hover {
-    color: #ff5555;
-}
-
-#cvuo a {
-    color: #ff8888;
-}
-
-#cvuo a:hover {
+.pink-link a:hover {
     color: #ff5555;
 }
 
