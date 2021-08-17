@@ -30,6 +30,7 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- External CSS -->
   <link rel="stylesheet" href="../../../styles/styles.css">
+  <link rel="stylesheet" href="../../../styles/events.css">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/1eb2ce7a7c.js" crossorigin="anonymous"></script>
 </head>
@@ -63,12 +64,13 @@
             </ul>
           </li>
           <li class="nav-item dropdown mx-1">
-            <a class="nav-link dropdown-toggle active" href="#" id="eventsDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="true">
+            <a class="nav-link dropdown-toggle active" href="#" id="eventsDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="true">
               <i class="fas fa-calendar-alt me-1"></i> Events
             </a>
             <ul class="dropdown-menu text-center" aria-labelledby="eventsDropdown">
-              <li><a class="dropdown-item text-white fw-bold disabled" aria-current="page" href="/en/events/">Events</a></li>
+              <li><a class="dropdown-item text-white fw-bold disabled" aria-current="page" href="/en/events/">Events</a>
+              </li>
               <li><a class="dropdown-item text-white" href="/en/leaderboard/">Leaderboard</a></li>
             </ul>
           </li>
@@ -84,7 +86,8 @@
               <i class="fas fa-angle-double-right me-1"></i> More
             </a>
             <ul class="dropdown-menu text-center" aria-labelledby="moreDropdown">
-              <li><a class="dropdown-item text-white" href="/en/documents/constitution.pdf" target="_blank"><i class="fas fa-university me-1"></i>
+              <li><a class="dropdown-item text-white" href="/en/documents/constitution.pdf" target="_blank"><i
+                    class="fas fa-university me-1"></i>
                   Constitution</a></li>
               <li>
                 <hr class="dropdown-divider">
@@ -119,7 +122,7 @@
 
   <!-- Upcoming Events -->
   <div class="container-fluid bg-dark">
-    <div class="row pt-4 pb-3 p-xl-4 text-center text-white">
+    <div class="row py-3 p-xl-3 text-center text-white">
       <h1>Upcoming Events</h1>
       <iframe
         src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23e4e4e4&ctz=America%2FToronto&src=YW1yMHA0dWdtNTRqYTdqZ2Jycjk2N25uOWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MGo3bnEzMm4wcjMwcXY0cGlkODdhc3NkNGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZDFrYjdxa2JwM2xqa3Z2dGdocjMxcXNwb2NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=Y2xxODhhZDdvdGRybTZkNmRwa2pzMGw1Y2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=bnNiYnZtMmNnMXNwbTJlb2tldWg2a3BnYzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=Y3FzMGtrcGxrYWNoY3JkMm45anBxN2NlYmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aTBzM2Iya2hlcXI5MjE4cG9kaDRrbzR0dTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=cm42aHYyaHJucXYwYmJndWdzNTNxNnAxcTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=c3BrZmRpOG4zcDc0c3R0ZDN2bzR0YTY1cG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aTdqa2Rrdm12NnVhbTEzNTloYm9xanVhZGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=N3JoZjQxbjI4NGMxcG5wY2lxZjJzanY3bWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=cjZwOWUyYW10bGtuZWVjY2s2b3Rldjk1b3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dHVsb2NqMWQ4dXM3Mmx0YzY0ZDVzMHI5ajRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=Mm8zYTlqazdrbjRqN21xZmZuNTV2YzVkc29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OWtzczJpMzkzMzk0OG1qNG5nbDY2bmdiamtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23ccaf5c&color=%23b85600&color=%23616161&color=%23ad1457&color=%237e15c0&color=%23c19a00&color=%23616161&color=%23026aaf&color=%23cc6700&color=%2311806a&color=%230e99c2&color=%23b91807&color=%23b69000&color=%23a2bc0c&color=%23b662b3&mode=WEEK&title=Upcoming%20Events%20at%20uOttawa%20Esports&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=1&showTitle=0"
@@ -131,15 +134,38 @@
 
   <!-- Event Descriptions -->
   <div class="container-fluid bg-grey">
-    <div class="row pt-4 pb-3 p-xl-4 text-center text-white">
-      Event Descriptions
+    <div class="row py-3 p-xl-3 text-center text-white">
+      <h1 class="mb-4">Event Descriptions</h1>
+      <div id="tournaments" class="col-12 col-lg-4 p-3">
+        <h2>Tournaments</h2>
+        <p class="text-start fs-5">Each game puts different types of tournaments but they all have one thing in common:
+          They’re always a ton of fun! Game Heads organize tournaments that best fit the needs of their player base,
+          such as SoloQ tournaments for League of Legends or a 2v2 bracket for CS:GO. If you are interested in trying
+          out a game and meeting new people in the club then this is the perfect opportunity to do so. You will even
+          have a shot at winning awesome prizes!</p>
+      </div>
+      <div id="contests" class="col-12 col-lg-4 p-3">
+        <h2>Contests</h2>
+        <p class="text-start fs-5">Our flagship contest is the Monthly Clip Contest where club members can send in a picture
+          or video each month related to a certain theme. Themes vary each month, from best fails and highlights to
+          “create your own meme” or “show us your gaming setup”. Stay tuned each month to find out what the theme is and
+          submit your clip! The top clips will move to the public voting round where all club members have a chance to
+          vote for their favourite and help decide who receives a gift card for their gaming platform of choice.</p>
+      </div>
+      <div id="in-houses" class="col-12 col-lg-4 p-3">
+        <h2>In-houses</h2>
+        <p class="text-start fs-5">Different games run weekly in-houses where you can play the games you love with other
+          uOttawa Esports members. Game Heads will set up teams based on the players that signup and create a custom
+          lobby for you to join. All you have to do show up and have a good time! Did we mention that just by attending
+          you have a chance at winning prizes?</p>
+      </div>
     </div>
   </div>
   <!-- Event Descriptions End -->
 
   <!-- Event Descriptions -->
   <div class="container-fluid bg-dark">
-    <div class="row pt-4 pb-3 p-xl-4 text-center text-white">
+    <div class="row py-3 p-xl-3 text-center text-white">
       Past Events
     </div>
   </div>

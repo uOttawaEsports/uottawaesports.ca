@@ -1,0 +1,25 @@
+/* Custom IDs */
+
+#contests {
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/events/contests.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 20%;
+}
+
+#in-houses {
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/events/in-houses.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 20%;
+}
+
+#tournaments {
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/events/tournaments.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 20%;
+}
