@@ -1,48 +1,48 @@
 const modals = {
     "csgo garnet": {
-        title: "Valorant Garnet Team",
+        title: "CS:GO Garnet Team",
         background: "#800020",
         members: {
 
         }
     },
     "csgo grey": {
-        title: "Valorant Grey Team",
+        title: "CS:GO Grey Team",
         background: "#303031",
         members: {
 
         }
     },
     "dota2 garnet": {
-        title: "Valorant Garnet Team",
+        title: "DOTA 2 Garnet Team",
         background: "#800020",
         members: {
 
         }
     },
     "dota2 grey": {
-        title: "Valorant Grey Team",
+        title: "DOTA 2 Grey Team",
         background: "#303031",
         members: {
 
         }
     },
     "lol garnet": {
-        title: "Valorant Garnet Team",
+        title: "League of Legends Garnet Team",
         background: "#800020",
         members: {
 
         }
     },
     "lol grey": {
-        title: "Valorant Grey Team",
+        title: "League of Legends Grey Team",
         background: "#303031",
         members: {
 
         }
     },
     "r6 garnet": {
-        title: "Valorant Garnet Team",
+        title: "Rainbow Six Siege Garnet Team",
         background: "#800020",
         members: {
             "Zander": "Captain/Main Roster",
@@ -55,7 +55,7 @@ const modals = {
         }
     },
     "r6 grey": {
-        title: "Valorant Grey Team",
+        title: "Rainbow Six Siege Grey Team",
         background: "#303031",
         members: {
             "Kiro": "Coach/Substitute",
@@ -68,21 +68,21 @@ const modals = {
         }
     },
     "rl garnet": {
-        title: "Valorant Garnet Team",
+        title: "Rocket League Garnet Team",
         background: "#800020",
         members: {
 
         }
     },
     "rl grey": {
-        title: "Valorant Grey Team",
+        title: "Rocket League Grey Team",
         background: "#303031",
         members: {
 
         }
     },
     "val garnet": {
-        title: "Valorant Garnet Team",
+        title: "VALORANT Garnet Team",
         background: "#800020",
         members: {
             "Kiro": "Manager",
@@ -97,7 +97,7 @@ const modals = {
         }
     },
     "val grey": {
-        title: "Valorant Grey Team",
+        title: "VALORANT Grey Team",
         background: "#303031",
         members: {
             "Econ God": "Coach",
