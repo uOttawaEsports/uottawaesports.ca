@@ -35,7 +35,7 @@
   <script src="https://kit.fontawesome.com/1eb2ce7a7c.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body onload="cards()">
   <!-- Navbar -->
   <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top bg-maroon p-0">
     <div class="container-fluid">
@@ -56,7 +56,8 @@
               <i class="fas fa-users me-1"></i> Execs
             </a>
             <ul class="dropdown-menu text-center" aria-labelledby="execsDropdown">
-              <li><a class="dropdown-item text-white fw-bold disabled" aria-current="page" href="/en/execs/2021-2022/">Execs 2021-2022</a>
+              <li><a class="dropdown-item text-white fw-bold disabled" aria-current="page"
+                  href="/en/execs/2021-2022/">Execs 2021-2022</a>
               </li>
               <li>
                 <hr class="dropdown-divider">
@@ -86,7 +87,8 @@
               <i class="fas fa-angle-double-right me-1"></i> More
             </a>
             <ul class="dropdown-menu text-center" aria-labelledby="moreDropdown">
-              <li><a class="dropdown-item text-white" href="/en/documents/constitution.pdf" target="_blank"><i class="fas fa-university me-1"></i>
+              <li><a class="dropdown-item text-white" href="/en/documents/constitution.pdf" target="_blank"><i
+                    class="fas fa-university me-1"></i>
                   Constitution</a></li>
               <li>
                 <hr class="dropdown-divider">
@@ -119,190 +121,30 @@
   </nav>
   <!-- Navbar End -->
 
-  <!-- Execs -->
+  <!-- Team -->
   <div id="execs-background">
+
+    <!-- Execs -->
     <div id="execs" class="container-fluid">
-      <div class="row py-2 pt-3 pb-lg-0">
+      <div class="row pt-3 pb-lg-0">
         <h1 class="display-6 fw-bold text-center text-white text-shadow">Execs 2021-2022</h1>
       </div>
-      <div class="row d-flex justify-content-center">
-        <div class="card bg-dark text-white mb-2 m-sm-2 m-lg-3" onclick="more('jaxon murphy')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/2021-2022/jaxon-murphy.png" class="card-img-top pt-3 pb-2" alt="Jaxon Murphy">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Jaxon Murphy</h2>
-            <h3 class="card-title fs-5">Co-President</h3>
-          </div>
-        </div>
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('dhruv kumar')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/placeholder.png" class="card-img-top pt-3 pb-2" alt="Dhruv Kumar">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Dhruv Kumar</h2>
-            <h3 class="card-title fs-5">Co-President</h3>
-          </div>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center">
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('alex lisitsas')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/2021-2022/alex-lisitsas.png" class="card-img-top pt-3 pb-2" alt="Alex Lisitsas">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Alex Lisitsas</h2>
-            <h3 class="card-title fs-5">VP Finance</h3>
-          </div>
-        </div>
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('andrew leblanc')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/placeholder.png" class="card-img-top pt-3 pb-2" alt="Andrew Leblanc">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Andrew Leblanc</h2>
-            <h3 class="card-title fs-5">VP Competitive</h3>
-          </div>
-        </div>
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('calvin koehl')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/placeholder.png" class="card-img-top pt-3 pb-2" alt="Calvin Koehl">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Calvin Koehl</h2>
-            <h3 class="card-title fs-5">VP Events</h3>
-          </div>
-        </div>
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('steven li')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/2021-2022/steven-li.png" class="card-img-top pt-3 pb-2" alt="Steven Li">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Steven Li</h2>
-            <h3 class="card-title fs-5">VP Internal</h3>
-          </div>
-        </div>
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('prem gupta')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/placeholder.png" class="card-img-top pt-3 pb-2" alt="Prem Gupta">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Prem Gupta</h2>
-            <h3 class="card-title fs-5">VP External</h3>
-          </div>
-        </div>
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('VACANT')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/placeholder.png" class="card-img-top pt-3 pb-2" alt="VACANT">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">VACANT</h2>
-            <h3 class="card-title fs-5">VP Social</h3>
-          </div>
-        </div>
-      </div>
+      <div id="co-presidents" class="row d-flex justify-content-center"></div>
+      <div id="vice-presidents" class="row d-flex justify-content-center"></div>
     </div>
-    <!-- Execs End-->
+    <!-- Execs End -->
 
     <!-- Game Heads -->
     <div class="container-fluid">
       <div class="row">
         <h1 class="display-6 fw-bold text-center text-white text-shadow">Game Heads 2021-2022</h1>
       </div>
-      <div class="row d-flex justify-content-center pb-3">
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('bora basar')"
-          data-bs-toggle="modal" data-bs-target="#modal">
-          <img src="../../../images/execs/placeholder.png" class="card-img-top pt-3 pb-2" alt="Bora Basar">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Bora Basar</h2>
-            <h3 class="card-title fs-5">CS:GO</h3>
-          </div>
-        </div>
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('peter karpov')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/placeholder.png" class="card-img-top pt-3 pb-2" alt="Peter Karpov">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Peter Karpov</h2>
-            <h3 class="card-title fs-5">DOTA 2</h3>
-          </div>
-        </div>
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('ryan farrell')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/placeholder.png" class="card-img-top pt-3 pb-2" alt="Ryan Farrell">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Ryan Farrell</h2>
-            <h3 class="card-title fs-5">Fighting Games</h3>
-          </div>
-        </div>
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('matthew awrey')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/placeholder.png" class="card-img-top pt-3 pb-2" alt="Matthew Awrey">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Matthew Awrey</h2>
-            <h3 class="card-title fs-5">Fortnite</h3>
-          </div>
-        </div>
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('narth rajeswaran')"
-          data-bs-toggle="modal" data-bs-target="#modal">
-          <img src="../../../images/execs/placeholder.png" class="card-img-top pt-3 pb-2" alt="Narth Rajeswaran">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Narth Rajeswaran</h2>
-            <h3 class="card-title fs-5">League of Legends</h3>
-          </div>
-        </div>
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('brandon ly')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/2021-2022/brandon-ly.png" class="card-img-top pt-3 pb-2" alt="Brandon Ly">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Brandon Ly</h2>
-            <h3 class="card-title fs-5">osu!</h3>
-          </div>
-        </div>
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('benoit gagnier')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/placeholder.png" class="card-img-top pt-3 pb-2" alt="Benoit Gagnier">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Benoit Gagnier</h2>
-            <h3 class="card-title fs-5">Overwatch</h3>
-          </div>
-        </div>
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('griffin taylor')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/2021-2022/griffin-taylor.png" class="card-img-top pt-3 pb-2"
-            alt="Griffin Taylor">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Griffin Taylor</h2>
-            <h3 class="card-title fs-5">Rainbow Six Siege</h3>
-          </div>
-        </div>
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('fabien lefebvre')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/placeholder.png" class="card-img-top pt-3 pb-2" alt="Fabien Lefebvre">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Fabien Lefebvre</h2>
-            <h3 class="card-title fs-5">Rocket League</h3>
-          </div>
-        </div>
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('alexander joe')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/placeholder.png" class="card-img-top pt-3 pb-2" alt="Alexander Joe">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Alexander Joe</h2>
-            <h3 class="card-title fs-5">Super Smash Bros. Melee</h3>
-          </div>
-        </div>
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('tyler lindsay')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/placeholder.png" class="card-img-top pt-3 pb-2" alt="Tyler Lindsay">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Tyler Lindsay</h2>
-            <h3 class="card-title fs-5">Super Smash Bros. Ultimate</h3>
-          </div>
-        </div>
-        <div class="card bg-dark text-white my-2 m-sm-2 m-lg-3" onclick="more('martina on')" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          <img src="../../../images/execs/2021-2022/martina-on.png" class="card-img-top pt-3 pb-2" alt="Martina On">
-          <div class="card-body pt-1 pb-1 px-0 text-center">
-            <h2 class="card-title fs-4 fw-bold">Martina On</h2>
-            <h3 class="card-title fs-5">VALORANT</h3>
-          </div>
-        </div>
-      </div>
+      <div id="game-heads" class="row d-flex justify-content-center pb-3"></div>
     </div>
+    <!-- Game Heads End -->
+    
   </div>
-  <!-- Game Heads End -->
+  <!-- Team End -->
 
   <!-- Modal -->
   <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalTitle" aria-modal="true" role="dialog">

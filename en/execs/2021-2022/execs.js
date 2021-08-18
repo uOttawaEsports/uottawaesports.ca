@@ -1,219 +1,260 @@
-function more(name) {
+let execs = {
+    /* Co-Presidents */
+    "jaxon murphy": {
+        name: "Jaxon Murphy",
+        image: "../../../images/execs/2021-2022/jaxon-murphy.png",
+        role: "Co-President",
+        prog: "Economics and Management",
+        year: "4th Year",
+        game: "CS:GO, Destiny, Monster Hunter",
+        desc: "Hey y’all I’m Jaxon, and I’ve been a Co-President of the club since 2020! If it’s worth anything, I can name every national flag in the world.",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/jaxon-murphy.webp); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%; background-position-x: 50%;"
+    },
+    "dhruv kumar": {
+        name: "Dhruv Kumar",
+        image: "../../../images/execs/placeholder.png",
+        role: "Co-President",
+        prog: "",
+        year: "",
+        game: "",
+        desc: "Hello!",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    /* Execs */
+    "alex lisitsas": {
+        name: "Alex Lisitsas",
+        image: "../../../images/execs/2021-2022/alex-lisitsas.png",
+        role: "VP Finance",
+        prog: "Finance",
+        year: "2nd Year",
+        game: "Rainbow Six Siege, NHL, FIFA, Call of Duty",
+        desc: "I'm Alex, and I've been part of the exec team for over a year now and also played on the R6 A team during my first year.",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "andrew leblanc": {
+        name: "Andrew Leblanc",
+        image: "../../../images/execs/placeholder.png",
+        role: "VP Competitive",
+        prog: "",
+        year: "",
+        game: "",
+        desc: "Hello!",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "calvin koehl": {
+        name: "Calvin Koehl",
+        image: "../../../images/execs/placeholder.png",
+        role: "VP Events",
+        prog: "",
+        year: "",
+        game: "",
+        desc: "Hello!",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "steven li": {
+        name: "Steven Li",
+        image: "../../../images/execs/2021-2022/steven-li.png",
+        role: "VP Internal",
+        prog: "Computer Engineering",
+        year: "3rd Year",
+        game: "VALORANT, Euro Truck Simulator 2",
+        desc: "Hey, I'm Steven! I love playing video games, keeping up with politics, and volunteering!",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/steven-li.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "prem gupta": {
+        name: "Prem Gupta",
+        image: "../../../images/execs/placeholder.png",
+        role: "VP External",
+        prog: "",
+        year: "",
+        game: "",
+        desc: "Hello!",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "VACANT": {
+        name: "VACANT",
+        image: "../../../images/execs/placeholder.png",
+        prog: "",
+        year: "",
+        game: "",
+        role: "VP Social",
+        desc: "The position for VP Social is currently vacant.",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    /* Game Heads */
+    "bora basar": {
+        name: "Bora Basar",
+        image: "../../../images/execs/placeholder.png",
+        role: "<span class='fw-bold'>Game Head</span> <br /> CS:GO",
+        prog: "Health Sciences",
+        year: "2nd Year",
+        game: "CS:GO, League of Legends",
+        desc: "My name is Bora, and I am the CS:GO Game Head. I have played on the CS:GO B team in my first year, and love competitive esports. I invite both casual and competitive players to play Counter-Strike in uOttawa Esports!",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "peter karpov": {
+        name: "Peter Karpov",
+        image: "../../../images/execs/2021-2022/peter-karpov.png",
+        role: "<span class='fw-bold'>Game Head</span> <br /> DOTA 2",
+        prog: "Commerce and Juris Doctor",
+        year: "3rd Year",
+        game: "DotA 2, Legends of Runeterra, Stardew Valley",
+        desc: "Hey, I'm Peter. I'm our DotA 2 gamehead and host events and manage the competitive teams for the game at uOttawa Esports. I like video games, music, weightlifting, and hiking.",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "ryan farrell": {
+        name: "Ryan Farrell",
+        image: "../../../images/execs/placeholder.png",
+        role: "<span class='fw-bold'>Game Head</span> <br /> Fighting Games",
+        prog: "",
+        year: "",
+        game: "",
+        desc: "Hello!",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "matthew awrey": {
+        name: "Matthew Awrey",
+        image: "../../../images/execs/placeholder.png",
+        role: "<span class='fw-bold'>Game Head</span> <br /> Fortnite",
+        prog: "",
+        year: "",
+        game: "",
+        desc: "Hello!",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "narth rajeswaran": {
+        name: "Narth Rajeswaran",
+        image: "../../../images/execs/placeholder.png",
+        role: "<span class='fw-bold'>Game Head</span> <br /> League of Legends",
+        prog: "",
+        year: "",
+        game: "",
+        desc: "Hello!",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "brandon ly": {
+        name: "Brandon Ly",
+        image: "../../../images/execs/2021-2022/brandon-ly.png",
+        role: "<span class='fw-bold'>Game Head</span> <br /> osu!",
+        prog: "",
+        year: "",
+        game: "",
+        desc: "Hello!",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "benoit gagnier": {
+        name: "Benoit Gagnier",
+        image: "../../../images/execs/placeholder.png",
+        role: "<span class='fw-bold'>Game Head</span> <br /> Overwatch",
+        prog: "",
+        year: "",
+        game: "",
+        desc: "Hello!",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "griffin taylor": {
+        name: "Griffin Taylor",
+        image: "../../../images/execs/2021-2022/griffin-taylor.png",
+        role: "<span class='fw-bold'>Game Head</span> <br /> Rainbow Six Siege",
+        prog: "Computer Engineering",
+        year: "3rd Year",
+        game: "Rainbow Six Siege, Dishonored",
+        desc: "I'm Griffin, and I've been the Game Head for R6 since 2020, and the IGL of the Garnet (A) team since 2019.",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/griffin-taylor.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "fabien lefebvre": {
+        name: "Fabien Lefebvre",
+        image: "../../../images/execs/placeholder.png",
+        role: "<span class='fw-bold'>Game Head</span> <br /> Rocket League",
+        prog: "",
+        year: "",
+        game: "",
+        desc: "Hello!",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "alexander joe": {
+        name: "Alexander Joe",
+        image: "../../../images/execs/placeholder.png",
+        role: "<span class='fw-bold'>Game Head</span> <br /> Super Smash Bros. Melee",
+        prog: "",
+        year: "",
+        game: "",
+        desc: "Hello!",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "tyler lindsay": {
+        name: "Tyler Lindsay",
+        image: "../../../images/execs/placeholder.png",
+        role: "<span class='fw-bold'>Game Head</span> <br /> Super Smash Bros. Ultimate",
+        prog: "History and Political Science",
+        year: "mash Ultimate, Hades, Fire Emblem, Legend of Zelda",
+        game: "I'm Tai! I make events for Smash Ultimate within the club. I like Smash and most things Nintendo.",
+        desc: "Hello!",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "martina on": {
+        name: "Martina On",
+        image: "../../../images/execs/2021-2022/martina-on.png",
+        role: "<span class='fw-bold'>Game Head</span> <br /> VALORANT",
+        prog: "",
+        year: "",
+        game: "",
+        desc: "Hello!",
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    }
+}       
 
-    let modals = {
-        /* Co-Presidents */
-        "jaxon murphy": {
-            title: "Jaxon Murphy",
-            image: "../../../images/execs/2021-2022/jaxon-murphy.png",
-            role: "Co-President",
-            prog: "Economics and Management",
-            year: "4th Year",
-            game: "CS:GO, Destiny, Monster Hunter",
-            desc: "Hey y’all I’m Jaxon, and I’ve been a Co-President of the club since 2020! If it’s worth anything, I can name every national flag in the world.",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/jaxon-murphy.webp); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%; background-position-x: 50%;"
-        },
-        "dhruv kumar": {
-            title: "Dhruv Kumar",
-            image: "../../../images/execs/placeholder.png",
-            role: "Co-President",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        /* Execs */
-        "alex lisitsas": {
-            title: "Alex Lisitsas",
-            image: "../../../images/execs/2021-2022/alex-lisitsas.png",
-            role: "VP Finance",
-            prog: "Finance",
-            year: "2nd Year",
-            game: "Rainbow Six Siege, NHL, FIFA, Call of Duty",
-            desc: "I'm Alex, and I've been part of the exec team for over a year now and also played on the R6 A team during my first year.",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        "andrew leblanc": {
-            title: "Andrew Leblanc",
-            image: "../../../images/execs/placeholder.png",
-            role: "VP Competitive",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        "calvin koehl": {
-            title: "Calvin Koehl",
-            image: "../../../images/execs/placeholder.png",
-            role: "VP Events",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        "steven li": {
-            title: "Steven Li",
-            image: "../../../images/execs/2021-2022/steven-li.png",
-            role: "VP Internal",
-            prog: "Computer Engineering",
-            year: "3rd Year",
-            game: "VALORANT, Euro Truck Simulator 2",
-            desc: "Hey, I'm Steven! I love playing video games, keeping up with politics, and volunteering!",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/steven-li.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        "prem gupta": {
-            title: "Prem Gupta",
-            image: "../../../images/execs/placeholder.png",
-            role: "VP External",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        "VACANT": {
-            title: "VACANT",
-            image: "../../../images/execs/placeholder.png",
-            prog: "",
-            year: "",
-            game: "",
-            role: "VP Social",
-            desc: "The position for VP Social is currently vacant.",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        /* Game Heads */
-        "bora basar": {
-            title: "Bora Basar",
-            image: "../../../images/execs/placeholder.png",
-            role: "<span class='fw-bold'>Game Head</span> <br /> CS:GO",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        "peter karpov": {
-            title: "Peter Karpov",
-            image: "../../../images/execs/placeholder.png",
-            role: "<span class='fw-bold'>Game Head</span> <br /> DOTA 2",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        "ryan farrell": {
-            title: "Ryan Farrell",
-            image: "../../../images/execs/placeholder.png",
-            role: "<span class='fw-bold'>Game Head</span> <br /> Fighting Games",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        "matthew awrey": {
-            title: "Matthew Awrey",
-            image: "../../../images/execs/placeholder.png",
-            role: "<span class='fw-bold'>Game Head</span> <br /> Fortnite",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        "narth rajeswaran": {
-            title: "Narth Rajeswaran",
-            image: "../../../images/execs/placeholder.png",
-            role: "<span class='fw-bold'>Game Head</span> <br /> League of Legends",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        "brandon ly": {
-            title: "Brandon Ly",
-            image: "../../../images/execs/2021-2022/brandon-ly.png",
-            role: "<span class='fw-bold'>Game Head</span> <br /> osu!",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        "benoit gagnier": {
-            title: "Benoit Gagnier",
-            image: "../../../images/execs/placeholder.png",
-            role: "<span class='fw-bold'>Game Head</span> <br /> Overwatch",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        "griffin taylor": {
-            title: "Griffin Taylor",
-            image: "../../../images/execs/2021-2022/griffin-taylor.png",
-            role: "<span class='fw-bold'>Game Head</span> <br /> Rainbow Six Siege",
-            prog: "Computer Engineering",
-            year: "3rd Year",
-            game: "Rainbow Six Siege, Dishonored",
-            desc: "I'm Griffin, and I've been the Game Head for R6 since 2020, and the IGL of the Garnet (A) team since 2019.",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/griffin-taylor.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        "fabien lefebvre": {
-            title: "Fabien Lefebvre",
-            image: "../../../images/execs/placeholder.png",
-            role: "<span class='fw-bold'>Game Head</span> <br /> Rocket League",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        "alexander joe": {
-            title: "Alexander Joe",
-            image: "../../../images/execs/placeholder.png",
-            role: "<span class='fw-bold'>Game Head</span> <br /> Super Smash Bros. Melee",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        "tyler lindsay": {
-            title: "Tyler Lindsay",
-            image: "../../../images/execs/placeholder.png",
-            role: "<span class='fw-bold'>Game Head</span> <br /> Super Smash Bros. Ultimate",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-        },
-        "martina on": {
-            title: "Martina On",
-            image: "../../../images/execs/2021-2022/martina-on.png",
-            role: "<span class='fw-bold'>Game Head</span> <br /> VALORANT",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
-            background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+function cards() {
+    for (let execName in execs) {
+        let exec = execs[execName];
+
+        let h2 = document.createElement("h2");
+        h2.className = "card-title fs-4 fw-bold";
+        h2.innerHTML = exec.name;
+
+        let h3 = document.createElement("h3");
+        h3.className = "card-title fs-5";
+        h3.innerHTML = exec.role;
+
+        let div1 = document.createElement("div");
+        div1.className = "card-body pt-1 pb-1 px-0 text-center";
+        div1.appendChild(h2);
+        div1.appendChild(h3);
+
+        let img = document.createElement("img");
+        img.src = exec.image;
+        img.className = "card-img-top pt-3 pb-2";
+        img.alt = exec.name;
+
+        let div2 = document.createElement("div");
+        div2.className = "card bg-dark text-white my-2 m-sm-2 m-lg-3";
+        div2.addEventListener("click", function(){
+            more(execName);
+        });
+        div2.setAttribute("data-bs-toggle", "modal");
+        div2.setAttribute("data-bs-target", "#modal");
+        div2.appendChild(img);
+        div2.appendChild(div1);
+
+        if(exec.role === "Co-President") {
+            document.getElementById("co-presidents").appendChild(div2);
+        } else if (exec.role.includes("VP")){
+            document.getElementById("vice-presidents").appendChild(div2);
+        } else {
+            document.getElementById("game-heads").appendChild(div2);
         }
     }
+}
 
-    document.getElementById("modalTitle").innerHTML = modals[name].title;
-    document.getElementById("modalImage").src = modals[name].image;
-    document.getElementById("modalImage").alt = modals[name].title;
-    document.getElementById("modalRole").innerHTML = modals[name].role;
-    document.getElementById("modalBackground").style = modals[name].background;
-    document.getElementById("modalProg").innerHTML = modals[name].prog;
-    document.getElementById("modalYear").innerHTML = modals[name].year;
-    document.getElementById("modalGame").innerHTML = modals[name].game;
-    document.getElementById("modalDesc").innerHTML = modals[name].desc;
-
+function more(current) {
+    console.log(current);
+    document.getElementById("modalTitle").innerHTML = execs[current].name;
+    document.getElementById("modalImage").src = execs[current].image;
+    document.getElementById("modalImage").alt = execs[current].name;
+    document.getElementById("modalRole").innerHTML = execs[current].role;
+    document.getElementById("modalBackground").style = execs[current].background;
+    document.getElementById("modalProg").innerHTML = execs[current].prog;
+    document.getElementById("modalYear").innerHTML = execs[current].year;
+    document.getElementById("modalGame").innerHTML = execs[current].game;
+    document.getElementById("modalDesc").innerHTML = execs[current].desc;
 }
