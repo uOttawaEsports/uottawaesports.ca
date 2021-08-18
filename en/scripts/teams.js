@@ -75,11 +75,11 @@ const modals = {
         members: {
             "Kiro": "Manager",
             "kang xd": "Coach",
-            "bladee": "Main",
-            "coal": "Main",
-            "housieee": "Main",
-            "Jacob": "Main",
-            "Jer": "Main",
+            "bladee": "Main Roster",
+            "coal": "Main Roster",
+            "housieee": "Main Roster",
+            "Jacob": "Main Roster",
+            "Jer": "Main Roster",
             "Apl": "Substitute",
             "SyCoLight": "Substitute",
         }
@@ -88,12 +88,12 @@ const modals = {
         title: "Valorant Grey Team",
         background: "#303031",
         members: {
-            "Econ God": "Grey",
-            "chriski": "Main",
-            "Goff": "Main",
-            "inertia": "Main",
-            "Kiro": "Main",
-            "Leek": "Main",
+            "Econ God": "Coach",
+            "chriski": "Main Roster Roster",
+            "Goff": "Main Roster",
+            "inertia": "Main Roster",
+            "Kiro": "Main Roster",
+            "Leek": "Main Roster",
             "LittleBozz": "Substitute",
         }
     }
