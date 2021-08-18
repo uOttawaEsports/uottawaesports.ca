@@ -228,9 +228,7 @@ function cards() {
 
         let div2 = document.createElement("div");
         div2.className = "card bg-dark text-white my-2 m-sm-2 m-lg-3";
-        div2.addEventListener("click", function(){
-            more(execName);
-        });
+        div2.addEventListener("click", function(){ more(execName); });
         div2.setAttribute("data-bs-toggle", "modal");
         div2.setAttribute("data-bs-target", "#modal");
         div2.appendChild(img);
@@ -247,7 +245,6 @@ function cards() {
 }
 
 function more(current) {
-    console.log(current);
     document.getElementById("modalTitle").innerHTML = execs[current].name;
     document.getElementById("modalImage").src = execs[current].image;
     document.getElementById("modalImage").alt = execs[current].name;
