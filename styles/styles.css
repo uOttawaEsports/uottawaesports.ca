@@ -1,9 +1,9 @@
 /* Default CSS */
 
 body {
-    overflow-x: hidden;
-    /* disable horizontal scroll */
+    overflow-x: hidden; /* disable horizontal scroll */
     background-color: #590016;
+    padding-right: 0px !important;
 }
 
 footer {

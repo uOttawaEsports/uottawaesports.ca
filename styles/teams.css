@@ -1,5 +1,9 @@
 /* Custom IDs */
 
+body{
+    padding-right: 0px !important;
+}
+
 #information {
     width: 15rem;
     background: #FFFFFF;
