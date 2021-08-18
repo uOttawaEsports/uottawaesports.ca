@@ -45,14 +45,25 @@ const modals = {
         title: "Valorant Garnet Team",
         background: "#800020",
         members: {
-
+            "Zander": "Captain",
+            "Axent": "Main Roster",
+            "BechoDrive": "Main Roster",
+            "Chrs": "Main Roster",
+            "3nsuoli": "Substitute",
+            "Vinyl": "Substitute"
         }
     },
     "r6 grey": {
         title: "Valorant Grey Team",
         background: "#303031",
         members: {
-
+            "Kiro": "Coach/Substitute",
+            "Nacho": "Captain",
+            "Apollo": "Main Roster",
+            "AsianFlow": "Main Roster",
+            "Cronder": "Main Roster",
+            "ohkaysher": "Main Roster",
+            "Lits": "Substitute"
         }
     },
     "rl garnet": {
@@ -81,7 +92,7 @@ const modals = {
             "Jacob": "Main Roster",
             "Jer": "Main Roster",
             "Apl": "Substitute",
-            "SyCoLight": "Substitute",
+            "SyCoLight": "Substitute"
         }
     },
     "val grey": {
@@ -94,7 +105,7 @@ const modals = {
             "inertia": "Main Roster",
             "Kiro": "Main Roster",
             "Leek": "Main Roster",
-            "LittleBozz": "Substitute",
+            "LittleBozz": "Substitute"
         }
     }
 }
