@@ -104,12 +104,12 @@ let execs = {
     },
     "ryan farrell": {
         name: "Ryan Farrell",
-        image: "../../../images/execs/placeholder.png",
+        image: "../../../images/execs/2021-2022/ryan-farrell.png",
         role: "<span class='fw-bold'>Game Head</span> <br /> Fighting Games",
-        prog: "",
-        year: "",
-        game: "",
-        desc: "Hello!",
+        prog: "Teachers Education",
+        year: "6th Year",
+        game: "Metal Gear Solid 3, Devil May Cry 3",
+        desc: "Hey I'm Ryan, FGC Game Head. I like basketball, video games, and eating dumplings.",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "matthew awrey": {
