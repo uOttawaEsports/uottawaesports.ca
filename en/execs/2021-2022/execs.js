@@ -25,12 +25,12 @@ function more(name) {
         /* Execs */
         "alex lisitsas": {
             title: "Alex Lisitsas",
-            image: "../../../images/execs/placeholder.png",
+            image: "../../../images/execs/2021-2022/alex-lisitsas.png",
             role: "VP Finance",
-            prog: "",
-            year: "",
-            game: "",
-            desc: "Hello!",
+            prog: "Finance",
+            year: "2nd Year",
+            game: "Rainbow Six Siege, NHL, FIFA, Call of Duty",
+            desc: "I'm Alex, and I've been part of the exec team for over a year now and also played on the R6 A team during my first year.",
             background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
         },
         "andrew leblanc": {
