@@ -45,10 +45,11 @@ const modals = {
         title: "Valorant Garnet Team",
         background: "#800020",
         members: {
-            "Zander": "Captain",
+            "Zander": "Captain/Main Roster",
             "Axent": "Main Roster",
             "BechoDrive": "Main Roster",
             "Chrs": "Main Roster",
+            "K3baddywAfatty": "Main Roster",
             "3nsuoli": "Substitute",
             "Vinyl": "Substitute"
         }
@@ -58,7 +59,7 @@ const modals = {
         background: "#303031",
         members: {
             "Kiro": "Coach/Substitute",
-            "Nacho": "Captain",
+            "Nacho": "Captain/Main Roster",
             "Apollo": "Main Roster",
             "AsianFlow": "Main Roster",
             "Cronder": "Main Roster",
