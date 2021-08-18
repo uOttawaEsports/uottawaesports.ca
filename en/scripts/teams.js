@@ -101,7 +101,7 @@ const modals = {
         background: "#303031",
         members: {
             "Econ God": "Coach",
-            "chriski": "Main Roster Roster",
+            "chriski": "Main Roster",
             "Goff": "Main Roster",
             "inertia": "Main Roster",
             "Kiro": "Main Roster",
