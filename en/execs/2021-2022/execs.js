@@ -17,7 +17,7 @@ let execs = {
         prog: "",
         year: "",
         game: "",
-        desc: "Hello!",
+        desc: "",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     /* Execs */
@@ -38,7 +38,7 @@ let execs = {
         prog: "",
         year: "",
         game: "",
-        desc: "Hello!",
+        desc: "",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "calvin koehl": {
@@ -48,7 +48,7 @@ let execs = {
         prog: "",
         year: "",
         game: "",
-        desc: "Hello!",
+        desc: "",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "steven li": {
@@ -68,7 +68,7 @@ let execs = {
         prog: "",
         year: "",
         game: "",
-        desc: "Hello!",
+        desc: "",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "VACANT": {
@@ -99,7 +99,7 @@ let execs = {
         prog: "Commerce and Juris Doctor",
         year: "3rd Year",
         game: "DotA 2, Legends of Runeterra, Stardew Valley",
-        desc: "Hey, I'm Peter. I'm our DotA 2 gamehead and host events and manage the competitive teams for the game at uOttawa Esports. I like video games, music, weightlifting, and hiking.",
+        desc: "Hey, I'm Peter. I'm our DotA 2 Game Head and I host events and manage the competitive teams for the game at uOttawa Esports. I like video games, music, weightlifting, and hiking.",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "ryan farrell": {
@@ -119,7 +119,7 @@ let execs = {
         prog: "",
         year: "",
         game: "",
-        desc: "Hello!",
+        desc: "",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "narth rajeswaran": {
@@ -129,7 +129,7 @@ let execs = {
         prog: "",
         year: "",
         game: "",
-        desc: "Hello!",
+        desc: "",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "brandon ly": {
@@ -139,7 +139,7 @@ let execs = {
         prog: "",
         year: "",
         game: "",
-        desc: "Hello!",
+        desc: "",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "benoit gagnier": {
@@ -149,7 +149,7 @@ let execs = {
         prog: "",
         year: "",
         game: "",
-        desc: "Hello!",
+        desc: "",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "griffin taylor": {
@@ -169,7 +169,7 @@ let execs = {
         prog: "",
         year: "",
         game: "",
-        desc: "Hello!",
+        desc: "",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "alexander joe": {
@@ -179,7 +179,7 @@ let execs = {
         prog: "",
         year: "",
         game: "",
-        desc: "Hello!",
+        desc: "",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "tyler lindsay": {
@@ -187,9 +187,9 @@ let execs = {
         image: "../../../images/execs/placeholder.png",
         role: "<span class='fw-bold'>Game Head</span> <br /> Super Smash Bros. Ultimate",
         prog: "History and Political Science",
-        year: "mash Ultimate, Hades, Fire Emblem, Legend of Zelda",
-        game: "I'm Tai! I make events for Smash Ultimate within the club. I like Smash and most things Nintendo.",
-        desc: "Hello!",
+        year: "2nd Year",
+        game: "Smash Ultimate, Hades, Fire Emblem, Legend of Zelda",
+        desc: "I'm Tai! I make events for Smash Ultimate within the club. I like Smash and most things Nintendo.",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "martina on": {
@@ -199,7 +199,7 @@ let execs = {
         prog: "",
         year: "",
         game: "",
-        desc: "Hello!",
+        desc: "",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     }
 }       
