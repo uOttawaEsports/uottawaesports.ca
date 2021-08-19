@@ -65,10 +65,10 @@ let execs = {
         name: "Prem Gupta",
         image: "../../../images/execs/placeholder.png",
         role: "VP External",
-        prog: "",
+        prog: "History and Political Science",
         year: "",
-        game: "",
-        desc: "",
+        game: "VALORANT, Rocket League, Animal Crossing, Mario Kart",
+        desc: "My name is Prem. I'm just the researching person (or better known as the VP External) for uOttawa Esports. I have been a casual esports viewer since ~2016 and have recently been invested in competitive Valorant this year. But not gonna lie, &#127850;&nbsp;+&nbsp;&#129371;&nbsp;=&nbsp;&#128293;",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "VACANT": {
@@ -89,7 +89,7 @@ let execs = {
         prog: "Health Sciences",
         year: "2nd Year",
         game: "CS:GO, League of Legends",
-        desc: "My name is Bora, and I am the CS:GO Game Head. I have played on the CS:GO B team in my first year, and love competitive esports. I invite both casual and competitive players to play Counter-Strike in uOttawa Esports!",
+        desc: "My name is Bora, and I am the CS:GO Game Head. I have played on the CS:GO B team in my first year, and love competitive esports. I invite both casual and competitive players to play Counter-Strike at uOttawa Esports!",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "peter karpov": {
@@ -126,10 +126,10 @@ let execs = {
         name: "Narth Rajeswaran",
         image: "../../../images/execs/placeholder.png",
         role: "<span class='fw-bold'>Game Head</span> <br /> League of Legends",
-        prog: "",
-        year: "",
-        game: "",
-        desc: "",
+        prog: "Political Science",
+        year: "2nd Year",
+        game: "Pokémon, League of Legends",
+        desc: "My name is Narththanaan and I am the brand new LoL Game Head for uOttawa Esports where I assist in managing the LoL competitive teams alongside hosting LoL related events. I'm an aspiring writer and LoL esports enthusiast.",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "brandon ly": {
@@ -174,12 +174,12 @@ let execs = {
     },
     "alexander joe": {
         name: "Alexander Joe",
-        image: "../../../images/execs/placeholder.png",
+        image: "../../../images/execs/2021-2022/alexander-joe.png",
         role: "<span class='fw-bold'>Game Head</span> <br /> Super Smash Bros. Melee",
-        prog: "",
-        year: "",
-        game: "",
-        desc: "",
+        prog: "Computer Engineering",
+        year: "3rd Year",
+        game: "Smash Melee, Yu-Gi-Oh!, Team Fortress 2",
+        desc: "I'm Alexander, Game Head for Super Smash Bros. Melee. I like Smash, Touhou, and music.",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "tyler lindsay": {
@@ -189,7 +189,7 @@ let execs = {
         prog: "History and Political Science",
         year: "2nd Year",
         game: "Smash Ultimate, Hades, Fire Emblem, Legend of Zelda",
-        desc: "I'm Tai! I make events for Smash Ultimate within the club. I like Smash and most things Nintendo.",
+        desc: "I'm Tai! I host events for Smash Ultimate within the club. I like Smash and most things Nintendo.",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "martina on": {
