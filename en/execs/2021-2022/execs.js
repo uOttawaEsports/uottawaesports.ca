@@ -35,10 +35,10 @@ let execs = {
         name: "Andrew Leblanc",
         image: "../../../images/execs/placeholder.png",
         role: "VP Competitive",
-        prog: "",
-        year: "",
-        game: "",
-        desc: "",
+        prog: "History",
+        year: "4th Year",
+        game: "Whatever team needs a substitute",
+        desc: "I'm Andrew and I have played on three of the club's esports teams. I compete in Strongman and my favourite food is pizza.",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Calvin Koehl": {
@@ -58,7 +58,7 @@ let execs = {
         prog: "Computer Engineering",
         year: "3rd Year",
         game: "VALORANT, Euro Truck Simulator 2",
-        desc: "Hey, I'm Steven! I love playing video games, keeping up with politics, and volunteering!",
+        desc: "Hey, I'm Steven! I love playing video games, keeping up with politics, volunteering, and sushi!",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/steven-li.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Prem Gupta": {
