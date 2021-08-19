@@ -10,12 +10,6 @@
     margin-top: 4.2rem;
 }
 
-/* Custom classes */
-
-.text-shadow {
-    text-shadow: 0.2rem 0.2rem #ffffff48;
-}
-
 /* Existing classes */
 
 .card {
@@ -41,6 +35,16 @@
 .modal-body img {
     border-radius: 50%;
     width: 100%;
+}
+
+/* Custom classes */
+
+.border-left {
+    border-left: 0.12rem solid #FFFFFF;
+}
+
+.text-shadow {
+    text-shadow: 0.2rem 0.2rem #ffffff48;
 }
 
 /* Keyframes */

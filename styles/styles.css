@@ -54,10 +54,6 @@ footer {
     background-color: #303031;
 }
 
-.border-right {
-    border-right: 0.12rem solid #FFFFFF;
-}
-
 .dropdown-item:active {
     background-color: #FF3A7F;
 }
