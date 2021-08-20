@@ -89,6 +89,8 @@
               <li><a class="dropdown-item text-white" href="/en/documents/constitution.pdf" target="_blank"><i
                     class="fas fa-university me-1"></i>
                   Constitution</a></li>
+              <li><a class="dropdown-item disabled" href="/en/gallery/"><i class="fas fa-images me-1"></i>
+                  Gallery</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
@@ -111,8 +113,8 @@
             </ul>
           </li>
           <li class="nav-item ms-lg-4 mb-2 mb-lg-0 mt-3 mt-lg-0 mx-1">
-            <a role="button" class="btn btn-dark nav-link fs-5 p-2" href="/fr/evenements/" rel="alternate" hreflang="fr"><i
-                class="fas fa-globe"></i> Français</a>
+            <a role="button" class="btn btn-dark nav-link fs-5 p-2" href="/fr/evenements/" rel="alternate"
+              hreflang="fr"><i class="fas fa-globe"></i> Français</a>
           </li>
         </ul>
       </div>
@@ -135,39 +137,78 @@
   <!-- Event Descriptions -->
   <div class="container-fluid p-1 pb-2 pb-lg-3 bg-dark">
     <div class="row text-center text-white p-2">
-      <h1 class="mb-2">What do we have to offer?!</h1>
+      <h1 class="mb-2">What do we have to offer?</h1>
       <div class="col-12 col-lg-4 my-1">
-      <div id="contests" class="col-12 p-3 h-100">
-        <h2>Contests</h2>
-        <p class="text-start fs-5">Our flagship contest is the Monthly Clip Contest where club members can send in a picture
-          or video each month related to a certain theme. Themes vary each month, from best fails and highlights to
-          “create your own meme” or “show us your gaming setup”. Stay tuned each month to find out what the theme is and
-          submit your clip! The top clips will move to the public voting round where all club members have a chance to
-          vote for their favourite and help decide who receives a gift card for their gaming platform of choice.</p>
-      </div>
+        <div id="contests" class="col-12 p-3 h-100">
+          <h2>Contests</h2>
+          <p class="text-start fs-5">Our flagship contest is the Monthly Clip Contest where club members can send in a
+            picture
+            or video each month related to a certain theme. Themes vary each month, from best fails and highlights to
+            “create your own meme” or “show us your gaming setup”. Stay tuned each month to find out what the theme is
+            and
+            submit your clip! The top clips will move to the public voting round where all club members have a chance to
+            vote for their favourite and help decide who receives a gift card for their gaming platform of choice.</p>
+        </div>
       </div>
       <div class="col-12 col-lg-4 my-1">
-      <div id="in-houses" class="col-12 p-3 h-100">
-        <h2>In-houses</h2>
-        <p class="text-start fs-5">Different games run weekly in-houses where you can play the games you love with other
-          uOttawa Esports members. Game Heads will set up teams based on the players that signup and create a custom
-          lobby for you to join. All you have to do show up and have a good time! Did we mention that just by attending
-          you have a chance at winning prizes?</p>
+        <div id="in-houses" class="col-12 p-3 h-100">
+          <h2>In-houses</h2>
+          <p class="text-start fs-5">Different games run weekly in-houses where you can play the games you love with
+            other
+            uOttawa Esports members. Game Heads will set up teams based on the players that signup and create a custom
+            lobby for you to join. All you have to do show up and have a good time! Did we mention that just by
+            attending
+            you have a chance at winning prizes?</p>
+        </div>
       </div>
-    </div>
-    <div class="col-12 col-lg-4 my-1">
-      <div id="tournaments" class="col-12 p-3 h-100">
-        <h2>Tournaments</h2>
-        <p class="text-start fs-5">Each game puts different types of tournaments but they all have one thing in common:
-          They’re always a ton of fun! Game Heads organize tournaments that best fit the needs of their player base,
-          such as SoloQ tournaments for League of Legends or a 2v2 bracket for CS:GO. If you are interested in trying
-          out a game and meeting new people in the club then this is the perfect opportunity to do so. You will even
-          have a shot at winning awesome prizes!</p>
+      <div class="col-12 col-lg-4 my-1">
+        <div id="tournaments" class="col-12 p-3 h-100">
+          <h2>Tournaments</h2>
+          <p class="text-start fs-5">Each game puts different types of tournaments but they all have one thing in
+            common:
+            They’re always a ton of fun! Game Heads organize tournaments that best fit the needs of their player base,
+            such as SoloQ tournaments for League of Legends or a 2v2 bracket for CS:GO. If you are interested in trying
+            out a game and meeting new people in the club then this is the perfect opportunity to do so. You will even
+            have a shot at winning awesome prizes!</p>
+        </div>
       </div>
-    </div>
     </div>
   </div>
   <!-- Event Descriptions End -->
+
+  <!-- Image Carousel -->
+  <div class="container-fluid py-4 bg-grey">
+    <div class="row d-flex align-items-center justify-content-center">
+      <div id="carousel" class="carousel slide carousel-fade rounded" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../../images/gaming-session.jpg" class="rounded d-block w-100" alt="Gaming session">
+          </div>
+          <div class="carousel-item">
+            <img src="../../images/meet-and-greet.jpg" class="rounded d-block w-100" alt="Meet and greet">
+          </div>
+          <div class="carousel-item">
+            <img src="../../images/clubs-week.jpg" class="rounded d-block w-100" alt="Clubs week">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- Image Carousel End -->
 
   <!-- Past Events -->
   <!-- <div class="container-fluid bg-dark">

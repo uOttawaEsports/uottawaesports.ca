@@ -23,3 +23,17 @@
     background-position-x: 50%;
     background-position-y: 20%;
 }
+
+/* Change carousel size for smaller screens */
+
+@media (min-width: 992px) {
+    #carousel {
+        width: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    #carousel {
+        width: 100%;
+    }
+}

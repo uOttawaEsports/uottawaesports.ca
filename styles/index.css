@@ -19,7 +19,7 @@
 
 /* Style for Extra Large Screen */
 
-@media (max-width:1200px) {
+@media (max-width: 1200px) {
     #welcome iframe {
         height: 15.625rem;
     }
@@ -27,7 +27,7 @@
 
 /* Style for Large Screen */
 
-@media (max-width:992px) {
+@media (max-width: 992px) {
     #welcome iframe {
         height: 31.25rem;
     }
@@ -35,7 +35,7 @@
 
 /* Style for Small Screen */
 
-@media (max-width:575px) {
+@media (max-width: 575px) {
     #welcome iframe {
         height: 14.063rem;
     }
