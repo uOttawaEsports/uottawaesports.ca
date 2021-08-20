@@ -14,10 +14,10 @@ let execs = {
         name: "Dhruv Kumar",
         image: "../../../images/execs/placeholder.png",
         role: "Co-President",
-        prog: "",
-        year: "",
-        game: "",
-        desc: "",
+        prog: "Health Sciences",
+        year: "3rd Year",
+        game: "Rainbow Six Siege, Rocket League, VALORANT, Mario Kart",
+        desc: "I'm Dhruv, the new Co-President of the club. I drink enough Iced Coffee/Iced Capp to truly say that I have ice in my veins.",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     /* Execs */
@@ -146,10 +146,10 @@ let execs = {
         name: "Brandon Ly",
         image: "../../../images/execs/2021-2022/brandon-ly.png",
         role: "<span class='fw-bold'>Game Head</span> <br /> osu!",
-        prog: "",
-        year: "",
-        game: "",
-        desc: "",
+        prog: "Public Administration and Political Science",
+        year: "1st Year",
+        game: "osu!, Civilization, Heroes & Generals, Stardew Valley, Professor Layton",
+        desc: "Hiya, I'm Brandon! I'm the Game Head for the circle-clicking rhythm game known as osu! (you should check it out &#128521;). I watch way too much anime for my own good, and play literally every game on my couch.",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Benoit Gagnier": {
