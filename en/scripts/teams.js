@@ -59,10 +59,10 @@ const modals = {
         background: "#303031",
         members: {
             "Kiro": "Coach/Substitute",
-            "Nacho": "Captain/Main Roster",
-            "Apollo": "Main Roster",
+            "Apollo": "Captain/Main Roster",
             "AsianFlow": "Main Roster",
             "Cronder": "Main Roster",
+            "Nacho": "Main Roster",
             "ohkaysher": "Main Roster",
             "Lits": "Substitute"
         }
