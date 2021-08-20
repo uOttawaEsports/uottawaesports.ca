@@ -174,12 +174,12 @@ let execs = {
     },
     "Fabien Lefebvre": {
         name: "Fabien Lefebvre",
-        image: "../../../images/execs/placeholder.png",
+        image: "../../../images/execs/2021-2022/fabien-lefebvre.png",
         role: "<span class='fw-bold'>Game Head</span> <br /> Rocket League",
-        prog: "",
-        year: "",
-        game: "",
-        desc: "",
+        prog: "Physics",
+        year: "3rd Year",
+        game: "Rocket League, VALORANT, Battlefield",
+        desc: "Hey I'm Fabien. This is my first year managing the Rocket League teams for the club. I spend most of my time playing video games that make me tilt, along with throwing a plastic frisbee competitively.",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "alexander Joe": {
