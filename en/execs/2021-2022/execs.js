@@ -57,7 +57,7 @@ let execs = {
         role: "VP Internal",
         prog: "Computer Engineering",
         year: "3rd Year",
-        game: "VALORANT, Euro Truck Simulator 2",
+        game: "VALORANT, Bus Simulator",
         desc: "Hey, I'm Steven! I love playing video games, keeping up with politics, volunteering, and sushi!",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/steven-li.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
