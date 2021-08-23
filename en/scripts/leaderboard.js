@@ -1,4 +1,4 @@
-let people = { // keys are unique IDs
+let execs = { // keys are unique IDs
     "0": {
         name: "Steven Li",
         pts: 1100
@@ -25,7 +25,7 @@ let people = { // keys are unique IDs
     }
 }
 
-let sorted = Object.keys(people).sort((a, b) => { return people[b].pts - people[a].pts }); // sorts the keys of the people object and stores them into an array
+let sorted = Object.keys(execs).sort((a, b) => { return execs[b].pts - execs[a].pts }); // sorts the keys of the execs object and stores them into an array
 
 let pos = 1;
 let headerCreated = false;
@@ -48,11 +48,11 @@ sorted.forEach(personObj => {
         div.appendChild(img);
 
         name.className = "fs-3 d-flex align-self-center me-auto mb-0 ms-1";
-        name.innerHTML = ('<span class="fw-bold">' + pos + ".</span>&nbsp;" + people[personObj].name);
+        name.innerHTML = ('<span class="fw-bold">' + pos + ".</span>&nbsp;" + execs[personObj].name);
         div.appendChild(name);
 
         points.className = "fs-3 d-flex align-self-center mb-0 me-2";
-        points.innerHTML = people[personObj].pts + " points";
+        points.innerHTML = execs[personObj].pts + " points";
         div.appendChild(points);
         document.getElementById("top3").appendChild(div);
 
@@ -96,11 +96,11 @@ sorted.forEach(personObj => {
         tr.appendChild(th);
 
         td = document.createElement("td");
-        td.innerHTML = people[personObj].name;;
+        td.innerHTML = execs[personObj].name;;
         tr.appendChild(td);
 
         td = document.createElement("td");
-        td.innerHTML = people[personObj].pts;
+        td.innerHTML = execs[personObj].pts;
         td.className = "text-end";
         tr.appendChild(td);
 
