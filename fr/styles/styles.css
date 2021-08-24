@@ -1,0 +1,95 @@
+/* Default CSS */
+
+body {
+    overflow-x: hidden;
+    /* disable horizontal scroll */
+    background-color: #590016;
+    padding-right: 0px !important;
+}
+
+footer {
+    position: block;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Custom IDs */
+
+#navbar a {
+    color: #FFFFFFdc;
+}
+
+#navbar a:hover {
+    color: #FFFFFF;
+    background-color: #212529;
+    border-radius: .25rem;
+}
+
+#navbar a::selection {
+    background-color: #303031;
+}
+
+#navbar .dropdown-menu {
+    background-color: #494949;
+}
+
+/* Existing classes */
+
+.active {
+    color: #FFFFFF;
+    background-color: #212529a1;
+    border-radius: .25rem;
+}
+
+/* Custom classes */
+
+.bg-darkmaroon {
+    background-color: #590016;
+}
+
+.bg-maroon {
+    background-color: #800020;
+}
+
+.bg-grey {
+    background-color: #303031;
+}
+
+.dropdown-item:active {
+    background-color: #FF3A7F;
+}
+
+/* Existing classes */
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* Style for Small-Medium Screen */
+
+@media (min-width: 992px) and (max-width: 1055px) {
+    #hamburger .nav-link {
+        font-size: 0.75624rem;
+    }
+}
+
+@media (min-width: 1056px) and (max-width: 1120px) {
+    #hamburger .nav-link {
+        font-size: 0.87812rem;
+    }
+}
+
+/* Style for Medium-Large Screen */
+
+@media (min-width: 1120px) and (max-width: 1183px) {
+    #hamburger .nav-link {
+        font-size: 0.99999rem;
+    }
+}
+
+@media (min-width: 1184px) and (max-width: 1248px) {
+    #hamburger .nav-link {
+        font-size: 1.12187rem;
+    }
+}
