@@ -212,7 +212,7 @@ let execs = {
         desc: "",
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     }
-}       
+}
 
 function cards() {
     for (let execName in execs) {
