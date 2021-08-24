@@ -1,6 +1,6 @@
 const modals = {
     "csgo garnet": {
-        title: "CS:GO Garnet Team",
+        entitle: "CS:GO Garnet Team",
         background: "#800020",
         members: {
 
@@ -132,7 +132,7 @@ function teams(name) {
     }
 }
 
-const info = document.getElementById("information");
+const info = document.getElementById("33");
 const btn = document.getElementById("information-button");
 
 btn.onclick = function () {
