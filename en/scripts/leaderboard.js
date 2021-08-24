@@ -54,8 +54,8 @@ sorted.forEach(personObj => {
         points.className = "fs-3 d-flex align-self-center mb-0 me-2";
         points.innerHTML = execs[personObj].pts + " points";
         div.appendChild(points);
-        document.getElementById("top3").appendChild(div);
 
+        document.getElementById("top3").appendChild(div);
         pos++;
     } else {
         if (!headerCreated) {
