@@ -12,7 +12,7 @@ let execs = {
     },
     "Dhruv Kumar": {
         name: "Dhruv Kumar",
-        image: "../../../images/execs/placeholder.png",
+        image: "../../../images/execs/2021-2022/dhruv-kumar.png",
         role: "Co-President",
         prog: "Health Sciences",
         year: "3rd Year",
