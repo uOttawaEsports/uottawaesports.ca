@@ -23,6 +23,7 @@
     <meta name="twitter:creator" content="@uOttawaEsports">
     <meta name="keywords"
         content="uOttawa Esports, club de uOttawa Esports, uOttawa Esports anciens cadres 2021-2022, uOttawa jeux, club de jeux uOttawa">
+    <meta name="google" content="notranslate">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="../../../images/logo-square.png" />
     <!-- Bootstrap 5.0.2 CSS -->
@@ -37,12 +38,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
-<body>
+<body onload="translate()">
     <!-- Navbar -->
     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top bg-maroon p-0">
         <div class="container-fluid">
-            <h1 class="navbar-brand fs-3 fw-bold m-0"><img src="../../../images/logo-square.png" alt="Logo"
-                    width="60rem" height="60rem" class="d-inline-block align-text-middle me-1">uOttawa Esports</h1>
+            <h1 class="navbar-brand fs-3 fw-bold m-0"><img src="../../../images/logo-square.png"
+                    alt="Logo de uOttawa Esports" width="60rem" height="60rem"
+                    class="d-inline-block align-text-middle me-1">uOttawa Esports</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger"
                 aria-controls="hamburger" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -128,7 +130,7 @@
     <!-- Past Execs -->
     <div id="past" class="container-fluid">
         <div class="row py-2 pb-lg-0">
-            <h1 class="display-6 fw-bold text-center text-white text-shadow">Past Execs</h1>
+            <h1 id="1" class="display-6 fw-bold text-center text-white text-shadow">Past Execs</h1>
         </div>
         <div class="row d-flex justify-content-evenly mb-2 mb-lg-0">
 
@@ -356,7 +358,7 @@
         crossorigin="anonymous"></script>
 
     <!-- External JavaScript -->
-    <script type="text/javascript" src="../../../scripts/past-execs.js"></script>
+    <script type="text/javascript" src="../../../scripts/execs/past.js"></script>
 
     <!-- External Footer JavaScript -->
     <script type="text/javascript" src="../../../scripts/footer.js"></script>

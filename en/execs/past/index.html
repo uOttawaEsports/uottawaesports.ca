@@ -23,6 +23,7 @@
     <meta name="twitter:creator" content="@uOttawaEsports">
     <meta name="keywords"
         content="uOttawa Esports, uOttawa Esports Club, uOttawa Esports past execs, uOttawa gaming, uOttawa gaming club">
+    <meta name="google" content="notranslate">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="../../../images/logo-square.png" />
     <!-- Bootstrap 5.0.2 CSS -->
@@ -37,7 +38,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
-<body>
+<body onload="displayExecs()">
     <!-- Navbar -->
     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top bg-maroon p-0">
         <div class="container-fluid">
@@ -128,220 +129,9 @@
     <!-- Past Execs -->
     <div id="past" class="container-fluid">
         <div class="row py-2 pb-lg-0">
-            <h1 class="display-6 fw-bold text-center text-white text-shadow">Past Execs</h1>
+            <h1 id="1" class="display-6 fw-bold text-center text-white text-shadow">Past Execs</h1>
         </div>
-        <div class="row d-flex justify-content-evenly mb-2 mb-lg-0">
-
-            <!-- Execs 2020-2021 -->
-            <div class="card bg-dark text-white mb-2 m-sm-2 mx-lg-2 mb-lg-4">
-                <img src="../../../images/execs/past/2019-2020.png" class="card-img-top px-1" alt="Execs from 2020-2021">
-                <div class="card-body px-0">
-                    <h2 class="card-title text-center mb-3 fs-4 fw-bold">2020-2021</h2>
-                    <table class="table table-dark table-striped table-bordered border-secondary mb-0">
-                        <thead>
-                            <tr>
-                                <th class="w-50" scope="col">Name</th>
-                                <th class="w-50" scope="col">Role</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Zack Goldstein</td>
-                                <td>Co-President</td>
-                            </tr>
-                            <tr>
-                                <td>Jaxon Murphy</td>
-                                <td>Co-President</td>
-                            </tr>
-                            <tr>
-                                <td>Michel Gaudet</td>
-                                <td>VP Finance</td>
-                            </tr>
-                            <tr>
-                                <td>Andrew Leblanc</td>
-                                <td>VP Competitive</td>
-                            </tr>
-                            <tr>
-                                <td>Calvin Koehl</td>
-                                <td>VP Events</td>
-                            </tr>
-                            <tr>
-                                <td>Alex Lisitsas</td>
-                                <td>VP Internal</td>
-                            </tr>
-                            <tr>
-                                <td>Ben Gabriel</td>
-                                <td>VP External</td>
-                            </tr>
-                            <tr>
-                                <td>Martina On</td>
-                                <td>VP Social</td>
-                            </tr>
-                            <tr>
-                                <td>Jean-Felix Milette</td>
-                                <td>Call of Duty Game Head</td>
-                            </tr>
-                            <tr>
-                                <td>Bora Basar</td>
-                                <td>CS:GO Game Head</td>
-                            </tr>
-                            <tr>
-                                <td>Peter Karpov</td>
-                                <td>DOTA 2 Game Head</td>
-                            </tr>
-                            <tr>
-                                <td>Ryan Farrell</td>
-                                <td>Fighting Games Game Head</td>
-                            </tr>
-                            <tr>
-                                <td>Yucy Jia</td>
-                                <td>League of Legends Game Head</td>
-                            </tr>
-                            <tr>
-                                <td>Benoit Gagnier</td>
-                                <td>Overwatch Game Head</td>
-                            </tr>
-                            <tr>
-                                <td>Griffin Taylor</td>
-                                <td>Rainbow Six Siege Game Head</td>
-                            </tr>
-                            <tr>
-                                <td>Jean-Daniel Proulx</td>
-                                <td>Rocket League Game Head</td>
-                            </tr>
-                            <tr>
-                                <td>Simon Lamontagne</td>
-                                <td>Starcraft 2 Game Head</td>
-                            </tr>
-                            <tr>
-                                <td>Tyler Lindsay</td>
-                                <td>Super Smash Bros. Ultimate Game Head</td>
-                            </tr>
-                            <tr>
-                                <td>Martina On</td>
-                                <td>VALORANT Game Head</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <!-- Execs 2020-2021 End -->
-
-            <!-- Execs 2019-2020 -->
-            <div class="card bg-dark text-white mb-2 m-sm-2 mx-lg-2 mb-lg-4">
-                <img src="../../../images/logo.png" class="card-img-top px-1" alt="uOttawa Esports logo">
-                <div class="card-body px-0">
-                    <h2 class="card-title text-center mb-3 fs-4 fw-bold">2019-2020</h2>
-                    <table class="table table-dark table-striped table-bordered border-secondary mb-0">
-                        <thead>
-                            <tr>
-                                <th class="w-50" scope="col">Name</th>
-                                <th class="w-50" scope="col">Role</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Trent Schwartz</td>
-                                <td>Co-President</td>
-                            </tr>
-                            <tr>
-                                <td>Zack Goldstein</td>
-                                <td>Co-President</td>
-                            </tr>
-                            <tr>
-                                <td>Varis Gupta</td>
-                                <td>VP Finance</td>
-                            </tr>
-                            <tr>
-                                <td>Ben Stephenson</td>
-                                <td>VP Competitive</td>
-                            </tr>
-                            <tr>
-                                <td>Ryan Heffernan</td>
-                                <td>VP Events</td>
-                            </tr>
-                            <tr>
-                                <td>Martina On</td>
-                                <td>VP Internal/External</td>
-                            </tr>
-                            <tr>
-                                <td>Jaxon Murphy</td>
-                                <td>VP Social</td>
-                            </tr>
-                            <tr>
-                                <td>Luchhuman Gotame</td>
-                                <td>CS:GO Game Head</td>
-                            </tr>
-                            <tr>
-                                <td>Deschanel Li</td>
-                                <td>DOTA 2 Game Head</td>
-                            </tr>
-                            <tr>
-                                <td>Andrew Leblanc</td>
-                                <td>Hearthstone Game Head</td>
-                            </tr>
-                            <tr>
-                                <td>Ryan Adam</td>
-                                <td>Rainbow Six Siege Game Head</td>
-                            </tr>
-                            <tr>
-                                <td>Chris Mancini</td>
-                                <td>Super Smash Bros. Ultimate Game Head</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <!-- Execs 2019-2020 End -->
-
-            <!-- Execs 2018-2019 -->
-            <div class="card bg-dark text-white mb-2 m-sm-2 mx-lg-2 mb-lg-4">
-                <img src="../../../images/logo.png" class="card-img-top px-1" alt="uOttawa Esports logo">
-                <div class="card-body px-0">
-                    <h2 class="card-title text-center mb-3 fs-4 fw-bold">2018-2019</h2>
-                    <table class="table table-dark table-striped table-bordered border-secondary mb-0">
-                        <thead>
-                            <tr>
-                                <th class="w-50" scope="col">Name</th>
-                                <th class="w-50" scope="col">Role</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Jessica Rivers</td>
-                                <td>Founder/Co-President</td>
-                            </tr>
-                            <tr>
-                                <td>Trent Schwartz</td>
-                                <td>Co-President</td>
-                            </tr>
-                            <tr>
-                                <td>Jaxon Murphy</td>
-                                <td>VP Social</td>
-                            </tr>
-                            <tr>
-                                <td>Steven Au</td>
-                                <td>CS:GO Game Head</td>
-                            </tr>
-                            <tr>
-                                <td>Andrew Leblanc</td>
-                                <td>Hearthstone Game Head</td>
-                            </tr>
-                            <tr>
-                                <td>Chris Mancini</td>
-                                <td>Super Smash Bros. Ultimate Game Head</td>
-                            </tr>
-                            <tr>
-                                <td>Benoit Gagnier</td>
-                                <td>World of Warcraft Game Head</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <!-- Execs 2018-2019 End -->
-
-        </div>
+        <div id="content" class="row d-flex justify-content-evenly mb-2 mb-lg-0"></div>
     </div>
     <!-- Past Execs End-->
 
@@ -355,7 +145,7 @@
         crossorigin="anonymous"></script>
 
     <!-- External JavaScript -->
-    <script type="text/javascript" src="../../../scripts/past-execs.js"></script>
+    <script type="text/javascript" src="../../../scripts/execs/past.js"></script>
 
     <!-- External Footer JavaScript -->
     <script type="text/javascript" src="../../../scripts/footer.js"></script>

@@ -23,6 +23,7 @@
   <meta name="twitter:creator" content="@uOttawaEsports">
   <meta name="keywords"
     content="uOttawa Esports, uOttawa Esports Club, uOttawa Esports leaderboard, uOttawa gaming, uOttawa gaming club">
+  <meta name="google" content="notranslate">
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="../../images/logo-square.png" />
   <!-- Bootstrap 5.0.2 CSS -->
@@ -35,7 +36,7 @@
   <script src="https://kit.fontawesome.com/1eb2ce7a7c.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body onload="translate()">
   <!-- Navbar -->
   <nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top bg-maroon p-0">
     <div class="container-fluid">
@@ -128,12 +129,13 @@
 
       <!-- Leaderboard Information -->
       <div class="col-12 col-lg-6 bg-grey p-4 p-lg-5">
-        <h1 class="text-center pb-3 pb-lg-5">How do points work?</h1>
-        <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        <h1 id="1" class="text-center pb-3 pb-lg-5">How do points work?</h1>
+        <p id="2" class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut
           labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
           eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-          mollit anim id est laborum.</p> 
+          mollit anim id est laborum.</p>
       </div>
       <!-- Leaderboard Information End -->
 
@@ -145,7 +147,7 @@
           </thead>
           <tbody id="tableBody"></tbody>
         </table>
-        <p class="text-end mb-0"><span class="fw-bold">Last Updated:</span> August 23, 2021</p>
+        <p id="3" class="text-end mb-0"><span class="fw-bold">Last Updated:</span> August 23, 2021</p>
       </div>
       <!-- Leaderboard End -->
 

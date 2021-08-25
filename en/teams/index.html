@@ -23,6 +23,7 @@
   <meta name="twitter:creator" content="@uOttawaEsports">
   <meta name="keywords"
     content="uOttawa Esports, uOttawa Esports Club, uOttawa Esports teams, uOttawa gaming, uOttawa gaming club">
+  <meta name="google" content="notranslate">
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="../../images/logo-square.png" />
   <!-- Bootstrap 5.0.2 CSS -->
@@ -35,7 +36,7 @@
   <script src="https://kit.fontawesome.com/1eb2ce7a7c.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body onload="translate()">
   <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top bg-maroon p-0">
     <div class="container-fluid">
       <h1 class="navbar-brand fs-3 fw-bold m-0"><img src="../../images/logo-square.png" alt="uOttawa Esports logo"
@@ -163,14 +164,16 @@
               <h2 id="3" class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> Static#0063</h2>
               <div class="row">
                 <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button id="4" onclick="teams('csgo garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Garnet Team</button>
-                  <button id="5" onclick="teams('csgo grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Grey Team</button>
+                  <button id="4" onclick="teams('csgo garnet')"
+                    class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5" data-bs-toggle="modal"
+                    data-bs-target="#modal">Garnet Team</button>
+                  <button id="5" onclick="teams('csgo grey')"
+                    class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5" data-bs-toggle="modal"
+                    data-bs-target="#modal">Grey Team</button>
                 </div>
               </div>
             </div>
-            <div
+            <div id="6"
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
               <img src="../../images/teams/content/csgo.png" alt="CS:GO logo">
             </div>
@@ -183,23 +186,26 @@
 
           <div class="row">
             <div class="col-12 col-lg-9 p-3 p-lg-5">
-              <h1 id="6" class="fw-bold">DOTA 2</h1>
-              <p id="7" class="fs-5 mt-3 mt-lg-5">DOTA 2 is a multiplayer online battle arena (MOBA) video game in which two
+              <h1 id="7" class="fw-bold">DOTA 2</h1>
+              <p id="8" class="fs-5 mt-3 mt-lg-5">DOTA 2 is a multiplayer online battle arena (MOBA) video game in which
+                two
                 teams of five players compete to collectively destroy a large structure defended by the opposing team
                 known as the "Ancient", whilst defending their own. Ten players each control one of the game's 120+
                 playable characters, known as "heroes", with each having their own design, strengths, and weaknesses.
               </p>
-              <h2 id="8" class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> Hulasaur#0265</h2>
+              <h2 id="9" class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> Hulasaur#0265</h2>
               <div class="row">
                 <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button id="9" onclick="teams('dota2 garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Garnet Team</button>
-                  <button id="10" onclick="teams('dota2 grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Grey Team</button>
+                  <button id="10" onclick="teams('dota2 garnet')"
+                    class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5" data-bs-toggle="modal"
+                    data-bs-target="#modal">Garnet Team</button>
+                  <button id="11" onclick="teams('dota2 grey')"
+                    class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5" data-bs-toggle="modal"
+                    data-bs-target="#modal">Grey Team</button>
                 </div>
               </div>
             </div>
-            <div
+            <div id="12"
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
               <img src="../../images/teams/content/dota2.png" alt="DOTA 2 logo">
             </div>
@@ -212,25 +218,26 @@
 
           <div class="row">
             <div class="col-12 col-lg-9 p-3 p-lg-5">
-              <h1 id="11" class="fw-bold">League of Legends</h1>
-              <p id="12" class="fs-5 mt-3 mt-lg-5">League of Legends (commonly referred to as League) is multiplayer
+              <h1 id="13" class="fw-bold">League of Legends</h1>
+              <p id="14" class="fs-5 mt-3 mt-lg-5">League of Legends (commonly referred to as League) is multiplayer
                 online battle arena (MOBA) video game. In the game, two teams of
                 five players battle in player versus player combat, each team occupying and defending their half of the
                 map. Each of the 10 players controls one of the game's 150+ playable characters, known as a "champion",
                 with unique abilities and differing styles of play. In the game's main mode, Summoner's Rift, a team
                 wins by pushing through to the enemy base and destroying their "Nexus", a large structure located
                 within.</p>
-              <h2 id="13" class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> Narth#1623</h2>
+              <h2 id="15" class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> Narth#1623</h2>
               <div class="row">
-                <div id="14" class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
+                <div id="16" class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
                   <button onclick="teams('lol garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
                     data-bs-toggle="modal" data-bs-target="#modal">Garnet Team</button>
-                  <button id="15" onclick="teams('lol grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Grey Team</button>
+                  <button id="17" onclick="teams('lol grey')"
+                    class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5" data-bs-toggle="modal"
+                    data-bs-target="#modal">Grey Team</button>
                 </div>
               </div>
             </div>
-            <div
+            <div id="18"
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
               <img src="../../images/teams/content/lol.png" alt="League of Legends logo">
             </div>
@@ -243,22 +250,25 @@
 
           <div class="row">
             <div class="col-12 col-lg-9 p-3 p-lg-5">
-              <h1 id="16" class="fw-bold">Rainbow Six Siege</h1>
-              <p id="17" class="fs-5 mt-3 mt-lg-5">Tom Clancy's Rainbow Six Siege is an online tactical shooter video game. Each
+              <h1 id="19" class="fw-bold">Rainbow Six Siege</h1>
+              <p id="20" class="fs-5 mt-3 mt-lg-5">Tom Clancy's Rainbow Six Siege is an online tactical shooter video
+                game. Each
                 player assumes control of an attacker or a defender in different gameplay
                 modes such as rescuing a hostage, defusing a bomb, and taking control of an objective within a room.
               </p>
-              <h2 id="18" class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> Zander#6846</h2>
+              <h2 id="21" class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> Zander#6846</h2>
               <div class="row">
                 <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button id="19" onclick="teams('r6 garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Garnet Team</button>
-                  <button id="20" onclick="teams('r6 grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Grey Team</button>
+                  <button id="22" onclick="teams('r6 garnet')"
+                    class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5" data-bs-toggle="modal"
+                    data-bs-target="#modal">Garnet Team</button>
+                  <button id="23" onclick="teams('r6 grey')"
+                    class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5" data-bs-toggle="modal"
+                    data-bs-target="#modal">Grey Team</button>
                 </div>
               </div>
             </div>
-            <div
+            <div id="24"
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
               <img src="../../images/teams/content/r6.png" alt="Rainbox Six Siege logo">
             </div>
@@ -271,23 +281,27 @@
 
           <div class="row">
             <div class="col-12 col-lg-9 p-3 p-lg-5">
-              <h1 id="21" class="fw-bold">Rocket League</h1>
-              <p id="22" class="fs-5 mt-3 mt-lg-5">Rocket League is a vehicular soccer video game. Described as "soccer, but
+              <h1 id="25" class="fw-bold">Rocket League</h1>
+              <p id="26" class="fs-5 mt-3 mt-lg-5">Rocket League is a vehicular soccer video game. Described as "soccer,
+                but
                 with rocket-powered cars", Rocket League has up to eight players
                 assigned to each of the two teams, using rocket-powered vehicles to hit a ball into their opponent's
                 goal and score points over the course of a match.
               </p>
-              <h2 id="23" class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> fabienlef#5103</h2>
+              <h2 id="27" class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> fabienlef#5103
+              </h2>
               <div class="row">
                 <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button id="24" onclick="teams('rl garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Garnet Team</button>
-                  <button id="25" onclick="teams('rl grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Grey Team</button>
+                  <button id="28" onclick="teams('rl garnet')"
+                    class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5" data-bs-toggle="modal"
+                    data-bs-target="#modal">Garnet Team</button>
+                  <button id="29" onclick="teams('rl grey')"
+                    class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5" data-bs-toggle="modal"
+                    data-bs-target="#modal">Grey Team</button>
                 </div>
               </div>
             </div>
-            <div
+            <div id="30"
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
               <img src="../../images/teams/content/rl.png" alt="Rocket League logo">
             </div>
@@ -300,22 +314,25 @@
 
           <div class="row">
             <div class="col-12 col-lg-9 p-3 p-lg-5">
-              <h1 id="26" class="fw-bold">VALORANT</h1>
-              <p id="27" class="fs-5 mt-3 mt-lg-5">Valorant (stylized as VALORANT) is a free-to-play first-person hero shooter.
+              <h1 id="31" class="fw-bold">VALORANT</h1>
+              <p id="32" class="fs-5 mt-3 mt-lg-5">Valorant (stylized as VALORANT) is a free-to-play first-person hero
+                shooter.
                 Blend your style and experience on a global, competitive stage.
                 You have 13 rounds to attack and defend your side using sharp gunplay and tactical abilities. And, with
                 one life per-round, you'll need to think faster than your opponent if you want to survive.</p>
-              <h2 id="28" class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> onmarti#4347</h2>
+              <h2 id="33" class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> onmarti#4347</h2>
               <div class="row">
                 <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button id="29" onclick="teams('val garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Garnet Team</button>
-                  <button id="30" onclick="teams('val grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Grey Team</button>
+                  <button id="34" onclick="teams('val garnet')"
+                    class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5" data-bs-toggle="modal"
+                    data-bs-target="#modal">Garnet Team</button>
+                  <button id="35" onclick="teams('val grey')"
+                    class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5" data-bs-toggle="modal"
+                    data-bs-target="#modal">Grey Team</button>
                 </div>
               </div>
             </div>
-            <div
+            <div id="36"
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
               <img src="../../images/teams/content/val.png" alt="VALORANT logo">
             </div>
@@ -343,8 +360,8 @@
               <table class="table table-dark table-striped table-bordered border-secondary mb-0">
                 <thead>
                   <tr>
-                    <th id="31" class="text-start w-50" scope="col">Name</th>
-                    <th id="32" class="text-start w-50" scope="col">Position</th>
+                    <th id="37" class="text-start w-50" scope="col">Name</th>
+                    <th id="38" class="text-start w-50" scope="col">Position</th>
                   </tr>
                 </thead>
                 <tbody id="modalBody"></tbody>
@@ -363,7 +380,7 @@
   <!-- Information Button End -->
 
   <!-- Information -->
-  <div id="33" class="information fw-bold" style="display: none;">For more information on the teams uOttawa
+  <div id="39" class="information fw-bold" style="display: none;">For more information on the teams uOttawa
     Esports
     fields, as well as the leagues the teams play in, send us a message on <a href="https://discord.gg/uAbd5uRTCA"
       target="_blank">Discord</a> or through our <a href="/en/contact/" target="_blank">Contact Form</a>!

@@ -23,6 +23,7 @@
   <meta name="twitter:creator" content="@uOttawaEsports">
   <meta name="keywords"
     content="uOttawa Esports, club de uOttawa Esports, uOttawa Esports contact 2021-2022, uOttawa jeux, club de jeux uOttawa">
+  <meta name="google" content="notranslate">
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="../../images/logo-square.png" />
   <!-- Bootstrap 5.0.2 CSS -->
@@ -35,12 +36,13 @@
   <script src="https://kit.fontawesome.com/1eb2ce7a7c.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body onload="translate()">
   <!-- Navbar -->
   <nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top bg-maroon p-0">
     <div class="container-fluid">
       <h1 class="navbar-brand fs-3 fw-bold m-0"><img id="navbar-logo" src="../../images/logo-square.png"
-          alt="uOttawa Esports logo" width="60rem" height="60rem" class="d-inline-block align-text-middle me-1">uOttawa
+          alt="Logo de uOttawa Esports" width="60rem" height="60rem"
+          class="d-inline-block align-text-middle me-1">uOttawa
         Esports</h1>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger"
         aria-controls="hamburger" aria-expanded="false" aria-label="Toggle navigation">
@@ -116,7 +118,7 @@
           </li>
           <li class="nav-item ms-lg-4 mb-2 mb-lg-0 mt-3 mt-lg-0 mx-1">
             <a role="button" class="btn btn-dark nav-link fs-5 p-2" href="/en/contact/" rel="alternate" hreflang="en"><i
-                class="fas fa-globe"></i> Français</a>
+                class="fas fa-globe"></i> English</a>
           </li>
         </ul>
       </div>
@@ -132,87 +134,86 @@
           <div class="row d-flex align-items-center justify-content-center">
             <div class="col-12 col-lg-6">
               <div class="row text-center mt-2 fs-5">
-                <p>For urgent enquiries, reach out to us on our <a href="https://discord.gg/uAbd5uRTCA"
-                    target="_blank">Discord</a>.</p>
-                <p>Please allow up to five (5) business days for a response through our contact form.</p>
+                <p id="1"></p>
+                <p id="2"></p>
               </div>
-              <div class="row d-flex  justify-content-center">
-                <img src="../../images/logo.png" class="w-50 mt-2 mt-lg-3 mb-3" alt="uOttawa Esports logo">
+              <div class="row d-flex justify-content-center">
+                <img id="3" src="../../images/logo.png" class="w-50 mt-2 mt-lg-3 mb-3" alt="uOttawa Esports logo">
               </div>
             </div>
             <!-- Form -->
             <div class="col-12 col-lg-6">
-              <h1 class="text-center mb-3">Contact Form</h1>
-              <form id="contact-form" name="contact-en" method="POST" data-netlify="true" action="/en/contact/success/"
+              <h1 id="4" class="text-center mb-3"></h1>
+              <form id="contact-form" name="contact-en" method="POST" data-netlify="true" action="/fr/contact/succes/"
                 autocomplete="off">
                 <div class="row">
                   <div id="nameTooltip"
                     class="col-lg-6 col-sm-12 form-floating text-dark fw-bold mb-2 pe-0 pe-lg-1 ps-0"
                     data-bs-toggle="tooltip" data-bs-placement="left"
-                    title="Enter your name. This way, we can address you properly.">
-                    <input id="name" name="name" type="name" class="form-control" placeholder="Name"
+                    title="Entrez votre nom pour qu'on puisse vous adresser proprement.">
+                    <input id="name" name="nom" type="name" class="form-control" placeholder="Nom"
                       onfocusout="validateName(this)" required>
-                    <label id="nameLabel" for="name" class="ps-2 required">Name</label>
+                    <label id="nameLabel" for="nom" class="ps-2 required">Nom</label>
                   </div>
                   <div id="discordTooltip"
                     class="col-lg-6 col-sm-12 form-floating text-dark fw-bold mb-2 ps-0 ps-lg-1 pe-0"
-                    data-bs-toggle="tooltip" data-bs-placement="left" title="Enter your Discord username. (Optional)">
-                    <input id="discord" name="discord" type="text" class="form-control" placeholder="Last Name"
+                    data-bs-toggle="tooltip" data-bs-placement="left" title="Entrez votre nom d'utilisateur Discord. (Facultatif)">
+                    <input id="discord" name="discord" type="text" class="form-control" placeholder="Nom d'utilisateur Discord"
                       onfocusout="validateDiscord(this)">
-                    <label id="discordLabel" for="discord" class="ps-2 ps-lg-3">Discord&nbsp;Username</label>
+                    <label id="discordLabel" for="discord" class="ps-2 ps-lg-3">Nom&nbsp;d&rsquo;utilisateur&nbsp;Discord</label>
                   </div>
                 </div>
                 <div class="row">
                   <div id="emailTooltip" class="col-12 form-floating text-dark fw-bold mb-2 px-0"
                     data-bs-toggle="tooltip" data-bs-placement="left"
-                    title="Enter your email address. We will reply to your message through the provided email address.">
-                    <input id="email" name="email" type="email" class="form-control" placeholder="Email Address"
+                    title="Entrez votre courriel. Nous répondrons à votre message par l'intermédiaire du courriel fournie.">
+                    <input id="email" name="courriel" type="email" class="form-control" placeholder="Courriel"
                       onfocusout="validateEmail(this)" required>
-                    <label id="emailLabel" for="email" class="ps-2 required">Email Address</label>
+                    <label id="emailLabel" for="courriel" class="ps-2 required">Courriel</label>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-12 form-floating mb-2 px-0" data-bs-toggle="tooltip" data-bs-placement="left"
-                    title="Select the reason for why you're contacting us.">
-                    <label id="reasonLabel" for="reason"
-                      class="form-label mb-0 text-dark pt-0 ps-2 fw-bold required">Contact&nbsp;Reason</label>
-                    <select id="reason" name="reason" class="form-select pt-3" onfocusout="validateReason(this)"
+                    title="Sélectionnez le motif pour laquelle vous nous contactez.">
+                    <label id="reasonLabel" for="motif"
+                      class="form-label mb-0 text-dark pt-0 ps-2 fw-bold required">Motif&nbsp;de&nbsp;contact</label>
+                    <select id="reason" name="motif" class="form-select pt-3" onfocusout="validateReason(this)"
                       required>
-                      <option value selected disabled>Select one</option>
-                      <option value="Partnership/Sponsorship">Partnership/sponsorship</option>
-                      <option value="Club Question">Question regarding the club</option>
-                      <option value="Event Question">Question regarding an event</option>
-                      <option value="Game Question">Question regarding a game</option>
-                      <option value="Discord Help">Discord help</option>
-                      <option value="Other">Other</option>
+                      <option value selected disabled>Sélectionnez-en une</option>
+                      <option value="Partenariat/parrainage">Partenariat/parrainage</option>
+                      <option value="Question concernant le club">Question concernant le club</option>
+                      <option value="Question concernant un événement">Question concernant un événement</option>
+                      <option value="Question concernant un jeu">Question concernant un jeu</option>
+                      <option value="Aide sur Discord">Aide sur Discord</option>
+                      <option value="Autre">Autre</option>
                     </select>
                   </div>
                 </div>
                 <div class="row">
                   <div id="subjectTooltip" class="col-12 form-floating text-dark fw-bold mb-2 px-0"
-                    data-bs-toggle="tooltip" data-bs-placement="left" title="Enter the subject of your message.">
-                    <input id="subject" name="subject" type="text" class="form-control" placeholder="Subject"
+                    data-bs-toggle="tooltip" data-bs-placement="left" title="Entrez l'objet de votre message.">
+                    <input id="subject" name="objet" type="text" class="form-control" placeholder="Objet"
                       onfocusout="validateSubject(this)" required>
-                    <label id="subjectLabel" for="subject" class="ps-2 required">Subject</label>
+                    <label id="subjectLabel" for="objet" class="ps-2 required">Objet</label>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-12 mb-2 px-0" data-bs-toggle="tooltip" data-bs-placement="left"
-                    title="Enter the message you'd like to send us.">
+                    title="Entrez le message que vous souhaitez nous envoyer.">
                     <label for="message" class="form-label fw-bold required">Message</label>
                     <textarea id="message" name="message" class="form-control" onfocusout="validateMessage(this)"
-                      rows="6" maxlength="5000" placeholder="How can we make your day better?" required></textarea>
+                      rows="6" maxlength="5000" placeholder="Comment pouvons-nous améliorer votre journée ?" required></textarea>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-12 p-0">
-                    <span class="required"></span> Required
+                    <span class="required"></span> <span id="5"></span>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-12 mt-2 mb-1 text-center">
-                    <button class="btn btn-secondary bg-maroon fs-5 w-50" type="submit" style="border: 0;"
-                      onclick="validate()">Send Message</button>
+                    <button id="6" class="btn btn-secondary bg-maroon fs-5 w-50" type="submit" style="border: 0;"
+                      onclick="validate()"></button>
                   </div>
                 </div>
               </form>
@@ -235,6 +236,7 @@
     crossorigin="anonymous"></script>
 
   <!-- External JavaScript -->
+  <script type="text/javascript" src="../scripts/contact.js"></script>
   <script type="text/javascript" src="../../scripts/contact.js"></script>
 
   <!-- External Footer JavaScript -->

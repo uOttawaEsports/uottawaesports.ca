@@ -12,6 +12,7 @@
   <meta name="twitter:image"
     content="https://raw.githubusercontent.com/uOttawaEsports/uottawaesports.ca/main/images/meta.png">
   <meta http-equiv="refresh" content="10;url=https://www.uottawaesports.ca/fr/contact/" />
+  <meta name="google" content="notranslate">
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="../../../images/logo-square.png" />
   <!-- Bootstrap 5.0.2 CSS -->
@@ -23,16 +24,17 @@
   <script src="https://kit.fontawesome.com/1eb2ce7a7c.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body onload="translate()">
   <div class="container-fluid">
     <div class="card alert-success bg-sent text-center">
-      <h1 class="card-header fs-3">Message Sent!</h1>
+      <h1 id="1" class="card-header fs-3">Message Sent!</h1>
       <div class="card-body">
-        <p class="card-text">Thank you getting in touch with us! Please check your email for a transcript of your
+        <p id="2" class="card-text">Thank you getting in touch with us! Please check your email for a transcript of your
           message.</p>
-        <p class="card-text">You will be redirected to the website in <span id="countdowntimer">10</span> seconds.
+        <p id="3" class="card-text">You will be redirected to the website in <span id="countdowntimer">10</span>
+          seconds.
         </p>
-        <a href="/en/contact/" class="btn btn-dark"><i class="fas fa-undo-alt me-1"></i> Return to website</a>
+        <a id="4" href="/en/contact/" class="btn btn-dark"><i class="fas fa-undo-alt me-1"></i> Return to website</a>
       </div>
     </div>
   </div>
