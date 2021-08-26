@@ -51,7 +51,6 @@ function validateDiscord(input) {
     }
 }
 
-
 /* Validate Email */
 
 function validateEmail(input) {

@@ -36,7 +36,7 @@
   <script src="https://kit.fontawesome.com/1eb2ce7a7c.js" crossorigin="anonymous"></script>
 </head>
 
-<body onload="translate()">
+<body>
   <!-- Navbar -->
   <nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top bg-maroon p-0">
     <div class="container-fluid">
@@ -133,8 +133,8 @@
           <div class="row d-flex align-items-center justify-content-center">
             <div class="col-12 col-lg-6">
               <div class="row text-center mt-2 fs-5">
-                <p id="1"></p>
-                <p id="2"></p>
+                <p id="1">For urgent enquiries, reach out to us on our <a href="https://discord.gg/uAbd5uRTCA" target="_blank">Discord</a>.</p>
+                <p id="2">Please allow up to five (5) business days for a response through our contact form.</p>
               </div>
               <div class="row d-flex justify-content-center">
                 <img id="3" src="../../images/logo.png" class="w-50 mt-2 mt-lg-3 mb-3" alt="uOttawa Esports logo">
@@ -142,7 +142,7 @@
             </div>
             <!-- Form -->
             <div class="col-12 col-lg-6">
-              <h1 id="4" class="text-center mb-3"></h1>
+              <h1 id="4" class="text-center mb-3">Contact Form</h1>
               <form id="contact-form" name="contact-en" method="POST" data-netlify="true" action="/en/contact/success/"
                 autocomplete="off">
                 <div class="row">
@@ -205,12 +205,12 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-12 p-0"><span class="required"></span> <span id="5"></span></div>
+                  <div class="col-12 p-0"><span class="required"></span> Required</div>
                 </div>
                 <div class="row">
                   <div class="col-12 mt-2 mb-1 text-center">
                     <button id="6" class="btn btn-secondary bg-maroon fs-5 w-50" type="submit" style="border: 0;"
-                      onclick="validate()"></button>
+                      onclick="validate()">Send Message</button>
                   </div>
                 </div>
               </form>
@@ -234,7 +234,6 @@
 
   <!-- External JavaScript -->
   <script type="text/javascript" src="../scripts/contact.js"></script>
-  <script type="text/javascript" src="../../scripts/contact.js"></script>
 
   <!-- External Footer JavaScript -->
   <script type="text/javascript" src="../../../scripts/footer.js"></script>
