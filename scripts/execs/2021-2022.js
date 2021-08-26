@@ -29,7 +29,7 @@ let execs = {
         year: "2nd Year",
         game: "Rainbow Six Siege, NHL, FIFA, Call of Duty",
         desc: "I'm Alex, and I've been part of the exec team for over a year now and also played on the R6 A team during my first year.",
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/alex-lisitsas.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Andrew Leblanc": {
         name: "Andrew Leblanc",
@@ -170,7 +170,7 @@ let execs = {
         year: "3rd Year",
         game: "Rainbow Six Siege, Dishonored",
         desc: "I'm Griffin, and I've been the Game Head for R6 since 2020, and the IGL of the Garnet (A) team since 2019.",
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/griffin-taylor.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/griffin-taylor.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Fabien Lefebvre": {
         name: "Fabien Lefebvre",
