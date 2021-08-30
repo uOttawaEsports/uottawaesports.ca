@@ -71,7 +71,7 @@ sorted.forEach(personObj => {
 
             th = document.createElement("th");
             th.scope = "col";
-            th.innerHTML = "Name";
+            th.innerHTML = window.location.href.includes("/en") ? "Name" : "Nom";
             th.className = "w-50";
             tr.appendChild(th);
 
