@@ -1,45 +1,83 @@
 const modals = {
+    "cod garnet": {
+        title : ["Call of Duty Garnet Team", "Équipe Garnet de Call of Duty"],
+        background: "#800020",
+        members: {}
+    },
+    "cod grey": {
+        title: ["Call of Duty Grey Team", "Équipe Grey de Call of Duty"],
+        background: "#303031",
+        members: {}
+    },
     "csgo garnet": {
         title : ["CS:GO Garnet Team", "Équipe Garnet de CS:GO"],
         background: "#800020",
-        members: {
-
-        }
+        members: {}
     },
     "csgo grey": {
         title: ["CS:GO Grey Team", "Équipe Grey de CS:GO"],
         background: "#303031",
-        members: {
-
-        }
+        members: {}
     },
-    "dota2 garnet": {
+    "dota 2 garnet": {
         title: ["DOTA 2 Garnet Team", "Équipe Garnet de DOTA 2"],
         background: "#800020",
-        members: {
-
-        }
+        members: {}
     },
-    "dota2 grey": {
+    "dota 2 grey": {
         title: ["DOTA 2 Grey Team", "Équipe Grey de DOTA 2"],
         background: "#303031",
-        members: {
-
-        }
+        members: {}
+    },
+    "fortnite garnet": {
+        title : ["Fortnite Garnet Team", "Équipe Garnet de Fortnite"],
+        background: "#800020",
+        members: {}
+    },
+    "fortnite grey": {
+        title: ["Fortnite Grey Team", "Équipe Grey de Fortnite"],
+        background: "#303031",
+        members: {}
+    },
+    "hs garnet": {
+        title : ["Hearthstone Garnet Team", "Équipe Garnet de Hearthstone"],
+        background: "#800020",
+        members: {}
+    },
+    "hs grey": {
+        title: ["Hearthstone Grey Team", "Équipe Grey de Hearthstone"],
+        background: "#303031",
+        members: {}
     },
     "lol garnet": {
         title: ["League of Legends Garnet Team", "Équipe Garnet de League of Legends"],
         background: "#800020",
-        members: {
-
-        }
+        members: {}
     },
     "lol grey": {
         title: ["League of Legends Grey Team", "Équipe Grey de League of Legends"],
         background: "#303031",
-        members: {
-
-        }
+        members: {}
+    },
+    "osu garnet": {
+        title : ["osu! Garnet Team", "Équipe Garnet de osu!"],
+        background: "#800020",
+        members: {}
+    },
+    "osu grey": {
+        title: ["osu! Grey Team", "Équipe Grey de osu!"],
+        background: "#303031",
+        members: {}
+    },
+    "ow garnet": {
+        title : ["Overwatch Garnet Team", "Équipe Garnet de Overwatch"],
+        background: "#800020",
+        members: {}
+    },
+    "ow grey": {
+        title: ["Overwatch Grey Team", "Équipe Grey de Overwatch"],
+        background: "#303031",
+        members: {}
     },
     "r6 garnet": {
         title: ["Rainbow Six Siege Garnet Team", "Équipe Garnet de Rainbow Six Siege"],
@@ -70,16 +108,22 @@ const modals = {
     "rl garnet": {
         title: ["Rocket League Garnet Team", "Équipe Garnet de Rocket League"],
         background: "#800020",
-        members: {
-
-        }
+        members: {}
     },
     "rl grey": {
         title: ["Rocket League Grey Team", "Équipe Grey de Rocket League"],
         background: "#303031",
-        members: {
-
-        }
+        members: {}
+    },
+    "ssbu garnet": {
+        title: ["Super Smash Bros. Ultimate Garnet Team", "Équipe Garnet de Super Smash Bros. Ultimate"],
+        background: "#800020",
+        members: {}
+    },
+    "ssbu grey": {
+        title: ["Super Smash Bros. Ultimate Grey Team", "Équipe Grey de Super Smash Bros. Ultimate"],
+        background: "#303031",
+        members: {}
     },
     "val garnet": {
         title: ["VALORANT Garnet Team", "Équipe Garnet de VALORANT"],

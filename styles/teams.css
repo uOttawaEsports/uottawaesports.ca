@@ -33,6 +33,14 @@
 
 /* Button backgrounds */
 
+#cod-bg {
+    background-image: url(../images/teams/buttons/cod-bg.png);
+}
+
+#csgo-bg {
+    background-image: url(../images/teams/buttons/csgo-bg.png);
+}
+
 #csgo-bg {
     background-image: url(../images/teams/buttons/csgo-bg.png);
 }
@@ -41,8 +49,24 @@
     background-image: url(../images/teams/buttons/dota2-bg.png);
 }
 
+#fortnite-bg {
+    background-image: url(../images/teams/buttons/fortnite-bg.png);
+}
+
+#hs-bg {
+    background-image: url(../images/teams/buttons/hs-bg.png);
+}
+
 #lol-bg {
     background-image: url(../images/teams/buttons/lol-bg.png);
+}
+
+#osu-bg {
+    background-image: url(../images/teams/buttons/osu-bg.png);
+}
+
+#ow-bg {
+    background-image: url(../images/teams/buttons/ow-bg.png);
 }
 
 #r6-bg {
@@ -53,11 +77,24 @@
     background-image: url(../images/teams/buttons/rl-bg.png);
 }
 
+#ssbu-bg {
+    background-image: url(../images/teams/buttons/ssbu-bg.png);
+}
+
 #val-bg {
     background-image: url(../images/teams/buttons/val-bg.png);
 }
 
 /* Content backgrounds */
+
+#call-of-duty {
+    scroll-margin-top: 4.375rem;
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/cod-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
 
 #csgo {
     scroll-margin-top: 4.375rem;
@@ -77,9 +114,45 @@
     background-position-y: 50%;
 }
 
+#fortnite {
+    scroll-margin-top: 4.375rem;
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/fortnite-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+#hearthstone {
+    scroll-margin-top: 4.375rem;
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/hs-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
 #league-of-legends {
     scroll-margin-top: 4.375rem;
     background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/lol-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+#osu {
+    scroll-margin-top: 4.375rem;
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/osu-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 0%;
+    background-position-y: 0%;
+}
+
+#overwatch {
+    scroll-margin-top: 4.375rem;
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/ow-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
@@ -98,6 +171,15 @@
 #rocket-league {
     scroll-margin-top: 4.375rem;
     background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/rl-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+#smash-ultimate {
+    scroll-margin-top: 4.375rem;
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/ssbu-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;

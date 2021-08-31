@@ -88,7 +88,7 @@
             <ul class="dropdown-menu text-center" aria-labelledby="moreDropdown">
               <li><a class="dropdown-item text-white" href="/en/documents/constitution.pdf" target="_blank"><i
                     class="fas fa-university me-1"></i> Constitution</a></li>
-              <li><a class="dropdown-item disabled" href="/en/gallery/"><i class="fas fa-images me-1"></i>
+              <li><a class="dropdown-item text-white" href="/en/gallery/"><i class="fas fa-images me-1"></i>
                   Gallery</a></li>
               <li>
                 <hr class="dropdown-divider">
@@ -124,31 +124,74 @@
   <!-- Main Content -->
   <div class="container-fluid p-0">
     <div class="row">
+
       <!-- Teams Navigation -->
-      <div id="teams-navigation" class="col-lg-3 bg-dark sticky-top text-white">
+      <div id="teams-navigation" class="col-lg-2 bg-dark sticky-top text-white">
         <div id="nav-sticky" class="px-3 d-flex flex-column justify-content-center align-items-center"
           style="padding-top: 4.375rem;">
+          <a id="cod-bg" href="#call-of-duty" title="Call of Duty" class="my-2 py-1 hover-button text-center"><img
+              src="../../images/teams/buttons/cod.png" alt="Call of Duty"></a>
           <a id="csgo-bg" href="#csgo" title="Counter-Strike: Global Offensive"
-            class="my-4 py-1 hover-button text-center"><img src="../../images/teams/buttons/csgo.png"
+            class="mb-2 py-1 hover-button text-center"><img src="../../images/teams/buttons/csgo.png"
               alt="Counter-Strike: Global Offensive"></a>
-          <a id="dota2-bg" href="#dota2" title="DOTA 2" class="mb-4 py-1 hover-button text-center"><img
+          <a id="dota2-bg" href="#dota-2" title="DOTA 2" class="mb-2 py-1 hover-button text-center"><img
               src="../../images/teams/buttons/dota2.png" alt="DOTA 2"></a>
+          <a id="fortnite-bg" href="#fortnite" title="Fortnite" class="mb-2 py-1 hover-button text-center"><img
+              src="../../images/teams/buttons/fortnite.png" alt="Fortnite"></a>
+          <a id="hs-bg" href="#hearthstone" title="Hearthstone" class="mb-2 py-1 hover-button text-center"><img
+              src="../../images/teams/buttons/hs.png" alt="Hearthstone"></a>
           <a id="lol-bg" href="#league-of-legends" title="League of Legends"
-            class="mb-4 py-1 hover-button text-center"><img src="../../images/teams/buttons/lol.png"
+            class="mb-2 py-1 hover-button text-center"><img src="../../images/teams/buttons/lol.png"
               alt="League of Legends"></a>
+          <a id="osu-bg" href="#osu" title="osu!" class="mb-2 py-1 hover-button text-center"><img
+              src="../../images/teams/buttons/osu.png" alt="osu!"></a>
+          <a id="ow-bg" href="#overwatch" title="Overwatch" class="mb-2 py-1 hover-button text-center"><img
+              src="../../images/teams/buttons/ow.png" alt="Overwatch"></a>
           <a id="r6-bg" href="#rainbow-six-siege" title="Rainbox Six Siege"
-            class="mb-4 py-1 hover-button text-center"><img src="../../images/teams/buttons/r6.png"
+            class="mb-2 py-1 hover-button text-center"><img src="../../images/teams/buttons/r6.png"
               alt="Rainbow Six Siege"></a>
-          <a id="rl-bg" href="#rocket-league" title="Rocket League" class="mb-4 py-1 hover-button text-center"><img
+          <a id="rl-bg" href="#rocket-league" title="Rocket League" class="mb-2 py-1 hover-button text-center"><img
               src="../../images/teams/buttons/rl.png" alt="Rocket League"></a>
-          <a id="val-bg" href="#valorant" title="VALORANT" class="mb-4 py-1 hover-button text-center"><img
+          <a id="ssbu-bg" href="#smash-ultimate" title="Super Smash Bros. Ultimate"
+            class="mb-2 py-1 hover-button text-center"><img src="../../images/teams/buttons/ssbu.png"
+              alt="Super Smash Bros. Ultimate"></a>
+          <a id="val-bg" href="#valorant" title="VALORANT" class="mb-2 py-1 hover-button text-center"><img
               src="../../images/teams/buttons/val.png" alt="VALORANT"></a>
         </div>
       </div>
       <!-- Teams Navigation End -->
 
+      <!-- Do not delete any games. Simply comment them out in case they're needed in the future. -->
       <!-- Teams Content -->
-      <div id="teams-content" class="col-12 col-lg-9 px-0 text-white" style="padding-top: 4.375rem;">
+      <div id="teams-content" class="col-12 col-lg-10 px-0 text-white" style="padding-top: 4.375rem;">
+
+        <!-- Call of Duty -->
+        <div id="call-of-duty" class="row team-bg">
+          <div class="row">
+            <div class="col-12 col-lg-9 p-3 p-lg-5">
+              <h1 class="fw-bold">Call of Duty</h1>
+              <p class="fs-5 mt-3 mt-lg-5">Call of Duty is a first-person shooter video game franchise. The next chapter
+                of the iconic Black Ops experience is Call of Duty Black Ops Cold War, defined by signature combat,
+                deniable operations, and a connected experience across platforms and generations.</p>
+              <h2 class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> Lego#2121</h2>
+              <!--
+              <div class="row">
+                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
+                  <button onclick="teams('cod garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
+                    data-bs-toggle="modal" data-bs-target="#modal">Garnet Team</button>
+                  <button onclick="teams('cod grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
+                    data-bs-toggle="modal" data-bs-target="#modal">Grey Team</button>
+                </div>
+              </div>
+            -->
+            </div>
+            <div
+              class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
+              <img src="../../images/teams/content/cod.png" alt="Call of Duty logo">
+            </div>
+          </div>
+        </div>
+        <!-- Call of Duty End -->
 
         <!-- CS:GO -->
         <div id="csgo" class="row team-bg">
@@ -162,6 +205,7 @@
                 Terrorists and the Counter-Terrorists, compete in game modes to repeatedly complete objectives, such as
                 securing a location to plant or defuse a bomb and rescuing or capturing hostages.</p>
               <h2 class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> Static#0063</h2>
+              <!--
               <div class="row">
                 <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
                   <button onclick="teams('csgo garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
@@ -170,6 +214,7 @@
                     data-bs-toggle="modal" data-bs-target="#modal">Grey Team</button>
                 </div>
               </div>
+            -->
             </div>
             <div
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
@@ -180,7 +225,7 @@
         <!-- CS:GO End -->
 
         <!-- DOTA 2 -->
-        <div id="dota2" class="row team-bg">
+        <div id="dota-2" class="row team-bg">
 
           <div class="row">
             <div class="col-12 col-lg-9 p-3 p-lg-5">
@@ -192,14 +237,16 @@
                 playable characters, known as "heroes", with each having their own design, strengths, and weaknesses.
               </p>
               <h2 class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> Hulasaur#0265</h2>
+              <!--
               <div class="row">
                 <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button onclick="teams('dota2 garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
+                  <button onclick="teams('dota 2 garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
                     data-bs-toggle="modal" data-bs-target="#modal">Garnet Team</button>
-                  <button onclick="teams('dota2 grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
+                  <button onclick="teams('dota 2 grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
                     data-bs-toggle="modal" data-bs-target="#modal">Grey Team</button>
                 </div>
               </div>
+            -->
             </div>
             <div
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
@@ -208,6 +255,68 @@
           </div>
         </div>
         <!-- DOTA 2 End -->
+
+        <!-- Fortnite -->
+        <div id="fortnite" class="row team-bg">
+
+          <div class="row">
+            <div class="col-12 col-lg-9 p-3 p-lg-5">
+              <h1 class="fw-bold">Fortnite</h1>
+              <p class="fs-5 mt-3 mt-lg-5">Fortnite is a free-to-play battle royale game where 100 players fight against
+                each other in player versus player combat to be the last one standing. It is a fast-paced, action-packed
+                game, where strategic thinking is a must in order to survive.
+              </p>
+              <h2 class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> Nuage#0954</h2>
+              <!--
+              <div class="row">
+                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
+                  <button onclick="teams('fortnite garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
+                    data-bs-toggle="modal" data-bs-target="#modal">Garnet Team</button>
+                  <button onclick="teams('fortnite grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
+                    data-bs-toggle="modal" data-bs-target="#modal">Grey Team</button>
+                </div>
+              </div>
+            -->
+            </div>
+            <div
+              class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
+              <img src="../../images/teams/content/fortnite.png" alt="Fortnite logo">
+            </div>
+          </div>
+        </div>
+        <!-- Fortnite End -->
+
+        <!-- Hearthstone -->
+        <div id="hearthstone" class="row team-bg">
+
+          <div class="row">
+            <div class="col-12 col-lg-9 p-3 p-lg-5">
+              <h1 class="fw-bold">Hearthstone</h1>
+              <p class="fs-5 mt-3 mt-lg-5">Hearthstone is a free-to-play online digital collectible card game.
+                Hearthstone builds upon the existing lore of the Warcraft series by using the same elements, characters,
+                and relics. The game is a turn-based card game between two opponents, using constructed decks of 30
+                cards along with a selected hero with a unique power. Players use their limited mana crystals to play
+                abilities or summon minions to attack the opponent, with the goal of destroying the opponent's hero.
+              </p>
+              <!-- 
+                <h2 class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> </h2>
+              <div class="row">
+                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
+                  <button onclick="teams('hs garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
+                    data-bs-toggle="modal" data-bs-target="#modal">Garnet Team</button>
+                  <button onclick="teams('hs grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
+                    data-bs-toggle="modal" data-bs-target="#modal">Grey Team</button>
+                </div>
+              </div>
+            -->
+            </div>
+            <div
+              class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
+              <img src="../../images/teams/content/hs.png" alt="Hearthstone logo">
+            </div>
+          </div>
+        </div>
+        <!-- Hearthstone End -->
 
         <!-- League of Legends -->
         <div id="league-of-legends" class="row team-bg">
@@ -223,6 +332,7 @@
                 wins by pushing through to the enemy base and destroying their "Nexus", a large structure located
                 within.</p>
               <h2 class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> Narth#1623</h2>
+              <!--
               <div class="row">
                 <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
                   <button onclick="teams('lol garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
@@ -231,6 +341,7 @@
                     data-bs-toggle="modal" data-bs-target="#modal">Grey Team</button>
                 </div>
               </div>
+            -->
             </div>
             <div
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
@@ -239,6 +350,68 @@
           </div>
         </div>
         <!-- League of Legends End -->
+
+        <!-- osu! -->
+        <div id="osu" class="row team-bg">
+
+          <div class="row">
+            <div class="col-12 col-lg-9 p-3 p-lg-5">
+              <h1 class="fw-bold">osu!</h1>
+              <p class="fs-5 mt-3 mt-lg-5">osu! is a free-to-play rhythm game. Game levels are called beatmaps. In each
+                beatmap, a song will play and different Beats hit elements (hit circles, sliders and spinners) will
+                appear on the play field. Players must use a pointing device to manipulate these elements in time with
+                the playing song's rhythm in order to earn points.
+              </p>
+              <h2 class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> Fulserish#3239</h2>
+              <!--
+              <div class="row">
+                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
+                  <button onclick="teams('osu garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
+                    data-bs-toggle="modal" data-bs-target="#modal">Garnet Team</button>
+                  <button onclick="teams('osu grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
+                    data-bs-toggle="modal" data-bs-target="#modal">Grey Team</button>
+                </div>
+              </div>
+            -->
+            </div>
+            <div
+              class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
+              <img src="../../images/teams/content/osu.png" alt="osu! logo">
+            </div>
+          </div>
+        </div>
+        <!-- osu! End -->
+
+        <!-- Overwatch -->
+        <div id="overwatch" class="row team-bg">
+
+          <div class="row">
+            <div class="col-12 col-lg-9 p-3 p-lg-5">
+              <h1 class="fw-bold">Overwatch</h1>
+              <p class="fs-5 mt-3 mt-lg-5">Overwatch is a team-based multiplayer first-person shooter game. Described as
+                a "hero shooter", Overwatch assigns players into two teams of six, with each player selecting from a
+                large roster of characters, known as "heroes", with unique abilities. Teams work to complete
+                map-specific objectives within a limited period of time.
+              </p>
+              <h2 class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> Lamortdeboo#7218</h2>
+              <!--
+              <div class="row">
+                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
+                  <button onclick="teams('ow garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
+                    data-bs-toggle="modal" data-bs-target="#modal">Garnet Team</button>
+                  <button onclick="teams('ow grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
+                    data-bs-toggle="modal" data-bs-target="#modal">Grey Team</button>
+                </div>
+              </div>
+            -->
+            </div>
+            <div
+              class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
+              <img src="../../images/teams/content/ow.png" alt="Overwatch logo">
+            </div>
+          </div>
+        </div>
+        <!-- Overwatch End -->
 
         <!-- Rainbow Six Siege -->
         <div id="rainbow-six-siege" class="row team-bg">
@@ -283,6 +456,7 @@
               </p>
               <h2 class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> fabienlef#5103
               </h2>
+              <!--
               <div class="row">
                 <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
                   <button onclick="teams('rl garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
@@ -291,6 +465,7 @@
                     data-bs-toggle="modal" data-bs-target="#modal">Grey Team</button>
                 </div>
               </div>
+            -->
             </div>
             <div
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
@@ -300,6 +475,38 @@
         </div>
         <!-- Rocket League End -->
 
+        <!-- Super Smash Bros. Ultimate -->
+        <div id="smash-ultimate" class="row team-bg">
+
+          <div class="row">
+            <div class="col-12 col-lg-9 p-3 p-lg-5">
+              <h1 class="fw-bold">Super Smash Bros. Ultimate</h1>
+              <p class="fs-5 mt-3 mt-lg-5">Super Smash Bros. Ultimate is a crossover fighting game. The game follows the series' traditional style of gameplay:
+                controlling one of the various characters, players must use differing attacks to weaken their opponents
+                and knock them out of an arena. Ultimate features over 80 playable fighters, including everyone from all
+                previous Super Smash Bros. games alongside several newcomers.
+              </p>
+              <h2 class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> Tai#0391
+              </h2>
+              <!--
+              <div class="row">
+                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
+                  <button onclick="teams('ssbu garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
+                    data-bs-toggle="modal" data-bs-target="#modal">Garnet Team</button>
+                  <button onclick="teams('ssbu grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
+                    data-bs-toggle="modal" data-bs-target="#modal">Grey Team</button>
+                </div>
+              </div>
+            -->
+            </div>
+            <div
+              class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
+              <img src="../../images/teams/content/ssbu.png" alt="Super Smash Bros. Ultimate logo">
+            </div>
+          </div>
+        </div>
+        <!-- Super Smash Bros. Ultimate End -->
+
         <!-- VALORANT -->
         <div id="valorant" class="row team-bg">
 
@@ -307,7 +514,7 @@
             <div class="col-12 col-lg-9 p-3 p-lg-5">
               <h1 class="fw-bold">VALORANT</h1>
               <p class="fs-5 mt-3 mt-lg-5">VALORANT is a free-to-play first-person hero
-                shooter. 
+                shooter.
                 You have 13 rounds to attack and defend your side using sharp gunplay and tactical abilities. And, with
                 one life per-round, you'll need to think faster than your opponent if you want to survive.</p>
               <h2 class="fs-4 text-end fw-bold">Game Head: <i class="fab fa-discord ms-1"></i> onmarti#4347</h2>
@@ -339,7 +546,7 @@
     <div class="modal-dialog modal-dialog-centered">
       <div id="modalBackground" class="modal-content text-white">
         <div class="modal-header">
-          <h2 id="modalTitle" class="modal-title fs-4 fw-bold"></h2>
+          <h2 id="modalTitle" class="modal-title fs-4 fw-bold">PLACEHOLDER</h2>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">

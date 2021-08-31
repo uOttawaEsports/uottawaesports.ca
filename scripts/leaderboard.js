@@ -25,6 +25,9 @@ let execs = { // keys are unique IDs
     }
 }
 
+let date = ["August 23, 2021", "Le 23 août 2021"];
+document.getElementById("date").innerHTML = window.location.href.includes("/en") ? date[0] : date[1];
+
 let sorted = Object.keys(execs).sort((a, b) => { return execs[b].pts - execs[a].pts }); // sorts the keys of the execs object and stores them into an array
 
 let pos = 1;
