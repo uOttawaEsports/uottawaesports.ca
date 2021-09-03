@@ -6,7 +6,7 @@ let pastExecs = {
         image: "../../../images/logo.png",
         people: {
             "Jessica Rivers": ["Founder/Co-President", "Fondatrice/Co-Présidente"],
-            "Trent Schwartz": [["Co-President", "Co-Président"], "Co-Président"],
+            "Trent Schwartz": ["Co-President", "Co-Président"],
             "Jaxon Murphy": ["VP Social", "VP Social"],
             "Steven Au": ["CS:GO Game Head", "Chef de jeu de CS:GO"],
             "Andrew Leblanc": ["Hearthstone Game Head", "Chef de jeu de Hearthstone"],
