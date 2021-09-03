@@ -1,6 +1,3 @@
-// for every additional role an exec has, add a space to the end of their name
-// take a look at 2020-2021 with Martina On, for example
-
 let pastExecs = {
     "2018-2019": {
         image: "../../../images/logo.png",
@@ -41,7 +38,7 @@ let pastExecs = {
             "Calvin Koehl": ["VP Events", "VP Événements"],
             "Alex Lisitsas": ["VP Internal", "VP Interne"],
             "Ben Gabriel": ["VP External", "VP Externe"],
-            "Martina On": ["VP Social", "VP Social"],
+            "Martina On": ["VP Social/VALORANT Game Head", "VP Social/Chef de jeu de VALORANT"],
             "Jean-Felix Milette": ["Call of Duty Game Head", "Chef de jeu de Call of Duty"],
             "Bora Basar": ["CS:GO Game Head", "Chef de jeu de CS:GO"],
             "Peter Karpov": ["DOTA 2 Game Head", "Chef de jeu de DOTA 2"],
@@ -51,8 +48,7 @@ let pastExecs = {
             "Griffin Taylor": ["Rainbow Six Siege Game Head", "Chef de jeu de Rainbow Six Siege"],
             "Jean-Daniel Proulx": ["Rocket League Game Head", "Chef de jeu de Rocket League"],
             "Simon Lamontagne": ["Starcraft 2 Game Head", "Chef de jeu de Starcraft 2"],
-            "Tyler Lindsay": ["Super Smash Bros. Ultimate Game Head", "Chef de jeu de Super Smash Bros. Ultimate"],
-            "Martina On ": ["VALORANT Game Head", "Chef de jeu de VALORANT"]
+            "Tyler Lindsay": ["Super Smash Bros. Ultimate Game Head", "Chef de jeu de Super Smash Bros. Ultimate"]
         }
     }
 }
