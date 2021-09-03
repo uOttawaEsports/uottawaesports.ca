@@ -2,7 +2,7 @@ let pastExecs = {
     "2018-2019": {
         image: "../../../images/logo.png",
         people: {
-            "Jessica Rivers": ["Founder/Co-President", "Fondatrice/Co-Présidente"],
+            "Jessica Rivers": ["Founder & Co-President", "Fondatrice & Co-Présidente"],
             "Trent Schwartz": ["Co-President", "Co-Président"],
             "Jaxon Murphy": ["VP Social", "VP Social"],
             "Steven Au": ["CS:GO Game Head", "Chef de jeu de CS:GO"],
@@ -19,7 +19,7 @@ let pastExecs = {
             "Varis Gupta" : ["VP Finance", "VP Finances"],
             "Ben Stephenson" : ["VP Competitive", "VP Compétitif"],
             "Ryan Heffernan" : ["VP Events", "VP Événements"],
-            "Martina On" : ["VP Internal/External", "VP Interne/Externe"],
+            "Martina On" : ["VP Internal & VP External", "VP Interne & VP Externe"],
             "Jaxon Murphy" : ["VP Social", "VP Social"],
             "Luchhuman Gotame" : ["CS:GO Game Head", "Chef de jeu de CS:GO"],
             "Deschanel Li" : ["DOTA 2 Game Head", "Chef de jeu de DOTA 2"],
@@ -38,7 +38,7 @@ let pastExecs = {
             "Calvin Koehl": ["VP Events", "VP Événements"],
             "Alex Lisitsas": ["VP Internal", "VP Interne"],
             "Ben Gabriel": ["VP External", "VP Externe"],
-            "Martina On": ["VP Social/VALORANT Game Head", "VP Social/Chef de jeu de VALORANT"],
+            "Martina On": ["VP Social & VALORANT Game Head", "VP Social & Chef de jeu de VALORANT"],
             "Jean-Felix Milette": ["Call of Duty Game Head", "Chef de jeu de Call of Duty"],
             "Bora Basar": ["CS:GO Game Head", "Chef de jeu de CS:GO"],
             "Peter Karpov": ["DOTA 2 Game Head", "Chef de jeu de DOTA 2"],
