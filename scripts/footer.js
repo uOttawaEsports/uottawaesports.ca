@@ -26,4 +26,12 @@ function includeHTML() {
             return;
         }
     }
+
+    let isEnglish = window.location.href.includes("/en");
+
+    if (isEnglish) {
+        document.getElementById("footer-content").innerHTML = 'Proud club of <a class="text-white" href="https://www.cvuo.ca/home/" target="_blank">CVUO</a><br />&copy; uOttawa Esports 2021';
+    } else {
+        document.getElementById("footer-content").innerHTML = 'Un club fier du <a class="text-white" href="https://www.cvuo.ca/accueil/" target="_blank">CVUO</a><br />&copy; uOttawa Esports 2021';
+    }
 }
