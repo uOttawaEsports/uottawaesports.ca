@@ -2,7 +2,14 @@ const modals = {
     "cod garnet": {
         title : ["Call of Duty Garnet Team", "Équipe Garnet de Call of Duty"],
         background: "#800020",
-        members: {}
+        members: {
+            "corey camirand": ["Captain/Main Roster", "Capitaine/Liste principale"],
+            "cam19mac": ["Main Roster", "Liste principale"],
+            "Goonski": ["Main Roster", "Liste principale"],
+            "hishash": ["Main Roster", "Liste principale"],
+            "Nacho": ["Main Roster", "Liste principale"],
+            "Lego": ["Substitute", "Remplaçant"]
+        }
     },
     "cod grey": {
         title: ["Call of Duty Grey Team", "Équipe Grey de Call of Duty"],
@@ -12,7 +19,14 @@ const modals = {
     "csgo garnet": {
         title : ["CS:GO Garnet Team", "Équipe Garnet de CS:GO"],
         background: "#800020",
-        members: {}
+        members: {
+            "mtuckster": ["Captain/Main Roster", "Capitaine/Liste principale"],
+            "Tense": ["Main Roster", "Liste principale"],
+            "Rebow": ["Main Roster", "Liste principale"],
+            "baca": ["Main Roster", "Liste principale"],
+            "Lego": ["Main Roster", "Liste principale"],
+            "Wyndz": ["Substitute", "Remplaçant"]
+        }
     },
     "csgo grey": {
         title: ["CS:GO Grey Team", "Équipe Grey de CS:GO"],
