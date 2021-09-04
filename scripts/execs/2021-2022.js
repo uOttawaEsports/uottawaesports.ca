@@ -84,12 +84,12 @@ let execs = {
     /* Game Heads */
     "Owen Stafford": {
         name: "Owen Stafford",
-        image: "../../../images/execs/placeholder.png",
+        image: "../../../images/execs/2021-2022/owen-stafford.png",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Call of Duty", "<span class='fw-bold'>Chef de jeu</span> <br /> Call of Duty"],
-        prog: ["", ""],
-        year: ["", ""],
-        game: "",
-        desc: ["", ""],
+        prog: ["Computer Science", "Informatique"],
+        year: ["1st Year", "1er année"],
+        game: "Counter-Strike, Call of Duty",
+        desc: ["Hey I'm Owen, I grew up in Montreal and moved here a few years ago, so if you need someone who speaks French, let me know &#128578; I just started at uOttawa and look forward to meeting anyone in the club!", "Je m'appelle Owen, j'ai grandi à Montréal et j'ai déménagé ici il y a quelques années, alors si vous avez besoin de quelqu'un qui parle français, faites-moi savoir &#128578; Je viens de commencer à l'Université d'Ottawa et j'ai hâte de rencontrer tous les membres du club&nbsp;!"],
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Bora Basar": {
