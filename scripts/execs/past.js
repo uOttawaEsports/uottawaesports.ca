@@ -14,18 +14,18 @@ let pastExecs = {
     "2019-2020": {
         image: "../../../images/logo.png",
         people: {
-            "Trent Schwartz" : ["Co-President", "Co-Président"],
-            "Zack Goldstein" : ["Co-President", "Co-Président"],
-            "Varis Gupta" : ["VP Finance", "VP Finances"],
-            "Ben Stephenson" : ["VP Competitive", "VP Compétitif"],
-            "Ryan Heffernan" : ["VP Events", "VP Événements"],
-            "Martina On" : ["VP Internal & VP External", "VP Interne & VP Externe"],
-            "Jaxon Murphy" : ["VP Social", "VP Social"],
-            "Luchhuman Gotame" : ["CS:GO Game Head", "Chef de jeu de CS:GO"],
-            "Deschanel Li" : ["DOTA 2 Game Head", "Chef de jeu de DOTA 2"],
-            "Andrew Leblanc" : ["Hearthstone Game Head", "Chef de jeu de Hearthstone"],
-            "Ryan Adam" : ["Rainbow Six Siege Game Head", "Chef de jeu de Rainbow Six Siege"],
-            "Chris Mancini" : ["Super Smash Bros. Ultimate Game Head", "Chef de jeu de Super Smash Bros. Ultimate"]
+            "Trent Schwartz": ["Co-President", "Co-Président"],
+            "Zack Goldstein": ["Co-President", "Co-Président"],
+            "Varis Gupta": ["VP Finance", "VP Finances"],
+            "Ben Stephenson": ["VP Competitive", "VP Compétitif"],
+            "Ryan Heffernan": ["VP Events", "VP Événements"],
+            "Martina On": ["VP Internal & VP External", "VP Interne & VP Externe"],
+            "Jaxon Murphy": ["VP Social", "VP Social"],
+            "Luchhuman Gotame": ["CS:GO Game Head", "Chef de jeu de CS:GO"],
+            "Deschanel Li": ["DOTA 2 Game Head", "Chef de jeu de DOTA 2"],
+            "Andrew Leblanc": ["Hearthstone Game Head", "Chef de jeu de Hearthstone"],
+            "Ryan Adam": ["Rainbow Six Siege Game Head", "Chef de jeu de Rainbow Six Siege"],
+            "Chris Mancini": ["Super Smash Bros. Ultimate Game Head", "Chef de jeu de Super Smash Bros. Ultimate"]
         }
     },
     "2020-2021": {
