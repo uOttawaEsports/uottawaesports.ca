@@ -33,7 +33,7 @@ let execs = {
     },
     "Andrew Leblanc": {
         name: "Andrew Leblanc",
-        image: "../../../images/execs/placeholder.png",
+        image: "../../../images/execs/2021-2022/andrew-leblanc.png",
         role: ["VP Competitive", "VP Compétitif"],
         prog: ["History", "Histoire"],
         year: ["4th Year", "4e année"],
