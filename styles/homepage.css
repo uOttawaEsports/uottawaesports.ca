@@ -23,6 +23,14 @@
     width: 18rem;
 }
 
+.card a {
+    color: #C70024;
+}
+
+.card a:hover {
+    color: #800020;
+}
+
 /* Style for Extra Large Screen */
 
 @media (max-width: 1200px) {

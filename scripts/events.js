@@ -1,49 +1,35 @@
+// Only display a maximum of six (6) events at a time!
 const events = [
     {
-        title: ["VALORANT In-house", "VALORANT «&nbsp;In-house&nbsp;»"],
-        image: ["../../images/teams/content/dota2.png", "DOTA 2"],
-        text: ["Join other VALORANT players in an in-house! This is a great way of meeting new people who enjoy the same game as you!", "Rejoignez d'autres joueurs de VALORANT dans un «&nbsp;in-house&nbsp;»&nbsp;! C'est un excellent moyen de rencontrer de nouvelles personnes qui aiment le même jeu que vous&nbsp;!"],
-        date: ["Thursday, September 6", "Thursday, September 6 [FR]"],
-        time: ["6 AM", "6h00"],
-        location: ["Discord", "Discord"],
-        contact: "Yell#8888"
+        title: ["Clubs Fair (in-person)", "Foire des clubs (en personne)"],
+        image: ["../../images/events/grand-alley.png", "Grand alley"],
+        text: ["We are tabling at the 101 Week Clubs Fair! Come find us and say hi! Who knows, maybe we'll have some Red Bull to give away ;)", 
+        "Nous avons un stand à la Foire des clubs de la Semaine 101&nbsp;! Venez nous trouver et nous dire bonjour&nbsp;! Qui sait, peut-être nous aurons un peu de Red Bull à distribuer ;)"],
+        date: ["Wednesday, September 8", "Mercredi 8 septembre"],
+        time: ["3 PM - 6 PM", "15h à 18h"],
+        location: ["Grand Alley, uOttawa", "La grande allée à uOttawa"],
+        contact: ["JAXO#9999, Juicy_Vinyl#3235, Zander#6846", "JAXO#9999, Juicy_Vinyl#3235, Zander#6846"]
     },
     {
-        title: ["VALORANT In-house", "VALORANT «&nbsp;In-house&nbsp;»"],
-        image: ["../../images/teams/content/dota2.png", "DOTA 2"],
-        text: ["Join other VALORANT players in an in-house! This is a great way of meeting new people who enjoy the same game as you!", "Rejoignez d'autres joueurs de VALORANT dans un «&nbsp;in-house&nbsp;»&nbsp;! C'est un excellent moyen de rencontrer de nouvelles personnes qui aiment le même jeu que vous&nbsp;!"],
-        date: ["Thursday, September 6", "Thursday, September 6 [FR]"],
-        time: ["6 AM", "6h00"],
-        location: ["Discord", "Discord"],
-        contact: "Yell#8888"
+        title: ["Clubs Fair (online)", "Foire des clubs (en ligne)"],
+        image: ["../../images/events/gather-town.png", "Gather Town"],
+        text: ["We will be present at the online fair on Gather Town for those who cannot make it to the Clubs Fair in person!", 
+        "Nous serons présents à la foire en ligne sur Gather Town pour ceux qui ne peuvent pas se rendre en personne à la foire des clubs&nbsp;!"],
+        date: ["Wednesday, September 8", "Mercredi 8 septembre"],
+        time: ["3 PM - 6 PM", "15h à 18h"],
+        location: ["<a href=\"https://gather.town/invite?token=ax7gXG5B\" target=\"_blank\" rel=\"external\">Gather Town</a>", "<a href=\"https://gather.town/invite?token=ax7gXG5B\" target=\"_blank\" rel=\"external\">Gather Town</a>"],
+        contact: ["<a href=\"/en/contact/\" target=\"_blank\">Email us</a>", "<a href=\"/fr/contact/\" target=\"_blank\">Envoyez-nous un courriel</a>"]
     },
-    {
-        title: ["VALORANT In-house", "VALORANT «&nbsp;In-house&nbsp;»"],
-        image: ["../../images/teams/content/dota2.png", "DOTA 2"],
-        text: ["Join other VALORANT players in an in-house! This is a great way of meeting new people who enjoy the same game as you!", "Rejoignez d'autres joueurs de VALORANT dans un «&nbsp;in-house&nbsp;»&nbsp;! C'est un excellent moyen de rencontrer de nouvelles personnes qui aiment le même jeu que vous&nbsp;!"],
-        date: ["Thursday, September 6", "Thursday, September 6 [FR]"],
-        time: ["6 AM", "6h00"],
-        location: ["Discord", "Discord"],
-        contact: "Yell#8888"
-    },
-    {
-        title: ["VALORANT In-house", "VALORANT «&nbsp;In-house&nbsp;»"],
-        image: ["../../images/teams/content/dota2.png", "DOTA 2"],
-        text: ["Join other VALORANT players in an in-house! This is a great way of meeting new people who enjoy the same game as you!", "Rejoignez d'autres joueurs de VALORANT dans un «&nbsp;in-house&nbsp;»&nbsp;! C'est un excellent moyen de rencontrer de nouvelles personnes qui aiment le même jeu que vous&nbsp;!"],
-        date: ["Thursday, September 6", "Thursday, September 6 [FR]"],
-        time: ["6 AM", "6h00"],
-        location: ["Discord", "Discord"],
-        contact: "Yell#8888"
-    },
-    {
-        title: ["VALORANT In-house", "VALORANT «&nbsp;In-house&nbsp;»"],
-        image: ["../../images/teams/content/dota2.png", "DOTA 2"],
-        text: ["Join other VALORANT players in an in-house! This is a great way of meeting new people who enjoy the same game as you!", "Rejoignez d'autres joueurs de VALORANT dans un «&nbsp;in-house&nbsp;»&nbsp;! C'est un excellent moyen de rencontrer de nouvelles personnes qui aiment le même jeu que vous&nbsp;!"],
-        date: ["Thursday, September 6", "Thursday, September 6 [FR]"],
-        time: ["6 AM", "6h00"],
-        location: ["Discord", "Discord"],
-        contact: "Yell#8888"
-    }
+    
+    // {
+    //     title: ["Clubs Fair Tabling", "VALORANT «&nbsp;In-house&nbsp;»"],
+    //     image: ["../../images/events/general.png", "DOTA 2"],
+    //     text: ["Join other VALORANT players in an in-house! This is a great way of meeting new people who enjoy the same game as you!", "Rejoignez d'autres joueurs de VALORANT dans un «&nbsp;in-house&nbsp;»&nbsp;! C'est un excellent moyen de rencontrer de nouvelles personnes qui aiment le même jeu que vous&nbsp;!"],
+    //     date: ["Thursday, September 6", "Thursday, September 6 [FR]"],
+    //     time: ["6 AM", "6h00"],
+    //     location: ["Discord", "Discord"],
+    //     contact: "Yell#8888"
+    // },
 ];
 
 function displayEvents() {
@@ -55,12 +41,12 @@ function displayEvents() {
         let event = events[i];
 
         let div1 = document.createElement("div");
-        div1.className = "card bg-dark m-2";
+        div1.className = "card bg-maroon m-2";
 
         let img = document.createElement("img");
         img.src = event.image[0];
         img.alt = event.image[1];
-        img.className = "card-img-top pt-3 px-3";
+        img.className = "card-img-top pt-3 px-3 w-100";
 
         let div2 = document.createElement("div");
         div2.className = "card-body";
@@ -105,7 +91,7 @@ function displayEvents() {
 
         let li4 = document.createElement("li");
         li4.className = "list-group-item";
-        li4.innerHTML = event.contact;
+        li4.innerHTML = isEnglish ? event.contact[0] : event.contact[1];
 
         let span4 = document.createElement("span");
         span4.className = "fw-bold";
