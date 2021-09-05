@@ -24,6 +24,58 @@
     background-position-y: 20%;
 }
 
+#information-button {
+    color: #800020;
+    position: fixed;
+    right: 0rem;
+    bottom: 0rem;
+    box-shadow: 0 0 2rem #000000;
+    transition-duration: 0.2s;
+}
+
+#information-button:hover {
+    box-shadow: 0 0 1rem #ffffff;
+    transition-duration: 0.2s;
+}
+
+/* Existing classes */
+
+.card {
+    width: 18rem;
+}
+
+/* Custom classes */
+
+.information {
+    width: 15rem;
+    background: #FFFFFF;
+    border-radius: 0.5rem;
+    padding: 20px;
+    color: #000000;
+    position: fixed;
+    right: 4rem;
+    bottom: 6rem;
+}
+
+.information a {
+    color: #c70024;
+}
+
+.information a:hover {
+    color: #800020;
+}
+
+.information:before {
+    content: "";
+    position: absolute;
+    border-left: 0.625rem solid transparent;
+    border-right: 0.625rem solid #FFFFFF;
+    border-top: 0.625rem solid #FFFFFF;
+    border-bottom: 0.625rem solid transparent;
+    right: 1.188rem;
+    bottom: -1.188rem;
+}
+
 /* Change carousel size for smaller screens */
 
 @media (min-width: 992px) {

@@ -33,24 +33,33 @@ let content = document.getElementById("content");
 for (let image in images) {
     let div = document.createElement("div");
     let img = document.createElement("img");
+    let img2 = document.createElement("img");
     img.src = images[image].src;
     img.alt = images[image].alt;
+    img2.src = images[image].src;
+    img2.alt = images[image].alt;
     div.className = "m-3 round";
     div.appendChild(img);
-    div.addEventListener("click", function(){ 
+    /*div.addEventListener("click", function(){ 
         document.getElementById("modalBackground").style = `background-image: url(${images[image].src}); background-position-x: 50%; background-position-y: 50%;` 
-    });
+    });*/
 
-    div.setAttribute("data-bs-toggle", "modal");
-    div.setAttribute("data-bs-target", "#modal");
-    div.style.width = "350px";
-    div.style.height = "250px";
+    div.style.width = "21.875rem";
+    div.style.height = "15.625rem";
     img.style.height = "100%";
     img.style.width = "100%";
+    img2.style.height = "100%";
+    img2.style.width = "100%";
+
+    div.addEventListener("click", function(){ 
+        let modal = document.getElementById("modal");
+        modal.innerHTML = "";
+        modal.appendChild(img2);
+        modal.style.display = "inline";
+    });
     // img.style.backgroundRepeat = "no-repeat";
     // img.style.backgroundSize = "cover";
     // img.style.backgroundPositionX = "50%";
     // img.style.backgroundPositionY = "50%";
-    div.onclick = 
     content.appendChild(div);
 }

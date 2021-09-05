@@ -17,6 +17,12 @@
     color: #229bff;
 }
 
+/* Existing classes */
+
+.card {
+    width: 18rem;
+}
+
 /* Style for Extra Large Screen */
 
 @media (max-width: 1200px) {

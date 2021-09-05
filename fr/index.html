@@ -31,12 +31,12 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- External CSS -->
   <link rel="stylesheet" href="./styles/styles.css">
-  <link rel="stylesheet" href="../styles/index.css">
+  <link rel="stylesheet" href="../styles/homepage.css">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/1eb2ce7a7c.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body onload="displayEvents()">
   <!-- Navbar -->
   <nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top bg-maroon p-0">
     <div class="container-fluid">
@@ -142,24 +142,20 @@
   </div>
   <!-- Welcome End -->
 
-  <!-- Calendar -->
+  <!-- Upcoming Events -->
   <div class="container-fluid bg-dark pink-link">
-    <div class="row pt-4 pb-3 p-xl-5 text-white">
-      <div class="col-lg-6 d-flex align-items-center justify-content-center">
+    <div class="row pt-4 pb-3 text-white">
+      <div class="px-xl-5 d-flex align-items-center justify-content-center">
         <div class="container-fluid px-1 px-lg-3 pb-sm-3">
-          <h2 class="display-7 fw-bold">Événements à venir</h2>
-          <p class="fs-4">Consultez le calendrier des événements à venir à uOttawa Esports&nbsp;! Pour une liste complète et détaillée des événements, visitez la page des <a href="/fr/evenements/">événements</a>.</p>
+          <h2 class="display-7 fw-bold">Upcoming Events</h2>
+          <p class="fs-4">Voici un aperçu de ce qui vous attend à uOttawa Esports&nbsp;! Pour une liste complète et
+            détaillée des événements, visitez la page des <a href="/fr/evenements/">événements</a>.</p>
         </div>
       </div>
-      <div class="col-lg-6 d-flex pt-2">
-        <iframe
-          src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23e4e4e4&ctz=America%2FToronto&src=YW1yMHA0dWdtNTRqYTdqZ2Jycjk2N25uOWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MGo3bnEzMm4wcjMwcXY0cGlkODdhc3NkNGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZDFrYjdxa2JwM2xqa3Z2dGdocjMxcXNwb2NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=Y2xxODhhZDdvdGRybTZkNmRwa2pzMGw1Y2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=bnNiYnZtMmNnMXNwbTJlb2tldWg2a3BnYzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=Y3FzMGtrcGxrYWNoY3JkMm45anBxN2NlYmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aTBzM2Iya2hlcXI5MjE4cG9kaDRrbzR0dTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=cm42aHYyaHJucXYwYmJndWdzNTNxNnAxcTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=c3BrZmRpOG4zcDc0c3R0ZDN2bzR0YTY1cG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aTdqa2Rrdm12NnVhbTEzNTloYm9xanVhZGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=N3JoZjQxbjI4NGMxcG5wY2lxZjJzanY3bWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=cjZwOWUyYW10bGtuZWVjY2s2b3Rldjk1b3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dHVsb2NqMWQ4dXM3Mmx0YzY0ZDVzMHI5ajRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=Mm8zYTlqazdrbjRqN21xZmZuNTV2YzVkc29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OWtzczJpMzkzMzk0OG1qNG5nbDY2bmdiamtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23ccaf5c&color=%23b85600&color=%23616161&color=%23ad1457&color=%237e15c0&color=%23c19a00&color=%23616161&color=%23026aaf&color=%23cc6700&color=%2311806a&color=%230e99c2&color=%23b91807&color=%23b69000&color=%23a2bc0c&color=%23b662b3&showTabs=0&showPrint=0&title=Events%20at%20uOttawa%20Esports%20%2F%20%C3%89v%C3%A9nements%20%C3%A0%20uOttawa%20Esports"
-          title="Le calendrier des événements à uOttawa Esports" style="border-width: 0;" width="100%" height="600" frameborder="0"
-          scrolling="no"></iframe>
-      </div>
+      <div id="events" class="px-xl-5 d-flex align-items-center justify-content-center flex-wrap"></div>
     </div>
   </div>
-  <!-- Calendar End -->
+  <!-- Upcoming Events End -->
 
   <!-- About -->
   <div class="container-fluid bg-grey pink-link">
@@ -167,7 +163,10 @@
       <div class="col-lg-6 d-flex align-items-center justify-content-center order-1 order-lg-2">
         <div class="container-fluid px-1 px-lg-3 pb-sm-3">
           <h2 class="display-7 fw-bold">À propos de nous</h2>
-          <p class="fs-4">Bienvenue à uOttawa Esports, votre lieu pour les esports sur et hors du campus. Joignez-nous pour des jeux occasionnels et compétitifs à l'Université d'Ottawa&nbsp;! Les équipes compétitives que nous offrons sont listées avec leur(s) contact(s) respectif(s) sur la page des <a href="/fr/equipes/">équipes</a>.</p>
+          <p class="fs-4">Bienvenue à uOttawa Esports, votre lieu pour les esports sur et hors du campus. Joignez-nous
+            pour des jeux occasionnels et compétitifs à l'Université d'Ottawa&nbsp;! Les équipes compétitives que nous
+            offrons sont listées avec leur(s) contact(s) respectif(s) sur la page des <a
+              href="/fr/equipes/">équipes</a>.</p>
         </div>
       </div>
       <div class="col-lg-6 d-flex pt-2 order-2 order-lg-1">
@@ -183,7 +182,9 @@
       <div class="col-lg-6 d-flex align-items-center justify-content-center">
         <div class="container-fluid px-1 px-lg-3 pb-sm-3">
           <h2 class="display-7 fw-bold">Une communauté pour tous</h2>
-          <p class="fs-4">Nous offrons non seulement un environnement compétitif pour les joueurs compétitifs, mais aussi un environnement amical et sûr pour tous ceux qui veulent apprendre un nouveau jeu, trouver des joueurs avec qui jouer, ou même s'éloigner des livres&nbsp;!</p>
+          <p class="fs-4">Nous offrons non seulement un environnement compétitif pour les joueurs compétitifs, mais
+            aussi un environnement amical et sûr pour tous ceux qui veulent apprendre un nouveau jeu, trouver des
+            joueurs avec qui jouer, ou même s'éloigner des livres&nbsp;!</p>
         </div>
       </div>
       <div class="col-lg-6 d-flex pt-2">
@@ -199,7 +200,9 @@
       <div class="col-lg-6 d-flex align-items-center justify-content-center order-1 order-lg-2">
         <div class="container-fluid px-1 px-lg-3 pb-sm-3">
           <h2 class="display-7 fw-bold">Campus Vibez uOttawa</h2>
-          <p class="fs-4">Les joueurs à uOttawa Esports aimeraient remercier nos commanditaires et les groupes de financement, y compris <a href="https://www.cvuo.ca/accueil" target="_blank" rel="external">Campus Vibez uOttawa (CVUO)</a>.</p>
+          <p class="fs-4">Les joueurs à uOttawa Esports aimeraient remercier nos commanditaires et les groupes de
+            financement, y compris <a href="https://www.cvuo.ca/accueil" target="_blank" rel="external">Campus Vibez
+              uOttawa (CVUO)</a>.</p>
         </div>
       </div>
       <div class="col-lg-6 d-flex pt-2 order-2 order-lg-1">
@@ -220,6 +223,9 @@
 
   <!-- External Translation JavaScript -->
   <script type="text/javascript" src="../scripts/homepage.js"></script>
+
+  <!-- External JavaScript -->
+  <script type="text/javascript" src="../../scripts/events.js"></script>
 
   <!-- External Footer JavaScript -->
   <script type="text/javascript" src="../scripts/footer.js"></script>
