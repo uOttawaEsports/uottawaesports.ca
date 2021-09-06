@@ -1,8 +1,9 @@
-// Only display a maximum of six (6) events at a time!
+// The website will display a maximum of six (6) events at a time. You can add more than six if you'd like to queue up the events for organizational purposes.
+// Be careful not to add too much description text, as it may cause the cards to become an uneven height.
 const events = [
     {
         title: ["Clubs Fair (in-person)", "Foire des clubs (en personne)"],
-        image: ["../../images/events/grand-alley.png", "Grand alley"],
+        image: ["../../images/events/grand-alley.png", "Grand alley", "La grande allée"],
         text: ["We are tabling at the 101 Week Clubs Fair! Come find us and say hi! Who knows, maybe we'll have some Red Bull to give away ;)", 
         "Nous avons un stand à la Foire des clubs de la Semaine 101&nbsp;! Venez nous trouver et nous dire bonjour&nbsp;! Qui sait, peut-être nous aurons un peu de Red Bull à distribuer ;)"],
         date: ["Wednesday, September 8", "Mercredi 8 septembre"],
@@ -12,15 +13,14 @@ const events = [
     },
     {
         title: ["Clubs Fair (online)", "Foire des clubs (en ligne)"],
-        image: ["../../images/events/gather-town.png", "Gather Town"],
+        image: ["../../images/events/gather-town.png", "Gather Town", "Gather Town"],
         text: ["We will be present at the online fair on Gather Town for those who cannot make it to the Clubs Fair in person!", 
-        "Nous serons présents à la foire en ligne sur Gather Town pour ceux qui ne peuvent pas se rendre en personne à la foire des clubs&nbsp;!"],
+        "Nous serons présents à la foire en ligne sur Gather Town pour ceux qui ne peuvent pas se rendre en personne à la Foire des clubs&nbsp;!"],
         date: ["Wednesday, September 8", "Mercredi 8 septembre"],
         time: ["3 PM - 6 PM", "15h à 18h"],
         location: ["<a href=\"https://gather.town/invite?token=ax7gXG5B\" target=\"_blank\" rel=\"external\">Gather Town</a>", "<a href=\"https://gather.town/invite?token=ax7gXG5B\" target=\"_blank\" rel=\"external\">Gather Town</a>"],
         contact: ["<a href=\"/en/contact/\" target=\"_blank\">Email us</a>", "<a href=\"/fr/contact/\" target=\"_blank\">Envoyez-nous un courriel</a>"]
-    },
-    
+    }  
     // {
     //     title: ["Clubs Fair Tabling", "VALORANT «&nbsp;In-house&nbsp;»"],
     //     image: ["../../images/events/general.png", "DOTA 2"],
@@ -36,27 +36,28 @@ function displayEvents() {
     let isEnglish = window.location.href.includes("/en");
     let onEventPage = window.location.href.includes("/events") || window.location.href.includes("/evenements");
 
-    for (let i = 0; i < events.length; i++) {
+    for (let i = 0; (i < events.length) && (i < 6); i++) {
         if (!onEventPage && i == 3) break;
         let event = events[i];
 
         let div1 = document.createElement("div");
         div1.className = "card bg-maroon m-2";
+        div1.style.minHeight = "41.8rem";
 
         let img = document.createElement("img");
         img.src = event.image[0];
-        img.alt = event.image[1];
-        img.className = "card-img-top pt-3 px-3 w-100";
+        img.alt = isEnglish ? event.image[1] : event.image[2];
+        img.className = "card-img-top pt-3 px-3 w-100 rounded";
 
         let div2 = document.createElement("div");
         div2.className = "card-body";
 
         let h2 = document.createElement("h2");
-        h2.className = "card-title fs-5";
+        h2.className = "card-title fs-5 text-center";
         h2.innerHTML = isEnglish ? event.title[0] : event.title[1];
 
         let p = document.createElement("p");
-        p.className = "card-text";
+        p.className = "card-text text-start";
         p.innerHTML = isEnglish ? event.text[0] : event.text[1];
 
         let ul = document.createElement("ul");
@@ -103,21 +104,23 @@ function displayEvents() {
         div1.append(img, div2, ul);
         document.getElementById("events").appendChild(div1);
     }
+
+    if (onEventPage) {
+        const info = document.getElementById("information");
+        const btn = document.getElementById("information-button");
+        
+        btn.onclick = function () {
+            if (info.style.display === "none") {
+                info.style.display = "block";
+            } else {
+                info.style.display = "none";
+            }
+        };
+        
+        window.addEventListener('click', function (e) {
+            if (!info.contains(e.target) && !btn.contains(e.target)) {
+                info.style.display = "none";
+            }
+        });
+    }
 }
-
-const info = document.getElementById("information");
-const btn = document.getElementById("information-button");
-
-btn.onclick = function () {
-    if (info.style.display === "none") {
-        info.style.display = "block";
-    } else {
-        info.style.display = "none";
-    }
-};
-
-window.addEventListener('click', function (e) {
-    if (!info.contains(e.target) && !btn.contains(e.target)) {
-        info.style.display = "none";
-    }
-});
