@@ -211,7 +211,7 @@ function displayButtons() {
             if (Object.keys(team.members).length != 0) {
                 let button = document.createElement("button");
                 button.addEventListener('click', () => teams([gameName, teamName]));
-                button.className = "btn btn-dark btn-team mx-1 mx-lg-3 px-0 fs-5 "
+                button.className = "btn btn-dark btn-team m-1 m-lg-3 px-0 fs-5 "
                 button.className += (teamName == "garnet") ? "bg-maroon" : ((teamName == "grey") ? "bg-grey" : "bg-gold");
                 button.setAttribute("data-bs-toggle", "modal");
                 button.setAttribute("data-bs-target", "#modal");

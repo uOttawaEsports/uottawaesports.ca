@@ -1,31 +1,11 @@
 let execs = { // keys are unique IDs
     "0": {
         name: "Steven Li",
-        pts: 1100
-    },
-    "1": {
-        name: "Lorem Ipsum",
-        pts: 190
-    },
-    "2": {
-        name: "Lorem Ipsum",
-        pts: 80
-    },
-    "3": {
-        name: "Lorem Ipsum",
-        pts: 1000
-    },
-    "4": {
-        name: "Lorem Ipsum",
-        pts: 195
-    },
-    "5": {
-        name: "Lorem Ipsum",
-        pts: -1
+        pts: 1
     }
 }
 
-let date = ["August 23, 2021", "Le 23 août 2021"];
+let date = ["September 6, 2021", "Le 6 septembre 2021"];
 document.getElementById("date").innerHTML = window.location.href.includes("/en") ? date[0] : date[1];
 
 let sorted = Object.keys(execs).sort((a, b) => { return execs[b].pts - execs[a].pts }); // sorts the keys of the execs object and stores them into an array
@@ -55,7 +35,7 @@ sorted.forEach(personObj => {
         div.appendChild(name);
 
         points.className = "fs-3 d-flex align-self-center mb-0 me-2";
-        points.innerHTML = execs[personObj].pts + " points";
+        points.innerHTML = execs[personObj].pts + (execs[personObj].pts == 1 ? " point": " points");
         div.appendChild(points);
 
         document.getElementById("top3").appendChild(div);
@@ -80,7 +60,7 @@ sorted.forEach(personObj => {
 
             th = document.createElement("th");
             th.scope = "col";
-            th.innerHTML = "Points";
+            th.innerHTML = "Point(s)";
             th.className = "text-center";
             th.style.width = "1%";
             th.style.whiteSpace = "nowrap";

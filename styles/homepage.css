@@ -31,6 +31,14 @@
     color: #800020;
 }
 
+.card-text a {
+    color: #ffc5d0;
+}
+
+.card-text a:hover {
+    color: #ffaebd;
+}
+
 /* Style for Extra Large Screen */
 
 @media (max-width: 1200px) {

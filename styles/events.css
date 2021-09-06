@@ -44,6 +44,22 @@
     width: 18rem;
 }
 
+.card a {
+    color: #C70024;
+}
+
+.card a:hover {
+    color: #800020;
+}
+
+.card-text a {
+    color: #ffc5d0;
+}
+
+.card-text a:hover {
+    color: #ffaebd;
+}
+
 /* Custom classes */
 
 .information {

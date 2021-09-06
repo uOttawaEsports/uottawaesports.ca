@@ -4,8 +4,8 @@ const events = [
     {
         title: ["Clubs Fair (in-person)", "Foire des clubs (en personne)"],
         image: ["../../images/events/grand-alley.png", "Grand alley", "La grande allée"],
-        text: ["We are tabling at the 101 Week Clubs Fair! Come find us and say hi! Who knows, maybe we'll have some Red Bull to give away ;)", 
-        "Nous avons un stand à la Foire des clubs de la Semaine 101&nbsp;! Venez nous trouver et nous dire bonjour&nbsp;! Qui sait, peut-être nous aurons un peu de Red Bull à distribuer ;)"],
+        text: ["We are tabling at the 101 Week Clubs Fair! Come find us and say hi! Who knows, maybe we'll have some Red Bull to give away ;) More information on <a href=\"https://www.cvuo.ca/clubs-fair-2021\" target=\"_blank\" rel=\"external\">CVUO's website</a>.", 
+        "Nous avons un stand à la Foire des clubs de la Semaine 101&nbsp;! Venez nous trouver et nous dire bonjour&nbsp;! Qui sait, peut-être nous aurons un peu de Red Bull à distribuer ;) Plus d'informations sur <a href=\"https://www.cvuo.ca/foire-des-clubs-2021\" target=\"_blank\" rel=\"external\">le site Web du CVUO</a>."],
         date: ["Wednesday, September 8", "Mercredi 8 septembre"],
         time: ["3 PM - 6 PM", "15h à 18h"],
         location: ["Grand Alley, uOttawa", "La grande allée à uOttawa"],
@@ -42,7 +42,7 @@ function displayEvents() {
 
         let div1 = document.createElement("div");
         div1.className = "card bg-maroon m-2";
-        div1.style.minHeight = "41.8rem";
+        div1.style.minHeight = "44.8rem";
 
         let img = document.createElement("img");
         img.src = event.image[0];
@@ -57,8 +57,10 @@ function displayEvents() {
         h2.innerHTML = isEnglish ? event.title[0] : event.title[1];
 
         let p = document.createElement("p");
-        p.className = "card-text text-start";
+        p.className = "card-text";
         p.innerHTML = isEnglish ? event.text[0] : event.text[1];
+        p.style.textAlign = "justify";
+        p.style.textJustify = "inter-word"
 
         let ul = document.createElement("ul");
         ul.className = "list-group list-group-flush";
