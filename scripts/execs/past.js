@@ -19,7 +19,7 @@ let pastExecs = {
             "Varis Gupta": ["VP Finance", "VP Finances"],
             "Ben Stephenson": ["VP Competitive", "VP Compétitif"],
             "Ryan Heffernan": ["VP Events", "VP Événements"],
-            "Martina On": ["VP Internal & VP External", "VP Interne & VP Externe"],
+            "Martina On": ["VP Internal/External", "VP Interne/Externe"],
             "Jaxon Murphy": ["VP Social", "VP Social"],
             "Luchhuman Gotame": ["CS:GO Game Head", "Chef de jeu de CS:GO"],
             "Deschanel Li": ["DOTA 2 Game Head", "Chef de jeu de DOTA 2"],

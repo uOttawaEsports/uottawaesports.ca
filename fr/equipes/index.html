@@ -36,7 +36,7 @@
   <script src="https://kit.fontawesome.com/1eb2ce7a7c.js" crossorigin="anonymous"></script>
 </head>
 
-<body onload="translate()">
+<body onload="displayButtons()">
   <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top bg-maroon p-0">
     <div class="container-fluid">
       <h1 class="navbar-brand fs-3 fw-bold m-0"><img src="../../images/logo-square.png" alt="Logo de uOttawa Esports"
@@ -175,14 +175,7 @@
                 toutes les plateformes et toutes les générations.</p>
               <h2 class="fs-4 text-end fw-bold">Chef de jeu&nbsp;: <i class="fab fa-discord ms-1"></i> Lego#2121</h2>
               <div class="row">
-                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button onclick="teams('cod garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Garnet</button>
-                  <!--
-                  <button onclick="teams('cod grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Grey</button>
--->
-                </div>
+                <div id="cod-team" class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center"></div>
               </div>
             </div>
             <div
@@ -206,14 +199,7 @@
                 désamorcer une bombe et le sauvetage ou la capture d'otages.</p>
               <h2 class="fs-4 text-end fw-bold">Chef de jeu&nbsp;: <i class="fab fa-discord ms-1"></i> Static#0063</h2>
               <div class="row">
-                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button onclick="teams('csgo garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Garnet</button>
-                  <!--
-                  <button onclick="teams('csgo grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Grey</button>
-                    -->
-                </div>
+                <div id="csgo-team" class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center"></div>
               </div>
             </div>
             <div
@@ -238,16 +224,9 @@
               </p>
               <h2 class="fs-4 text-end fw-bold">Chef de jeu&nbsp;: <i class="fab fa-discord ms-1"></i> Hulasaur#0265
               </h2>
-              <!--
               <div class="row">
-                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button onclick="teams('dota 2 garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Garnet</button>
-                  <button onclick="teams('dota 2 grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Grey</button>
-                </div>
+                <div id="dota2-team" class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center"></div>
               </div>
-            -->
             </div>
             <div
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
@@ -268,16 +247,10 @@
                 effréné, où la réflexion stratégique est indispensable pour survivre.
               </p>
               <h2 class="fs-4 text-end fw-bold">Chef de jeu&nbsp;: <i class="fab fa-discord ms-1"></i> Nuage#0954</h2>
-              <!--
               <div class="row">
-                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button onclick="teams('fortnite garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Garnet</button>
-                  <button onclick="teams('fortnite grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Grey</button>
+                <div id="fortnite-team" class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
                 </div>
               </div>
-            -->
             </div>
             <div
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
@@ -300,17 +273,10 @@
                 de mana limités pour jouer des capacités ou invoquer des sbires pour attaquer l'adversaire, dans le but
                 de détruire le héros de ce dernier.
               </p>
-              <!-- 
-                <h2 class="fs-4 text-end fw-bold">Chef de jeu&nbsp;: <i class="fab fa-discord ms-1"></i> </h2>
+              <!--<h2 class="fs-4 text-end fw-bold">Chef de jeu&nbsp;: <i class="fab fa-discord ms-1"></i> </h2>-->
               <div class="row">
-                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button onclick="teams('hs garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Garnet</button>
-                  <button onclick="teams('hs grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Grey</button>
-                </div>
+                <div id="hs-team" class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center"></div>
               </div>
-            -->
             </div>
             <div
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
@@ -334,16 +300,9 @@
                 gagne en pénétrant dans la base ennemie et en détruisant son «&nbsp;Nexus&nbsp;», une grande structure
                 située à l'intérieur.</p>
               <h2 class="fs-4 text-end fw-bold">Chef de jeu&nbsp;: <i class="fab fa-discord ms-1"></i> Narth#1623</h2>
-              <!--
               <div class="row">
-                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button onclick="teams('lol garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Garnet</button>
-                  <button onclick="teams('lol grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Grey</button>
-                </div>
+                <div id="lol-team" class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center"></div>
               </div>
-            -->
             </div>
             <div
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
@@ -367,16 +326,9 @@
               </p>
               <h2 class="fs-4 text-end fw-bold">Chef de jeu&nbsp;: <i class="fab fa-discord ms-1"></i> Fulserish#3239
               </h2>
-              <!--
               <div class="row">
-                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button onclick="teams('osu garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Garnet</button>
-                  <button onclick="teams('osu grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Grey</button>
-                </div>
+                <div id="osu-team" class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center"></div>
               </div>
-            -->
             </div>
             <div
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
@@ -400,16 +352,9 @@
               </p>
               <h2 class="fs-4 text-end fw-bold">Chef de jeu&nbsp;: <i class="fab fa-discord ms-1"></i> Lamortdeboo#7218
               </h2>
-              <!--
               <div class="row">
-                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button onclick="teams('ow garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Garnet</button>
-                  <button onclick="teams('ow grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Grey</button>
-                </div>
+                <div id="ow-team" class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center"></div>
               </div>
-            -->
             </div>
             <div
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
@@ -432,12 +377,7 @@
               </p>
               <h2 class="fs-4 text-end fw-bold">Chef de jeu&nbsp;: <i class="fab fa-discord ms-1"></i> Zander#6846</h2>
               <div class="row">
-                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button onclick="teams('r6 garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Garnet</button>
-                  <button onclick="teams('r6 grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Grey</button>
-                </div>
+                <div id="r6-team" class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center"></div>
               </div>
             </div>
             <div
@@ -461,16 +401,9 @@
               </p>
               <h2 class="fs-4 text-end fw-bold">Chef de jeu&nbsp;: <i class="fab fa-discord ms-1"></i> fabienlef#5103
               </h2>
-              <!--
               <div class="row">
-                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button onclick="teams('rl garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Garnet</button>
-                  <button onclick="teams('rl grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Grey</button>
-                </div>
+                <div id="rl-team" class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center"></div>
               </div>
-            -->
             </div>
             <div
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
@@ -494,16 +427,9 @@
               </p>
               <h2 class="fs-4 text-end fw-bold">Chef de jeu&nbsp;: <i class="fab fa-discord ms-1"></i> Tai#0391
               </h2>
-              <!--
               <div class="row">
-                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button onclick="teams('ssbu garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Garnet</button>
-                  <button onclick="teams('ssbu grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Grey</button>
-                </div>
+                <div id="ssbu-team" class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center"></div>
               </div>
-            -->
             </div>
             <div
               class="col-12 col-lg-3 px-5 pt-1 pb-4 px-lg-0 py-lg-5 d-flex align-items-center justify-content-center team-logo">
@@ -525,12 +451,7 @@
                 survivre.</p>
               <h2 class="fs-4 text-end fw-bold">Chef de jeu&nbsp;: <i class="fab fa-discord ms-1"></i> onmarti#4347</h2>
               <div class="row">
-                <div class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center">
-                  <button onclick="teams('val garnet')" class="btn btn-dark btn-team bg-maroon mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Garnet</button>
-                  <button onclick="teams('val grey')" class="btn btn-dark btn-team bg-grey mx-1 mx-lg-3 px-0 fs-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Équipe Grey</button>
-                </div>
+                <div id="val-team" class="col-12 my-2 mt-lg-4 d-flex align-items-center justify-content-center"></div>
               </div>
             </div>
             <div

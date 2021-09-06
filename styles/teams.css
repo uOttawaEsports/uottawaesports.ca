@@ -197,6 +197,10 @@
 
 /* Custom classes */
 
+.bg-gold {
+    background-color: #665814;
+}
+
 .btn-team {
     border: 0;
     width: 10rem;

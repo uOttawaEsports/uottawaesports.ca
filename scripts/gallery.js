@@ -40,9 +40,7 @@ for (let image in images) {
     img2.alt = images[image].alt;
     div.className = "m-3 round";
     div.appendChild(img);
-    /*div.addEventListener("click", function(){ 
-        document.getElementById("modalBackground").style = `background-image: url(${images[image].src}); background-position-x: 50%; background-position-y: 50%;` 
-    });*/
+
 
     div.style.width = "21.875rem";
     div.style.height = "15.625rem";
@@ -51,12 +49,22 @@ for (let image in images) {
     img2.style.height = "100%";
     img2.style.width = "100%";
 
+    div.setAttribute("data-bs-toggle", "modal");
+    div.setAttribute("data-bs-target", "#modal");
+
     div.addEventListener("click", function(){ 
+        //document.getElementById("modalBackground").style = `background-image: url(${images[image].src}); background-position-x: 50%; background-position-y: 50%;` 
+        let modal = document.getElementById("modal-body");
+        modal.innerHTML = "";
+        modal.appendChild(img2);
+    });
+
+    /*div.addEventListener("click", function(){ 
         let modal = document.getElementById("modal");
         modal.innerHTML = "";
         modal.appendChild(img2);
         modal.style.display = "inline";
-    });
+    });*/
     // img.style.backgroundRepeat = "no-repeat";
     // img.style.backgroundSize = "cover";
     // img.style.backgroundPositionX = "50%";

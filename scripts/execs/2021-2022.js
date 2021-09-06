@@ -194,7 +194,7 @@ let execs = {
     },
     "Tyler Lindsay": {
         name: "Tyler Lindsay",
-        image: "../../../images/execs/placeholder.png",
+        image: "../../../images/execs/2021-2022/tyler-lindsay.png",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Super Smash Bros. Ultimate", "<span class='fw-bold'>Chef de jeu</span> <br /> Super Smash Bros. Ultimate"],
         prog: ["History and Political Science", "Histoire et science politique"],
         year: ["2nd Year", "2e année"],
@@ -206,10 +206,10 @@ let execs = {
         name: "Martina On",
         image: "../../../images/execs/2021-2022/martina-on.png",
         role: ["<span class='fw-bold'>Game Head</span> <br /> VALORANT", "<span class='fw-bold'>Chef de jeu</span> <br /> VALORANT"],
-        prog: ["", ""],
-        year: ["", ""],
-        game: "",
-        desc: ["", ""],
+        prog: ["Marketing", "Marketing"],
+        year: ["4th Year", "4e année"],
+        game: "VALORANT, League of Legends",
+        desc: ["Hey, I’m Marti and I will be the Valorant Game Head once again this year. Last year, I was VP Social for the club, and the year prior, I was as VP Internal/External. This year marks my third year involved with uOttawa Esports. Can’t wait to have an amazing season with the competitive Valorant teams this year!!", "Salut, je m'appelle Marti et je serai le Game Head de Valorant une fois de plus cette année. L'année dernière, j'étais VP Social du club, et l'année précédente, j'étais VP Interne/Externe. Cette année marque ma troisième année d'implication à uOttawa Esports. J'ai hâte de vivre une saison incroyable avec les équipes compétitives de Valorant cette année&nbsp;!!"],
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     }
 }
