@@ -19,7 +19,7 @@ const events = [
         date: ["Wednesday, September 8", "Mercredi 8 septembre"],
         time: ["3 PM - 6 PM", "15h à 18h"],
         location: ["<a href=\"https://gather.town/invite?token=ax7gXG5B\" target=\"_blank\" rel=\"external\">Gather Town</a>", "<a href=\"https://gather.town/invite?token=ax7gXG5B\" target=\"_blank\" rel=\"external\">Gather Town</a>"],
-        contact: ["<a href=\"/en/contact/\" target=\"_blank\">Email us</a>", "<a href=\"/fr/contact/\" target=\"_blank\">Envoyez-nous un courriel</a>"]
+        contact: ["<a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a> or <a href=\"/en/contact/\" target=\"_blank\">email us</a>", "<a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a> ou <a href=\"/fr/contact/\" target=\"_blank\">envoyez-nous un courriel</a>"]
     }  
     // {
     //     title: ["Clubs Fair Tabling", "VALORANT «&nbsp;In-house&nbsp;»"],
