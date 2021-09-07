@@ -1,5 +1,6 @@
 // The website will display a maximum of six (6) events at a time. You can add more than six if you'd like to queue up the events for organizational purposes.
 // Be careful not to add too much description text, as it may cause the cards to become an uneven height.
+// Events in closest proximity must be placed at the top of the object.
 const events = [
     {
         title: ["Clubs Fair (in-person)", "Foire des clubs (en personne)"],

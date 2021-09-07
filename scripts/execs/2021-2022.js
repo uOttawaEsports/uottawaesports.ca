@@ -94,7 +94,7 @@ let execs = {
     },
     "Bora Basar": {
         name: "Bora Basar",
-        image: "../../../images/execs/placeholder.png",
+        image: "../../../images/execs/2021-2022/bora-basar.png",
         role: ["<span class='fw-bold'>Game Head</span> <br /> CS:GO", "<span class='fw-bold'>Chef de jeu</span> <br /> CS:GO"],
         prog: ["Health Sciences", "Sciences de la santé"],
         year: ["2nd Year", "2e année"],
