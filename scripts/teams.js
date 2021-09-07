@@ -204,6 +204,8 @@ const modals = {
 }
 
 function displayButtons() {
+    let isEnglish = window.location.href.includes("/en");
+    console.log(isEnglish);
     for (let gameName in modals) {
         let game = modals[gameName];
         for (let teamName in game) {
@@ -215,7 +217,11 @@ function displayButtons() {
                 button.className += (teamName == "garnet") ? "bg-maroon" : ((teamName == "grey") ? "bg-grey" : "bg-gold");
                 button.setAttribute("data-bs-toggle", "modal");
                 button.setAttribute("data-bs-target", "#modal");
-                button.innerHTML = (teamName == "garnet") ? "Garnet Team" : ((teamName == "grey") ? "Grey Team" : ((teamName == "gold") ? ((game.hasOwnProperty("gold 2")) ? "Gold Team 1" : "Gold Team") : "Gold Team 2"));
+                if (isEnglish) {
+                    button.innerHTML = (teamName == "garnet") ? "Garnet Team" : ((teamName == "grey") ? "Grey Team" : ((teamName == "gold") ? ((game.hasOwnProperty("gold 2")) ? "Gold Team 1" : "Gold Team") : "Gold Team 2"));
+                } else {
+                    button.innerHTML = (teamName == "garnet") ? "Équipe Garnet" : ((teamName == "grey") ? "Équipe Grey" : ((teamName == "gold") ? ((game.hasOwnProperty("gold 2")) ? "Équipe Gold 1" : "Équipe Gold") : "Équipe Gold 2"));
+                }
                 document.getElementById(gameName).appendChild(button);
             }
         }
