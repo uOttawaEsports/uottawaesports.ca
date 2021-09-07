@@ -1,9 +1,9 @@
 // Add newest images to the end of the array.
-const images = ["../../images/meet-and-greet.jpg",
-    "../../images/smash-gathering.jpg",
-    "../../images/gaming-session.jpg",
-    "../../images/community-for-all.jpg",
-    "../../images/clubs-week.jpg"
+const images = ["../../images/gallery/meet-and-greet.jpg",
+    "../../images/gallery/smash-gathering.jpg",
+    "../../images/gallery/gaming-session.jpg",
+    "../../images/gallery/community-for-all.jpg",
+    "../../images/gallery/clubs-week.jpg"
 ];
 
 let content = document.getElementById("content");
