@@ -73,13 +73,13 @@ let execs = {
     },
     "Ali Jafri": {
         name: "Ali Jafri",
-        image: "../../../images/execs/placeholder.png",
+        image: "../../../images/execs/2021-2022/ali-jafri.png",
         role: ["VP Social", "VP Social"],
-        prog: ["", ""],
-        year: ["", ""],
-        game: "",
-        desc: ["", ""],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        prog: ["Computer Engineering", "Génie informatique"],
+        year: ["3rd Year", "3e année"],
+        game: "League of Legends, VALORANT, Garry's Mod, Borderlands 2",
+        desc: ["Hi, I'm Ali and I'm your VP Social for this year. If I'm not busy crying, you can find me going 1-12 in Valorant matches. <br />\"yes, your 20's might be shitty. eating ramen every night, pulling all nighters for class, new family and social strain, etc. it's hard to grow up! but you know what reward is waiting for you at the end of them? Climate Change\"", "Bonjour, je m'appelle Ali et je suis votre VP Social pour cette année. Si je ne suis pas occupée à pleurer, vous pouvez me trouver en train de faire 1-12 dans les matchs de Valorant. <br />«&nbsp;oui, la vingtaine peut être merdique. manger des ramen tous les soirs, faire des nuits blanches pour les cours, de nouvelles contraintes familiales et sociales, etc. c'est dur de grandir&nbsp;! mais vous savez quelle récompense vous attend à la fin&nbsp;? Le changement climatique&nbsp;»"],
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/ali-jafri.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     /* Game Heads */
     "Owen Stafford": {
@@ -154,11 +154,11 @@ let execs = {
     },
     "Benoit Gagnier": {
         name: "Benoit Gagnier",
-        image: "../../../images/execs/placeholder.png",
+        image: "../../../images/execs/2021-2022/benoit-gagnier.png",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Overwatch", "<span class='fw-bold'>Chef de jeu</span> <br /> Overwatch"],
-        prog: ["", ""],
-        year: ["", ""],
-        game: "",
+        prog: ["General Arts", "Arts généraux"],
+        year: ["2nd Year", "2e année"],
+        game: "Pokémon, Overwatch, The Legend of Zelda",
         desc: ["", ""],
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
