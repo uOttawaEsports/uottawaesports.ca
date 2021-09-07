@@ -70,13 +70,13 @@ footer {
 
 @media (min-width: 992px) and (max-width: 1055px) {
     #hamburger .nav-link {
-        font-size: 0.75624rem;
+        font-size: 0.78187rem;
     }
 }
 
 @media (min-width: 1056px) and (max-width: 1120px) {
     #hamburger .nav-link {
-        font-size: 0.87812rem;
+        font-size: 0.90437rem;
     }
 }
 
@@ -84,12 +84,12 @@ footer {
 
 @media (min-width: 1120px) and (max-width: 1183px) {
     #hamburger .nav-link {
-        font-size: 0.99999rem;
+        font-size: 1.02624rem;
     }
 }
 
 @media (min-width: 1184px) and (max-width: 1248px) {
     #hamburger .nav-link {
-        font-size: 1.12187rem;
+        font-size: 1.14812rem;
     }
 }
