@@ -122,10 +122,10 @@ const modals = {
             members: {
                 "Zander": ["Captain/Main Roster", "Capitaine/Liste principale"],
                 "Axent": ["Main Roster", "Liste principale"],
-                "BechoDrive": ["Main Roster", "Liste principale"],
                 "Chrs": ["Main Roster", "Liste principale"],
-                "K3baddywAfatty": ["Main Roster", "Liste principale"],
-                "3nsuoli": ["Substitute", "Remplaçant"],
+                "Echodrive": ["Main Roster", "Liste principale"],
+                "k3addy": ["Main Roster", "Liste principale"],
+                "Vaal": ["Substitute", "Remplaçant"],
                 "Vinyl": ["Substitute", "Remplaçant"]
             }
         },

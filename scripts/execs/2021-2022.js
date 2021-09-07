@@ -63,10 +63,10 @@ let execs = {
     },
     "Prem Gupta": {
         name: "Prem Gupta",
-        image: "../../../images/execs/placeholder.png",
+        image: "../../../images/execs/2021-2022/prem-gupta.png",
         role: ["VP External", "VP Externe"],
         prog: ["History and Political Science", "Histoire et science politique"],
-        year: ["", ""],
+        year: ["3rd Year", "3e année"],
         game: "VALORANT, Rocket League, Animal Crossing, Mario Kart",
         desc: ["My name is Prem. I'm just the researching person (or better known as the VP External) for uOttawa Esports. I have been a casual esports viewer since ~2016 and have recently been invested in competitive Valorant this year. But not gonna lie, &#127850;&nbsp;+&nbsp;&#129371;&nbsp;=&nbsp;&#128293;" , "Mon nom est Prem. Je suis la personne chargée de la recherche (ou mieux connue sous le nom de VP externe) pour Esports uOttawa. Je suis un spectateur occasionnel d'e-sports depuis ~2016 et j'ai récemment été investi dans le Valorant compétitif cette année. Mais je ne vais pas mentir, &#127850;&nbsp;+&nbsp;&#129371;&nbsp;=&nbsp;&#128293;"],
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
@@ -124,12 +124,12 @@ let execs = {
     },
     "Matthew Awrey": {
         name: "Matthew Awrey",
-        image: "../../../images/execs/placeholder.png",
+        image: "../../../images/execs/2021-2022/matthew-awrey.png",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Fortnite", "<span class='fw-bold'>Chef de jeu</span> <br /> Fortnite"],
-        prog: ["", ""],
-        year: ["", ""],
-        game: "",
-        desc: ["", ""],
+        prog: ["International Management", "Gestion internationale"],
+        year: ["2nd Year", "2e année"],
+        game: "Rainbow Six Siege, Apex Legends, KovaaKs",
+        desc: ["Hey I'm Matthew. This is my first year as a Game Head and I'm very excited!", "Bonjour, je m'appelle Matthew. C'est ma première année en tant que chef de jeu et je suis très heureux&nbsp;!"],
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/uottawa-aerial.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Narth Rajeswaran": {
