@@ -229,7 +229,7 @@ function cards() {
         h3.innerHTML = isEnglish ? exec.role[0] : exec.role[1];
 
         let div1 = document.createElement("div");
-        div1.className = "card-body pt-1 pb-1 px-0 text-center";
+        div1.className = "card-body py-1 px-0 text-center";
         div1.appendChild(h2);
         div1.appendChild(h3);
 
