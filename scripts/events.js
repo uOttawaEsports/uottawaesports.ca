@@ -73,7 +73,7 @@ function displayEvents() {
         p.style.textJustify = "inter-word"
 
         let ul = document.createElement("ul");
-        ul.className = "list-group list-group-flush";
+        ul.className = "list-group list-group-flush text-start";
 
         let li1 = document.createElement("li");
         li1.className = "list-group-item";
