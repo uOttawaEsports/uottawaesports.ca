@@ -1,4 +1,5 @@
-// If there is more than one gold team simply add a " 2" next to the gold string. Example: "gold 2".
+// Teams that will be displayed will only be "garnet", "grey", and "gold".
+// If there exists a second gold team, name the first gold team "gold" and the second "gold 2".
 const modals = {
     "cod-team": {
         "garnet": {
@@ -147,12 +148,32 @@ const modals = {
         "garnet": {
             title: ["Rocket League Garnet Team", "Équipe Garnet de Rocket League"],
             background: "#800020",
-            members: {}
+            members: {
+                "fabienlef": ["Main Roster", "Liste principale"],
+                "Hexki": ["Main Roster", "Liste principale"],
+                "JChan": ["Main Roster", "Liste principale"],
+                "koat": ["Substitute", "Remplaçant"]
+            }
         },
         "grey": {
             title: ["Rocket League Grey Team", "Équipe Grey de Rocket League"],
             background: "#303031",
-            members: {}
+            members: {
+                "JoBone": ["Main Roster", "Liste principale"],
+                "koat": ["Main Roster", "Liste principale"],
+                "tannwan0625": ["Main Roster", "Liste principale"],
+                "Mystyclious": ["Substitute", "Remplaçant"]
+            }
+        },
+        "gold": {
+            title: ["Rocket League Gold Team", "Équipe Gold de Rocket League"],
+            background: "#665814",
+            members: {
+                "AKRAM": ["Main Roster", "Liste principale"],
+                "Shail": ["Main Roster", "Liste principale"],
+                "Tahzo": ["Main Roster", "Liste principale"],
+                "Zyoulou": ["Substitute", "Remplaçant"]
+            }
         }
     },
     "ssbu-team": {
