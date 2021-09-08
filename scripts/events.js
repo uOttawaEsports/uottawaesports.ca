@@ -23,7 +23,7 @@ const events = [
         contact: ["<a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a> or <a href=\"/en/contact/\" target=\"_blank\">email us</a>", "<a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a> ou <a href=\"/fr/contact/\" target=\"_blank\">envoyez-nous un courriel</a>"]
     },
     {
-        title: ["VALORANT Gold (C) Team Tryouts", "VALORANT «&nbsp;In-house&nbsp;»"],
+        title: ["VALORANT Gold (C) Team Tryouts", "VALORANT épreuve de sélection de l'équipe Gold (C)"],
         image: ["../../images/events/val.png", "VALORANT", "VALORANT"],
         text: ["No minimum rank requirement. All are welcome! <br />For more information, join our <a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a>.", "Aucun classement minimum. Tous sont les bienvenus&nbsp;! <br />Pour plus d'informations, rejoignez notre <a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a>."],
         date: ["Saturday, September 11", "Samedi 11 septembre"],
