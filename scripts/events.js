@@ -9,7 +9,7 @@ const events = [
         "Nous avons un stand à la Foire des clubs de la Semaine 101&nbsp;! Venez nous trouver et nous dire bonjour&nbsp;! Qui sait, peut-être nous aurons un peu de Red Bull à distribuer ;) Plus d'informations sur <a href=\"https://www.cvuo.ca/foire-des-clubs-2021\" target=\"_blank\" rel=\"external\">le site Web du CVUO</a>."],
         date: ["Wednesday, September 8", "Mercredi 8 septembre"],
         time: ["3 PM - 6 PM", "15h à 18h"],
-        location: ["Grand Alley, uOttawa", "La grande allée à uOttawa"],
+        location: ["Table #1, Grand Alley, uOttawa", "La grande allée à uOttawa, table 1"],
         contact: ["Juicy_Vinyl#3235, Zander#6846", "Juicy_Vinyl#3235, Zander#6846"]
     },
     {
@@ -19,7 +19,7 @@ const events = [
         "Nous serons présents à la foire en ligne sur Gather Town pour ceux qui ne peuvent pas se rendre en personne à la Foire des clubs&nbsp;!"],
         date: ["Wednesday, September 8", "Mercredi 8 septembre"],
         time: ["3 PM - 6 PM", "15h à 18h"],
-        location: ["<a href=\"https://gather.town/invite?token=ax7gXG5B\" target=\"_blank\" rel=\"external\">Gather Town</a>", "<a href=\"https://gather.town/invite?token=ax7gXG5B\" target=\"_blank\" rel=\"external\">Gather Town</a>"],
+        location: ["<a href=\"https://gather.town/invite?token=ax7gXG5B\" target=\"_blank\" rel=\"external\">Gather Town</a>, Table #1", "<a href=\"https://gather.town/invite?token=ax7gXG5B\" target=\"_blank\" rel=\"external\">Gather Town</a>, table 1"],
         contact: ["JAXO#9999", "JAXO#9999"]
     },
     {
