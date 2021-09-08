@@ -10,7 +10,7 @@ const events = [
         date: ["Wednesday, September 8", "Mercredi 8 septembre"],
         time: ["3 PM - 6 PM", "15h à 18h"],
         location: ["Grand Alley, uOttawa", "La grande allée à uOttawa"],
-        contact: ["JAXO#9999, Juicy_Vinyl#3235, Zander#6846", "JAXO#9999, Juicy_Vinyl#3235, Zander#6846"]
+        contact: ["Juicy_Vinyl#3235, Zander#6846", "Juicy_Vinyl#3235, Zander#6846"]
     },
     {
         title: ["Clubs Fair (online)", "Foire des clubs (en ligne)"],
@@ -20,7 +20,7 @@ const events = [
         date: ["Wednesday, September 8", "Mercredi 8 septembre"],
         time: ["3 PM - 6 PM", "15h à 18h"],
         location: ["<a href=\"https://gather.town/invite?token=ax7gXG5B\" target=\"_blank\" rel=\"external\">Gather Town</a>", "<a href=\"https://gather.town/invite?token=ax7gXG5B\" target=\"_blank\" rel=\"external\">Gather Town</a>"],
-        contact: ["<a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a> or <a href=\"/en/contact/\" target=\"_blank\">email us</a>", "<a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a> ou <a href=\"/fr/contact/\" target=\"_blank\">envoyez-nous un courriel</a>"]
+        contact: ["JAXO#9999", "JAXO#9999"]
     },
     {
         title: ["VALORANT Gold (C) Team Tryouts", "VALORANT épreuve de sélection de l'équipe Gold (C)"],
