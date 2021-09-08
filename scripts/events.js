@@ -52,12 +52,12 @@ function displayEvents() {
 
         let div1 = document.createElement("div");
         div1.className = "card bg-maroon m-2";
-        div1.style.minHeight = "44.8rem";
+        div1.style.minHeight = "45.2rem";
 
         let img = document.createElement("img");
         img.src = event.image[0];
         img.alt = isEnglish ? event.image[1] : event.image[2];
-        img.className = "card-img-top pt-3 px-3 w-100 rounded";
+        img.className = "card-img-top pt-3 px-4 w-100 rounded";
 
         let div2 = document.createElement("div");
         div2.className = "card-body";
