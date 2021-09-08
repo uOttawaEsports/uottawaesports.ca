@@ -11,7 +11,7 @@ document.getElementById("date").innerHTML = window.location.href.includes("/en")
 let sorted = Object.keys(execs).sort((a, b) => { return execs[b].pts - execs[a].pts }); // sorts the keys of the execs object and stores them into an array
 
 let pos = 1;
-let headerCreated = false;
+let tableCreated = false;
 
 sorted.forEach(personObj => {
     if (pos <= 3) {
@@ -41,13 +41,18 @@ sorted.forEach(personObj => {
         document.getElementById("top3").appendChild(div);
         pos++;
     } else {
-        if (!headerCreated) {
+        if (!tableCreated) {
+            let table = document.createElement("table");
+            table.className = "table table-dark table-striped table-bordered border-secondary";
+            let thead = document.createElement("thead");
+            let tbody = document.createElement("tbody");
+            tbody.id = "tableBody";
             let tr = document.createElement("tr");
             let th = document.createElement("th");
 
             th.scope = "col";
             th.innerHTML = "Position";
-            th.className = "text-center"
+            th.className = "text-start"
             th.style.width = "1%";
             th.style.whiteSpace = "nowrap";
             tr.appendChild(th);
@@ -55,19 +60,21 @@ sorted.forEach(personObj => {
             th = document.createElement("th");
             th.scope = "col";
             th.innerHTML = window.location.href.includes("/en") ? "Name" : "Nom";
-            th.className = "w-50";
+            th.className = "w-50 text-start";
             tr.appendChild(th);
 
             th = document.createElement("th");
             th.scope = "col";
             th.innerHTML = "Point(s)";
-            th.className = "text-center";
+            th.className = "text-start";
             th.style.width = "1%";
             th.style.whiteSpace = "nowrap";
             tr.appendChild(th);
 
-            document.getElementById("tableHead").appendChild(tr);
-            headerCreated = true;
+            thead.appendChild(tr);
+            table.append(thead, tbody);
+            document.getElementById("table").appendChild(table);
+            tableCreated = true;
         }
         let tr = document.createElement("tr");
         let th = document.createElement("th");
