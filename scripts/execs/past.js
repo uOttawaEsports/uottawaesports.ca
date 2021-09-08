@@ -1,6 +1,7 @@
+// Most recent exec teams at the bottom of the object.
 let pastExecs = {
     "2018-2019": {
-        image: "../../../images/logo.png",
+        image: "../../../images/execs/past/2018-2019.png",
         people: {
             "Jessica Rivers": ["Founder & Co-President", "Fondatrice & Co-Présidente"],
             "Trent Schwartz": ["Co-President", "Co-Président"],
@@ -12,7 +13,7 @@ let pastExecs = {
         }
     },
     "2019-2020": {
-        image: "../../../images/logo.png",
+        image: "../../../images/execs/past/2019-2020.png",
         people: {
             "Trent Schwartz": ["Co-President", "Co-Président"],
             "Zack Goldstein": ["Co-President", "Co-Président"],
