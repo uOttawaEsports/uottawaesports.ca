@@ -16,7 +16,6 @@
 - CSS
 - JavaScript
 - Bootstrap 5.0.2
-- React
 
 ## History
 
