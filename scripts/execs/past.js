@@ -61,7 +61,7 @@ function displayExecs() {
         let execs = pastExecs[year];
 
         let div1 = document.createElement("div");
-        div1.className = "card bg-dark text-white mb-2 m-sm-2 mx-lg-2 mb-lg-4";
+        div1.className = "card bg-dark text-white mb-2 m-sm-2 mx-lg-3 mb-lg-4";
 
         let img = document.createElement("img");
         img.src = execs.image;
