@@ -134,7 +134,7 @@ let execs = {
     },
     "Narth Rajeswaran": {
         name: "Narth Rajeswaran",
-        image: "../../../images/execs/placeholder.png",
+        image: "../../../images/execs/2021-2022/narth-rajeswaran.png",
         role: ["<span class='fw-bold'>Game Head</span> <br /> League of Legends", "<span class='fw-bold'>Chef de jeu de</span> <br /> League of Legends"],
         prog: ["Political Science", "Science politique"],
         year: ["2nd Year", "2e année"],
