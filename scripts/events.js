@@ -23,7 +23,7 @@ const events = [
         contact: ["JAXO#9999", "JAXO#9999"]
     },
     {
-        title: ["VALORANT Gold (C) Team Tryouts", "VALORANT épreuve de sélection de l'équipe Gold (C)"],
+        title: ["VALORANT Gold (C) Team Tryouts", "VALORANT épreuve de sélection de l'équipe Gold&nbsp;(C)"],
         image: ["../../images/events/val.png", "VALORANT", "VALORANT"],
         text: ["No minimum rank requirement. All are welcome! <br />For more information, join our <a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a>.", "Aucun classement minimum. Tous sont les bienvenus&nbsp;! <br />Pour plus d'informations, rejoignez notre <a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a>."],
         date: ["Saturday, September 11", "Samedi 11 septembre"],
@@ -69,8 +69,8 @@ function displayEvents() {
         let p = document.createElement("p");
         p.className = "card-text";
         p.innerHTML = isEnglish ? event.text[0] : event.text[1];
-        // p.style.textAlign = "justify";
-        // p.style.textJustify = "inter-word"
+        p.style.textAlign = "justify";
+        p.style.textJustify = "inter-word"
 
         let ul = document.createElement("ul");
         ul.className = "list-group list-group-flush";
