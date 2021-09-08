@@ -21,7 +21,16 @@ const events = [
         time: ["3 PM - 6 PM", "15h à 18h"],
         location: ["<a href=\"https://gather.town/invite?token=ax7gXG5B\" target=\"_blank\" rel=\"external\">Gather Town</a>", "<a href=\"https://gather.town/invite?token=ax7gXG5B\" target=\"_blank\" rel=\"external\">Gather Town</a>"],
         contact: ["<a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a> or <a href=\"/en/contact/\" target=\"_blank\">email us</a>", "<a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a> ou <a href=\"/fr/contact/\" target=\"_blank\">envoyez-nous un courriel</a>"]
-    }  
+    },
+    {
+        title: ["VALORANT Gold (C) Team Tryouts", "VALORANT «&nbsp;In-house&nbsp;»"],
+        image: ["../../images/events/val.png", "VALORANT", "VALORANT"],
+        text: ["No minimum rank requirement. All are welcome! <br />For more information, join our <a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a>.", "Aucun classement minimum. Tous sont les bienvenus&nbsp;! <br />Pour plus d'informations, rejoignez notre <a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a>."],
+        date: ["Saturday, September 11", "Samedi 11 septembre"],
+        time: ["3 PM - 7 PM", "15h à 19h"],
+        location: ["Discord", "Discord"],
+        contact: ["Juicy_Vinyl#3235, Kiro#3697", "Juicy_Vinyl#3235, Kiro#3697"]
+    },
     // {
     //     title: ["Clubs Fair Tabling", "VALORANT «&nbsp;In-house&nbsp;»"],
     //     image: ["../../images/events/general.png", "DOTA 2"],
@@ -60,8 +69,8 @@ function displayEvents() {
         let p = document.createElement("p");
         p.className = "card-text";
         p.innerHTML = isEnglish ? event.text[0] : event.text[1];
-        p.style.textAlign = "justify";
-        p.style.textJustify = "inter-word"
+        // p.style.textAlign = "justify";
+        // p.style.textJustify = "inter-word"
 
         let ul = document.createElement("ul");
         ul.className = "list-group list-group-flush";
