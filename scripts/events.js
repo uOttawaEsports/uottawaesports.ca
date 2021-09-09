@@ -3,26 +3,6 @@
 // Events in closest proximity must be placed at the top of the object.
 const events = [
     {
-        title: ["Clubs Fair (in-person)", "Foire des clubs (en personne)"],
-        image: ["../../images/events/grand-alley.png", "Grand alley", "La grande allée"],
-        text: ["We are tabling at the 101 Week Clubs Fair! Come find us and say hi! Who knows, maybe we'll have some Red Bull to give away ;) More information on <a href=\"https://www.cvuo.ca/clubs-fair-2021\" target=\"_blank\" rel=\"external\">CVUO's website</a>.", 
-        "Nous avons un stand à la Foire des clubs de la Semaine 101&nbsp;! Venez nous trouver et nous dire bonjour&nbsp;! Qui sait, peut-être nous aurons un peu de Red Bull à distribuer ;) Plus d'informations sur <a href=\"https://www.cvuo.ca/foire-des-clubs-2021\" target=\"_blank\" rel=\"external\">le site Web du CVUO</a>."],
-        date: ["Wednesday, September 8", "Mercredi 8 septembre"],
-        time: ["3 PM - 6 PM", "15h à 18h"],
-        location: ["Table #1, Grand Alley, uOttawa", "La grande allée à uOttawa, table 1"],
-        contact: ["Juicy_Vinyl#3235, Zander#6846", "Juicy_Vinyl#3235, Zander#6846"]
-    },
-    {
-        title: ["Clubs Fair (online)", "Foire des clubs (en ligne)"],
-        image: ["../../images/events/gather-town.png", "Gather Town", "Gather Town"],
-        text: ["We will be present at the online fair on Gather Town for those who cannot make it to the Clubs Fair in person!", 
-        "Nous serons présents à la foire en ligne sur Gather Town pour ceux qui ne peuvent pas se rendre en personne à la Foire des clubs&nbsp;!"],
-        date: ["Wednesday, September 8", "Mercredi 8 septembre"],
-        time: ["3 PM - 6 PM", "15h à 18h"],
-        location: ["<a href=\"https://gather.town/invite?token=ax7gXG5B\" target=\"_blank\" rel=\"external\">Gather Town</a>, Table #1", "<a href=\"https://gather.town/invite?token=ax7gXG5B\" target=\"_blank\" rel=\"external\">Gather Town</a>, table 1"],
-        contact: ["JAXO#9999", "JAXO#9999"]
-    },
-    {
         title: ["VALORANT Gold (C) Team Tryouts", "VALORANT épreuve de sélection de l'équipe Gold&nbsp;(C)"],
         image: ["../../images/events/val.png", "VALORANT", "VALORANT"],
         text: ["No minimum rank requirement. All are welcome! <br />For more information, join our <a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a>.", "Aucun classement minimum. Tous sont les bienvenus&nbsp;! <br />Pour plus d'informations, rejoignez notre <a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a>."],
