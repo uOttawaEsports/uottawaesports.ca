@@ -58,7 +58,7 @@ let execs = {
         prog: ["Computer Engineering", "Génie informatique"],
         year: ["3rd Year", "3e année"],
         game: "VALORANT, Bus Simulator",
-        desc: ["Hey, I'm Steven! I love playing video games, keeping up with politics, volunteering, and sushi! I'm also the creator of this brand new website :)", "Hé, je m'appelle Steven&nbsp;! J'aime jouer aux jeux vidéo, suivre la politique, faire du bénévolat et manger du sushi&nbsp;! Je suis également le créateur de ce tout nouveau site Web :)"],
+        desc: ["Hey, I'm Steven! I love playing video games, keeping up with politics, volunteering, and sushi! Avid OC Transpo fan. I'm also the creator of this brand new website :)", "Hé, je m'appelle Steven&nbsp;! J'aime jouer aux jeux vidéo, suivre la politique, faire du bénévolat et manger du sushi&nbsp;! Fan inconditionnel d'OC Transpo. Je suis aussi le créateur de ce tout nouveau site Web :)"],
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/steven-li.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Prem Gupta": {
