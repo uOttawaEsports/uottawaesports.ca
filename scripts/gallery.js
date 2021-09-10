@@ -34,6 +34,10 @@ const images = [{
     {
         image: "../../images/gallery/clubs-fair-2021-4.jpg",
         alt: ["Clubs Fair 2021", "La Foire des clubs 2021"]
+    },
+    {
+        image: "../../images/gallery/clubs-fair-2021-5.jpg",
+        alt: ["Clubs Fair 2021", "La Foire des clubs 2021"]
     }
 ];
 
