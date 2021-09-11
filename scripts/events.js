@@ -2,15 +2,15 @@
 // Be careful not to add too much description text, as it may cause the cards to become an uneven height.
 // Events in closest proximity must be placed at the top of the object.
 const events = [
-    {
-        title: ["VALORANT Gold (C) Team Tryouts", "VALORANT épreuve de sélection de l'équipe Gold&nbsp;(C)"],
-        image: ["../../images/events/val.png", "VALORANT", "VALORANT"],
-        text: ["No minimum rank requirement. All are welcome! <br />For more information, join our <a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a>.", "Aucun classement minimum. Tous sont les bienvenus&nbsp;! <br />Pour plus d'informations, rejoignez notre <a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a>."],
-        date: ["Saturday, September 11", "Samedi 11 septembre"],
-        time: ["3 PM - 7 PM", "15h à 19h"],
-        location: ["Discord", "Discord"],
-        contact: ["Juicy_Vinyl#3235, Kiro#3697", "Juicy_Vinyl#3235, Kiro#3697"]
-    },
+    // {
+    //     title: ["VALORANT Gold (C) Team Tryouts", "VALORANT épreuve de sélection de l'équipe Gold&nbsp;(C)"],
+    //     image: ["../../images/events/val.png", "VALORANT", "VALORANT"],
+    //     text: ["No minimum rank requirement. All are welcome! <br />For more information, join our <a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a>.", "Aucun classement minimum. Tous sont les bienvenus&nbsp;! <br />Pour plus d'informations, rejoignez notre <a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a>."],
+    //     date: ["Saturday, September 11", "Samedi 11 septembre"],
+    //     time: ["3 PM - 7 PM", "15h à 19h"],
+    //     location: ["Discord", "Discord"],
+    //     contact: ["Juicy_Vinyl#3235, Kiro#3697", "Juicy_Vinyl#3235, Kiro#3697"]
+    // },
     // {
     //     title: ["Clubs Fair Tabling", "VALORANT «&nbsp;In-house&nbsp;»"],
     //     image: ["../../images/events/general.png", "DOTA 2"],
