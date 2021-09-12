@@ -79,12 +79,28 @@ const modals = {
         "garnet": {
             title: ["League of Legends Garnet Team", "Équipe Garnet de League of Legends"],
             background: "#800020",
-            members: {}
+            members: {
+                "Doraro": ["Top", "Top"],
+                "gumbee power": ["Jungle", "Jungle"],
+                "Midnight Akuma": ["Mid", "Mid"],
+                "PieckPerformance": ["AD", "AD"],
+                "sprinklr": ["Support", "Support"],
+                "Draig": ["Substitute - Mid/Support", "Remplaçant - Mid/Support"],
+                "amlo12": ["Substitute - AD", "Remplaçant - AD"]
+            }
         },
         "grey": {
             title: ["League of Legends Grey Team", "Équipe Grey de League of Legends"],
             background: "#303031",
-            members: {}
+            members: {
+                "bobbyisfree": ["Top", "Top"],
+                "oKyle": ["Jungle", "Jungle"],
+                "bred": ["Mid", "Mid"],
+                "Heart": ["AD", "AD"],
+                "darkutopia": ["Support", "Support"],
+                "MistahFrosty": ["Substitute - Top/Jungle", "Remplaçant - Top/Jungle"],
+                "Narth": ["Substitute - Support", "Remplaçant - Support"]
+            }
         },
         "gold": {
             title: ["League of Legends Gold Team", "Équipe Gold de League of Legends"],
