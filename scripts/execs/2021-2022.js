@@ -7,7 +7,7 @@ let execs = {
         prog: ["Economics and Management", "Science économique et gestion"],
         year: ["4th Year", "4e année"],
         game: "CS:GO, Destiny, Monster Hunter",
-        desc: ["Hey y’all I’m Jaxon, and I’ve been a Co-President of the club since 2020! If it’s worth anything, I can name every national flag in the world.", "Salut à tous, je m'appelle Jaxon, et je suis co-président du club depuis 2020&nbsp;! Si ça peut vous être utile, je peux nommer tous les drapeaux nationaux du monde."],
+        desc: ["Hey y’all I’m Jaxon, and I’ve been a Co-President of the club since 2020! If it’s worth anything, I can name every national flag in the world.", "Salut à tous, je m'appelle Jaxon, et je suis co-président du club depuis 2020&nbsp;! Un fait intéressant: Je peux nommer tous les drapeaux nationaux du monde."],
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/jaxon-murphy.webp); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%; background-position-x: 50%;"
     },
     "Dhruv Kumar": {
@@ -17,7 +17,7 @@ let execs = {
         prog: ["Health Sciences", "Sciences de la santé"],
         year: ["3rd Year", "3e année"],
         game: "Rainbow Six Siege, Rocket League, VALORANT, Mario Kart",
-        desc: ["I'm Dhruv, the new Co-President of the club. I drink enough Iced Coffee/Iced Capp to truly say that I have ice in my veins.", "Je suis Dhruv, le nouveau co-président du club. Je bois assez de café glacé/cappé glacé pour pouvoir dire que j'ai de la glace dans les veines."],
+        desc: ["I'm Dhruv, the new Co-President of the club. I drink enough Iced Coffee/Iced Capp to truly say that I have ice in my veins.", "Je suis Dhruv, le nouveau co-président du club. Je bois assez de café glacé/cappé glacé pour pouvoir dire que j'ai de la glace dans mes veines."],
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     /* Execs */
@@ -28,7 +28,7 @@ let execs = {
         prog: ["Finance", "Finance"],
         year: ["2nd Year", "2e année"],
         game: "Rainbow Six Siege, NHL, FIFA, Call of Duty",
-        desc: ["I'm Alex, and I've been part of the exec team for over a year now and also played on the R6 A team during my first year.", "Je m'appelle Alex, je fais partie de l'équipe exécutive depuis plus d'un an maintenant et j'ai également joué dans l'équipe A de R6 pendant ma première année."],
+        desc: ["I'm Alex, and I've been part of the exec team for over a year now and also played on the R6 A team during my first year.", "Je m'appelle Alex, je fais partie de l'équipe exécutive depuis plus d'un an et j'ai également joué dans l'équipe A de R6 pendant ma première année."],
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/alex-lisitsas.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Andrew Leblanc": {
@@ -58,7 +58,7 @@ let execs = {
         prog: ["Computer Engineering", "Génie informatique"],
         year: ["3rd Year", "3e année"],
         game: "VALORANT, Bus Simulator",
-        desc: ["Hey, I'm Steven! I love playing video games, keeping up with politics, volunteering, and sushi! Avid OC Transpo fan. I'm also the creator of this brand new website :)", "Hé, je m'appelle Steven&nbsp;! J'aime jouer aux jeux vidéo, suivre la politique, faire du bénévolat et manger du sushi&nbsp;! Fan inconditionnel d'OC Transpo. Je suis aussi le créateur de ce tout nouveau site Web :)"],
+        desc: ["Hey, I'm Steven! I love playing video games, keeping up with politics, volunteering, and sushi! Avid OC Transpo fan. I'm also the creator of this brand new website :)", "Hé, je m'appelle Steven&nbsp;! J'aime jouer aux jeux vidéo, suivre la politique, faire du bénévolat et manger du sushi&nbsp;! Je suis un admirateur inconditionnel d'OC Transpo. Je suis aussi le créateur de ce tout nouveau site Web :)"],
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/steven-li.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Prem Gupta": {
@@ -99,7 +99,7 @@ let execs = {
         prog: ["Health Sciences", "Sciences de la santé"],
         year: ["2nd Year", "2e année"],
         game: "CS:GO, League of Legends",
-        desc: ["My name is Bora, and I am the CS:GO Game Head. I have played on the CS:GO B team in my first year, and love competitive esports. I invite both casual and competitive players to play Counter-Strike at uOttawa Esports!", "Je m'appelle Bora, et je suis le responsable du jeu CS:GO. J'ai joué dans l'équipe B de CS:GO au cours de ma première année, et j'adore les esports compétitifs. J'invite les joueurs occasionnels et compétitifs à jouer à Counter-Strike à uOttawa Esports&nbsp;!"],
+        desc: ["My name is Bora, and I am the CS:GO Game Head. I have played on the CS:GO B team in my first year, and love competitive esports. I invite both casual and competitive players to play Counter-Strike at uOttawa Esports!", "Je m'appelle Bora, je suis le responsable du jeu CS:GO. J'ai joué dans l'équipe B de CS:GO au cours de ma première année, et j'adore les e-sports compétitifs. J'invite les joueurs occasionnels et compétitifs à jouer à Counter-Strike à uOttawa Esports&nbsp;!"],
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Peter Karpov": {
@@ -139,7 +139,7 @@ let execs = {
         prog: ["Political Science", "Science politique"],
         year: ["2nd Year", "2e année"],
         game: "Pokémon, League of Legends",
-        desc: ["My name is Narththanaan and I am the brand new LoL Game Head for uOttawa Esports where I assist in managing the LoL competitive teams alongside hosting LoL related events. I'm an aspiring writer and LoL esports enthusiast.", "Je m'appelle Narththanaan et je suis le tout nouveau chef de jeu LoL pour uOttawa Esports, où j'aide à gérer les équipes compétitives LoL et à organiser des événements liés à LoL. Je suis un écrivain en herbe et un passionné des esports de LoL."],
+        desc: ["My name is Narththanaan and I am the brand new LoL Game Head for uOttawa Esports where I assist in managing the LoL competitive teams alongside hosting LoL related events. I'm an aspiring writer and LoL esports enthusiast.", "Je m'appelle Narththanaan et je suis le tout nouveau chef de jeu LoL pour uOttawa Esports, où j'aide à gérer les équipes compétitives LoL et à organiser des événements liés à LoL. Je suis un écrivain en herbe et un passionné des e-sports de LoL."],
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Brandon Ly": {
@@ -149,7 +149,7 @@ let execs = {
         prog: ["Public Administration and Political Science", "Administration publique et science politique"],
         year: ["1st Year", "1er année"],
         game: "osu!, Civilization, Heroes & Generals, Stardew Valley, Professor Layton",
-        desc: ["Hiya, I'm Brandon! I'm the Game Head for the circle-clicking rhythm game known as osu! (you should check it out &#128521;). I watch way too much anime for my own good, and play literally every game on my couch.", "Bonjour, je m'appelle Brandon&nbsp;! Je suis le Game Head du jeu de rythme à cliquer sur des cercles, connu sous le nom de osu! (vous devriez y jeter un coup d'œil &#128521 ;). Je regarde beaucoup trop d'anime pour mon propre bien, et je joue littéralement à tous les jeux sur mon canapé."],
+        desc: ["Hiya, I'm Brandon! I'm the Game Head for the circle-clicking rhythm game known as osu! (you should check it out &#128521;). I watch way too much anime for my own good, and play literally every game on my couch.", "Bonjour, je m'appelle Brandon&nbsp;! Je suis le chef de jeu d'osu! (vous devriez y jeter un coup d'œil &#128521 ;). Je regarde beaucoup trop d'anime pour mon propre bien, et je joue littéralement à tous les jeux sur mon canapé."],
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Benoit Gagnier": {

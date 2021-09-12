@@ -6,11 +6,11 @@ const modals = {
             title: ["Call of Duty Garnet Team", "Équipe Garnet de Call of Duty"],
             background: "#800020",
             members: {
-                "corey camirand": ["Captain/Main Roster", "Capitaine/Liste principale"],
-                "cam19mac": ["Main Roster", "Liste principale"],
-                "Goonski": ["Main Roster", "Liste principale"],
-                "hishash": ["Main Roster", "Liste principale"],
-                "Nacho": ["Main Roster", "Liste principale"],
+                "corey camirand": ["Captain/Main Roster", "Capitaine/Formation principale"],
+                "cam19mac": ["Main Roster", "Formation principale"],
+                "Goonski": ["Main Roster", "Formation principale"],
+                "hishash": ["Main Roster", "Formation principale"],
+                "Nacho": ["Main Roster", "Formation principale"],
                 "Lego": ["Substitute", "Remplaçant"]
             }
         },
@@ -25,11 +25,11 @@ const modals = {
             title: ["CS:GO Garnet Team", "Équipe Garnet de CS:GO"],
             background: "#800020",
             members: {
-                "mtuckster": ["Captain/Main Roster", "Capitaine/Liste principale"],
-                "Tense": ["Main Roster", "Liste principale"],
-                "Rebow": ["Main Roster", "Liste principale"],
-                "baca": ["Main Roster", "Liste principale"],
-                "Lego": ["Main Roster", "Liste principale"],
+                "mtuckster": ["Captain/Main Roster", "Capitaine/Formation principale"],
+                "Tense": ["Main Roster", "Formation principale"],
+                "Rebow": ["Main Roster", "Formation principale"],
+                "baca": ["Main Roster", "Formation principale"],
+                "Lego": ["Main Roster", "Formation principale"],
                 "Wyndz": ["Substitute", "Remplaçant"]
             }
         },
@@ -137,11 +137,11 @@ const modals = {
             title: ["Rainbow Six Siege Garnet Team", "Équipe Garnet de Rainbow Six Siege"],
             background: "#800020",
             members: {
-                "Zander": ["Captain/Main Roster", "Capitaine/Liste principale"],
-                "Axent": ["Main Roster", "Liste principale"],
-                "Chrs": ["Main Roster", "Liste principale"],
-                "Echodrive": ["Main Roster", "Liste principale"],
-                "k3addy": ["Main Roster", "Liste principale"],
+                "Zander": ["Captain/Main Roster", "Capitaine/Formation principale"],
+                "Axent": ["Main Roster", "Formation principale"],
+                "Chrs": ["Main Roster", "Formation principale"],
+                "Echodrive": ["Main Roster", "Formation principale"],
+                "k3addy": ["Main Roster", "Formation principale"],
                 "Vaal": ["Substitute", "Remplaçant"],
                 "Vinyl": ["Substitute", "Remplaçant"]
             }
@@ -151,11 +151,11 @@ const modals = {
             background: "#303031",
             members: {
                 "Kiro": ["Coach/Substitute", "Entraîneur/Remplaçant"],
-                "Apollo": ["Captain/Main Roster", "Capitaine/Liste principale"],
-                "AsianFlow": ["Main Roster", "Liste principale"],
-                "Cronder": ["Main Roster", "Liste principale"],
-                "Nacho": ["Main Roster", "Liste principale"],
-                "ohkaysher": ["Main Roster", "Liste principale"],
+                "Apollo": ["Captain/Main Roster", "Capitaine/Formation principale"],
+                "AsianFlow": ["Main Roster", "Formation principale"],
+                "Cronder": ["Main Roster", "Formation principale"],
+                "Nacho": ["Main Roster", "Formation principale"],
+                "ohkaysher": ["Main Roster", "Formation principale"],
                 "Lits": ["Substitute", "Remplaçant"]
             }
         }
@@ -165,9 +165,9 @@ const modals = {
             title: ["Rocket League Garnet Team", "Équipe Garnet de Rocket League"],
             background: "#800020",
             members: {
-                "fabienlef": ["Main Roster", "Liste principale"],
-                "Hexki": ["Main Roster", "Liste principale"],
-                "JChan": ["Main Roster", "Liste principale"],
+                "fabienlef": ["Main Roster", "Formation principale"],
+                "Hexki": ["Main Roster", "Formation principale"],
+                "JChan": ["Main Roster", "Formation principale"],
                 "koat": ["Substitute", "Remplaçant"]
             }
         },
@@ -175,9 +175,9 @@ const modals = {
             title: ["Rocket League Grey Team", "Équipe Grey de Rocket League"],
             background: "#303031",
             members: {
-                "JoBone": ["Main Roster", "Liste principale"],
-                "koat": ["Main Roster", "Liste principale"],
-                "tannwan0625": ["Main Roster", "Liste principale"],
+                "JoBone": ["Main Roster", "Formation principale"],
+                "koat": ["Main Roster", "Formation principale"],
+                "tannwan0625": ["Main Roster", "Formation principale"],
                 "Mystyclious": ["Substitute", "Remplaçant"]
             }
         },
@@ -185,9 +185,9 @@ const modals = {
             title: ["Rocket League Gold Team", "Équipe Gold de Rocket League"],
             background: "#665814",
             members: {
-                "AKRAM": ["Main Roster", "Liste principale"],
-                "Shail": ["Main Roster", "Liste principale"],
-                "Tahzo": ["Main Roster", "Liste principale"],
+                "AKRAM": ["Main Roster", "Formation principale"],
+                "Shail": ["Main Roster", "Formation principale"],
+                "Tahzo": ["Main Roster", "Formation principale"],
                 "Zyoulou": ["Substitute", "Remplaçant"]
             }
         }
@@ -211,10 +211,10 @@ const modals = {
             members: {
                 "Kiro": ["Manager", "Manager"],
                 "kang xd": ["Coach", "Entraîneur"],
-                "bladee": ["Main Roster", "Liste principale"],
-                "housieee": ["Main Roster", "Liste principale"],
-                "Jacob": ["Main Roster", "Liste principale"],
-                "Jer": ["Main Roster", "Liste principale"],
+                "bladee": ["Main Roster", "Formation principale"],
+                "housieee": ["Main Roster", "Formation principale"],
+                "Jacob": ["Main Roster", "Formation principale"],
+                "Jer": ["Main Roster", "Formation principale"],
                 "Apl": ["Substitute", "Remplaçant"],
                 "SyCoLight": ["Substitute", "Remplaçant"]
             }
@@ -224,11 +224,11 @@ const modals = {
             background: "#303031",
             members: {
                 "Econ God": ["Coach", "Entraîneur"],
-                "chriski": ["Main Roster", "Liste principale"],
-                "Goff": ["Main Roster", "Liste principale"],
-                "inertia": ["Main Roster", "Liste principale"],
-                "Kiro": ["Main Roster", "Liste principale"],
-                "Leek": ["Main Roster", "Liste principale"],
+                "chriski": ["Main Roster", "Formation principale"],
+                "Goff": ["Main Roster", "Formation principale"],
+                "inertia": ["Main Roster", "Formation principale"],
+                "Kiro": ["Main Roster", "Formation principale"],
+                "Leek": ["Main Roster", "Formation principale"],
                 "LittleBozz": ["Substitute", "Remplaçant"]
             }
         },
