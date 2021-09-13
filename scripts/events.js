@@ -26,75 +26,82 @@ function displayEvents() {
     let isEnglish = window.location.href.includes("/en");
     let onEventPage = window.location.href.includes("/events") || window.location.href.includes("/evenements");
 
-    for (let i = 0; (i < events.length) && (i < 6); i++) {
-        if (!onEventPage && i == 3) break;
-        let event = events[i];
-
-        let div1 = document.createElement("div");
-        div1.className = "card bg-maroon m-2 t";
-        div1.style.minHeight = "45.2rem";
-
-        let img = document.createElement("img");
-        img.src = event.image[0];
-        img.alt = isEnglish ? event.image[1] : event.image[2];
-        img.className = "card-img-top p-2 pt-lg-3 px-lg-4 w-100 rounded";
-
-        let div2 = document.createElement("div");
-        div2.className = "card-body";
-
-        let h2 = document.createElement("h2");
-        h2.className = "card-title fs-5 text-center";
-        h2.innerHTML = isEnglish ? event.title[0] : event.title[1];
-
-        let p = document.createElement("p");
-        p.className = "card-text";
-        p.innerHTML = isEnglish ? event.text[0] : event.text[1];
-        p.style.textAlign = "justify";
-        p.style.textJustify = "inter-word"
-
-        let ul = document.createElement("ul");
-        ul.className = "list-group list-group-flush text-start";
-
-        let li1 = document.createElement("li");
-        li1.className = "list-group-item";
-        li1.innerHTML = isEnglish ? event.date[0] : event.date[1];
-
-        let span1 = document.createElement("span");
-        span1.className = "fw-bold";
-        span1.innerHTML = isEnglish ? "Date: " : "Date&nbsp;: ";
-        li1.prepend(span1);
-
-        let li2 = document.createElement("li");
-        li2.className = "list-group-item";
-        li2.innerHTML = isEnglish ? event.time[0] : event.time[1];
-
-        let span2 = document.createElement("span");
-        span2.className = "fw-bold";
-        span2.innerHTML = isEnglish ? "Time: " : "Heure&nbsp;: ";
-        li2.prepend(span2);
-
-        let li3 = document.createElement("li");
-        li3.className = "list-group-item";
-        li3.innerHTML = isEnglish ? event.location[0] : event.location[1];
-
-        let span3 = document.createElement("span");
-        span3.className = "fw-bold";
-        span3.innerHTML = isEnglish ? "Location: " : "Lieu&nbsp;: ";
-        li3.prepend(span3);
-
-        let li4 = document.createElement("li");
-        li4.className = "list-group-item";
-        li4.innerHTML = isEnglish ? event.contact[0] : event.contact[1];
-
-        let span4 = document.createElement("span");
-        span4.className = "fw-bold";
-        span4.innerHTML = isEnglish ? "Contact: " : "Contact&nbsp;: ";
-        li4.prepend(span4);
-
-        ul.append(li1, li2, li3, li4);
-        div2.append(h2, p);
-        div1.append(img, div2, ul);
-        document.getElementById("events").appendChild(div1);
+    if(events.length == 0 ) {
+        let div = document.createElement("div");
+        div.className = "m-1 m-lg-3 alert alert-warning w-100 text-center fs-5";
+        div.innerHTML = isEnglish ? "There are no upcoming events to showcase!" : "Il n'y a aucun événement à venir&nbsp;!";
+        document.getElementById("events").appendChild(div);
+    } else {
+        for (let i = 0; (i < events.length) && (i < 6); i++) {
+            if (!onEventPage && i == 3) break;
+            let event = events[i];
+    
+            let div1 = document.createElement("div");
+            div1.className = "card bg-maroon m-2 t";
+            div1.style.minHeight = "45.2rem";
+    
+            let img = document.createElement("img");
+            img.src = event.image[0];
+            img.alt = isEnglish ? event.image[1] : event.image[2];
+            img.className = "card-img-top p-2 pt-lg-3 px-lg-4 w-100 rounded";
+    
+            let div2 = document.createElement("div");
+            div2.className = "card-body";
+    
+            let h2 = document.createElement("h2");
+            h2.className = "card-title fs-5 text-center";
+            h2.innerHTML = isEnglish ? event.title[0] : event.title[1];
+    
+            let p = document.createElement("p");
+            p.className = "card-text";
+            p.innerHTML = isEnglish ? event.text[0] : event.text[1];
+            p.style.textAlign = "justify";
+            p.style.textJustify = "inter-word"
+    
+            let ul = document.createElement("ul");
+            ul.className = "list-group list-group-flush text-start";
+    
+            let li1 = document.createElement("li");
+            li1.className = "list-group-item";
+            li1.innerHTML = isEnglish ? event.date[0] : event.date[1];
+    
+            let span1 = document.createElement("span");
+            span1.className = "fw-bold";
+            span1.innerHTML = isEnglish ? "Date: " : "Date&nbsp;: ";
+            li1.prepend(span1);
+    
+            let li2 = document.createElement("li");
+            li2.className = "list-group-item";
+            li2.innerHTML = isEnglish ? event.time[0] : event.time[1];
+    
+            let span2 = document.createElement("span");
+            span2.className = "fw-bold";
+            span2.innerHTML = isEnglish ? "Time: " : "Heure&nbsp;: ";
+            li2.prepend(span2);
+    
+            let li3 = document.createElement("li");
+            li3.className = "list-group-item";
+            li3.innerHTML = isEnglish ? event.location[0] : event.location[1];
+    
+            let span3 = document.createElement("span");
+            span3.className = "fw-bold";
+            span3.innerHTML = isEnglish ? "Location: " : "Lieu&nbsp;: ";
+            li3.prepend(span3);
+    
+            let li4 = document.createElement("li");
+            li4.className = "list-group-item";
+            li4.innerHTML = isEnglish ? event.contact[0] : event.contact[1];
+    
+            let span4 = document.createElement("span");
+            span4.className = "fw-bold";
+            span4.innerHTML = isEnglish ? "Contact: " : "Contact&nbsp;: ";
+            li4.prepend(span4);
+    
+            ul.append(li1, li2, li3, li4);
+            div2.append(h2, p);
+            div1.append(img, div2, ul);
+            document.getElementById("events").appendChild(div1);
+        }
     }
 
     if (onEventPage) {

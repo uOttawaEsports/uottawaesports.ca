@@ -7,7 +7,7 @@ let execs = {
         prog: ["Economics and Management", "Science économique et gestion"],
         year: ["4th Year", "4e année"],
         game: "CS:GO, Destiny, Monster Hunter",
-        desc: ["Hey y’all I’m Jaxon, and I’ve been a Co-President of the club since 2020! If it’s worth anything, I can name every national flag in the world.", "Salut à tous, je m'appelle Jaxon, et je suis co-président du club depuis 2020&nbsp;! Un fait intéressant: Je peux nommer tous les drapeaux nationaux du monde."],
+        desc: ["Hey y’all I’m Jaxon, and I’ve been a Co-President of the club since 2020! If it’s worth anything, I can name every national flag in the world.", "Salut à tous, je m'appelle Jaxon, et je suis co-président du club depuis 2020&nbsp;! Un fait intéressant: je peux nommer tous les drapeaux nationaux du monde."],
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/jaxon-murphy.webp); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%; background-position-x: 50%;"
     },
     "Dhruv Kumar": {
