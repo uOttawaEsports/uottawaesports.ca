@@ -29,7 +29,7 @@ function displayEvents() {
     if(events.length == 0 ) {
         let div = document.createElement("div");
         div.className = "m-1 m-lg-3 alert alert-warning w-100 text-center fs-5";
-        div.innerHTML = isEnglish ? "There are no upcoming events!" : "Il n'y a aucun événement à venir&nbsp;!";
+        div.innerHTML = isEnglish ? "There are no upcoming events. Stay tuned!" : "Il n'y a aucun événement à venir. Restez à l'écoute&nbsp;!";
         document.getElementById("events").appendChild(div);
     } else {
         for (let i = 0; (i < events.length) && (i < 6); i++) {
