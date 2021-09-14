@@ -225,6 +225,7 @@ const modals = {
             title: ["VALORANT Grey Team", "Équipe Grey de VALORANT"],
             background: "#303031",
             members: {
+                "Kiro": ["Manager", "Manager"],
                 "Econ God": ["Coach", "Entraîneur"],
                 "chriski": ["Main Roster", "Formation principale"],
                 "Goff": ["Main Roster", "Formation principale"],
