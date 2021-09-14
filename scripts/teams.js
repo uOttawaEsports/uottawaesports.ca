@@ -211,12 +211,14 @@ const modals = {
             members: {
                 "Kiro": ["Manager", "Manager"],
                 "kang xd": ["Coach", "Entraîneur"],
+                "Apl": ["Main Roster", "Formation principale"],
                 "bladee": ["Main Roster", "Formation principale"],
                 "housieee": ["Main Roster", "Formation principale"],
                 "Jacob": ["Main Roster", "Formation principale"],
                 "Jer": ["Main Roster", "Formation principale"],
-                "Apl": ["Substitute", "Remplaçant"],
-                "SyCoLight": ["Substitute", "Remplaçant"]
+                "coal": ["Substitute", "Remplaçant"],
+                "prompt": ["Substitute", "Remplaçant"],
+                "SyCo": ["Substitute", "Remplaçant"]
             }
         },
         "grey": {
@@ -227,9 +229,10 @@ const modals = {
                 "chriski": ["Main Roster", "Formation principale"],
                 "Goff": ["Main Roster", "Formation principale"],
                 "inertia": ["Main Roster", "Formation principale"],
-                "Kiro": ["Main Roster", "Formation principale"],
                 "Leek": ["Main Roster", "Formation principale"],
-                "LittleBozz": ["Substitute", "Remplaçant"]
+                "LittleBozz": ["Main Roster", "Formation principale"],
+                "Rodwave": ["Substitute", "Remplaçant"],
+                "Xssant": ["Substitute", "Remplaçant"]
             }
         },
         "gold": {
