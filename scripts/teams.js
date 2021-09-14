@@ -236,14 +236,14 @@ const modals = {
             title: ["VALORANT Gold Team", "Équipe Gold de VALORANT"],
             background: "#665814",
             members: {
-                "Artu": ["Main Roster", "Formation principale"],
                 "Dish": ["Main Roster", "Formation principale"],
                 "ERIC": ["Main Roster", "Formation principale"],
                 "Overider21": ["Main Roster", "Formation principale"],
+                "RainbowPigCake": ["Main Roster", "Formation principale"],
                 "yj": ["Main Roster", "Formation principale"],
+                "Artu": ["Substitute", "Remplaçant"],
                 "JasonFGC": ["Substitute", "Remplaçant"],
-                "Noctember": ["Substitute", "Remplaçant"],
-                "RainbowPigCake": ["Substitute", "Remplaçant"]
+                "Noctember": ["Substitute", "Remplaçant"]
             }
         }
     }
