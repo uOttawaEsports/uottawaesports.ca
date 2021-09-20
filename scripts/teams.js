@@ -83,21 +83,20 @@ const modals = {
                 "Doraro": ["Top", "Top"],
                 "gumbee power": ["Jungle", "Jungle"],
                 "Midnight Akuma": ["Mid", "Mid"],
-                "PieckPerformance": ["AD", "AD"],
+                "PieckPerformance": ["ADC", "ADC"],
                 "sprinklr": ["Support", "Support"],
-                "Draig": ["Substitute - Mid/Support", "Remplaçant - Mid/Support"],
-                "amlo12": ["Substitute - AD", "Remplaçant - AD"]
+                "Draig": ["Substitute - Mid/Support", "Remplaçant - Mid/Support"]
             }
         },
         "grey": {
             title: ["League of Legends Grey Team", "Équipe Grey de League of Legends"],
             background: "#303031",
             members: {
+                "amlo12": ["ADC", "ADC"],
                 "bobbyisfree": ["Top", "Top"],
-                "oKyle": ["Jungle", "Jungle"],
                 "bred": ["Mid", "Mid"],
-                "Heart": ["AD", "AD"],
                 "darkutopia": ["Support", "Support"],
+                "oKyle": ["Jungle", "Jungle"],
                 "MistahFrosty": ["Substitute - Top/Jungle", "Remplaçant - Top/Jungle"],
                 "Narth": ["Substitute - Support", "Remplaçant - Support"]
             }
