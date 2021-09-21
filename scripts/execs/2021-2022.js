@@ -28,7 +28,7 @@ let execs = {
         prog: ["Finance", "Finance"],
         year: ["2nd Year", "2e année"],
         game: "Rainbow Six Siege, NHL, FIFA, Call of Duty",
-        desc: ["I'm Alex, and I've been part of the exec team for over a year now and also played on the R6 A team during my first year.", "Je m'appelle Alex, je fais partie de l'équipe exécutive depuis plus d'un an et j'ai également joué dans l'équipe A de R6 pendant ma première année."],
+        desc: ["I'm Alex, and I've been part of the exec team for over a year now and I also play on the R6 Garnet Team.", "Je m'appelle Alex, je fais partie de l'équipe exécutive depuis plus d'un an et je joue dans l'équipe Garnet de R6."],
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/alex-lisitsas.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Andrew Leblanc": {
@@ -82,6 +82,16 @@ let execs = {
         background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/ali-jafri.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     /* Game Heads */
+    "Michael Vo": {
+        name: "Owen Stafford",
+        image: "../../../images/execs/2021-2022/michael-vo.png",
+        role: ["<span class='fw-bold'>Game Head</span> <br /> Apex Legends", "<span class='fw-bold'>Chef de jeu</span> <br /> Apex Legends"],
+        prog: ["Biology", "Biologie"],
+        year: ["2nd Year", "2e année"],
+        game: "Apex Legends, Yakuza",
+        desc: ["I like to chill, play games and meet new people!", "J'aime me détendre, jouer à des jeux et rencontrer de nouvelles personnes&nbsp;!"],
+        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/michael-vo.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 75%;"
+    },
     "Owen Stafford": {
         name: "Owen Stafford",
         image: "../../../images/execs/2021-2022/owen-stafford.png",
