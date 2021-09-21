@@ -80,6 +80,7 @@ const modals = {
             title: ["League of Legends Garnet Team", "Équipe Garnet de League of Legends"],
             background: "#800020",
             members: {
+                "BeAn": ["Manager", "Manager"],
                 "Doraro": ["Top", "Top"],
                 "gumbee power": ["Jungle", "Jungle"],
                 "Midnight Akuma": ["Mid", "Mid"],
@@ -92,6 +93,7 @@ const modals = {
             title: ["League of Legends Grey Team", "Équipe Grey de League of Legends"],
             background: "#303031",
             members: {
+                "Jessica": ["Manager", "Manager"],
                 "amlo12": ["ADC", "ADC"],
                 "bobbyisfree": ["Top", "Top"],
                 "bred": ["Mid", "Mid"],
