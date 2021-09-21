@@ -83,7 +83,7 @@ let execs = {
     },
     /* Game Heads */
     "Michael Vo": {
-        name: "Owen Stafford",
+        name: "Michael Vo",
         image: "../../../images/execs/2021-2022/michael-vo.png",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Apex Legends", "<span class='fw-bold'>Chef de jeu</span> <br /> Apex Legends"],
         prog: ["Biology", "Biologie"],
