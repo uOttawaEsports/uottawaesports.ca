@@ -14,7 +14,7 @@ const events = [
     {
         title: ["osu! Garnet Team Tryouts", "Épreuve de sélection pour l'équipe Garnet de osu!"],
         image: ["../../images/events/osu.png", "osu! logo", "Logo de osu!"],
-        text: ["Must be a full-time student at the University of Ottawa. <br />All ranks are welcome!", "Doit être un étudiant à temps plein à l'Université d'Ottawa. <br />Tous sont les bienvenus&nbsp!"],
+        text: ["Must be a full-time student at the University of Ottawa. <br />All ranks are welcome!", "Besoin d'être un étudiant à temps complet à l'Université d'Ottawa. <br />Tous sont les bienvenus&nbsp!"],
         date: ["Saturday, September 25", "Samedi 25 septembre"],
         time: ["8:00 PM - 10:00 PM", "20h00 à 22h00"],
         location: ["Discord", "Discord"],
