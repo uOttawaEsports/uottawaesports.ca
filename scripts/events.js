@@ -2,24 +2,24 @@
 // Be careful not to add too much description text, as it may cause the cards to become an uneven height.
 // Events in closest proximity must be placed at the top of the object.
 const events = [
-    // {
-    //     title: ["VALORANT Gold (C) Team Tryouts", "VALORANT épreuve de sélection de l'équipe Gold&nbsp;(C)"],
-    //     image: ["../../images/events/val.png", "VALORANT", "VALORANT"],
-    //     text: ["No minimum rank requirement. All are welcome! <br />For more information, join our <a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a>.", "Aucun classement minimum. Tous sont les bienvenus&nbsp;! <br />Pour plus d'informations, rejoignez notre <a href=\"https://discord.gg/uAbd5uRTCA\" target=\"_blank\">Discord</a>."],
-    //     date: ["Saturday, September 11", "Samedi 11 septembre"],
-    //     time: ["3 PM - 7 PM", "15h à 19h"],
-    //     location: ["Discord", "Discord"],
-    //     contact: ["Juicy_Vinyl#3235, Kiro#3697", "Juicy_Vinyl#3235, Kiro#3697"]
-    // },
-    // {
-    //     title: ["Clubs Fair Tabling", "VALORANT «&nbsp;In-house&nbsp;»"],
-    //     image: ["../../images/events/general.png", "DOTA 2"],
-    //     text: ["Join other VALORANT players in an in-house! This is a great way of meeting new people who enjoy the same game as you!", "Rejoignez d'autres joueurs de VALORANT dans un «&nbsp;in-house&nbsp;»&nbsp;! C'est un excellent moyen de rencontrer de nouvelles personnes qui aiment le même jeu que vous&nbsp;!"],
-    //     date: ["Thursday, September 6", "Thursday, September 6 [FR]"],
-    //     time: ["6 AM", "6h00"],
-    //     location: ["Discord", "Discord"],
-    //     contact: "Yell#8888"
-    // },
+    {
+        title: ["VALORANT In-house", "VALORANT In-house"],
+        image: ["../../images/events/val.png", "VALORANT logo", "Logo de VALORANT"],
+        text: ["Join other VALORANT players in an in-house! This is a great way of meeting new people who enjoy the same game as you!", "Rejoignez d'autres joueurs de VALORANT dans un «&nbsp;in-house&nbsp;»&nbsp;! C'est un excellent moyen de rencontrer de nouvelles personnes qui aiment le même jeu que vous&nbsp;!"],
+        date: ["Saturday, September 25", "Samedi 25 septembre"],
+        time: ["4 PM", "16h"],
+        location: ["Discord", "Discord"],
+        contact: ["Kiro#3697", "Kiro#3697"]
+    },
+    {
+        title: ["Exec Game Night", "Soirée de jeux avec les cadres"],
+        image: ["../../images/events/amongus.png", "uOttawa Esports logo", "Logo de uOttawa Esports"],
+        text: ["A bi-weekly game night where execs, game heads, and friends play together in casual and competitive games! On this night, we'll be playing Among Us.", "Une soirée de jeux bihebdomadaire où les cadres, les chefs de jeu et les amis jouent ensemble à des jeux occasionnels et compétitifs&nbsp;! Ce soir, nous jouerons à Among Us."],
+        date: ["Thursday, September 30", "Jeudi 30 septembre"],
+        time: ["9:30 PM - 11:00 PM", "21h30 à 23h00"],
+        location: ["<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>", "<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>"],
+        contact: ["Yell#8888", "Yell#8888"]
+    },
 ];
 
 function displayEvents() {
@@ -56,7 +56,7 @@ function displayEvents() {
             p.className = "card-text";
             p.innerHTML = isEnglish ? event.text[0] : event.text[1];
             p.style.textAlign = "justify";
-            p.style.textJustify = "inter-word"
+            p.style.textJustify = "inter-word";
     
             let ul = document.createElement("ul");
             ul.className = "list-group list-group-flush text-start";
