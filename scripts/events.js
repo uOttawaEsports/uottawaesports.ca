@@ -7,9 +7,18 @@ const events = [
         image: ["../../images/events/val.png", "VALORANT logo", "Logo de VALORANT"],
         text: ["Join other VALORANT players in an in-house! This is a great way of meeting new people who enjoy the same game as you!", "Rejoignez d'autres joueurs de VALORANT dans un «&nbsp;in-house&nbsp;»&nbsp;! C'est un excellent moyen de rencontrer de nouvelles personnes qui aiment le même jeu que vous&nbsp;!"],
         date: ["Saturday, September 25", "Samedi 25 septembre"],
-        time: ["4 PM", "16h"],
+        time: ["4:00 PM", "16h00"],
         location: ["Discord", "Discord"],
         contact: ["Kiro#3697", "Kiro#3697"]
+    },
+    {
+        title: ["osu! Garnet Team Tryouts", "Épreuve de sélection pour l'équipe Garnet de osu!"],
+        image: ["../../images/events/osu.png", "osu! logo", "Logo de osu!"],
+        text: ["Must be a full-time student at the University of Ottawa. <br />All ranks are welcome!", "Doit être un étudiant à temps plein à l'Université d'Ottawa. <br />Tous sont les bienvenus&nbsp!"],
+        date: ["Saturday, September 25", "Samedi 25 septembre"],
+        time: ["8:00 PM - 10:00 PM", "20h00 à 22h00"],
+        location: ["Discord", "Discord"],
+        contact: ["Fulserish#3239", "Fulserish#3239"]
     },
     {
         title: ["Exec Game Night", "Soirée de jeux avec les cadres"],
