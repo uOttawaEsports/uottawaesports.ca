@@ -31,34 +31,11 @@ const events = [
     },
 ];
 
-/* 
-<div class="crd bg-maroon w-100 mx-4 my-2">
-          <div class="row">
-            <div class="col-12 col-sm-3 col-lg-2 d-flex justify-content-center align-items-center">
-              <img src="../../images/events/amongus.png" alt="uOttawa Esports logo" class="crd-img p-1">
-            </div>
-            <div class="col-12 col-sm-9 col-lg-7 h-100">
-              <h2 class="crd-ttl fs-3 mt-2">Exec Game Night</h2>
-              <p class="crd-txt text-start">A bi-weekly game night where execs, game heads, and friends play together in casual and competitive games! On this night, we'll be playing Among Us.</p>
-            </div>
-            <div class="col-12 col-sm-12 col-lg-3 h-100 p-0">
-              <ul class="list-group list-group-flush text-start rounded">
-                <li class="list-group-item"><span class="fw-bold">Date: </span>Thursday, September 30</li>
-                <li class="list-group-item"><span class="fw-bold">Time: </span>9:30 PM - 11:00 PM</li>
-                <li class="list-group-item"><span class="fw-bold">Location: </span><a href="https://www.twitch.tv/uottawaesports"
-                    rel="external" target="_blank">Twitch</a></li>
-                <li class="list-group-item"><span class="fw-bold">Contact: </span>Yell#8888</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        */
-
 function displayEvents() {
     let isEnglish = window.location.href.includes("/en");
     let onEventPage = window.location.href.includes("/events") || window.location.href.includes("/evenements");
 
-    if(events.length == 0 ) {
+    if (events.length == 0) {
         let div = document.createElement("div");
         div.className = "m-1 m-lg-3 alert alert-warning w-100 text-center fs-5";
         div.innerHTML = isEnglish ? "There are no upcoming events. Stay tuned!" : "Il n'y a aucun événement à venir. Restez à l'écoute&nbsp;!";
@@ -67,7 +44,7 @@ function displayEvents() {
         for (let i = 0; (i < events.length) && (i < 6); i++) {
             if (!onEventPage && i == 3) break;
             let event = events[i];
-    
+
             let div1 = document.createElement("div");
             div1.className = "crd bg-maroon w-100 mx-4 my-2 rounded";
 
@@ -76,7 +53,7 @@ function displayEvents() {
 
             let div3 = document.createElement("div");
             div3.className = "col-12 col-sm-3 col-lg-2 d-flex justify-content-center align-items-center";
-    
+
             let img = document.createElement("img");
             img.src = event.image[0];
             img.alt = isEnglish ? event.image[1] : event.image[2];
@@ -86,11 +63,11 @@ function displayEvents() {
 
             let div4 = document.createElement("div");
             div4.className = "col-12 col-sm-9 col-lg-7 h-100";
-    
+
             let h2 = document.createElement("h2");
             h2.className = "crd-ttl fs-3 mt-2";
             h2.innerHTML = isEnglish ? event.title[0] : event.title[1];
-    
+
             let p = document.createElement("p");
             p.className = "crd-txt text-start";
             p.innerHTML = isEnglish ? event.text[0] : event.text[1];
@@ -101,46 +78,46 @@ function displayEvents() {
 
             let div5 = document.createElement("div");
             div5.className = "col-12 col-sm-12 col-lg-3 h-100 p-0";
-    
+
             let ul = document.createElement("ul");
             ul.className = "list-group list-group-flush text-start rounded";
-    
+
             let li1 = document.createElement("li");
             li1.className = "list-group-item";
             li1.innerHTML = isEnglish ? event.date[0] : event.date[1];
-    
+
             let span1 = document.createElement("span");
             span1.className = "fw-bold";
             span1.innerHTML = isEnglish ? "Date: " : "Date&nbsp;: ";
             li1.prepend(span1);
-    
+
             let li2 = document.createElement("li");
             li2.className = "list-group-item";
             li2.innerHTML = isEnglish ? event.time[0] : event.time[1];
-    
+
             let span2 = document.createElement("span");
             span2.className = "fw-bold";
             span2.innerHTML = isEnglish ? "Time: " : "Heure&nbsp;: ";
             li2.prepend(span2);
-    
+
             let li3 = document.createElement("li");
             li3.className = "list-group-item";
             li3.innerHTML = isEnglish ? event.location[0] : event.location[1];
-    
+
             let span3 = document.createElement("span");
             span3.className = "fw-bold";
             span3.innerHTML = isEnglish ? "Location: " : "Lieu&nbsp;: ";
             li3.prepend(span3);
-    
+
             let li4 = document.createElement("li");
             li4.className = "list-group-item";
             li4.innerHTML = isEnglish ? event.contact[0] : event.contact[1];
-    
+
             let span4 = document.createElement("span");
             span4.className = "fw-bold";
             span4.innerHTML = isEnglish ? "Contact: " : "Contact&nbsp;: ";
             li4.prepend(span4);
-    
+
             ul.append(li1, li2, li3, li4);
             div5.appendChild(ul);
             div2.append(div3, div4, div5);
@@ -152,7 +129,7 @@ function displayEvents() {
     if (onEventPage) {
         const info = document.getElementById("information");
         const btn = document.getElementById("information-button");
-        
+
         btn.onclick = function () {
             if (info.style.display === "none") {
                 info.style.display = "block";
@@ -160,7 +137,7 @@ function displayEvents() {
                 info.style.display = "none";
             }
         };
-        
+
         window.addEventListener('click', function (e) {
             if (!info.contains(e.target) && !btn.contains(e.target)) {
                 info.style.display = "none";
