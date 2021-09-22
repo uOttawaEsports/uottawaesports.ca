@@ -38,13 +38,9 @@
     transition-duration: 0.2s;
 }
 
-/* Existing classes */
+/* Custom classes */
 
-.card {
-    width: 18rem;
-}
-
-.card a {
+.crd a {
     color: #C70024;
 }
 
@@ -52,15 +48,17 @@
     color: #800020;
 }
 
-.card-text a {
+.crd-img {
+    border-radius: 8%;
+}
+
+.crd-txt a {
     color: #ffc5d0;
 }
 
-.card-text a:hover {
+.crd-txt a:hover {
     color: #ffaebd;
 }
-
-/* Custom classes */
 
 .information {
     width: 15rem;
@@ -103,5 +101,37 @@
 @media (max-width: 992px) {
     #carousel {
         width: 100%;
+    }
+}
+
+/* Style for event cards */
+
+@media (min-width: 992px) {
+    .crd-img {
+        height: 160px;
+        width: 160px;
+    }
+    .crd-ttl {
+        text-align: left;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .crd-img {
+        height: 140px;
+        width: 140px;
+    }
+    .crd-ttl {
+        text-align: left;
+    }
+}
+
+@media (max-width: 575px) {
+    .crd-img {
+        height: 15rem;
+        width: 15rem;
+    }
+    .crd-ttl {
+        text-align: center;
     }
 }

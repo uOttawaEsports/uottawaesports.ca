@@ -4,7 +4,7 @@
 const events = [
     {
         title: ["VALORANT In-house", "VALORANT In-house"],
-        image: ["../../images/events/val.png", "VALORANT logo", "Logo de VALORANT"],
+        image: ["../../images/events/val-jett.png", "VALORANT logo with Jett", "Logo de VALORANT avec Jett"],
         text: ["Join other VALORANT players in an in-house! This is a great way of meeting new people who enjoy the same game as you!", "Rejoignez d'autres joueurs de VALORANT dans un «&nbsp;in-house&nbsp;»&nbsp;! C'est un excellent moyen de rencontrer de nouvelles personnes qui aiment le même jeu que vous&nbsp;!"],
         date: ["Saturday, September 25", "Samedi 25 septembre"],
         time: ["4:00 PM", "16h00"],
@@ -31,6 +31,29 @@ const events = [
     },
 ];
 
+/* 
+<div class="crd bg-maroon w-100 mx-4 my-2">
+          <div class="row">
+            <div class="col-12 col-sm-3 col-lg-2 d-flex justify-content-center align-items-center">
+              <img src="../../images/events/amongus.png" alt="uOttawa Esports logo" class="crd-img p-1">
+            </div>
+            <div class="col-12 col-sm-9 col-lg-7 h-100">
+              <h2 class="crd-ttl fs-3 mt-2">Exec Game Night</h2>
+              <p class="crd-txt text-start">A bi-weekly game night where execs, game heads, and friends play together in casual and competitive games! On this night, we'll be playing Among Us.</p>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-3 h-100 p-0">
+              <ul class="list-group list-group-flush text-start rounded">
+                <li class="list-group-item"><span class="fw-bold">Date: </span>Thursday, September 30</li>
+                <li class="list-group-item"><span class="fw-bold">Time: </span>9:30 PM - 11:00 PM</li>
+                <li class="list-group-item"><span class="fw-bold">Location: </span><a href="https://www.twitch.tv/uottawaesports"
+                    rel="external" target="_blank">Twitch</a></li>
+                <li class="list-group-item"><span class="fw-bold">Contact: </span>Yell#8888</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        */
+
 function displayEvents() {
     let isEnglish = window.location.href.includes("/en");
     let onEventPage = window.location.href.includes("/events") || window.location.href.includes("/evenements");
@@ -46,29 +69,41 @@ function displayEvents() {
             let event = events[i];
     
             let div1 = document.createElement("div");
-            div1.className = "card bg-maroon m-2 t";
-            div1.style.minHeight = "45.2rem";
+            div1.className = "crd bg-maroon w-100 mx-4 my-2 rounded";
+
+            let div2 = document.createElement("div");
+            div2.className = "row";
+
+            let div3 = document.createElement("div");
+            div3.className = "col-12 col-sm-3 col-lg-2 d-flex justify-content-center align-items-center";
     
             let img = document.createElement("img");
             img.src = event.image[0];
             img.alt = isEnglish ? event.image[1] : event.image[2];
-            img.className = "card-img-top p-2 pt-lg-3 px-lg-4 w-100 rounded";
-    
-            let div2 = document.createElement("div");
-            div2.className = "card-body";
+            img.className = "crd-img p-1";
+
+            div3.appendChild(img);
+
+            let div4 = document.createElement("div");
+            div4.className = "col-12 col-sm-9 col-lg-7 h-100";
     
             let h2 = document.createElement("h2");
-            h2.className = "card-title fs-5 text-center";
+            h2.className = "crd-ttl fs-3 mt-2";
             h2.innerHTML = isEnglish ? event.title[0] : event.title[1];
     
             let p = document.createElement("p");
-            p.className = "card-text";
+            p.className = "crd-txt text-start";
             p.innerHTML = isEnglish ? event.text[0] : event.text[1];
             p.style.textAlign = "justify";
             p.style.textJustify = "inter-word";
+
+            div4.append(h2, p);
+
+            let div5 = document.createElement("div");
+            div5.className = "col-12 col-sm-12 col-lg-3 h-100 p-0";
     
             let ul = document.createElement("ul");
-            ul.className = "list-group list-group-flush text-start";
+            ul.className = "list-group list-group-flush text-start rounded";
     
             let li1 = document.createElement("li");
             li1.className = "list-group-item";
@@ -107,8 +142,9 @@ function displayEvents() {
             li4.prepend(span4);
     
             ul.append(li1, li2, li3, li4);
-            div2.append(h2, p);
-            div1.append(img, div2, ul);
+            div5.appendChild(ul);
+            div2.append(div3, div4, div5);
+            div1.appendChild(div2);
             document.getElementById("events").appendChild(div1);
         }
     }
