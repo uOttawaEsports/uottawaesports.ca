@@ -28,7 +28,7 @@ const events = [
         time: ["9:30 PM - 11:00 PM", "21h30 à 23h00"],
         location: ["<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>", "<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>"],
         contact: ["Yell#8888", "Yell#8888"]
-    },
+    }
 ];
 
 function displayEvents() {
@@ -46,7 +46,7 @@ function displayEvents() {
             let event = events[i];
 
             let div1 = document.createElement("div");
-            div1.className = "crd bg-maroon w-100 mx-4 my-2 rounded";
+            div1.className = "crd bg-maroon w-100 mx-1 mx-lg-3 my-2 rounded";
 
             let div2 = document.createElement("div");
             div2.className = "row";
