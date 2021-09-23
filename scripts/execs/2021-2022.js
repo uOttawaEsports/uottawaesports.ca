@@ -8,7 +8,7 @@ let execs = {
         year: ["4th Year", "4e année"],
         game: "CS:GO, Destiny, Monster Hunter",
         desc: ["Hey y’all I’m Jaxon, and I’ve been a Co-President of the club since 2020! If it’s worth anything, I can name every national flag in the world.", "Salut à tous, je m'appelle Jaxon, et je suis co-président du club depuis 2020&nbsp;! Un fait intéressant: je peux nommer tous les drapeaux nationaux du monde."],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/jaxon-murphy.webp); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%; background-position-x: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2021-2022/backgrounds/jaxon-murphy.webp); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%; background-position-x: 50%;"
     },
     "Dhruv Kumar": {
         name: "Dhruv Kumar",
@@ -18,7 +18,7 @@ let execs = {
         year: ["3rd Year", "3e année"],
         game: "Rainbow Six Siege, Rocket League, VALORANT, Mario Kart",
         desc: ["I'm Dhruv, the new Co-President of the club. I drink enough Iced Coffee/Iced Capp to truly say that I have ice in my veins.", "Je suis Dhruv, le nouveau co-président du club. Je bois assez de café glacé/cappé glacé pour pouvoir dire que j'ai de la glace dans mes veines."],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     /* Execs */
     "Alex Lisitsas": {
@@ -29,7 +29,7 @@ let execs = {
         year: ["2nd Year", "2e année"],
         game: "Rainbow Six Siege, NHL, FIFA, Call of Duty",
         desc: ["I'm Alex, and I've been part of the exec team for over a year now and I also play on the R6 Garnet Team.", "Je m'appelle Alex, je fais partie de l'équipe exécutive depuis plus d'un an et je joue dans l'équipe Garnet de R6."],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/alex-lisitsas.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2021-2022/backgrounds/alex-lisitsas.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 75%;"
     },
     "Andrew Leblanc": {
         name: "Andrew Leblanc",
@@ -39,7 +39,7 @@ let execs = {
         year: ["4th Year", "4e année"],
         game: "Whatever team needs a substitute",
         desc: ["I'm Andrew and I have played on three of the club's esports teams. I compete in Strongman and my favourite food is pizza.", "Je m'appelle Andrew et j'ai joué dans trois des équipes esports du club. Je fais de la compétition en Strongman et mon plat préféré est la pizza."],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Calvin Koehl": {
         name: "Calvin Koehl",
@@ -49,7 +49,7 @@ let execs = {
         year: ["", ""],
         game: "",
         desc: ["", ""],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Steven Li": {
         name: "Steven Li",
@@ -59,7 +59,7 @@ let execs = {
         year: ["3rd Year", "3e année"],
         game: "VALORANT, Bus Simulator",
         desc: ["Hey, I'm Steven! I love playing video games, keeping up with politics, volunteering, and sushi! Avid OC Transpo fan. I'm also the creator of this brand new website :)", "Hé, je m'appelle Steven&nbsp;! J'aime jouer aux jeux vidéo, suivre la politique, faire du bénévolat et manger du sushi&nbsp;! Je suis un admirateur inconditionnel d'OC Transpo. Je suis aussi le créateur de ce tout nouveau site Web :)"],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/steven-li.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2021-2022/backgrounds/steven-li.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Prem Gupta": {
         name: "Prem Gupta",
@@ -69,7 +69,7 @@ let execs = {
         year: ["3rd Year", "3e année"],
         game: "VALORANT, Rocket League, Animal Crossing, Mario Kart",
         desc: ["My name is Prem. I'm just the researching person (or better known as the VP External) for uOttawa Esports. I have been a casual esports viewer since ~2016 and have recently been invested in competitive Valorant this year. But not gonna lie, &#127850;&nbsp;+&nbsp;&#129371;&nbsp;=&nbsp;&#128293;" , "Mon nom est Prem. Je suis la personne chargée de la recherche (ou mieux connue sous le nom de VP externe) pour Esports uOttawa. Je suis un spectateur occasionnel d'e-sports depuis ~2016 et j'ai récemment été investi dans le Valorant compétitif cette année. Mais je ne vais pas mentir, &#127850;&nbsp;+&nbsp;&#129371;&nbsp;=&nbsp;&#128293;"],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Ali Jafri": {
         name: "Ali Jafri",
@@ -79,7 +79,7 @@ let execs = {
         year: ["3rd Year", "3e année"],
         game: "League of Legends, VALORANT, Garry's Mod, Borderlands 2",
         desc: ["Hi, I'm Ali and I'm your VP Social for this year. If I'm not busy crying, you can find me going 1-12 in Valorant matches. <br />\"yes, your 20's might be shitty. eating ramen every night, pulling all nighters for class, new family and social strain, etc. it's hard to grow up! but you know what reward is waiting for you at the end of them? Climate Change\"", "Bonjour, je m'appelle Ali et je suis votre VP Social pour cette année. Si je ne suis pas occupée à pleurer, vous pouvez me trouver en train de faire 1-12 dans les matchs de Valorant. <br />«&nbsp;oui, la vingtaine peut être merdique. manger des ramen tous les soirs, faire des nuits blanches pour les cours, de nouvelles contraintes familiales et sociales, etc. c'est dur de grandir&nbsp;! mais vous savez quelle récompense vous attend à la fin&nbsp;? Le changement climatique&nbsp;»"],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/ali-jafri.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2021-2022/backgrounds/ali-jafri.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     /* Game Heads */
     "Michael Vo": {
@@ -90,7 +90,7 @@ let execs = {
         year: ["2nd Year", "2e année"],
         game: "Apex Legends, Yakuza",
         desc: ["I like to chill, play games and meet new people!", "J'aime me détendre, jouer à des jeux et rencontrer de nouvelles personnes&nbsp;!"],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/michael-vo.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 75%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2021-2022/backgrounds/michael-vo.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 75%;"
     },
     "Owen Stafford": {
         name: "Owen Stafford",
@@ -100,7 +100,7 @@ let execs = {
         year: ["1st Year", "1er année"],
         game: "Counter-Strike, Call of Duty",
         desc: ["Hey I'm Owen, I grew up in Montreal and moved here a few years ago, so if you need someone who speaks French, let me know &#128578; I just started at uOttawa and look forward to meeting anyone in the club!", "Je m'appelle Owen, j'ai grandi à Montréal et j'ai déménagé ici il y a quelques années, alors si vous avez besoin de quelqu'un qui parle français, faites-moi savoir &#128578; Je viens de commencer à l'Université d'Ottawa et j'ai hâte de rencontrer tous les membres du club&nbsp;!"],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Bora Basar": {
         name: "Bora Basar",
@@ -110,7 +110,7 @@ let execs = {
         year: ["2nd Year", "2e année"],
         game: "CS:GO, League of Legends",
         desc: ["My name is Bora, and I am the CS:GO Game Head. I have played on the CS:GO B team in my first year, and love competitive esports. I invite both casual and competitive players to play Counter-Strike at uOttawa Esports!", "Je m'appelle Bora, je suis le responsable du jeu CS:GO. J'ai joué dans l'équipe B de CS:GO au cours de ma première année, et j'adore les e-sports compétitifs. J'invite les joueurs occasionnels et compétitifs à jouer à Counter-Strike à uOttawa Esports&nbsp;!"],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Peter Karpov": {
         name: "Peter Karpov",
@@ -120,7 +120,7 @@ let execs = {
         year: ["3rd Year", "3e année"],
         game: "DotA 2, Legends of Runeterra, Stardew Valley",
         desc: ["Hey, I'm Peter. I'm our DotA 2 Game Head and I host events and manage the competitive teams for the game at uOttawa Esports. I like video games, music, weightlifting, and hiking.", "Bonjour, je m'appelle Peter. Je suis notre chef de jeu DotA 2, j'organise des événements et je gère les équipes de compétition pour le jeu à Esports Ottawa. J'aime les jeux vidéo, la musique, l'haltérophilie et la randonnée."],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Ryan Farrell": {
         name: "Ryan Farrell",
@@ -130,7 +130,7 @@ let execs = {
         year: ["6th Year", "6e année"],
         game: "Metal Gear Solid 3, Devil May Cry 3",
         desc: ["Hey I'm Ryan, FGC Game Head. I like basketball, video games, and eating dumplings.", "Salut, je suis Ryan, chef de jeu des jeux de combat. J'aime le basket, les jeux vidéo et manger des boulettes de pâte."],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Matthew Awrey": {
         name: "Matthew Awrey",
@@ -140,7 +140,7 @@ let execs = {
         year: ["2nd Year", "2e année"],
         game: "Rainbow Six Siege, Apex Legends, KovaaKs",
         desc: ["Hey I'm Matthew. This is my first year as a Game Head and I'm very excited!", "Bonjour, je m'appelle Matthew. C'est ma première année en tant que chef de jeu et je suis très heureux&nbsp;!"],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Narth Rajeswaran": {
         name: "Narth Rajeswaran",
@@ -150,7 +150,7 @@ let execs = {
         year: ["2nd Year", "2e année"],
         game: "Pokémon, League of Legends",
         desc: ["My name is Narththanaan and I am the brand new LoL Game Head for uOttawa Esports where I assist in managing the LoL competitive teams alongside hosting LoL related events. I'm an aspiring writer and LoL esports enthusiast.", "Je m'appelle Narththanaan et je suis le tout nouveau chef de jeu LoL pour uOttawa Esports, où j'aide à gérer les équipes compétitives LoL et à organiser des événements liés à LoL. Je suis un écrivain en herbe et un passionné des e-sports de LoL."],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Brandon Ly": {
         name: "Brandon Ly",
@@ -160,7 +160,7 @@ let execs = {
         year: ["1st Year", "1er année"],
         game: "osu!, Civilization, Heroes & Generals, Stardew Valley, Professor Layton",
         desc: ["Hiya, I'm Brandon! I'm the Game Head for the circle-clicking rhythm game known as osu! (you should check it out &#128521;). I watch way too much anime for my own good, and play literally every game on my couch.", "Bonjour, je m'appelle Brandon&nbsp;! Je suis le chef de jeu d'osu! (vous devriez y jeter un coup d'œil &#128521 ;). Je regarde beaucoup trop d'anime pour mon propre bien, et je joue littéralement à tous les jeux sur mon canapé."],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2021-2022/backgrounds/brandon-ly.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Benoit Gagnier": {
         name: "Benoit Gagnier",
@@ -170,7 +170,7 @@ let execs = {
         year: ["2nd Year", "2e année"],
         game: "Pokémon, Overwatch, The Legend of Zelda",
         desc: ["", ""],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Griffin Taylor": {
         name: "Griffin Taylor",
@@ -180,7 +180,7 @@ let execs = {
         year: ["3rd Year", "3e année"],
         game: "Rainbow Six Siege, Dishonored",
         desc: ["I'm Griffin, and I've been the Game Head for R6 since 2020, and the IGL of the Garnet (A) team since 2019.", "Je m'appelle Griffin, et je suis le chef de jeu de R6 depuis 2020, et l'IGL de l'équipe Garnet (A) depuis 2019."],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/execs/2021-2022/backgrounds/griffin-taylor.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2021-2022/backgrounds/griffin-taylor.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Fabien Lefebvre": {
         name: "Fabien Lefebvre",
@@ -190,7 +190,7 @@ let execs = {
         year: ["3rd Year", "3e année"],
         game: "Rocket League, VALORANT, Battlefield",
         desc: ["Hey I'm Fabien. This is my first year managing the Rocket League teams for the club. I spend most of my time playing video games that make me tilt, along with throwing a plastic frisbee competitively.", "Salut, je m'appelle Fabien. C'est ma première année à gérer les équipes Rocket League pour le club. Je passe la plupart de mon temps à jouer à des jeux vidéo qui me font tilter, ainsi qu'à lancer un frisbee en plastique en compétition."],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "alexander Joe": {
         name: "Alexander Joe",
@@ -200,7 +200,7 @@ let execs = {
         year: ["3rd Year", "3e année"],
         game: "Smash Melee, Yu-Gi-Oh!, Team Fortress 2",
         desc: ["I'm Alexander, Game Head for Super Smash Bros. Melee. I like Smash, Touhou, and music.", "Je suis Alexander, chef de jeu de Super Smash Bros. Melee. J'aime Smash, Touhou et la musique."],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Tyler Lindsay": {
         name: "Tyler Lindsay",
@@ -210,7 +210,7 @@ let execs = {
         year: ["2nd Year", "2e année"],
         game: "Smash Ultimate, Hades, Fire Emblem, Legend of Zelda",
         desc: ["I'm Tai! I host events for Smash Ultimate within the club. I like Smash and most things Nintendo.", "Je suis Tai&nbsp;! J'organise des événements pour Smash Ultimate au sein du club. J'aime Smash et la plupart des choses Nintendo."],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Martina On": {
         name: "Martina On",
@@ -220,7 +220,7 @@ let execs = {
         year: ["4th Year", "4e année"],
         game: "VALORANT, League of Legends",
         desc: ["Hey, I’m Marti and I will be the Valorant Game Head once again this year. Last year, I was VP Social for the club, and the year prior, I was as VP Internal/External. This year marks my third year involved with uOttawa Esports. Can’t wait to have an amazing season with the competitive Valorant teams this year!!", "Salut, je m'appelle Marti et je serai le chef de jeu de Valorant une fois de plus cette année. L'année dernière, j'étais VP Social du club, et l'année précédente, j'étais VP Interne/Externe. Cette année marque ma troisième année d'implication à uOttawa Esports. J'ai hâte de vivre une saison incroyable avec les équipes compétitives de Valorant cette année&nbsp;!!"],
-        background: "background-image: linear-gradient(#000000a6, #000000a6), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     }
 }
 
