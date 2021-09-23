@@ -65,7 +65,7 @@ function displayEvents() {
             div4.className = "col-12 col-sm-9 col-lg-7 h-100";
 
             let h2 = document.createElement("h2");
-            h2.className = "crd-ttl fs-3 mt-2";
+            h2.className = "crd-ttl fs-3 mt-sm-2";
             h2.innerHTML = isEnglish ? event.title[0] : event.title[1];
 
             let p = document.createElement("p");
