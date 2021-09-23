@@ -32,7 +32,7 @@ const events = [
     {
         title: ["Exec Game Night", "Soirée de jeux avec les cadres"],
         image: ["../../images/events/amongus.png", "Among Us logo", "Logo de Among Us"],
-        text: ["A bi-weekly game night where execs, game heads, and friends play together in casual and competitive games! On this night, we'll be playing Among Us.", "Une soirée de jeux bihebdomadaire où les cadres, les chefs de jeu et les amis jouent ensemble à des jeux occasionnels et compétitifs&nbsp;! Ce soir, nous jouerons à Among Us."],
+        text: ["A bi-weekly game night where Execs, Game Heads, and friends play together in casual and competitive games! On this night, we'll be playing Among Us.", "Une soirée de jeux bihebdomadaire où les cadres, les chefs de jeu et les amis jouent ensemble à des jeux occasionnels et compétitifs&nbsp;! Ce soir, nous jouerons à Among Us."],
         date: ["Thursday, September 30", "Jeudi 30 septembre"],
         time: ["9:30 PM - 11:00 PM", "21h30 à 23h00"],
         location: ["<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>", "<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>"],

@@ -159,7 +159,7 @@ let execs = {
         prog: ["Public Administration and Political Science", "Administration publique et science politique"],
         year: ["1st Year", "1er année"],
         game: "osu!, Civilization, Heroes & Generals, Stardew Valley, Professor Layton",
-        desc: ["Hiya, I'm Brandon! I'm the Game Head for the circle-clicking rhythm game known as osu! (you should check it out &#128521;). I watch way too much anime for my own good, and play literally every game on my couch.", "Bonjour, je m'appelle Brandon&nbsp;! Je suis le chef de jeu d'osu! (vous devriez y jeter un coup d'œil &#128521 ;). Je regarde beaucoup trop d'anime pour mon propre bien, et je joue littéralement à tous les jeux sur mon canapé."],
+        desc: ["Hiya, I'm Brandon! I'm the Game Head for the circle-clicking rhythm game known as osu! (you should check it out &#128521;). I watch way too much anime for my own good, and play literally every game on my couch.", "Bonjour, je m'appelle Brandon&nbsp;! Je suis le chef de jeu de osu! (vous devriez y jeter un coup d'œil &#128521 ;). Je regarde beaucoup trop d'anime pour mon propre bien, et je joue littéralement à tous les jeux sur mon canapé."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2021-2022/backgrounds/brandon-ly.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Benoit Gagnier": {
