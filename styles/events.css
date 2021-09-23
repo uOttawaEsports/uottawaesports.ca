@@ -108,8 +108,8 @@
 
 @media (min-width: 992px) {
     .crd-img {
-        height: 160px;
-        width: 160px;
+        height: 10rem;
+        width: 10rem;
     }
     .crd-ttl {
         text-align: left;
@@ -118,8 +118,8 @@
 
 @media (min-width: 576px) and (max-width: 991px) {
     .crd-img {
-        height: 140px;
-        width: 140px;
+        height: 8.75rem;
+        width: 8.75rem;
     }
     .crd-ttl {
         text-align: left;
