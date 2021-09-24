@@ -91,12 +91,12 @@ const modals = {
             background: "#800020",
             members: {
                 "BeAn": ["Manager", "Manager"],
-                "Doraro": ["Top", "Voie du haut"],
+                "Doraro": ["Top", "Haut"],
                 "gumbee power": ["Jungle", "Jungle"],
-                "Midnight Akuma": ["Mid", "Voie du milieu"],
-                "PieckPerformance": ["Bot", "Voie du bas"],
+                "Midnight Akuma": ["Mid", "Milieu"],
+                "PieckPerformance": ["Bot", "Bas"],
                 "sprinklr": ["Support", "Support"],
-                "Draig": ["Substitute - Mid/Support", "Remplaçant - Voie du milieu/Support"]
+                "Draig": ["Substitute - Mid/Support", "Remplaçant - Milieu/Support"]
             },
             lastUpdated: ["2021-09-19"]
         },
@@ -105,12 +105,12 @@ const modals = {
             background: "#303031",
             members: {
                 "Jessica": ["Manager", "Manager"],
-                "bobbyisfree": ["Top", "Voie du haut"],
+                "bobbyisfree": ["Top", "Haut"],
                 "oKyle": ["Jungle", "Jungle"],
-                "bred": ["Mid", "Voie du milieu"],
-                "amlo12": ["Bot", "Voie du bas"],
+                "bred": ["Mid", "Milieu"],
+                "amlo12": ["Bot", "Bas"],
                 "darkutopia": ["Support", "Support"],
-                "MistahFrosty": ["Substitute - Top/Jungle", "Remplaçant - Voie du haut/Jungle"],
+                "MistahFrosty": ["Substitute - Top/Jungle", "Remplaçant - Haut/Jungle"],
                 "Narth": ["Substitute - Support", "Remplaçant - Support"]
             },
             lastUpdated: ["2021-09-19"]
