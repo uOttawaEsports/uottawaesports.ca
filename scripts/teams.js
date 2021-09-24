@@ -164,7 +164,7 @@ const modals = {
                 "Vaal": ["Substitute", "Remplaçant"],
                 "Vinyl": ["Substitute", "Remplaçant"]
             },
-            lastUpdated: ["2021-08-23"]
+            lastUpdated: ["2021-09-24"]
         },
         "grey": {
             title: ["Rainbow Six Siege Grey Team", "Équipe Grey de Rainbow Six Siege"],
@@ -180,7 +180,7 @@ const modals = {
                 "KingStar": ["Substitute", "Remplaçant"],
                 
             },
-            lastUpdated: ["2021-09-23"]
+            lastUpdated: ["2021-09-24"]
         }
     },
     "rl-team": {
