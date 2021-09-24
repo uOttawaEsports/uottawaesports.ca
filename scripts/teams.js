@@ -91,12 +91,12 @@ const modals = {
             background: "#800020",
             members: {
                 "BeAn": ["Manager", "Manager"],
-                "Doraro": ["Top", "Top"],
+                "Doraro": ["Top", "Voie du haut"],
                 "gumbee power": ["Jungle", "Jungle"],
-                "Midnight Akuma": ["Mid", "Mid"],
-                "PieckPerformance": ["ADC", "ADC"],
+                "Midnight Akuma": ["Mid", "Voie du milieu"],
+                "PieckPerformance": ["Bot", "Voie du bas"],
                 "sprinklr": ["Support", "Support"],
-                "Draig": ["Substitute - Mid/Support", "Remplaçant - Mid/Support"]
+                "Draig": ["Substitute - Mid/Support", "Remplaçant - Voie du milieu/Support"]
             },
             lastUpdated: ["2021-09-19"]
         },
@@ -105,12 +105,12 @@ const modals = {
             background: "#303031",
             members: {
                 "Jessica": ["Manager", "Manager"],
-                "amlo12": ["ADC", "ADC"],
-                "bobbyisfree": ["Top", "Top"],
-                "bred": ["Mid", "Mid"],
-                "darkutopia": ["Support", "Support"],
+                "bobbyisfree": ["Top", "Voie du haut"],
                 "oKyle": ["Jungle", "Jungle"],
-                "MistahFrosty": ["Substitute - Top/Jungle", "Remplaçant - Top/Jungle"],
+                "bred": ["Mid", "Voie du milieu"],
+                "amlo12": ["Bot", "Voie du bas"],
+                "darkutopia": ["Support", "Support"],
+                "MistahFrosty": ["Substitute - Top/Jungle", "Remplaçant - Voie du haut/Jungle"],
                 "Narth": ["Substitute - Support", "Remplaçant - Support"]
             },
             lastUpdated: ["2021-09-19"]
@@ -140,8 +140,17 @@ const modals = {
         "garnet": {
             title: ["Overwatch Garnet Team", "Équipe Garnet de Overwatch"],
             background: "#800020",
-            members: {},
-            lastUpdated: []
+            members: {
+                "Dunks": ["Tank", "Tank"],
+                "Tundra": ["Tank", "Tank"],
+                "Norman": ["Damage", "Dégâts"],
+                "VStriker": ["Damage", "Dégâts"],
+                "QebQake": ["Support", "Soutien"],
+                "Twigloo": ["Support", "Soutien"],
+                "Supreme": ["Substitute", "Remplaçant"],
+                "Vinyl": ["Substitute", "Remplaçant"]
+            },
+            lastUpdated: ["2021-09-24"]
         },
         "grey": {
             title: ["Overwatch Grey Team", "Équipe Grey de Overwatch"],
@@ -164,7 +173,7 @@ const modals = {
                 "Vaal": ["Substitute", "Remplaçant"],
                 "Vinyl": ["Substitute", "Remplaçant"]
             },
-            lastUpdated: ["2021-09-24"]
+            lastUpdated: ["2021-09-23"]
         },
         "grey": {
             title: ["Rainbow Six Siege Grey Team", "Équipe Grey de Rainbow Six Siege"],
@@ -180,7 +189,7 @@ const modals = {
                 "KingStar": ["Substitute", "Remplaçant"],
                 
             },
-            lastUpdated: ["2021-09-24"]
+            lastUpdated: ["2021-09-23"]
         }
     },
     "rl-team": {
