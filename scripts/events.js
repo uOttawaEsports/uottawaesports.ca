@@ -70,7 +70,7 @@ function displayEvents() {
             div2.className = "row";
 
             let div3 = document.createElement("div");
-            div3.className = "col-12 col-sm-3 col-lg-2 d-flex justify-content-center align-items-center";
+            div3.className = "col-12 col-sm-3 col-lg-2 d-flex align-items-center justify-content-center";
 
             let img = document.createElement("img");
             img.src = event.image[0];
@@ -98,7 +98,7 @@ function displayEvents() {
             div5.className = "col-12 col-sm-12 col-lg-3 h-100 p-0";
 
             let ul = document.createElement("ul");
-            ul.className = "list-group list-group-flush text-start rounded";
+            ul.className = "list-group list-group-flush text-start";
 
             let li1 = document.createElement("li");
             li1.className = "list-group-item";
@@ -161,5 +161,10 @@ function displayEvents() {
                 info.style.display = "none";
             }
         });
+    } else if (events.length > 3) {
+        let p = document.createElement("p");
+        p.className = "px-1 px-lg-3 fst-italic fs-5";
+        p.innerHTML = isEnglish ? "More events are scheduled and can be viewed on the Events page." : "D'autres événements sont prévus et peuvent être consultés sur la page des événements.";
+        document.getElementById("moreEvents").appendChild(p);
     }
 }
