@@ -13,13 +13,13 @@ const modals = {
                 "Nacho": ["Main Roster", "Formation principale"],
                 "Lego": ["Substitute", "Remplaçant"]
             },
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         },
         "grey": {
             title: ["Call of Duty Grey Team", "Équipe Grey de Call of Duty"],
             background: "#303031",
             members: {},
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         }
     },
     "csgo-team": {
@@ -34,13 +34,13 @@ const modals = {
                 "Lego": ["Main Roster", "Formation principale"],
                 "Wyndz": ["Substitute", "Remplaçant"]
             },
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         },
         "grey": {
             title: ["CS:GO Grey Team", "Équipe Grey de CS:GO"],
             background: "#303031",
             members: {},
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         }
     },
     "dota2-team": {
@@ -48,13 +48,13 @@ const modals = {
             title: ["DOTA 2 Garnet Team", "Équipe Garnet de DOTA 2"],
             background: "#800020",
             members: {},
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         },
         "grey": {
             title: ["DOTA 2 Grey Team", "Équipe Grey de DOTA 2"],
             background: "#303031",
             members: {},
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         }
     },
     "fortnite-team": {
@@ -62,13 +62,13 @@ const modals = {
             title: ["Fortnite Garnet Team", "Équipe Garnet de Fortnite"],
             background: "#800020",
             members: {},
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         },
         "grey": {
             title: ["Fortnite Grey Team", "Équipe Grey de Fortnite"],
             background: "#303031",
             members: {},
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         }
     },
     "hs-team": {
@@ -76,13 +76,13 @@ const modals = {
             title: ["Hearthstone Garnet Team", "Équipe Garnet de Hearthstone"],
             background: "#800020",
             members: {},
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         },
         "grey": {
             title: ["Hearthstone Grey Team", "Équipe Grey de Hearthstone"],
             background: "#303031",
             members: {},
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         }
     },
     "lol-team": {
@@ -98,7 +98,7 @@ const modals = {
                 "sprinklr": ["Support", "Support"],
                 "Draig": ["Substitute - Mid/Support", "Remplaçant - Mid/Support"]
             },
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         },
         "grey": {
             title: ["League of Legends Grey Team", "Équipe Grey de League of Legends"],
@@ -113,13 +113,13 @@ const modals = {
                 "MistahFrosty": ["Substitute - Top/Jungle", "Remplaçant - Top/Jungle"],
                 "Narth": ["Substitute - Support", "Remplaçant - Support"]
             },
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         },
         "gold": {
             title: ["League of Legends Gold Team", "Équipe Gold de League of Legends"],
             background: "#665814",
             members: {},
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         }
     },
     "osu-team": {
@@ -127,13 +127,13 @@ const modals = {
             title: ["osu! Garnet Team", "Équipe Garnet de osu!"],
             background: "#800020",
             members: {},
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         },
         "grey": {
             title: ["osu! Grey Team", "Équipe Grey de osu!"],
             background: "#303031",
             members: {},
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         }
     },
     "ow-team": {
@@ -141,13 +141,13 @@ const modals = {
             title: ["Overwatch Garnet Team", "Équipe Garnet de Overwatch"],
             background: "#800020",
             members: {},
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         },
         "grey": {
             title: ["Overwatch Grey Team", "Équipe Grey de Overwatch"],
             background: "#303031",
             members: {},
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         }
     },
     "r6-team": {
@@ -160,10 +160,11 @@ const modals = {
                 "Chrs": ["Main Roster", "Formation principale"],
                 "Echodrive": ["Main Roster", "Formation principale"],
                 "k3addy": ["Main Roster", "Formation principale"],
+                "Lits": ["Substitute", "Remplaçant"],
                 "Vaal": ["Substitute", "Remplaçant"],
                 "Vinyl": ["Substitute", "Remplaçant"]
             },
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         },
         "grey": {
             title: ["Rainbow Six Siege Grey Team", "Équipe Grey de Rainbow Six Siege"],
@@ -175,9 +176,11 @@ const modals = {
                 "Cronder": ["Main Roster", "Formation principale"],
                 "Nacho": ["Main Roster", "Formation principale"],
                 "ohkaysher": ["Main Roster", "Formation principale"],
-                "Lits": ["Substitute", "Remplaçant"]
+                "Average Canadian": ["Substitute", "Remplaçant"],
+                "KingStar": ["Substitute", "Remplaçant"],
+                
             },
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         }
     },
     "rl-team": {
@@ -190,7 +193,7 @@ const modals = {
                 "JChan": ["Main Roster", "Formation principale"],
                 "koat": ["Substitute", "Remplaçant"]
             },
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         },
         "grey": {
             title: ["Rocket League Grey Team", "Équipe Grey de Rocket League"],
@@ -201,7 +204,7 @@ const modals = {
                 "tannwan0625": ["Main Roster", "Formation principale"],
                 "Mystyclious": ["Substitute", "Remplaçant"]
             },
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         },
         "gold": {
             title: ["Rocket League Gold Team", "Équipe Gold de Rocket League"],
@@ -212,7 +215,7 @@ const modals = {
                 "Tahzo": ["Main Roster", "Formation principale"],
                 "Zyoulou": ["Substitute", "Remplaçant"]
             },
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         }
     },
     "ssbu-team": {
@@ -220,13 +223,13 @@ const modals = {
             title: ["Super Smash Bros. Ultimate Garnet Team", "Équipe Garnet de Super Smash Bros. Ultimate"],
             background: "#800020",
             members: {},
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         },
         "grey": {
             title: ["Super Smash Bros. Ultimate Grey Team", "Équipe Grey de Super Smash Bros. Ultimate"],
             background: "#303031",
             members: {},
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         }
     },
     "val-team": {
@@ -245,7 +248,7 @@ const modals = {
                 "prompt": ["Substitute", "Remplaçant"],
                 "SyCo": ["Substitute", "Remplaçant"]
             },
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         },
         "grey": {
             title: ["VALORANT Grey Team", "Équipe Grey de VALORANT"],
@@ -261,7 +264,7 @@ const modals = {
                 "Rodwave": ["Substitute", "Remplaçant"],
                 "Xssant": ["Substitute", "Remplaçant"]
             },
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         },
         "gold": {
             title: ["VALORANT Gold Team", "Équipe Gold de VALORANT"],
@@ -276,7 +279,7 @@ const modals = {
                 "JasonFGC": ["Substitute", "Remplaçant"],
                 "Noctember": ["Substitute", "Remplaçant"]
             },
-            lastUpdated: ["September 23, 2021", "Le 23 septembre 2021"]
+            lastUpdated: ["2021-09-23"]
         }
     }
 }
@@ -328,7 +331,7 @@ function teams(names) {
         tr.appendChild(td);
         body.appendChild(tr);
     }
-    document.getElementById("date").innerHTML = isEnglish ? team["lastUpdated"][0] : team["lastUpdated"][1];
+    document.getElementById("date").innerHTML = team["lastUpdated"];
 }
 
 const info = document.getElementById("information");
