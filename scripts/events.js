@@ -40,12 +40,12 @@ const events = [
     },
     {
         title: ["Annual General Meeting", "Assemblée générale annuelle"],
-        image: ["../../images/events/general.png", "uOttawa Esports logo", "Logo de uOttawa Esports"],
+        image: ["../../images/events/fss-1007.png", "FSS 1007", "FSS 1007"],
         text: ["uOttawa Esports' annual general meeting is coming soon! Stay tuned for more information.", "L'assemblée générale annuelle de uOttawa Esports arrive bientôt&nbsp;! Restez à l'écoute pour plus de renseignements."],
-        date: ["To be announced", "À venir"],
-        time: ["To be announced", "À venir"],
-        location: ["To be announced", "À venir"],
-        contact: ["Yell#8888", "Yell#8888"]
+        date: ["Saturday, October 23", "Samedi 23 octobre"],
+        time: ["8:00 PM - 10:00 PM", "20h00 à 22h00"],
+        location: ["FSS 1007 and Discord", "FSS 1007 et Discord"],
+        contact: ["pgupt#0562, Yell#8888", "pgupt#0562, Yell#8888"]
     }
 ];
 
