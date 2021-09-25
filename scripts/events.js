@@ -2,15 +2,15 @@
 // Be careful not to add too much description text, as it may cause the cards to become an uneven height.
 // Events in closest proximity must be placed at the top of the object.
 const events = [
-    {
-        title: ["VALORANT In-house", "VALORANT In-house"],
-        image: ["../../images/events/val-jett.png", "VALORANT logo with Jett", "Logo de VALORANT avec Jett"],
-        text: ["Join other VALORANT players in an in-house! This is a great way of meeting new people who enjoy the same game as you!", "Rejoignez d'autres joueurs de VALORANT dans un «&nbsp;in-house&nbsp;»&nbsp;! C'est un excellent moyen de rencontrer de nouvelles personnes qui aiment le même jeu que vous&nbsp;!"],
-        date: ["Saturday, September 25", "Samedi 25 septembre"],
-        time: ["4:00 PM", "16h00"],
-        location: ["Discord", "Discord"],
-        contact: ["Kiro#3697", "Kiro#3697"]
-    },
+    // {
+    //     title: ["VALORANT In-house", "VALORANT In-house"],
+    //     image: ["../../images/events/val-jett.png", "VALORANT logo with Jett", "Logo de VALORANT avec Jett"],
+    //     text: ["Join other VALORANT players in an in-house! This is a great way of meeting new people who enjoy the same game as you!", "Rejoignez d'autres joueurs de VALORANT dans un «&nbsp;in-house&nbsp;»&nbsp;! C'est un excellent moyen de rencontrer de nouvelles personnes qui aiment le même jeu que vous&nbsp;!"],
+    //     date: ["Saturday, September 25", "Samedi 25 septembre"],
+    //     time: ["4:00 PM", "16h00"],
+    //     location: ["Discord", "Discord"],
+    //     contact: ["Kiro#3697", "Kiro#3697"]
+    // },
     {
         title: ["osu! Garnet Team Tryouts", "Épreuve de sélection pour l'équipe Garnet de osu!"],
         image: ["../../images/events/osu.png", "osu! logo", "Logo de osu!"],
