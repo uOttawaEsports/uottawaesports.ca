@@ -12,15 +12,6 @@ const events = [
     //     contact: ["Kiro#3697", "Kiro#3697"]
     // },
     {
-        title: ["osu! Garnet Team Tryouts", "Épreuve de sélection pour l'équipe Garnet de osu!"],
-        image: ["../../images/events/osu.png", "osu! logo", "Logo de osu!"],
-        text: ["Must be a full-time student at the University of Ottawa. <br />All ranks are welcome! <br/><a href='https://docs.google.com/forms/d/e/1FAIpQLSdKv9K4G4U1Z_txoKzdgsZOb109TU9TesjtVK5FmxJpUeafdQ/viewform' rel='external' target='_blank'>Click here</a> for the registration form.", "Besoin d'être un étudiant à temps complet à l'Université d'Ottawa. <br />Tous sont les bienvenus&nbsp! <br/><a href='https://docs.google.com/forms/d/e/1FAIpQLSdKv9K4G4U1Z_txoKzdgsZOb109TU9TesjtVK5FmxJpUeafdQ/viewform' rel='external' target='_blank'>Cliquez ici</a> pour le formulaire d'inscription."],
-        date: ["Saturday, September 25", "Samedi 25 septembre"],
-        time: ["8:00 PM - 10:00 PM", "20h00 à 22h00"],
-        location: ["Discord", "Discord"],
-        contact: ["Fulserish#3239", "Fulserish#3239"]
-    },
-    {
         title: ["Hearthstone Team Tryouts", "Épreuve de sélection pour l'équipe de Hearthstone"],
         image: ["../../images/events/hs.png", "osu! logo", "Logo de osu!"],
         text: ["Must be a full-time student at the University of Ottawa. <br />All ranks are welcome! <br/><a href='https://docs.google.com/forms/d/e/1FAIpQLSf3zrwlCXk7Ln5zid-zWpimvokHpX8Q6o3leqkeI3FrSApW9g/viewform' rel='external' target='_blank'>Click here</a> for the registration form.", "Besoin d'être un étudiant à temps complet à l'Université d'Ottawa. <br />Tous sont les bienvenus&nbsp! <br/><a href='https://docs.google.com/forms/d/e/1FAIpQLSf3zrwlCXk7Ln5zid-zWpimvokHpX8Q6o3leqkeI3FrSApW9g/viewform' rel='external' target='_blank'>Cliquez ici</a> pour le formulaire d'inscription."],
