@@ -12,15 +12,6 @@ const events = [
     //     contact: ["Kiro#3697", "Kiro#3697"]
     // },
     {
-        title: ["Hearthstone Team Tryouts", "Épreuve de sélection pour l'équipe de Hearthstone"],
-        image: ["../../images/events/hs.png", "osu! logo", "Logo de osu!"],
-        text: ["Must be a full-time student at the University of Ottawa. <br />All ranks are welcome! <br/><a href='https://docs.google.com/forms/d/e/1FAIpQLSf3zrwlCXk7Ln5zid-zWpimvokHpX8Q6o3leqkeI3FrSApW9g/viewform' rel='external' target='_blank'>Click here</a> for the registration form.", "Besoin d'être un étudiant à temps complet à l'Université d'Ottawa. <br />Tous sont les bienvenus&nbsp! <br/><a href='https://docs.google.com/forms/d/e/1FAIpQLSf3zrwlCXk7Ln5zid-zWpimvokHpX8Q6o3leqkeI3FrSApW9g/viewform' rel='external' target='_blank'>Cliquez ici</a> pour le formulaire d'inscription."],
-        date: ["Sunday, September 26", "Dimanche 26 septembre"],
-        time: ["4:00 PM", "16h00"],
-        location: ["Discord", "Discord"],
-        contact: ["Juicy_Vinyl#3235", "Juicy_Vinyl#3235"]
-    },
-    {
         title: ["Exec Game Night", "Soirée de jeux avec les cadres"],
         image: ["../../images/events/amongus.png", "Among Us logo", "Logo de Among Us"],
         text: ["A bi-weekly game night where Execs, Game Heads, and friends play together in casual and competitive games! On this night, we'll be playing Among Us.", "Une soirée de jeux bihebdomadaire où les cadres, les chefs de jeu et les amis jouent ensemble à des jeux occasionnels et compétitifs&nbsp;! Ce soir, nous jouerons à Among Us."],
