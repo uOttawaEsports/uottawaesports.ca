@@ -126,14 +126,26 @@ const modals = {
         "garnet": {
             title: ["osu! Garnet Team", "Équipe Garnet de osu!"],
             background: "#800020",
-            members: {},
-            lastUpdated: []
+            members: {
+                "Fulserish": ["Coach", "Entraîneur"],
+                "Zylice": ["Captain/Main Roster", "Capitaine/Formation principale"],
+                "chuzday": ["Main Roster", "Formation principale"],
+                "Jimin": ["Main Roster", "Formation principale"],
+                "poppypop": ["Main Roster", "Formation principale"]
+            },
+            lastUpdated: ["2021-09-26"]
         },
         "grey": {
             title: ["osu! Grey Team", "Équipe Grey de osu!"],
             background: "#303031",
-            members: {},
-            lastUpdated: []
+            members: {
+                "Fulserish": ["Coach", "Entraîneur"],
+                "ComplicatedCow": ["Captain/Main Roster", "Capitaine/Formation principale"],
+                "GlowRock": ["Main Roster", "Formation principale"],
+                "TiBlinn": ["Main Roster", "Formation principale"],
+                "Zyoulou": ["Main Roster", "Formation principale"]
+            },
+            lastUpdated: ["2021-09-26"]
         }
     },
     "ow-team": {
