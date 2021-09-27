@@ -13,7 +13,7 @@ const events = [
     // },
     {
         title: ["Exec Game Night", "Soirée de jeux avec les cadres"],
-        image: ["../../images/events/amongus.png", "Among Us logo", "Logo de Among Us"],
+        image: ["../../images/events/upcoming/amongus.png", "Among Us logo", "Logo de Among Us"],
         text: ["A bi-weekly game night where Execs, Game Heads, and friends play together in casual and competitive games! On this night, we'll be playing Among Us.", "Une soirée de jeux bihebdomadaire où les cadres, les chefs de jeu et les amis jouent ensemble à des jeux occasionnels et compétitifs&nbsp;! Ce soir, nous jouerons à Among Us."],
         date: ["Thursday, September 30", "Jeudi 30 septembre"],
         time: ["9:30 PM - 11:00 PM", "21h30 à 23h00"],
@@ -21,8 +21,17 @@ const events = [
         contact: ["Yell#8888", "Yell#8888"]
     },
     {
+        title: ["Rainbow Six Siege In-house", "In-house de Rainbow Six Siege"],
+        image: ["../../images/events/upcoming/r6.png", "Rainbow Six Siege logo", "Logo de Rainbow Six Siege"],
+        text: ["Join other Rainbow Six Siege players in an in-house! This is a great way of meeting new people who enjoy the same game as you! <br/>More information can be found on Discord. <hr/><a href='https://forms.gle/knEeSftDqZTxBKeq9' rel='external' target='_blank'>Click here</a> for the registration form.", "Rejoignez d'autres joueurs de Rainbow Six Siege dans un «&nbsp;in-house&nbsp;»&nbsp;! C'est un excellent moyen de rencontrer de nouvelles personnes qui aiment le même jeu que vous&nbsp;! <br/>Plus de renseignements sont disponibles sur Discord. <hr/><a href='https://forms.gle/knEeSftDqZTxBKeq9' rel='external' target='_blank'>Cliquez ici</a> pour le formulaire d'inscription."],
+        date: ["Saturday, October 2", "Samedi 2 octobre"],
+        time: ["12:00 PM", "12h00"],
+        location: ["Discord", "Discord"],
+        contact: ["Zander#6846", "Zander#6846"]
+    },
+    {
         title: ["Annual General Meeting", "Assemblée générale annuelle"],
-        image: ["../../images/events/fss-1007.png", "FSS 1007", "FSS 1007"],
+        image: ["../../images/events/upcoming/fss-1007.png", "FSS 1007", "FSS 1007"],
         text: ["uOttawa Esports' annual general meeting is coming soon! We will be delivering the event both in person and online. In-person attendance will be limited; stay tuned for the sign-up sheet.", "L'assemblée générale annuelle de uOttawa Esports arrive bientôt&nbsp;! Nous accueillerons l'événement en personne et en ligne. La participation en personne sera limitée; restez à l'écoute pour la feuille d'inscription."],
         date: ["Saturday, October 23", "Samedi 23 octobre"],
         time: ["8:00 PM - 10:00 PM", "20h00 à 22h00"],
