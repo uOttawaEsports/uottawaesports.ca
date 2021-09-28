@@ -58,7 +58,7 @@ function displayEvents() {
             div1.className = "crd bg-maroon w-100 mx-1 mx-lg-3 my-2 rounded";
 
             let div2 = document.createElement("div");
-            div2.className = "row";
+            div2.className = "row d-flex";
 
             let div3 = document.createElement("div");
             div3.className = "col-12 col-sm-3 col-lg-2 d-flex align-items-center justify-content-center";
@@ -86,10 +86,10 @@ function displayEvents() {
             div4.append(h2, p);
 
             let div5 = document.createElement("div");
-            div5.className = "col-12 col-sm-12 col-lg-3 h-100 p-0";
+            div5.className = "col-12 col-sm-12 col-lg-3 bg-white p-0 align-self-stretch d-flex align-items-center";
 
             let ul = document.createElement("ul");
-            ul.className = "list-group list-group-flush text-start";
+            ul.className = "list-group list-group-flush w-100 text-start";
 
             let li1 = document.createElement("li");
             li1.className = "list-group-item";
