@@ -4,7 +4,7 @@
 const events = [
     // {
     //     title: ["VALORANT In-house", "VALORANT In-house"],
-    //     image: ["../../images/events/val-jett.png", "VALORANT logo with Jett", "Logo de VALORANT avec Jett"],
+    //     image: ["../../images/events/upcoming/val-jett.png", "VALORANT logo with Jett", "Logo de VALORANT avec Jett"],
     //     text: ["Join other VALORANT players in an in-house! This is a great way of meeting new people who enjoy the same game as you!", "Rejoignez d'autres joueurs de VALORANT dans un «&nbsp;in-house&nbsp;»&nbsp;! C'est un excellent moyen de rencontrer de nouvelles personnes qui aiment le même jeu que vous&nbsp;!"],
     //     date: ["Saturday, September 25", "Samedi 25 septembre"],
     //     time: ["4:00 PM", "16h00"],
@@ -28,6 +28,15 @@ const events = [
         time: ["12:00 PM", "12h00"],
         location: ["Discord", "Discord"],
         contact: ["Zander#6846", "Zander#6846"]
+    },
+    {
+        title: ["VALORANT In-house", "VALORANT In-house"],
+        image: ["../../images/events/upcoming/val2.png", "VALORANT logo", "Logo de VALORANT"],
+        text: ["Introducing the first ever prized in-house! More information can be found on Discord.<br/><span class='fw-bold'>Prizes:</span> 1st place: $75 split evenly | 2nd place: $25 split evenly <hr />You must fill in the two following forms to participate: <a href='https://docs.google.com/forms/d/e/1FAIpQLScxf03sVCgAm5ush6zFBXXZ6oDsrM58WuFu6fIFxy8O5le4YA/viewform' rel='external' target='_blank'>Tournament Registration</a> and <a href='https://bit.ly/3BXwrWm' rel='external' target='_blank'>VALORANT Member Form</a>.", "Le tout premier «&nbsp;in-house&nbsp;» avec un prix se passe ce dimanche&nbsp;! Plus de renseignements sont disponibles sur Discord.<br/><span class='fw-bold'>Les prix:</span> 1ère place&nbsp;: 75&nbsp;$ divisé également | 2ème place&nbsp;: 25&nbsp;$ divisé également <hr />Pour participer, vous devez remplir les deux formulaires suivants&nbsp;: <a href='https://docs.google.com/forms/d/e/1FAIpQLScxf03sVCgAm5ush6zFBXXZ6oDsrM58WuFu6fIFxy8O5le4YA/viewform' rel='external' target='_blank'>Inscription au tournoi</a> et <a href='https://bit.ly/3BXwrWm' rel='external' target='_blank'>Formulaire d'adhésion de VALORANT</a>."],
+        date: ["Sunday, October 3", "Dimanche 3 octobre"],
+        time: ["5:00 PM", "17h00"],
+        location: ["Discord", "Discord"],
+        contact: ["onmarti#4347, Kiro#3697", "onmarti#4347, Kiro#3697"]
     },
     {
         title: ["Annual General Meeting", "Assemblée générale annuelle"],
