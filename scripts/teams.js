@@ -154,7 +154,7 @@ const modals = {
             background: "#800020",
             members: {
                 "Dunks": ["Tank", "Tank"],
-                "Tundra": ["Tank", "Tank"],
+                "Tundr4": ["Tank", "Tank"],
                 "Norman": ["Damage", "Dégâts"],
                 "VStriker": ["Damage", "Dégâts"],
                 "QebQake": ["Support", "Soutien"],
