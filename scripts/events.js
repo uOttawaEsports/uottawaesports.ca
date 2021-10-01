@@ -11,15 +11,15 @@ const events = [
     //     location: ["Discord", "Discord"],
     //     contact: ["Kiro#3697", "Kiro#3697"]
     // },
-    {
-        title: ["Exec Game Night", "Soirée de jeux avec les cadres"],
-        image: ["../../images/events/upcoming/amongus.png", "Among Us logo", "Logo de Among Us"],
-        text: ["A bi-weekly game night where Execs, Game Heads, and friends play together in casual and competitive games! On this night, we'll be playing Among Us.", "Une soirée de jeux bihebdomadaire où les cadres, les chefs de jeu et les amis jouent ensemble à des jeux occasionnels et compétitifs&nbsp;! Ce soir, nous jouerons à Among Us."],
-        date: ["Thursday, September 30", "Jeudi 30 septembre"],
-        time: ["9:30 PM - 11:00 PM", "21h30 à 23h00"],
-        location: ["<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>", "<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>"],
-        contact: ["Yell#8888", "Yell#8888"]
-    },
+    // {
+    //     title: ["Exec Game Night", "Soirée de jeux avec les cadres"],
+    //     image: ["../../images/events/upcoming/amongus.png", "Among Us logo", "Logo de Among Us"],
+    //     text: ["A bi-weekly game night where Execs, Game Heads, and friends play together in casual and competitive games! On this night, we'll be playing Among Us.", "Une soirée de jeux bihebdomadaire où les cadres, les chefs de jeu et les amis jouent ensemble à des jeux occasionnels et compétitifs&nbsp;! Ce soir, nous jouerons à Among Us."],
+    //     date: ["Thursday, September 30", "Jeudi 30 septembre"],
+    //     time: ["9:30 PM - 11:00 PM", "21h30 à 23h00"],
+    //     location: ["<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>", "<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>"],
+    //     contact: ["Yell#8888", "Yell#8888"]
+    // },
     {
         title: ["Rainbow Six Siege In-house", "In-house de Rainbow Six Siege"],
         image: ["../../images/events/upcoming/r6.png", "Rainbow Six Siege logo", "Logo de Rainbow Six Siege"],
