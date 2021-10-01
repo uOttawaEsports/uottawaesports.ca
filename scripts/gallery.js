@@ -41,7 +41,7 @@ const images = [{
     },
     {
         image: "../../images/gallery/amongus.jpg",
-        alt: ["Inaugural Exec Game Night - Among Us", "La toute première soirée de jeux avec les cadres"]
+        alt: ["Inaugural Exec Game Night - Among Us", "La toute première soirée de jeux avec les cadres - Among Us"]
     }
 ];
 
