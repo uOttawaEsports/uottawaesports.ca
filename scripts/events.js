@@ -21,15 +21,6 @@ const events = [
     //     contact: ["Yell#8888", "Yell#8888"]
     // },
     {
-        title: ["Rainbow Six Siege In-house", "In-house de Rainbow Six Siege"],
-        image: ["../../images/events/upcoming/r6.png", "Rainbow Six Siege logo", "Logo de Rainbow Six Siege"],
-        text: ["Join other Rainbow Six Siege players in an in-house! This is a great way of meeting new people who enjoy the same game as you! <br/>More information can be found on Discord. <hr/><a href='https://forms.gle/knEeSftDqZTxBKeq9' rel='external' target='_blank'>Click here</a> for the registration form.", "Rejoignez d'autres joueurs de Rainbow Six Siege dans un «&nbsp;in-house&nbsp;»&nbsp;! C'est un excellent moyen de rencontrer de nouvelles personnes qui aiment le même jeu que vous&nbsp;! <br/>Plus de renseignements sont disponibles sur Discord. <hr/><a href='https://forms.gle/knEeSftDqZTxBKeq9' rel='external' target='_blank'>Cliquez ici</a> pour le formulaire d'inscription."],
-        date: ["Saturday, October 2", "Samedi 2 octobre"],
-        time: ["12:00 PM", "12h00"],
-        location: ["Discord", "Discord"],
-        contact: ["Zander#6846", "Zander#6846"]
-    },
-    {
         title: ["VALORANT In-house", "In-house de VALORANT"],
         image: ["../../images/events/upcoming/val2.png", "VALORANT logo", "Logo de VALORANT"],
         text: ["Introducing the first ever prized in-house! More information can be found on Discord.<br/><span class='fw-bold'>Prizes:</span> 1st place: $75 split evenly | 2nd place: $25 split evenly <hr />You must fill in the two following forms to participate: <a href='https://docs.google.com/forms/d/e/1FAIpQLScxf03sVCgAm5ush6zFBXXZ6oDsrM58WuFu6fIFxy8O5le4YA/viewform' rel='external' target='_blank'>Tournament Registration</a> and <a href='https://bit.ly/3BXwrWm' rel='external' target='_blank'>VALORANT Member Form</a>.", "Le tout premier «&nbsp;in-house&nbsp;» avec un prix se passe ce dimanche&nbsp;! Plus de renseignements sont disponibles sur Discord.<br/><span class='fw-bold'>Les prix:</span> 1ère place&nbsp;: 75&nbsp;$ divisé également | 2ème place&nbsp;: 25&nbsp;$ divisé également <hr />Pour participer, vous devez remplir les deux formulaires suivants&nbsp;: <a href='https://docs.google.com/forms/d/e/1FAIpQLScxf03sVCgAm5ush6zFBXXZ6oDsrM58WuFu6fIFxy8O5le4YA/viewform' rel='external' target='_blank'>Inscription au tournoi</a> et <a href='https://bit.ly/3BXwrWm' rel='external' target='_blank'>Formulaire d'adhésion de VALORANT</a>."],
