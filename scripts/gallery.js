@@ -42,6 +42,10 @@ const images = [{
     {
         image: "../../images/gallery/amongus.jpg",
         alt: ["Inaugural Exec Game Night - Among Us", "La toute première soirée de jeux avec les cadres - Among Us"]
+    },
+    {
+        image: "../../images/gallery/clubs-fair-2021-6.jpg",
+        alt: ["Clubs Fair 2021", "La Foire des clubs 2021"]
     }
 ];
 
