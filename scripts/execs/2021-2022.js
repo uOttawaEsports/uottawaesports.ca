@@ -208,7 +208,7 @@ let execs = {
         role: ["<span class='fw-bold'>Game Head</span> <br /> Super Smash Bros. Ultimate", "<span class='fw-bold'>Chef de jeu</span> <br /> Super Smash Bros. Ultimate"],
         prog: ["History and Political Science", "Histoire et science politique"],
         year: ["2nd Year", "2e année"],
-        game: "Smash Ultimate, Hades, Fire Emblem, Legend of Zelda",
+        game: "Smash Ultimate, Hades, Fire Emblem, The Legend of Zelda",
         desc: ["I'm Tai! I host events for Smash Ultimate within the club. I like Smash and most things Nintendo.", "Je suis Tai&nbsp;! J'organise des événements pour Smash Ultimate au sein du club. J'aime Smash et la plupart des choses Nintendo."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
