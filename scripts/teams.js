@@ -47,8 +47,17 @@ const modals = {
         "garnet": {
             title: ["DOTA 2 Garnet Team", "Équipe Garnet de DOTA 2"],
             background: "#800020",
-            members: {},
-            lastUpdated: []
+            members: {
+                "Peter": ["Manager/Substitute", "Manager/Remplaçant"],
+                "6sundin13": ["Manager/Main Roster", "Manager/Formation principale"],
+                "Magnesium": ["Coach", "Entraîneur"],
+                "asoggysliceoftoast": ["Main Roster", "Formation principale"],
+                "haoran18": ["Main Roster", "Formation principale"],
+                "JayBird": ["Main Roster", "Formation principale"],
+                "Lyrebird": ["Main Roster", "Formation principale"],
+                "salem600": ["Substitute", "Remplaçant"]
+            },
+            lastUpdated: ["2021-10-14"]
         },
         "grey": {
             title: ["DOTA 2 Grey Team", "Équipe Grey de DOTA 2"],
