@@ -31,7 +31,7 @@ const events = [
     // },
     {
         title: ["Annual General Meeting", "Assemblée générale annuelle"],
-        image: ["../../images/events/upcoming/mnt-203.png", "MNT 203", "MNT 203"],
+        image: ["../../images/events/upcoming/mnt-203.jpg", "MNT 203", "MNT 203"],
         text: ["uOttawa Esports' annual general meeting is coming soon! We will be delivering the event both in person and online. In-person attendance will be limited to 50 people. <hr /><a href='https://docs.google.com/forms/d/e/1FAIpQLSeSH9AZu7wrJ0DVg_aOIIYIUoNzMnQnJmDeWUROeJGOjS5PPQ/viewform' rel='external' target='_blank'>Click here</a> for the signup sheet.", "L'assemblée générale annuelle de uOttawa Esports arrive bientôt&nbsp;! Nous accueillerons l'événement en personne et en ligne. La participation en personne sera limitée à 50 personnes. <hr /><a href='https://docs.google.com/forms/d/e/1FAIpQLSeSH9AZu7wrJ0DVg_aOIIYIUoNzMnQnJmDeWUROeJGOjS5PPQ/viewform' rel='external' target='_blank'>Cliquez ici</a> pour la feuille d'inscription."],
         date: ["Saturday, October 23", "Samedi 23 octobre"],
         time: ["8:15 PM - 10:00 PM", "20h15 à 22h00"],
