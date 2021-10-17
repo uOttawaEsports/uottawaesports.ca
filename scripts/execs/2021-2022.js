@@ -2,7 +2,7 @@ let execs = {
     /* Co-Presidents */
     "Jaxon Murphy": {
         name: "Jaxon Murphy",
-        image: "../../../images/execs/2021-2022/jaxon-murphy.png",
+        image: "../../../images/execs/2021-2022/jaxon-murphy.jpg",
         role: ["Co-President", "Co-Président"],
         prog: ["Economics and Management", "Science économique et gestion"],
         year: ["4th Year", "4e année"],
@@ -12,7 +12,7 @@ let execs = {
     },
     "Dhruv Kumar": {
         name: "Dhruv Kumar",
-        image: "../../../images/execs/2021-2022/dhruv-kumar.png",
+        image: "../../../images/execs/2021-2022/dhruv-kumar.jpg",
         role: ["Co-President", "Co-Président"],
         prog: ["Health Sciences", "Sciences de la santé"],
         year: ["3rd Year", "3e année"],
@@ -23,7 +23,7 @@ let execs = {
     /* Execs */
     "Alex Lisitsas": {
         name: "Alex Lisitsas",
-        image: "../../../images/execs/2021-2022/alex-lisitsas.png",
+        image: "../../../images/execs/2021-2022/alex-lisitsas.jpg",
         role: ["VP Finance", "VP Finances"],
         prog: ["Finance", "Finance"],
         year: ["2nd Year", "2e année"],
@@ -33,7 +33,7 @@ let execs = {
     },
     "Andrew Leblanc": {
         name: "Andrew Leblanc",
-        image: "../../../images/execs/2021-2022/andrew-leblanc.png",
+        image: "../../../images/execs/2021-2022/andrew-leblanc.jpg",
         role: ["VP Competitive", "VP Compétitif"],
         prog: ["History", "Histoire"],
         year: ["4th Year", "4e année"],
@@ -53,7 +53,7 @@ let execs = {
     },
     "Steven Li": {
         name: "Steven Li",
-        image: "../../../images/execs/2021-2022/steven-li.png",
+        image: "../../../images/execs/2021-2022/steven-li.jpg",
         role: ["VP Internal", "VP Interne"],
         prog: ["Computer Engineering", "Génie informatique"],
         year: ["3rd Year", "3e année"],
@@ -63,7 +63,7 @@ let execs = {
     },
     "Prem Gupta": {
         name: "Prem Gupta",
-        image: "../../../images/execs/2021-2022/prem-gupta.png",
+        image: "../../../images/execs/2021-2022/prem-gupta.jpg",
         role: ["VP External", "VP Externe"],
         prog: ["History and Political Science", "Histoire et science politique"],
         year: ["3rd Year", "3e année"],
@@ -73,7 +73,7 @@ let execs = {
     },
     "Ali Jafri": {
         name: "Ali Jafri",
-        image: "../../../images/execs/2021-2022/ali-jafri.png",
+        image: "../../../images/execs/2021-2022/ali-jafri.jpg",
         role: ["VP Social", "VP Social"],
         prog: ["Computer Engineering", "Génie informatique"],
         year: ["3rd Year", "3e année"],
@@ -84,7 +84,7 @@ let execs = {
     /* Game Heads */
     "Michael Vo": {
         name: "Michael Vo",
-        image: "../../../images/execs/2021-2022/michael-vo.png",
+        image: "../../../images/execs/2021-2022/michael-vo.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Apex Legends", "<span class='fw-bold'>Chef de jeu</span> <br /> Apex Legends"],
         prog: ["Biology", "Biologie"],
         year: ["2nd Year", "2e année"],
@@ -94,7 +94,7 @@ let execs = {
     },
     "Owen Stafford": {
         name: "Owen Stafford",
-        image: "../../../images/execs/2021-2022/owen-stafford.png",
+        image: "../../../images/execs/2021-2022/owen-stafford.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Call of Duty", "<span class='fw-bold'>Chef de jeu</span> <br /> Call of Duty"],
         prog: ["Computer Science", "Informatique"],
         year: ["1st Year", "1er année"],
@@ -104,7 +104,7 @@ let execs = {
     },
     "Bora Basar": {
         name: "Bora Basar",
-        image: "../../../images/execs/2021-2022/bora-basar.png",
+        image: "../../../images/execs/2021-2022/bora-basar.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> CS:GO", "<span class='fw-bold'>Chef de jeu</span> <br /> CS:GO"],
         prog: ["Health Sciences", "Sciences de la santé"],
         year: ["2nd Year", "2e année"],
@@ -114,7 +114,7 @@ let execs = {
     },
     "Peter Karpov": {
         name: "Peter Karpov",
-        image: "../../../images/execs/2021-2022/peter-karpov.png",
+        image: "../../../images/execs/2021-2022/peter-karpov.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> DOTA 2", "<span class='fw-bold'>Chef de jeu</span> <br /> DOTA 2"],
         prog: ["Commerce and Juris Doctor", "Sciences commerciales et Juris Doctor"],
         year: ["3rd Year", "3e année"],
@@ -124,7 +124,7 @@ let execs = {
     },
     "Ryan Farrell": {
         name: "Ryan Farrell",
-        image: "../../../images/execs/2021-2022/ryan-farrell.png",
+        image: "../../../images/execs/2021-2022/ryan-farrell.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Fighting Games", "<span class='fw-bold'>Chef de jeu</span> <br /> Jeux de combat"],
         prog: ["Teacher Education", "Formation à l'enseignement"],
         year: ["6th Year", "6e année"],
@@ -134,7 +134,7 @@ let execs = {
     },
     "Matthew Awrey": {
         name: "Matthew Awrey",
-        image: "../../../images/execs/2021-2022/matthew-awrey.png",
+        image: "../../../images/execs/2021-2022/matthew-awrey.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Fortnite", "<span class='fw-bold'>Chef de jeu</span> <br /> Fortnite"],
         prog: ["International Management", "Gestion internationale"],
         year: ["2nd Year", "2e année"],
@@ -144,7 +144,7 @@ let execs = {
     },
     "Narth Rajeswaran": {
         name: "Narth Rajeswaran",
-        image: "../../../images/execs/2021-2022/narth-rajeswaran.png",
+        image: "../../../images/execs/2021-2022/narth-rajeswaran.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> League of Legends", "<span class='fw-bold'>Chef de jeu</span> <br /> League of Legends"],
         prog: ["Political Science", "Science politique"],
         year: ["2nd Year", "2e année"],
@@ -154,7 +154,7 @@ let execs = {
     },
     "Varis Gupta": {
         name: "Varis Gupta",
-        image: "../../../images/execs/2021-2022/varis-gupta.png",
+        image: "../../../images/execs/2021-2022/varis-gupta.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Mafia Games", "<span class='fw-bold'>Chef de jeu</span> <br /> Jeux de mafia"],
         prog: ["Masters, Chemistry", "Maîtrise, Chimie"],
         year: ["3rd Year", "3e année"],
@@ -164,7 +164,7 @@ let execs = {
     },
     "Brandon Ly": {
         name: "Brandon Ly",
-        image: "../../../images/execs/2021-2022/brandon-ly.png",
+        image: "../../../images/execs/2021-2022/brandon-ly.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> osu!", "<span class='fw-bold'>Chef de jeu</span> <br /> osu!"],
         prog: ["Public Administration and Political Science", "Administration publique et science politique"],
         year: ["1st Year", "1er année"],
@@ -174,7 +174,7 @@ let execs = {
     },
     "Benoit Gagnier": {
         name: "Benoit Gagnier",
-        image: "../../../images/execs/2021-2022/benoit-gagnier.png",
+        image: "../../../images/execs/2021-2022/benoit-gagnier.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Overwatch", "<span class='fw-bold'>Chef de jeu</span> <br /> Overwatch"],
         prog: ["General Arts", "Arts généraux"],
         year: ["2nd Year", "2e année"],
@@ -184,7 +184,7 @@ let execs = {
     },
     "Griffin Taylor": {
         name: "Griffin Taylor",
-        image: "../../../images/execs/2021-2022/griffin-taylor.png",
+        image: "../../../images/execs/2021-2022/griffin-taylor.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Rainbow Six Siege", "<span class='fw-bold'>Chef de jeu</span> <br /> Rainbow Six Siege"],
         prog: ["Computer Engineering", "Génie informatique"],
         year: ["3rd Year", "3e année"],
@@ -194,7 +194,7 @@ let execs = {
     },
     "Fabien Lefebvre": {
         name: "Fabien Lefebvre",
-        image: "../../../images/execs/2021-2022/fabien-lefebvre.png",
+        image: "../../../images/execs/2021-2022/fabien-lefebvre.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Rocket League", "<span class='fw-bold'>Chef de jeu</span> <br /> Rocket League"],
         prog: ["Physics", "Physique"],
         year: ["3rd Year", "3e année"],
@@ -204,7 +204,7 @@ let execs = {
     },
     "alexander Joe": {
         name: "Alexander Joe",
-        image: "../../../images/execs/2021-2022/alexander-joe.png",
+        image: "../../../images/execs/2021-2022/alexander-joe.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Super Smash Bros. Melee", "<span class='fw-bold'>Chef de jeu</span> <br /> Super Smash Bros. Melee"],
         prog: ["Computer Engineering", "Génie informatique"],
         year: ["3rd Year", "3e année"],
@@ -214,7 +214,7 @@ let execs = {
     },
     "Tyler Lindsay": {
         name: "Tyler Lindsay",
-        image: "../../../images/execs/2021-2022/tyler-lindsay.png",
+        image: "../../../images/execs/2021-2022/tyler-lindsay.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Super Smash Bros. Ultimate", "<span class='fw-bold'>Chef de jeu</span> <br /> Super Smash Bros. Ultimate"],
         prog: ["History and Political Science", "Histoire et science politique"],
         year: ["2nd Year", "2e année"],
@@ -224,7 +224,7 @@ let execs = {
     },
     "Martina On": {
         name: "Martina On",
-        image: "../../../images/execs/2021-2022/martina-on.png",
+        image: "../../../images/execs/2021-2022/martina-on.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> VALORANT", "<span class='fw-bold'>Chef de jeu</span> <br /> VALORANT"],
         prog: ["Marketing", "Marketing"],
         year: ["4th Year", "4e année"],
