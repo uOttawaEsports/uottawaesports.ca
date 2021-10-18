@@ -30,15 +30,6 @@ const events = [
     //     contact: ["onmarti#4347, Kiro#3697", "onmarti#4347, Kiro#3697"]
     // },
     {
-        title: ["Exec Game Night", "Soirée de jeux avec les cadres"],
-        image: ["../../images/events/upcoming/goosegooseduck.png", "Goose Goose Duck logo", "Logo de Goose Goose Duck"],
-        text: ["A bi-weekly game night where Execs, Game Heads, and friends play together in casual and competitive games! On this night, we'll be playing Goose Goose Duck.", "Une soirée de jeux bihebdomadaire où les cadres, les chefs de jeu et les amis jouent ensemble à des jeux occasionnels et compétitifs&nbsp;! Ce soir, nous jouerons à Goose Goose Duck."],
-        date: ["Tuesday, October 26", "Mardi 26 octobre"],
-        time: ["8:00 PM - 9:30 PM", "20h00 à 21h30"],
-        location: ["<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>", "<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>"],
-        contact: ["Yell#8888", "Yell#8888"]
-    },
-    {
         title: ["Annual General Meeting", "Assemblée générale annuelle"],
         image: ["../../images/events/upcoming/mnt-203.jpg", "MNT 203", "MNT 203"],
         text: ["uOttawa Esports' annual general meeting is coming soon! We will be delivering the event both in person and online. In-person attendance will be limited to 50 people. <hr /><a href='https://docs.google.com/forms/d/e/1FAIpQLSeSH9AZu7wrJ0DVg_aOIIYIUoNzMnQnJmDeWUROeJGOjS5PPQ/viewform' rel='external' target='_blank'>Click here</a> for the signup sheet.", "L'assemblée générale annuelle de uOttawa Esports arrive bientôt&nbsp;! Nous accueillerons l'événement en personne et en ligne. La participation en personne sera limitée à 50 personnes. <hr /><a href='https://docs.google.com/forms/d/e/1FAIpQLSeSH9AZu7wrJ0DVg_aOIIYIUoNzMnQnJmDeWUROeJGOjS5PPQ/viewform' rel='external' target='_blank'>Cliquez ici</a> pour la feuille d'inscription."],
@@ -46,6 +37,15 @@ const events = [
         time: ["8:15 PM - 10:00 PM", "20h15 à 22h00"],
         location: ["Montpetit (MNT 203) and Discord", "Montpetit (MNT 203) et Discord"],
         contact: ["pgupt#0562, Yell#8888", "pgupt#0562, Yell#8888"]
+    },
+    {
+        title: ["Exec Game Night", "Soirée de jeux avec les cadres"],
+        image: ["../../images/events/upcoming/goosegooseduck.png", "Goose Goose Duck logo", "Logo de Goose Goose Duck"],
+        text: ["A bi-weekly game night where Execs, Game Heads, and friends play together in casual and competitive games! On this night, we'll be playing Goose Goose Duck.", "Une soirée de jeux bihebdomadaire où les cadres, les chefs de jeu et les amis jouent ensemble à des jeux occasionnels et compétitifs&nbsp;! Ce soir, nous jouerons à Goose Goose Duck."],
+        date: ["Tuesday, October 26", "Mardi 26 octobre"],
+        time: ["8:00 PM - 9:30 PM", "20h00 à 21h30"],
+        location: ["<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>", "<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>"],
+        contact: ["Yell#8888", "Yell#8888"]
     }
 ];
 
