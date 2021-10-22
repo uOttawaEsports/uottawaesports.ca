@@ -84,8 +84,12 @@ const modals = {
         "garnet": {
             title: ["Hearthstone Garnet Team", "Équipe Garnet de Hearthstone"],
             background: "#800020",
-            members: {},
-            lastUpdated: []
+            members: {
+                "NightKnight": ["Main Roster", "Formation principale"],
+                "Norman": ["Main Roster", "Formation principale"],
+                "Vinyl": ["Main Roster", "Formation principale"],
+            },
+            lastUpdated: ["2021-10-22"]
         },
         "grey": {
             title: ["Hearthstone Grey Team", "Équipe Grey de Hearthstone"],
