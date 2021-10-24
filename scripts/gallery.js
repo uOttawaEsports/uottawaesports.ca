@@ -50,6 +50,38 @@ const images = [{
     {
         image: "../../images/gallery/clubs-fair-2021-7.jpeg",
         alt: ["Clubs Fair 2021", "La Foire des clubs 2021"]
+    },
+    {
+        image: "../../images/gallery/agm-2021-1.jpg",
+        alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
+    },
+    {
+        image: "../../images/gallery/agm-2021-2.jpg",
+        alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
+    },
+    {
+        image: "../../images/gallery/agm-2021-3.jpg",
+        alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
+    },
+    {
+        image: "../../images/gallery/agm-2021-4.jpg",
+        alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
+    },
+    {
+        image: "../../images/gallery/agm-2021-5.jpg",
+        alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
+    },
+    {
+        image: "../../images/gallery/agm-2021-6.jpg",
+        alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
+    },
+    {
+        image: "../../images/gallery/agm-2021-7.jpg",
+        alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
+    },
+    {
+        image: "../../images/gallery/agm-2021-8.jpg",
+        alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
     }
 ];
 
@@ -60,7 +92,7 @@ for (let i = images.length - 1; i >= 0; i--) {
     div.className = "m-2 rounded shadow";
     div.style.width = "21.875rem";
     div.style.height = "15.625rem";
-    div.style.border = "0.2rem solid #000000";
+    div.style.border = "0.25rem solid #000000";
 
     let img = document.createElement("img");
     img.src = images[i].image;
