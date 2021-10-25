@@ -53,7 +53,7 @@ let execs = {
     },
     "Steven Li": {
         name: "Steven Li",
-        image: "../../../images/execs/2021-2022/steven-li.jpg",
+        image: "../../../images/execs/2021-2022/steven-li2.jpg",
         role: ["VP Internal", "VP Interne"],
         prog: ["Computer Engineering", "Génie informatique"],
         year: ["3rd Year", "3e année"],
@@ -144,7 +144,7 @@ let execs = {
     },
     "Narth Rajeswaran": {
         name: "Narth Rajeswaran",
-        image: "../../../images/execs/2021-2022/narth-rajeswaran.jpg",
+        image: "../../../images/execs/2021-2022/narth-rajeswaran2.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> League of Legends", "<span class='fw-bold'>Chef de jeu</span> <br /> League of Legends"],
         prog: ["Political Science", "Science politique"],
         year: ["2nd Year", "2e année"],

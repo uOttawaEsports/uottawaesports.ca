@@ -82,6 +82,10 @@ const images = [{
     {
         image: "../../images/gallery/agm-2021-8.jpg",
         alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
+    },
+    {
+        image: "../../images/gallery/agm-2021-9.jpg",
+        alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
     }
 ];
 
