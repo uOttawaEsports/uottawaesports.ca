@@ -29,15 +29,15 @@ const events = [
     //     location: ["Discord", "Discord"],
     //     contact: ["onmarti#4347, Kiro#3697", "onmarti#4347, Kiro#3697"]
     // },
-    {
-        title: ["Exec Game Night", "Soirée de jeux avec les cadres"],
-        image: ["../../images/events/upcoming/goosegooseduck.png", "Goose Goose Duck logo", "Logo de Goose Goose Duck"],
-        text: ["A bi-weekly game night where Execs, Game Heads, and friends play together in casual and competitive games! On this night, we'll be playing Goose Goose Duck.", "Une soirée de jeux bihebdomadaire où les cadres, les chefs de jeu et les amis jouent ensemble à des jeux occasionnels et compétitifs&nbsp;! Ce soir, nous jouerons à Goose Goose Duck."],
-        date: ["Tuesday, October 26", "Mardi 26 octobre"],
-        time: ["8:00 PM - 9:30 PM", "20h00 à 21h30"],
-        location: ["<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>", "<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>"],
-        contact: ["Yell#8888", "Yell#8888"]
-    }
+    // {
+    //     title: ["Exec Game Night", "Soirée de jeux avec les cadres"],
+    //     image: ["../../images/events/upcoming/goosegooseduck.png", "Goose Goose Duck logo", "Logo de Goose Goose Duck"],
+    //     text: ["A bi-weekly game night where Execs, Game Heads, and friends play together in casual and competitive games! On this night, we'll be playing Goose Goose Duck.", "Une soirée de jeux bihebdomadaire où les cadres, les chefs de jeu et les amis jouent ensemble à des jeux occasionnels et compétitifs&nbsp;! Ce soir, nous jouerons à Goose Goose Duck."],
+    //     date: ["Tuesday, October 26", "Mardi 26 octobre"],
+    //     time: ["8:00 PM - 9:30 PM", "20h00 à 21h30"],
+    //     location: ["<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>", "<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>"],
+    //     contact: ["Yell#8888", "Yell#8888"]
+    // }
 ];
 
 function displayEvents() {
