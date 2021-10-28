@@ -40,7 +40,7 @@ const images = [{
         alt: ["Clubs Fair 2021", "La Foire des clubs 2021"]
     },
     {
-        image: "../../images/gallery/amongus.jpg",
+        image: "../../images/gallery/egn_2021-09-30.jpg",
         alt: ["Inaugural Exec Game Night - Among Us", "La toute première soirée de jeux avec les cadres - Among Us"]
     },
     {
@@ -86,6 +86,10 @@ const images = [{
     {
         image: "../../images/gallery/agm-2021-9.jpg",
         alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
+    },
+    {
+        image: "../../images/gallery/egn_2021-10-26.jpg",
+        alt: ["2021-10-26 Exec Game Night - Goose Goose Duck", "2021-10-26 Soirée de jeux avec les cadres - Goose Goose Duck"]
     }
 ];
 
