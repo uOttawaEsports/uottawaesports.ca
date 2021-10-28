@@ -34,62 +34,62 @@
 /* Button backgrounds */
 
 #cod-bg {
-    background-image: url(../images/teams/buttons/cod-bg.png);
+    background-image: url(../images/teams/buttons/cod-bg.jpg);
 }
 
 #csgo-bg {
-    background-image: url(../images/teams/buttons/csgo-bg.png);
+    background-image: url(../images/teams/buttons/csgo-bg.jpg);
 }
 
 #csgo-bg {
-    background-image: url(../images/teams/buttons/csgo-bg.png);
+    background-image: url(../images/teams/buttons/csgo-bg.jpg);
 }
 
 #dota2-bg {
-    background-image: url(../images/teams/buttons/dota2-bg.png);
+    background-image: url(../images/teams/buttons/dota2-bg.jpg);
 }
 
 #fortnite-bg {
-    background-image: url(../images/teams/buttons/fortnite-bg.png);
+    background-image: url(../images/teams/buttons/fortnite-bg.jpg);
 }
 
 #hs-bg {
-    background-image: url(../images/teams/buttons/hs-bg.png);
+    background-image: url(../images/teams/buttons/hs-bg.jpg);
 }
 
 #lol-bg {
-    background-image: url(../images/teams/buttons/lol-bg.png);
+    background-image: url(../images/teams/buttons/lol-bg.jpg);
 }
 
 #osu-bg {
-    background-image: url(../images/teams/buttons/osu-bg.png);
+    background-image: url(../images/teams/buttons/osu-bg.jpg);
 }
 
 #ow-bg {
-    background-image: url(../images/teams/buttons/ow-bg.png);
+    background-image: url(../images/teams/buttons/ow-bg.jpg);
 }
 
 #r6-bg {
-    background-image: url(../images/teams/buttons/r6-bg.png);
+    background-image: url(../images/teams/buttons/r6-bg.jpg);
 }
 
 #rl-bg {
-    background-image: url(../images/teams/buttons/rl-bg.png);
+    background-image: url(../images/teams/buttons/rl-bg.jpg);
 }
 
 #ssbu-bg {
-    background-image: url(../images/teams/buttons/ssbu-bg.png);
+    background-image: url(../images/teams/buttons/ssbu-bg.jpg);
 }
 
 #val-bg {
-    background-image: url(../images/teams/buttons/val-bg.png);
+    background-image: url(../images/teams/buttons/val-bg.jpg);
 }
 
 /* Content backgrounds */
 
 #call-of-duty {
     scroll-margin-top: 4.375rem;
-    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/cod-bg.png);
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/cod-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
@@ -98,7 +98,7 @@
 
 #csgo {
     scroll-margin-top: 4.375rem;
-    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/csgo-bg.png);
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/csgo-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 80%;
@@ -107,7 +107,7 @@
 
 #dota-2 {
     scroll-margin-top: 4.375rem;
-    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/dota2-bg.png);
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/dota2-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
@@ -116,7 +116,7 @@
 
 #fortnite {
     scroll-margin-top: 4.375rem;
-    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/fortnite-bg.png);
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/fortnite-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
@@ -125,7 +125,7 @@
 
 #hearthstone {
     scroll-margin-top: 4.375rem;
-    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/hs-bg.png);
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/hs-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
@@ -134,7 +134,7 @@
 
 #league-of-legends {
     scroll-margin-top: 4.375rem;
-    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/lol-bg.png);
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/lol-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
@@ -143,7 +143,7 @@
 
 #osu {
     scroll-margin-top: 4.375rem;
-    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/osu-bg.png);
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/osu-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 0%;
@@ -152,7 +152,7 @@
 
 #overwatch {
     scroll-margin-top: 4.375rem;
-    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/ow-bg.png);
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/ow-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
@@ -161,7 +161,7 @@
 
 #rainbow-six-siege {
     scroll-margin-top: 4.375rem;
-    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/r6-bg.png);
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/r6-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
@@ -170,7 +170,7 @@
 
 #rocket-league {
     scroll-margin-top: 4.375rem;
-    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/rl-bg.png);
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/rl-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
@@ -179,7 +179,7 @@
 
 #smash-ultimate {
     scroll-margin-top: 4.375rem;
-    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/ssbu-bg.png);
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/ssbu-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
@@ -188,7 +188,7 @@
 
 #valorant {
     scroll-margin-top: 4.375rem;
-    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/val-bg.png);
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/val-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
