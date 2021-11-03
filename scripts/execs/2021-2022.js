@@ -2,7 +2,7 @@ let execs = {
     /* Co-Presidents */
     "Jaxon Murphy": {
         name: "Jaxon Murphy",
-        image: "../../../images/execs/2021-2022/jaxon-murphy.jpg",
+        image: "../../../images/execs/2021-2022/jaxon-murphy-2.jpg",
         role: ["Co-President", "Co-Président"],
         prog: ["Economics and Management", "Science économique et gestion"],
         year: ["4th Year", "4e année"],
@@ -45,8 +45,8 @@ let execs = {
         name: "Calvin Koehl",
         image: "../../../images/execs/2021-2022/calvin-koehl.jpg",
         role: ["VP Events", "VP Événements"],
-        prog: ["Teacher Education", ""],
-        year: ["6th Year", ""],
+        prog: ["Teacher Education", "Formation à l'enseignement"],
+        year: ["6th Year", "6e année"],
         game: "CS:GO, League of Legends, Forza, American Truck Simulator",
         desc: ["Hey hey! It's my second year as VP Events and my 6th year at uOttawa, I did my undergrad in Criminology here as well. I love playing sports and video games. Currently, I also work as a program coordinator for Intramurals. If you ever want to work out, play video games at a mediocre level, or have even ideas, let me know!", "Hey hey&nbsp;! C'est ma deuxième année en tant que VP Événements et ma sixième année à l'Université d'Ottawa. J'ai fait mon baccalauréat en criminologie ici aussi. J'adore faire du sport et jouer à des jeux vidéo. Actuellement, je travaille aussi comme coordonnateur de programme pour Intramurals. Si vous voulez faire de l'exercice, jouer à des jeux vidéo à un niveau médiocre, ou si vous avez des idées, dites-le moi&nbsp;!"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2021-2022/backgrounds/calvin-koehl.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
