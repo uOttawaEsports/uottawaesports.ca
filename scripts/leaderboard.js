@@ -1,6 +1,74 @@
 let execs = { // keys are unique IDs
     "0": {
-        name: "Yell#8888",
+        name: "ai23756#2908",
+        pts: 0
+    },
+    "1": {
+        name: "Dida#3894",
+        pts: 0
+    },
+    "2": {
+        name: "yrrah#6247",
+        pts: 0
+    },
+    "3": {
+        name: "Novablazer#6764",
+        pts: 0
+    },
+    "4": {
+        name: "Tundr4#6291",
+        pts: 0
+    },
+    "5": {
+        name: "Bolin#6549",
+        pts: 0
+    },
+    "6": {
+        name: "SpartanRS#8842",
+        pts: 0
+    },
+    "7": {
+        name: "Sleepy#2536",
+        pts: 0
+    },
+    "8": {
+        name: "cri#1231",
+        pts: 0
+    },
+    "9": {
+        name: "jay moon#0090",
+        pts: 0
+    },
+    "10": {
+        name: "Drakaress#8696",
+        pts: 0
+    },
+    "11": {
+        name: "Maiuh#1010",
+        pts: 0
+    },
+    "12": {
+        name: "Xssant#0454",
+        pts: 0
+    },
+    "13": {
+        name: "Key#7036",
+        pts: 0
+    },
+    "14": {
+        name: "Zyoulou#3814",
+        pts: 0
+    },
+    "15": {
+        name: "Alim - アリム#2560",
+        pts: 0
+    },
+    "16": {
+        name: "Nachoson#3153",
+        pts: 0
+    },
+    "17": {
+        name: "Kaidan#2950",
         pts: 0
     }
 }
@@ -60,7 +128,7 @@ sorted.forEach(personObj => {
 
             th.scope = "col";
             th.innerHTML = "Position";
-            th.className = "text-start"
+            th.className = "text-center"
             th.style.width = "1%";
             th.style.whiteSpace = "nowrap";
             tr.appendChild(th);
@@ -74,7 +142,7 @@ sorted.forEach(personObj => {
             th = document.createElement("th");
             th.scope = "col";
             th.innerHTML = isEnglish ? "Ticket(s)" : "Billet(s)";
-            th.className = "text-start";
+            th.className = "text-center";
             th.style.width = "1%";
             th.style.whiteSpace = "nowrap";
             tr.appendChild(th);
