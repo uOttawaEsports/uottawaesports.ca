@@ -1,116 +1,63 @@
 let date = "2021-11-03";
 
-let execs = { // keys are unique IDs
-    "0": {
-        name: "ai23756#2908",
-        pts: 0
-    },
-    "1": {
-        name: "Dida#3894",
-        pts: 0
-    },
-    "2": {
-        name: "yrrah#6247",
-        pts: 0
-    },
-    "3": {
-        name: "Novablazer#6764",
-        pts: 0
-    },
-    "4": {
-        name: "Tundr4#6291",
-        pts: 0
-    },
-    "5": {
-        name: "Bolin#6549",
-        pts: 0
-    },
-    "6": {
-        name: "SpartanRS#8842",
-        pts: 0
-    },
-    "7": {
-        name: "Sleepy#2536",
-        pts: 0
-    },
-    "8": {
-        name: "cri#1231",
-        pts: 0
-    },
-    "9": {
-        name: "jay moon#0090",
-        pts: 0
-    },
-    "10": {
-        name: "Drakaress#8696",
-        pts: 0
-    },
-    "11": {
-        name: "Maiuh#1010",
-        pts: 0
-    },
-    "12": {
-        name: "Xssant#0454",
-        pts: 0
-    },
-    "13": {
-        name: "Key#7036",
-        pts: 0
-    },
-    "14": {
-        name: "Zyoulou#3814",
-        pts: 0
-    },
-    "15": {
-        name: "Alim - アリム#2560",
-        pts: 0
-    },
-    "16": {
-        name: "Nachoson#3153",
-        pts: 0
-    },
-    "17": {
-        name: "Kaidan#2950",
-        pts: 0
-    }
+let members = {
+    "ai23756#2908": 1,
+    "Dida#3894": 1,
+    "yrrah#6247": 1,
+    "Novablazer#6764": 1,
+    "Tundr4#6291": 1,
+    "Bolin#6549": 1,
+    "SpartanRS#8842": 1,
+    "Sleepy#2536": 1,
+    "cri#1231": 1,
+    "jay moon#0090": 1,
+    "Drakaress#8696": 1,
+    "Maiuh#1010": 1,
+    "Xssant#0454": 1,
+    "Key#7036": 1,
+    "Zyoulou#3814": 1,
+    "Alim - アリム#2560": 1,
+    "Nachoson#3153": 1,
+    "Kaidan#2950": 1
 }
 
 let isEnglish = window.location.href.includes("/en");
 
-// document.getElementById("date").innerHTML = window.location.href.includes("/en") ? date[0] : date[1];
 document.getElementById("date").innerHTML = date;
 
-let sorted = Object.keys(execs).sort((a, b) => { return execs[b].pts - execs[a].pts }); // sorts the keys of the execs object and stores them into an array
+let sorted = Object.keys(members).sort((a, b) => { return members[b] - members[a] }); // sorts the keys of the members object and stores them into an array
 
 let pos = 1;
 let tableCreated = false;
 
-sorted.forEach(personObj => {
+sorted.forEach(name => {
+    console.log(name);
+    console.log(members[name]);
     if (pos <= 3) {
         let div = document.createElement("div");
         let img = document.createElement("img");
-        let name = document.createElement("p");
+        let discordUser = document.createElement("p");
         let points = document.createElement("p");
 
-        div.className = "d-flex mb-4";
+        div.className = "d-flex mb-4 rounded";
         div.className += (pos == 1 ? " bg-gold" : pos == 2 ? " bg-silver" : " bg-bronze");
 
         img.src = "../../images/leaderboard/" + (pos == 1 ? "gold" : pos == 2 ? "silver" : "bronze") + ".png";
         img.alt = (pos == 1 ? "Gold badge" : pos == 2 ? "Silver badge" : "Bronze badge");
-        img.className = "p-1";
-        img.style.height = "5rem";
-        img.style.width = "5rem";
+        img.className = "p-1 d-flex align-self-center";
+        img.style.height = "4rem";
+        img.style.width = "4rem";
         div.appendChild(img);
 
-        name.className = "fs-3 d-flex align-self-center me-auto mb-0 ms-1";
-        name.innerHTML = ('<span class="fw-bold">' + pos + ".</span>&nbsp;" + execs[personObj].name);
-        div.appendChild(name);
+        discordUser.className = "fs-4 d-flex align-self-center me-auto mb-0 ms-1";
+        discordUser.innerHTML = ('<span class="fw-bold d-flex align-self-center">' + pos + ".</span>&nbsp;" + '<span class="text-break">' + name + '</span>');
+        div.appendChild(discordUser);
 
-        points.className = "fs-3 d-flex align-self-center mb-0 me-2";
-        if (execs[personObj].pts == 1) {
-            points.innerHTML = execs[personObj].pts + (isEnglish ? " ticket" : " billet");
+        points.className = "fs-4 d-flex align-self-center mb-0 me-2";
+        if (members[name] == 1) {
+            points.innerHTML = members[name] + (isEnglish ? "&nbsp;ticket" : "&nbsp;billet");
         } else {
-            points.innerHTML = execs[personObj].pts + (isEnglish ? " tickets" : " billets");
+            points.innerHTML = members[name] + (isEnglish ? "&nbsp;tickets" : "&nbsp;billets");
         }
         div.appendChild(points);
 
@@ -162,11 +109,12 @@ sorted.forEach(personObj => {
         tr.appendChild(th);
 
         td = document.createElement("td");
-        td.innerHTML = execs[personObj].name;;
+        td.innerHTML = name;
+        td.className = "text-start text-break";
         tr.appendChild(td);
 
         td = document.createElement("td");
-        td.innerHTML = execs[personObj].pts;
+        td.innerHTML = members[name];
         td.className = "text-end";
         tr.appendChild(td);
 
