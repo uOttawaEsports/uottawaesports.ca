@@ -1,3 +1,5 @@
+let date = "2021-11-03";
+
 let execs = { // keys are unique IDs
     "0": {
         name: "ai23756#2908",
@@ -74,8 +76,6 @@ let execs = { // keys are unique IDs
 }
 
 let isEnglish = window.location.href.includes("/en");
-
-let date = "2021-09-06";
 
 // document.getElementById("date").innerHTML = window.location.href.includes("/en") ? date[0] : date[1];
 document.getElementById("date").innerHTML = date;
