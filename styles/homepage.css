@@ -9,15 +9,15 @@
     background-attachment: scroll;
 }
 
-.pink-link a {
+/* Custom classes */
+
+.blue-link a {
     color: #5fb7ff;
 }
 
-.pink-link a:hover {
+.blue-link a:hover {
     color: #229bff;
 }
-
-/* Custom classes */
 
 .crd a {
     color: #C70024;

@@ -1,3 +1,5 @@
+/* Custom classes */
+
 .bg-gold {
     background-color: #665814;
 }
@@ -8,4 +10,12 @@
 
 .bg-bronze {
     background-color: #73513A;
+}
+
+.blue-link a {
+    color: #5fb7ff;
+}
+
+.blue-link a:hover {
+    color: #229bff;
 }

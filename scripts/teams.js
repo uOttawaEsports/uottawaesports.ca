@@ -1,3 +1,18 @@
+const gameheads = {
+    "cod-gh": "Lego#2121",
+    "csgo-gh": "Static#0063",
+    "dota2-gh": "Hulasaur#0265",
+    "fortnite-gh": "Nuage#0954",
+    "hs-gh": "",
+    "lol-gh": "Narth#1623",
+    "osu-gh": "Fulserish#3239",
+    "ow-gh": "Lamortdeboo#7218",
+    "r6-gh": "Zander#6846",
+    "rl-gh": "fabienlef#5103",
+    "ssbu-gh": "Tai#0391",
+    "val-gh": "onmarti#4347",
+}
+
 // Teams that will be displayed will only be "garnet", "grey", and "gold".
 // If there exists a second gold team, name the first gold team "gold" and the second "gold 2".
 const modals = {
@@ -318,9 +333,10 @@ const modals = {
     }
 }
 
-function displayButtons() {
+/* Append Team Buttons and Game Heads */
+
+function display() {
     let isEnglish = window.location.href.includes("/en");
-    console.log(isEnglish);
     for (let gameName in modals) {
         let game = modals[gameName];
         for (let teamName in game) {
@@ -341,7 +357,14 @@ function displayButtons() {
             }
         }
     }
+
+    for (let gh in gameheads){
+        if (gameheads[gh] === "") continue;
+        document.getElementById(gh).innerHTML = `<h2 class="fs-4 text-end fw-bold">${isEnglish? "Game Head: " : "Chef de jeu&nbsp;: "}<i class="fab fa-discord ms-1"></i> ${gameheads[gh]}</h2>`;
+    }
 }
+
+/* Append Teams */
 
 function teams(names) {
     let isEnglish = window.location.href.includes("/en");
@@ -367,6 +390,8 @@ function teams(names) {
     }
     document.getElementById("date").innerHTML = team["lastUpdated"];
 }
+
+/* Append Information Button */
 
 const info = document.getElementById("information");
 const btn = document.getElementById("information-button");

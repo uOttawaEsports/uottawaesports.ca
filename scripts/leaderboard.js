@@ -1,9 +1,11 @@
 let execs = { // keys are unique IDs
     "0": {
-        name: "Steven Li",
-        pts: 1
+        name: "Yell#8888",
+        pts: 0
     }
 }
+
+let isEnglish = window.location.href.includes("/en");
 
 let date = "2021-09-06";
 
@@ -37,7 +39,11 @@ sorted.forEach(personObj => {
         div.appendChild(name);
 
         points.className = "fs-3 d-flex align-self-center mb-0 me-2";
-        points.innerHTML = execs[personObj].pts + (execs[personObj].pts == 1 ? " point": " points");
+        if (execs[personObj].pts == 1) {
+            points.innerHTML = execs[personObj].pts + (isEnglish ? " ticket" : " billet");
+        } else {
+            points.innerHTML = execs[personObj].pts + (isEnglish ? " tickets" : " billets");
+        }
         div.appendChild(points);
 
         document.getElementById("top3").appendChild(div);
@@ -67,7 +73,7 @@ sorted.forEach(personObj => {
 
             th = document.createElement("th");
             th.scope = "col";
-            th.innerHTML = "Point(s)";
+            th.innerHTML = isEnglish ? "Ticket(s)" : "Billet(s)";
             th.className = "text-start";
             th.style.width = "1%";
             th.style.whiteSpace = "nowrap";
