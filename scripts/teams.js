@@ -26,7 +26,7 @@ const modals = {
                 "Goonski": ["Main Roster", "Formation principale"],
                 "hishash": ["Main Roster", "Formation principale"],
                 "Nacho": ["Main Roster", "Formation principale"],
-                "Lego": ["Substitute", "Remplaçant"]
+                "Lego": ["Substitute", "Remplaçant(e)"]
             },
             lastUpdated: ["2021-09-04"]
         },
@@ -47,7 +47,7 @@ const modals = {
                 "Rebow": ["Main Roster", "Formation principale"],
                 "baca": ["Main Roster", "Formation principale"],
                 "Lego": ["Main Roster", "Formation principale"],
-                "Wyndz": ["Substitute", "Remplaçant"]
+                "Wyndz": ["Substitute", "Remplaçant(e)"]
             },
             lastUpdated: ["2021-09-04"]
         },
@@ -63,14 +63,14 @@ const modals = {
             title: ["DOTA 2 Garnet Team", "Équipe Garnet de DOTA 2"],
             background: "#800020",
             members: {
-                "Peter": ["Manager/Substitute", "Manager/Remplaçant"],
+                "Peter": ["Manager/Substitute", "Manager/Remplaçant(e)"],
                 "6sundin13": ["Manager/Main Roster", "Manager/Formation principale"],
-                "Magnesium": ["Coach", "Entraîneur"],
+                "Magnesium": ["Coach", "Entraîneur(se)"],
                 "asoggysliceoftoast": ["Main Roster", "Formation principale"],
                 "haoran18": ["Main Roster", "Formation principale"],
                 "JayBird": ["Main Roster", "Formation principale"],
                 "Lyrebird": ["Main Roster", "Formation principale"],
-                "salem600": ["Substitute", "Remplaçant"]
+                "salem600": ["Substitute", "Remplaçant(e)"]
             },
             lastUpdated: ["2021-10-14"]
         },
@@ -124,7 +124,7 @@ const modals = {
                 "Midnight Akuma": ["Mid", "Milieu"],
                 "PieckPerformance": ["Bot", "Bas"],
                 "sprinklr": ["Support", "Support"],
-                "Draig": ["Substitute - Mid/Support", "Remplaçant - Milieu/Support"]
+                "Draig": ["Substitute - Mid/Support", "Remplaçant(e) - Milieu/Support"]
             },
             lastUpdated: ["2021-09-19"]
         },
@@ -138,8 +138,8 @@ const modals = {
                 "bred": ["Mid", "Milieu"],
                 "amlo12": ["Bot", "Bas"],
                 "darkutopia": ["Support", "Support"],
-                "MistahFrosty": ["Substitute - Top/Jungle", "Remplaçant - Haut/Jungle"],
-                "Narth": ["Substitute - Support", "Remplaçant - Support"]
+                "MistahFrosty": ["Substitute - Top/Jungle", "Remplaçant(e) - Haut/Jungle"],
+                "Narth": ["Substitute - Support", "Remplaçant(e) - Support"]
             },
             lastUpdated: ["2021-09-19"]
         },
@@ -155,7 +155,7 @@ const modals = {
             title: ["osu! Garnet Team", "Équipe Garnet de osu!"],
             background: "#800020",
             members: {
-                "Fulserish": ["Coach", "Entraîneur"],
+                "Fulserish": ["Coach", "Entraîneur(se)"],
                 "Zylice": ["Captain/Main Roster", "Capitaine/Formation principale"],
                 "chuzday": ["Main Roster", "Formation principale"],
                 "Jimin": ["Main Roster", "Formation principale"],
@@ -167,7 +167,7 @@ const modals = {
             title: ["osu! Grey Team", "Équipe Grey de osu!"],
             background: "#303031",
             members: {
-                "Fulserish": ["Coach", "Entraîneur"],
+                "Fulserish": ["Coach", "Entraîneur(se)"],
                 "ComplicatedCow": ["Captain/Main Roster", "Capitaine/Formation principale"],
                 "GlowRock": ["Main Roster", "Formation principale"],
                 "TiBlinn": ["Main Roster", "Formation principale"],
@@ -187,8 +187,8 @@ const modals = {
                 "VStriker": ["Damage", "Dégâts"],
                 "QebQake": ["Support", "Soutien"],
                 "Twigloo": ["Support", "Soutien"],
-                "Supreme": ["Substitute", "Remplaçant"],
-                "Vinyl": ["Substitute", "Remplaçant"]
+                "Supreme": ["Substitute", "Remplaçant(e)"],
+                "Vinyl": ["Substitute", "Remplaçant(e)"]
             },
             lastUpdated: ["2021-09-24"]
         },
@@ -209,9 +209,9 @@ const modals = {
                 "Chrs": ["Main Roster", "Formation principale"],
                 "Echodrive": ["Main Roster", "Formation principale"],
                 "k3addy": ["Main Roster", "Formation principale"],
-                "Lits": ["Substitute", "Remplaçant"],
-                "Vaal": ["Substitute", "Remplaçant"],
-                "Vinyl": ["Substitute", "Remplaçant"]
+                "Lits": ["Substitute", "Remplaçant(e)"],
+                "Vaal": ["Substitute", "Remplaçant(e)"],
+                "Vinyl": ["Substitute", "Remplaçant(e)"]
             },
             lastUpdated: ["2021-09-23"]
         },
@@ -219,14 +219,14 @@ const modals = {
             title: ["Rainbow Six Siege Grey Team", "Équipe Grey de Rainbow Six Siege"],
             background: "#303031",
             members: {
-                "Kiro": ["Coach/Substitute", "Entraîneur/Remplaçant"],
+                "Kiro": ["Coach/Substitute", "Entraîneur(se)/Remplaçant(e)"],
                 "Apollo": ["Captain/Main Roster", "Capitaine/Formation principale"],
                 "AsianFlow": ["Main Roster", "Formation principale"],
                 "Cronder": ["Main Roster", "Formation principale"],
                 "Nacho": ["Main Roster", "Formation principale"],
                 "ohkaysher": ["Main Roster", "Formation principale"],
-                "Average Canadian": ["Substitute", "Remplaçant"],
-                "KingStar": ["Substitute", "Remplaçant"],
+                "Average Canadian": ["Substitute", "Remplaçant(e)"],
+                "KingStar": ["Substitute", "Remplaçant(e)"],
                 
             },
             lastUpdated: ["2021-09-23"]
@@ -240,7 +240,7 @@ const modals = {
                 "fabienlef": ["Main Roster", "Formation principale"],
                 "Hexki": ["Main Roster", "Formation principale"],
                 "JChan": ["Main Roster", "Formation principale"],
-                "koat": ["Substitute", "Remplaçant"]
+                "koat": ["Substitute", "Remplaçant(e)"]
             },
             lastUpdated: ["2021-09-07"]
         },
@@ -251,7 +251,7 @@ const modals = {
                 "JoBone": ["Main Roster", "Formation principale"],
                 "koat": ["Main Roster", "Formation principale"],
                 "tannwan0625": ["Main Roster", "Formation principale"],
-                "Mystyclious": ["Substitute", "Remplaçant"]
+                "Mystyclious": ["Substitute", "Remplaçant(e)"]
             },
             lastUpdated: ["2021-09-07"]
         },
@@ -262,7 +262,7 @@ const modals = {
                 "AKRAM": ["Main Roster", "Formation principale"],
                 "Shail": ["Main Roster", "Formation principale"],
                 "Tahzo": ["Main Roster", "Formation principale"],
-                "Zyoulou": ["Substitute", "Remplaçant"]
+                "Zyoulou": ["Substitute", "Remplaçant(e)"]
             },
             lastUpdated: ["2021-09-07"]
         }
@@ -287,15 +287,15 @@ const modals = {
             background: "#800020",
             members: {
                 "Kiro": ["Manager", "Manager"],
-                "kang xd": ["Coach", "Entraîneur"],
+                "kang xd": ["Coach", "Entraîneur(se)"],
                 "Apl": ["Main Roster", "Formation principale"],
                 "bladee": ["Main Roster", "Formation principale"],
                 "housieee": ["Main Roster", "Formation principale"],
                 "Jacob": ["Main Roster", "Formation principale"],
                 "Jer": ["Main Roster", "Formation principale"],
-                "coal": ["Substitute", "Remplaçant"],
-                "prompt": ["Substitute", "Remplaçant"],
-                "SyCo": ["Substitute", "Remplaçant"]
+                "coal": ["Substitute", "Remplaçant(e)"],
+                "prompt": ["Substitute", "Remplaçant(e)"],
+                "SyCo": ["Substitute", "Remplaçant(e)"]
             },
             lastUpdated: ["2021-09-14"]
         },
@@ -304,14 +304,14 @@ const modals = {
             background: "#303031",
             members: {
                 "Kiro": ["Manager", "Manager"],
-                "Econ God": ["Coach", "Entraîneur"],
+                "Econ God": ["Coach", "Entraîneur(se)"],
                 "chriski": ["Main Roster", "Formation principale"],
                 "Goff": ["Main Roster", "Formation principale"],
                 "inertia": ["Main Roster", "Formation principale"],
                 "Leek": ["Main Roster", "Formation principale"],
                 "LittleBozz": ["Main Roster", "Formation principale"],
-                "Rodwave": ["Substitute", "Remplaçant"],
-                "Xssant": ["Substitute", "Remplaçant"]
+                "Rodwave": ["Substitute", "Remplaçant(e)"],
+                "Xssant": ["Substitute", "Remplaçant(e)"]
             },
             lastUpdated: ["2021-09-14"]
         },
@@ -324,9 +324,9 @@ const modals = {
                 "Overider21": ["Main Roster", "Formation principale"],
                 "RainbowPigCake": ["Main Roster", "Formation principale"],
                 "yj": ["Main Roster", "Formation principale"],
-                "Artu": ["Substitute", "Remplaçant"],
-                "JasonFGC": ["Substitute", "Remplaçant"],
-                "Noctember": ["Substitute", "Remplaçant"]
+                "Artu": ["Substitute", "Remplaçant(e)"],
+                "JasonFGC": ["Substitute", "Remplaçant(e)"],
+                "Noctember": ["Substitute", "Remplaçant(e)"]
             },
             lastUpdated: ["2021-09-13"]
         }
