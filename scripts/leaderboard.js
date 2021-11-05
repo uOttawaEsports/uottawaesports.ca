@@ -22,6 +22,7 @@ let members = {
     "DragonRage#8024": 1,
     "Zeyu#0049": 1,
     "Pandazzle#4064": 1,
+    "ComplicatedCow#6424": 1,
 }
 
 let isEnglish = window.location.href.includes("/en");
