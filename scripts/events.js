@@ -11,33 +11,24 @@ const events = [
     //     location: ["Discord", "Discord"],
     //     contact: ["Kiro#3697", "Kiro#3697"]
     // },
-    // {
-    //     title: ["Exec Game Night", "Soirée de jeux avec les cadres"],
-    //     image: ["../../images/events/upcoming/amongus.png", "Among Us logo", "Logo de Among Us"],
-    //     text: ["A bi-weekly game night where Execs, Game Heads, and friends play together in casual and competitive games! On this night, we'll be playing Among Us.", "Une soirée de jeux bihebdomadaire où les cadres, les chefs de jeu et les amis jouent ensemble à des jeux occasionnels et compétitifs&nbsp;! Ce soir, nous jouerons à Among Us."],
-    //     date: ["Thursday, September 30", "Jeudi 30 septembre"],
-    //     time: ["9:30 PM - 11:00 PM", "21h30 à 23h00"],
-    //     location: ["<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>", "<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>"],
-    //     contact: ["Yell#8888", "Yell#8888"]
-    // },
     {
         title: ["VALORANT In-house", "In-house de VALORANT"],
-        image: ["../../images/events/upcoming/val2.png", "VALORANT logo", "Logo de VALORANT"],
+        image: ["../../images/events/upcoming/val2.jpg", "VALORANT logo", "Logo de VALORANT"],
         text: ["A prized in-house is coming your way! More information can be found on Discord.<br/><span class='fw-bold'>Prizes:</span> 1st place: $75 & 5 Red Bull Packs split evenly | 2nd place: $25 split evenly <hr />You must fill in the two following forms to participate: <a href='https://docs.google.com/forms/d/e/1FAIpQLScdbvP5bJ1vjEvpNUGOwHwHyP1nR1iEkDr8UTmg7pyKtsk37A/viewform' rel='external' target='_blank'>Tournament Registration</a> and <a href='https://bit.ly/3BXwrWm' rel='external' target='_blank'>VALORANT Member Form</a>.", "Un «&nbsp;in-house&nbsp;» avec un prix se passe ce samedi&nbsp;! Plus de renseignements sont disponibles sur Discord.<br/><span class='fw-bold'>Les prix:</span> 1ère place&nbsp;: 75&nbsp;$ & 5 paquets de Red Bull divisé également | 2ème place&nbsp;: 25&nbsp;$ divisé également <hr />Pour participer, vous devez remplir les deux formulaires suivants&nbsp;: <a href='https://docs.google.com/forms/d/e/1FAIpQLScdbvP5bJ1vjEvpNUGOwHwHyP1nR1iEkDr8UTmg7pyKtsk37A/viewform' rel='external' target='_blank'>Inscription au tournoi</a> et <a href='https://bit.ly/3BXwrWm' rel='external' target='_blank'>Formulaire d'adhésion de VALORANT</a>."],
         date: ["Saturday, November 6", "Samedi, le 6 novembre"],
         time: ["5:00 PM", "17h00"],
         location: ["Discord", "Discord"],
         contact: ["onmarti#4347, Kiro#3697", "onmarti#4347, Kiro#3697"]
     },
-    // {
-    //     title: ["Exec Game Night", "Soirée de jeux avec les cadres"],
-    //     image: ["../../images/events/upcoming/goosegooseduck.png", "Goose Goose Duck logo", "Logo de Goose Goose Duck"],
-    //     text: ["A bi-weekly game night where Execs, Game Heads, and friends play together in casual and competitive games! On this night, we'll be playing Goose Goose Duck.", "Une soirée de jeux bihebdomadaire où les cadres, les chefs de jeu et les amis jouent ensemble à des jeux occasionnels et compétitifs&nbsp;! Ce soir, nous jouerons à Goose Goose Duck."],
-    //     date: ["Tuesday, October 26", "Mardi 26 octobre"],
-    //     time: ["8:00 PM - 9:30 PM", "20h00 à 21h30"],
-    //     location: ["<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>", "<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>"],
-    //     contact: ["Yell#8888", "Yell#8888"]
-    // }
+    {
+        title: ["Exec Game Night", "Soirée de jeux avec les cadres"],
+        image: ["../../images/events/upcoming/val3.jpg", "VALORANT logo", "Logo de VALORANT"],
+        text: ["A game night where Execs, Game Heads, and friends play together in casual and competitive games! On this night, we'll be playing VALORANT.", "Une soirée de jeux où les cadres, les chefs de jeu et les amis jouent ensemble à des jeux occasionnels et compétitifs&nbsp;! Ce soir, nous jouerons à VALORANT."],
+        date: ["Sunday, November 14", "Dimanche, le 14 novembre"],
+        time: ["9:00 PM - 10:30 PM", "21h00 à 22h30"],
+        location: ["<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>", "<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>"],
+        contact: ["Yell#8888", "Yell#8888"]
+    }
 ];
 
 function displayEvents() {
