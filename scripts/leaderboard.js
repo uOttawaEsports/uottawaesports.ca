@@ -42,7 +42,7 @@ sorted.forEach(name => {
         let discordUser = document.createElement("p");
         let points = document.createElement("p");
 
-        div.className = "d-flex mb-4 rounded";
+        div.className = "d-flex mb-3 rounded";
         div.className += (pos == 1 ? " bg-gold" : pos == 2 ? " bg-silver" : " bg-bronze");
 
         img.src = "../../images/leaderboard/" + (pos == 1 ? "gold" : pos == 2 ? "silver" : "bronze") + ".png";
