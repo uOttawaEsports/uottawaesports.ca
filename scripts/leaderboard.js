@@ -36,8 +36,6 @@ let pos = 1;
 let tableCreated = false;
 
 sorted.forEach(name => {
-    console.log(name);
-    console.log(members[name]);
     if (pos <= 3) {
         let div = document.createElement("div");
         let img = document.createElement("img");
