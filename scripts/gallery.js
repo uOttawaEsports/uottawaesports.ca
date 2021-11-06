@@ -90,6 +90,10 @@ const images = [{
     {
         image: "../../images/gallery/egn_2021-10-26.jpg",
         alt: ["2021-10-26 Exec Game Night - Goose Goose Duck", "2021-10-26 Soirée de jeux avec les cadres - Goose Goose Duck"]
+    },
+    {
+        image: "../../images/gallery/valorant=grey-1.jpg",
+        alt: ["2021-11-05 VALORANT Grey Team", "2021-11-05 Équipe Grey de VALORANT"]
     }
 ];
 
