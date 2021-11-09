@@ -1,4 +1,4 @@
-let date = "2021-11-06";
+let date = "2021-11-08";
 
 let members = {
     "Xssant#0454": 1,
@@ -26,6 +26,7 @@ let members = {
     "asoggysliceoftoast#3812": 1,
     "biggest fish#6763": 1,
     "YoChrisyBoi#6126": 1,
+    "chill_vibes#7200": 1,
 }
 
 let isEnglish = window.location.href.includes("/en");
