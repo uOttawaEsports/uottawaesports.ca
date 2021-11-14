@@ -1,5 +1,4 @@
 // The website will display a maximum of six (6) events at a time. You can add more than six if you'd like to queue up the events for organizational purposes.
-// Be careful not to add too much description text, as it may cause the cards to become an uneven height.
 // Events in closest proximity must be placed at the top of the object.
 const events = [
     // {
@@ -48,12 +47,12 @@ const events = [
         contact: ["Lego#2121", "Lego#2121"]
     },
     {
-        title: ["Minecraft Event", "Événement de Minecraft"],
+        title: ["Minecraft Survival Games", "Jeux de survie de Minecraft"],
         image: ["../../images/events/upcoming/mc.png", "Minecraft logo", "Logo de Minecraft"],
-        text: ["Event details coming soon. More information can be found in the <a href='https://discord.com/channels/481842236213035008/497602410169237504/908495574137962556' rel='external' target='_blank'>#announcements</a> channel.", "Les détails de l'événement seront bientôt disponibles. Référrez-vous au canal <a href='https://discord.com/channels/481842236213035008/497602410169237504/908495574137962556' rel='external' target='_blank'>#announcements</a> pour plus de renseignements."],
+        text: ["Survive or die (duh)! On November 27th, we'll be hosting our first ever Minecraft Survival Games! <hr /><a href='https://docs.google.com/forms/d/e/1FAIpQLSfKvLIoSMsi2nLbmPE_N0h2UAKlkVSL7mfoCdel2gEL5b9ENg/viewform' rel='external' target='_blank'>Click here</a> for more information and to sign up.", "Survivre ou mourir (évidemment)&nbsp;! Le 27 novembre, nous organiserons nos tout premiers jeux de survie de Minecraft&nbsp;! <hr /><a href='https://docs.google.com/forms/d/e/1FAIpQLSfKvLIoSMsi2nLbmPE_N0h2UAKlkVSL7mfoCdel2gEL5b9ENg/viewform' rel='external' target='_blank'>Cliquez ici</a> pour plus de renseignements et pour vous inscrire."],
         date: ["Saturday, November 27", "Samedi, le 27 novembre"],
-        time: ["7:00 PM", "19h00"],
-        location: ["Discord", "Discord"],
+        time: ["7:00 PM - 8:45 PM", "19h00 à 20h45"],
+        location: ["Discord and <a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>", "Discord et <a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>"],
         contact: ["Calvin#2150", "Calvin#2150"]
     },
     {
