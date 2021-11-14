@@ -45,7 +45,7 @@ const events = [
         date: ["Saturday, November 20", "Saturday, le 20 novembre"],
         time: ["3:00 PM", "15h00"],
         location: ["<a href='https://cdn.discordapp.com/attachments/781210252388728852/908925963717472316/Call_of_Duty_Vanguard_Tryouts.png' rel='external' target='_blank'>Discord</a>", "<a href='https://cdn.discordapp.com/attachments/781210252388728852/908925963717472316/Call_of_Duty_Vanguard_Tryouts.png' rel='external' target='_blank'>Discord</a>"],
-        contact: ["Tai#0391", "Tai#0391"]
+        contact: ["Lego#2121", "Lego#2121"]
     },
     {
         title: ["Minecraft Event", "Événement de Minecraft"],
