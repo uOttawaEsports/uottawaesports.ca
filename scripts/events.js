@@ -37,6 +37,15 @@ const events = [
         time: ["7:00 PM - 11:00 PM", "19h00 à 23h00"],
         location: ["<a href='https://classfind.com/ottawa/room/LMX242' rel='external' target='_blank'>Lamoureux (LMX 242)</a>", "<a href='https://classfind.com/ottawa/room/LMX242' rel='external' target='_blank'>Lamoureux (LMX 242)</a>"],
         contact: ["Tai#0391", "Tai#0391"]
+    },
+    {
+        title: ["Minecraft Event", "Événement de Minecraft"],
+        image: ["../../images/events/upcoming/mc.png", "Minecraft logo", "Logo de Minecraft"],
+        text: ["Event details coming soon. More information can be found in the <a href='https://discord.com/channels/481842236213035008/497602410169237504/908495574137962556' rel='external' target='_blank'>#announcements</a> channel.", "Les détails de l'événement seront bientôt disponibles. Référrez-vous au canal <a href='https://discord.com/channels/481842236213035008/497602410169237504/908495574137962556' rel='external' target='_blank'>#announcements</a> pour plus de renseignements."],
+        date: ["Saturday, November 27", "Samedi, le 27 novembre"],
+        time: ["7:00 PM", "19h00"],
+        location: ["Discord", "Discord"],
+        contact: ["Calvin#2150", "Calvin#2150"]
     }
 ];
 
