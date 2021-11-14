@@ -39,13 +39,13 @@ const events = [
         contact: ["Tai#0391", "Tai#0391"]
     },
     {
-        title: ["November Clip Contest", "Concours des extraits de novembre"],
-        image: ["../../images/events/upcoming/general.png", "uOttawa Esports logo", "Logo de uOttawa Esports"],
-        text: ["This month we have a special contest, with more winners and more prizes than ever before! This month’s theme is “Highlight of the year.” We are looking for your top gaming moment of the year, regardless of what it is. If you have a play or moment that truly stood out and you had to save it then this is the moment to share it. <hr /><strong>Important links:</strong> <a href='https://docs.google.com/document/d/1vOChZFu8sL9uKP_VS3tbZP5y3VVjEuvQMOTgUX1FRB0/edit?usp=sharing' rel='external' target='_blank'>Description/Rules/Submission Requirements document</a> | <a href='https://forms.gle/TXx7SrCYwdTGJbDS8' rel='external' target='_blank'>Clip submission form</a>", "Ce mois-ci, nous organisons un concours spécial, avec plus de gagnants et plus de prix&nbsp;! Le thème de ce mois est «&nbsp;Le meilleur moment de l'année&nbsp;». Nous sommes à la recherche de votre meilleur moment de jeu de l'année, quel qu'il soit. Si vous avez un jeu ou un moment qui vous a vraiment marqué et que vous avez dû sauvegarder, maintenant c'est le moment de le partager. <hr /><strong>Liens importants&nbsp;:</strong> <a href='https://docs.google.com/document/d/1vOChZFu8sL9uKP_VS3tbZP5y3VVjEuvQMOTgUX1FRB0/edit?usp=sharing' rel='external' target='_blank'>Description/règles/exigences de soumission</a> | <a href='https://forms.gle/TXx7SrCYwdTGJbDS8' rel='external' target='_blank'>Formulaire de soumission de extraits</a>"],
-        date: ["Deadline: Thursday, November 25", "Date limite&nbsp;: Jeudi, le 25 novembre"],
-        time: ["N/A", "ND"],
-        location: ["Discord", "Discord"],
-        contact: ["Calvin#2150", "Calvin#2150"]
+        title: ["Call of Duty: Vanguard Tryouts", "Épreuve de sélection de Call of Duty: Vanguard"],
+        image: ["../../images/events/upcoming/cod.png", "Call of Duty: Vanguard logo", "Logo de Call of Duty: Vanguard"],
+        text: ["Hopefully everyone's been enjoying Vanguard so far! If you've found yourself absolutely mopping the floor with the other team lately, maybe it's time to step up the level of competition... Come on out to our tryouts for the Garnet and Grey team for COD: Vanguard! (Sorry m&k players, this years leagues are CONTROLLER ONLY... One day maybe 😦)", "J'espère que tout le monde a apprécié Vanguard jusqu'à présent&nbsp;! Si vous vous êtes retrouvé à écraser les autres équipes, il est peut-être temps d'élever le niveau de compétition... Venez participer à nos essais pour l'équipe Garnet et Grey de COD: Vanguard&nbsp;! (Désolé pour les joueurs de S&C, cette année les ligues sont UNIQUEMENT SUR CONTRÔLEUR... Un jour peut-être 😦)"],
+        date: ["Saturday, November 20", "Saturday, le 20 novembre"],
+        time: ["3:00 PM", "15h00"],
+        location: ["<a href='https://cdn.discordapp.com/attachments/781210252388728852/908925963717472316/Call_of_Duty_Vanguard_Tryouts.png' rel='external' target='_blank'>Discord</a>", "<a href='https://cdn.discordapp.com/attachments/781210252388728852/908925963717472316/Call_of_Duty_Vanguard_Tryouts.png' rel='external' target='_blank'>Discord</a>"],
+        contact: ["Tai#0391", "Tai#0391"]
     },
     {
         title: ["Minecraft Event", "Événement de Minecraft"],
@@ -55,6 +55,24 @@ const events = [
         time: ["7:00 PM", "19h00"],
         location: ["Discord", "Discord"],
         contact: ["Calvin#2150", "Calvin#2150"]
+    },
+    {
+        title: ["November Clip Contest", "Concours des extraits de novembre"],
+        image: ["../../images/events/upcoming/general.png", "uOttawa Esports logo", "Logo de uOttawa Esports"],
+        text: ["This month we have a special contest, with more winners and more prizes than ever before! This month’s theme is “Highlight of the year.” We are looking for your top gaming moment of the year, regardless of what it is. If you have a play or moment that truly stood out and you had to save it then this is the moment to share it. <hr /><strong>Important links:</strong> <a href='https://docs.google.com/document/d/1vOChZFu8sL9uKP_VS3tbZP5y3VVjEuvQMOTgUX1FRB0/edit?usp=sharing' rel='external' target='_blank'>Description/Rules/Submission Requirements document</a> | <a href='https://forms.gle/TXx7SrCYwdTGJbDS8' rel='external' target='_blank'>Clip submission form</a>", "Ce mois-ci, nous organisons un concours spécial, avec plus de gagnants et plus de prix&nbsp;! Le thème de ce mois est «&nbsp;Le meilleur moment de l'année&nbsp;». Nous sommes à la recherche de votre meilleur moment de jeu de l'année, quel qu'il soit. Si vous avez un jeu ou un moment qui vous a vraiment marqué et que vous avez dû sauvegarder, maintenant c'est le moment de le partager. <hr /><strong>Liens importants (offert en anglais seulement)&nbsp;:</strong> <a href='https://docs.google.com/document/d/1vOChZFu8sL9uKP_VS3tbZP5y3VVjEuvQMOTgUX1FRB0/edit?usp=sharing' rel='external' target='_blank'>Description/règles/exigences de soumission</a> | <a href='https://forms.gle/TXx7SrCYwdTGJbDS8' rel='external' target='_blank'>Formulaire de soumission de extraits</a>"],
+        date: ["Deadline: Sunday, November 28", "Date limite&nbsp;: Dimanche, le 28 novembre"],
+        time: ["N/A", "ND"],
+        location: ["Discord", "Discord"],
+        contact: ["Calvin#2150", "Calvin#2150"]
+    },
+    {
+        title: ["Super Smash Bros. Ultimate Tournament", "Tournoi de Super Smash Bros. Ultimate"],
+        image: ["../../images/events/upcoming/ssbu.png", "Super Smash Bros. Ultimate logo", "Logo de Super Smash Bros. Ultimate"],
+        text: ["Event details coming soon.", "Les détails de l'événement seront bientôt disponibles."],
+        date: ["Monday, November 29", "Lundi, le 29 novembre"],
+        time: ["TBA", "À annoncer"],
+        location: ["TBA", "À annoncer"],
+        contact: ["Tai#0391", "Tai#0391"]
     }
 ];
 
