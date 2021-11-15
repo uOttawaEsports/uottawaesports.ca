@@ -28,7 +28,7 @@ let members = {
     "YoChrisyBoi#6126": 1,
     "chill_vibes#7200": 2,
     "RainbowPigCake#8320": 2,
-    "odessadawg#7675": 2,
+    "Odessadawg#7675": 2,
     "jessica#3913": 2,
     "Jokardom#3902": 3,
     "VStriker™#1630": 2,
