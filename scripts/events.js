@@ -19,15 +19,15 @@ const events = [
     //     location: ["Discord", "Discord"],
     //     contact: ["onmarti#4347, Kiro#3697", "onmarti#4347, Kiro#3697"]
     // },
-    {
-        title: ["Exec Game Night", "Soirée de jeux avec les cadres"],
-        image: ["../../images/events/upcoming/val3.jpg", "VALORANT logo", "Logo de VALORANT"],
-        text: ["A game night where Execs, Game Heads, and friends play together in casual and competitive games! On this night, we'll be playing VALORANT.", "Une soirée de jeux où les cadres, les chefs de jeu et les amis jouent ensemble à des jeux occasionnels et compétitifs&nbsp;! Ce soir, nous jouerons à VALORANT."],
-        date: ["Sunday, November 14", "Dimanche, le 14 novembre"],
-        time: ["9:00 PM - 10:30 PM", "21h00 à 22h30"],
-        location: ["<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>", "<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>"],
-        contact: ["Yell#8888", "Yell#8888"]
-    },
+    // {
+    //     title: ["Exec Game Night", "Soirée de jeux avec les cadres"],
+    //     image: ["../../images/events/upcoming/val3.jpg", "VALORANT logo", "Logo de VALORANT"],
+    //     text: ["A game night where Execs, Game Heads, and friends play together in casual and competitive games! On this night, we'll be playing VALORANT.", "Une soirée de jeux où les cadres, les chefs de jeu et les amis jouent ensemble à des jeux occasionnels et compétitifs&nbsp;! Ce soir, nous jouerons à VALORANT."],
+    //     date: ["Sunday, November 14", "Dimanche, le 14 novembre"],
+    //     time: ["9:00 PM - 10:30 PM", "21h00 à 22h30"],
+    //     location: ["<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>", "<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>"],
+    //     contact: ["Yell#8888", "Yell#8888"]
+    // },
     {
         title: ["Super Smash Bros. Ultimate Tournament", "Tournoi de Super Smash Bros. Ultimate"],
         image: ["../../images/events/upcoming/ssbu.png", "Super Smash Bros. Ultimate logo", "Logo de Super Smash Bros. Ultimate"],

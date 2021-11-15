@@ -1,4 +1,4 @@
-let date = "2021-11-09";
+let date = "2021-11-14";
 
 let members = {
     "Xssant#0454": 1,
@@ -13,23 +13,36 @@ let members = {
     "SpartanRS#8842": 3,
     "Kaidan#2950": 1,
     "Novablazer#6764": 1,
-    "Tundr4#6291": 2,
+    "Tundr4#6291": 3,
     "Alim - アリム#2560": 2,
     "Zyoulou#3814": 2,
     "ai23756#2908": 1,
     "Maiuh#1010": 1,
-    "cri#1231": 2,
+    "cri#5555": 3,
     "DragonRage#8024": 2,
     "Zeyu#0049": 1,
     "Pandazzle#4064": 1,
-    "ComplicatedCow#6424": 1,
+    "ComplicatedCow#6424": 2,
     "asoggysliceoftoast#3812": 1,
     "biggest fish#6763": 1,
     "YoChrisyBoi#6126": 1,
     "chill_vibes#7200": 1,
     "RainbowPigCake#8320": 1,
     "odessadawg#7675": 1,
-    "jessica#3913": 1
+    "jessica#3913": 1,
+    "Jokardom#3902": 2,
+    "VStriker™#1630": 1,
+    "Ben-03#6563": 2,
+    "Noctember#6660": 2,
+    "slow#1563": 1,
+    "JasonFGC#0314": 2,
+    "birdeatfish#1319": 1,
+    "inertia#0137": 2,
+    "JChan#5481": 2,
+    "Chair#7187": 1,
+    "Copper#5088": 2,
+    "ZEK#7486": 2,
+    "Overider21#9041": 2
 }
 
 let isEnglish = window.location.href.includes("/en");
