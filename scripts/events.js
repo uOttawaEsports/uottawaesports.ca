@@ -190,7 +190,7 @@ function displayEvents() {
     } else if (events.length > 3) {
         let p = document.createElement("p");
         p.className = "px-1 px-lg-3 fst-italic fs-5";
-        p.innerHTML = isEnglish ? "More events are scheduled and can be viewed on the <a href='/en/events/'>Events</a> page." : "D'autres événements sont prévus et peuvent être consultés sur la page des <a href='/fr/evenements/'>événements</a>événements.";
+        p.innerHTML = isEnglish ? "More events are scheduled and can be viewed on the <a href='/en/events/'>Events</a> page." : "D'autres événements sont prévus et peuvent être consultés sur la page des <a href='/fr/evenements/'>événements</a>.";
         document.getElementById("moreEvents").appendChild(p);
     }
 }
