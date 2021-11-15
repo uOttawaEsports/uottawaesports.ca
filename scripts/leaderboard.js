@@ -1,4 +1,4 @@
-let date = "2021-11-14";
+let date = "2021-11-15";
 
 let members = {
     "Xssant#0454": 1,
@@ -26,23 +26,23 @@ let members = {
     "asoggysliceoftoast#3812": 1,
     "biggest fish#6763": 1,
     "YoChrisyBoi#6126": 1,
-    "chill_vibes#7200": 1,
-    "RainbowPigCake#8320": 1,
-    "odessadawg#7675": 1,
-    "jessica#3913": 1,
-    "Jokardom#3902": 2,
-    "VStriker™#1630": 1,
+    "chill_vibes#7200": 2,
+    "RainbowPigCake#8320": 2,
+    "odessadawg#7675": 2,
+    "jessica#3913": 2,
+    "Jokardom#3902": 3,
+    "VStriker™#1630": 2,
     "Ben-03#6563": 2,
-    "Noctember#6660": 2,
+    "Noctember#6660": 4,
     "slow#1563": 1,
     "JasonFGC#0314": 2,
     "birdeatfish#1319": 1,
-    "inertia#0137": 2,
+    "inertia#0137": 3,
     "JChan#5481": 2,
     "Chair#7187": 1,
-    "Copper#5088": 2,
+    "Copper#5088": 3,
     "ZEK#7486": 2,
-    "Overider21#9041": 2
+    "Overider21#9041": 3
 }
 
 let isEnglish = window.location.href.includes("/en");
