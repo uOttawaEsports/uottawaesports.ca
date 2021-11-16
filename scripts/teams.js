@@ -43,10 +43,10 @@ const modals = {
             background: "#800020",
             members: {
                 "mtuckster": ["Captain/Main Roster", "Capitaine/Formation principale"],
-                "Tense": ["Main Roster", "Formation principale"],
-                "Rebow": ["Main Roster", "Formation principale"],
                 "baca": ["Main Roster", "Formation principale"],
                 "Lego": ["Main Roster", "Formation principale"],
+                "Rebow": ["Main Roster", "Formation principale"],
+                "Tense": ["Main Roster", "Formation principale"],
                 "Wyndz": ["Substitute", "Remplaçant(e)"]
             },
             lastUpdated: ["2021-09-04"]
