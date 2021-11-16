@@ -214,7 +214,7 @@ let execs = {
     },
     "Tyler Lindsay": {
         name: "Tyler Lindsay",
-        image: "../../../images/execs/2021-2022/tyler-lindsay.jpg",
+        image: "../../../images/execs/2021-2022/tyler-lindsay-2.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Super Smash Bros. Ultimate", "<span class='fw-bold'>Chef de jeu</span> <br /> Super Smash Bros. Ultimate"],
         prog: ["History and Political Science", "Histoire et science politique"],
         year: ["2nd Year", "2e année"],
