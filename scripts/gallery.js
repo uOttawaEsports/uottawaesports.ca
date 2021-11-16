@@ -89,12 +89,16 @@ const images = [{
     },
     {
         image: "../../images/gallery/egn_2021-10-26.jpg",
-        alt: ["2021-10-26 Exec Game Night - Goose Goose Duck", "2021-10-26 Soirée de jeux avec les cadres - Goose Goose Duck"]
+        alt: ["October 2021 Exec Game Night - Goose Goose Duck", "Octobre 2021 soirée de jeux avec les cadres - Goose Goose Duck"]
     },
     {
         image: "../../images/gallery/valorant-grey_2021-11-05.jpg",
         alt: ["2021-11-05 VALORANT Grey Team", "2021-11-05 Équipe Grey de VALORANT"]
-    }
+    },
+    {
+        image: "../../images/gallery/egn_2021-11-14.jpg",
+        alt: ["November 2021 Exec Game Night - VALORANT", "Novembre 2021 soirée de jeux avec les cadres - VALORANT"]
+    },
 ];
 
 let isEnglish = window.location.href.includes("/en")
