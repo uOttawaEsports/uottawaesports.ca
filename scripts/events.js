@@ -28,15 +28,15 @@ const events = [
     //     location: ["<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>", "<a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>"],
     //     contact: ["Yell#8888", "Yell#8888"]
     // },
-    {
-        title: ["Super Smash Bros. Ultimate Tournament", "Tournoi de Super Smash Bros. Ultimate"],
-        image: ["../../images/events/upcoming/ssbu.png", "Super Smash Bros. Ultimate logo", "Logo de Super Smash Bros. Ultimate"],
-        text: ["The room will be open at 6 PM to set up and have fun before the event. The room is LMX (Lamoureux) 242. Any additional equipment that you can bring (Switch, monitor, GameCube adapter) would be appreciated, and you can note what you'll be able to bring in this <a href='https://docs.google.com/forms/d/e/1FAIpQLSdNAGu39PgccS9bQaWswTI5NqBD7p8TpM6Coev2uYkM6aTWkA/viewform?usp=sf_link' rel='external' target='_blank'>form</a>.", "La salle sera ouverte à partir de 18 heures pour s'installer et s'amuser avant l'événement. La salle est LMX (Lamoureux) 242. Tout équipement supplémentaire que vous pouvez apporter (Switch, moniteur, adaptateur GameCube) serait apprécié, et vous pouvez noter ce que vous pourrez apporter sur cette <a href='https://docs.google.com/forms/d/e/1FAIpQLSdNAGu39PgccS9bQaWswTI5NqBD7p8TpM6Coev2uYkM6aTWkA/viewform?usp=sf_link' rel='external' target='_blank'>page</a>."],
-        date: ["Monday, November 15", "Lundi, le 15 novembre"],
-        time: ["7:00 PM - 11:00 PM", "19h00 à 23h00"],
-        location: ["<a href='https://classfind.com/ottawa/room/LMX242' rel='external' target='_blank'>Lamoureux (LMX 242)</a>", "<a href='https://classfind.com/ottawa/room/LMX242' rel='external' target='_blank'>Lamoureux (LMX 242)</a>"],
-        contact: ["Tai#0391", "Tai#0391"]
-    },
+    // {
+    //     title: ["Super Smash Bros. Ultimate Tournament", "Tournoi de Super Smash Bros. Ultimate"],
+    //     image: ["../../images/events/upcoming/ssbu.png", "Super Smash Bros. Ultimate logo", "Logo de Super Smash Bros. Ultimate"],
+    //     text: ["The room will be open at 6 PM to set up and have fun before the event. The room is LMX (Lamoureux) 242. Any additional equipment that you can bring (Switch, monitor, GameCube adapter) would be appreciated, and you can note what you'll be able to bring in this <a href='https://docs.google.com/forms/d/e/1FAIpQLSdNAGu39PgccS9bQaWswTI5NqBD7p8TpM6Coev2uYkM6aTWkA/viewform?usp=sf_link' rel='external' target='_blank'>form</a>.", "La salle sera ouverte à partir de 18 heures pour s'installer et s'amuser avant l'événement. La salle est LMX (Lamoureux) 242. Tout équipement supplémentaire que vous pouvez apporter (Switch, moniteur, adaptateur GameCube) serait apprécié, et vous pouvez noter ce que vous pourrez apporter sur cette <a href='https://docs.google.com/forms/d/e/1FAIpQLSdNAGu39PgccS9bQaWswTI5NqBD7p8TpM6Coev2uYkM6aTWkA/viewform?usp=sf_link' rel='external' target='_blank'>page</a>."],
+    //     date: ["Monday, November 15", "Lundi, le 15 novembre"],
+    //     time: ["7:00 PM - 11:00 PM", "19h00 à 23h00"],
+    //     location: ["<a href='https://classfind.com/ottawa/room/LMX242' rel='external' target='_blank'>Lamoureux (LMX 242)</a>", "<a href='https://classfind.com/ottawa/room/LMX242' rel='external' target='_blank'>Lamoureux (LMX 242)</a>"],
+    //     contact: ["Tai#0391", "Tai#0391"]
+    // },
     {
         title: ["Call of Duty: Vanguard Tryouts", "Épreuve de sélection de Call of Duty: Vanguard"],
         image: ["../../images/events/upcoming/cod.png", "Call of Duty: Vanguard logo", "Logo de Call of Duty: Vanguard"],
