@@ -38,15 +38,6 @@ const events = [
     //     contact: ["Tai#0391", "Tai#0391"]
     // },
     {
-        title: ["Super Smash Bros. Melee Tournament", "Tournoi de Super Smash Bros. Melee"],
-        image: ["../../images/events/upcoming/ssbm.png", "Super Smash Bros. Melee logo", "Logo de Super Smash Bros. Melee"],
-        text: ["This event will be run using <a href='https://slippi.gg/netplay' rel='external target='_blank'>Slippi rollback netcode</a>. <br /><a href='https://challonge.com/kpply4pt' rel='external' target='_blank'>Click here</a> for the bracket.", "Cet événement sera exécuté en utilisant <a href='https://slippi.gg/netplay' rel='external target='_blank'>Slippi rollback netcode</a>. <br /><a href='https://challonge.com/kpply4pt' rel='external' target='_blank'>Cliquez ici</a> le bracket du tournoi."],
-        date: ["Monday, November 22", "Lundi, le 22 novembre"],
-        time: ["7:00 PM - 9:00 PM", "19h00 à 21h00"],
-        location: ["<a href='https://slippi.gg/netplay' rel='external target='_blank'>Slippi rollback netcode</a> and Discord", "<a href='https://slippi.gg/netplay' rel='external target='_blank'>Slippi rollback netcode</a> et Discord"],
-        contact: ["QuackenBurd#6969", "QuackenBurd#6969"]
-    },
-    {
         title: ["Call of Duty: Vanguard Tryouts", "Épreuve de sélection de Call of Duty: Vanguard"],
         image: ["../../images/events/upcoming/cod.png", "Call of Duty: Vanguard logo", "Logo de Call of Duty: Vanguard"],
         text: ["Hopefully everyone's been enjoying Vanguard so far! If you've found yourself absolutely mopping the floor with the other team lately, maybe it's time to step up the level of competition... Come on out to our tryouts for the Garnet and Grey team for COD: Vanguard! (Sorry m&k players, this years leagues are CONTROLLER ONLY... One day maybe 😦)", "J'espère que tout le monde a apprécié Vanguard jusqu'à présent&nbsp;! Si vous vous êtes retrouvé à écraser les autres équipes, il est peut-être temps d'élever le niveau de compétition... Venez participer à nos essais pour l'équipe Garnet et Grey de COD: Vanguard&nbsp;! (Désolé pour les joueurs de S&C, cette année les ligues sont UNIQUEMENT SUR CONTRÔLEUR... Un jour peut-être 😦)"],
@@ -54,6 +45,15 @@ const events = [
         time: ["3:00 PM", "15h00"],
         location: ["<a href='https://cdn.discordapp.com/attachments/781210252388728852/908925963717472316/Call_of_Duty_Vanguard_Tryouts.png' rel='external' target='_blank'>Discord</a>", "<a href='https://cdn.discordapp.com/attachments/781210252388728852/908925963717472316/Call_of_Duty_Vanguard_Tryouts.png' rel='external' target='_blank'>Discord</a>"],
         contact: ["Lego#2121", "Lego#2121"]
+    },
+    {
+        title: ["Super Smash Bros. Melee Tournament", "Tournoi de Super Smash Bros. Melee"],
+        image: ["../../images/events/upcoming/ssbm.png", "Super Smash Bros. Melee logo", "Logo de Super Smash Bros. Melee"],
+        text: ["This event will be run using <a href='https://slippi.gg/netplay' rel='external target='_blank'>Slippi rollback netcode</a>. <br /><a href='https://challonge.com/kpply4pt' rel='external' target='_blank'>Click here</a> for the bracket.", "Cet événement sera exécuté en utilisant <a href='https://slippi.gg/netplay' rel='external target='_blank'>Slippi rollback netcode</a>. <br /><a href='https://challonge.com/kpply4pt' rel='external' target='_blank'>Cliquez ici</a> le bracket du tournoi."],
+        date: ["Monday, November 22", "Lundi, le 22 novembre"],
+        time: ["7:00 PM - 9:00 PM", "19h00 à 21h00"],
+        location: ["<a href='https://slippi.gg/netplay' rel='external target='_blank'>Slippi rollback netcode</a> and Discord", "<a href='https://slippi.gg/netplay' rel='external target='_blank'>Slippi rollback netcode</a> et Discord"],
+        contact: ["QuackenBurd#6969", "QuackenBurd#6969"]
     },
     {
         title: ["Minecraft Survival Games", "Jeux de survie de Minecraft"],
