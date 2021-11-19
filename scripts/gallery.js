@@ -99,6 +99,14 @@ const images = [{
         image: "../../images/gallery/egn_2021-11-14.jpg",
         alt: ["November 2021 Exec Game Night - VALORANT", "Novembre 2021 soirée de jeux avec les cadres - VALORANT"]
     },
+    {
+        image: "../../images/gallery/ssbu_2021-11-15.jpg",
+        alt: ["2021-11-15 Super Smash Bros. Ultimate Tournament", "2021-11-15 Tournoi de Super Smash Bros. Ultimate"]
+    },
+    {
+        image: "../../images/gallery/ssbu_2021-11-15-2.jpg",
+        alt: ["2021-11-15 Super Smash Bros. Ultimate Tournament", "2021-11-15 Tournoi de Super Smash Bros. Ultimate"]
+    },
 ];
 
 let isEnglish = window.location.href.includes("/en")
