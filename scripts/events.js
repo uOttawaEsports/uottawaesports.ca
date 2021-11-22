@@ -67,10 +67,10 @@ const events = [
     {
         title: ["Super Smash Bros. Ultimate Tournament", "Tournoi de Super Smash Bros. Ultimate"],
         image: ["../../images/events/upcoming/ssbu.png", "Super Smash Bros. Ultimate logo", "Logo de Super Smash Bros. Ultimate"],
-        text: ["Event details coming soon.", "Les détails de l'événement seront bientôt disponibles."],
+        text: ["The room will be open at 6 PM to set up and have fun before the event. The room is LMX (Lamoureux) 242. Any additional equipment that you can bring (Switch, monitor, GameCube adapter) would be appreciated, and you can note what you'll be able to bring in this <a href='https://docs.google.com/forms/d/e/1FAIpQLSdwIUZVCW5rtBZUAy_HXyJB8rV8rKk4piU_stO6fK3g5z7Qzg/viewform?usp=sf_link' rel='external' target='_blank'>form</a>. The event may begin earlier than 7 PM.", "La salle sera ouverte à partir de 18 heures pour s'installer et s'amuser avant l'événement. La salle est LMX (Lamoureux) 242. Tout équipement supplémentaire que vous pouvez apporter (Switch, moniteur, adaptateur GameCube) serait apprécié, et vous pouvez noter ce que vous pourrez apporter sur cette <a href='https://docs.google.com/forms/d/e/1FAIpQLSdwIUZVCW5rtBZUAy_HXyJB8rV8rKk4piU_stO6fK3g5z7Qzg/viewform?usp=sf_link' rel='external' target='_blank'>page</a>. L'événement peut commencer avant 19h."],
         date: ["Monday, November 29", "Lundi, le 29 novembre"],
-        time: ["TBA", "À annoncer"],
-        location: ["TBA", "À annoncer"],
+        time: ["7:00 PM - 11:00 PM", "19h00 à 23h00"],
+        location: ["<a href='https://classfind.com/ottawa/room/LMX242' rel='external' target='_blank'>Lamoureux (LMX 242)</a>", "<a href='https://classfind.com/ottawa/room/LMX242' rel='external' target='_blank'>Lamoureux (LMX 242)</a>"],
         contact: ["Tai#0391", "Tai#0391"]
     }
 ];
