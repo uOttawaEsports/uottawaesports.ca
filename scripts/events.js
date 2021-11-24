@@ -38,15 +38,6 @@ const events = [
     //     contact: ["Tai#0391", "Tai#0391"]
     // },
     {
-        title: ["Super Smash Bros. Melee Tournament", "Tournoi de Super Smash Bros. Melee"],
-        image: ["../../images/events/upcoming/ssbm.png", "Super Smash Bros. Melee logo", "Logo de Super Smash Bros. Melee"],
-        text: ["This event will be run using <a href='https://slippi.gg/netplay' rel='external target='_blank'>Slippi rollback netcode</a>. <br /><a href='https://challonge.com/kpply4pt' rel='external' target='_blank'>Click here</a> for the bracket.", "Cet événement sera exécuté en utilisant <a href='https://slippi.gg/netplay' rel='external target='_blank'>Slippi rollback netcode</a>. <br /><a href='https://challonge.com/kpply4pt' rel='external' target='_blank'>Cliquez ici</a> le bracket du tournoi."],
-        date: ["Monday, November 22", "Lundi, le 22 novembre"],
-        time: ["7:00 PM - 9:00 PM", "19h00 à 21h00"],
-        location: ["<a href='https://slippi.gg/netplay' rel='external target='_blank'>Slippi rollback netcode</a> and Discord", "<a href='https://slippi.gg/netplay' rel='external target='_blank'>Slippi rollback netcode</a> et Discord"],
-        contact: ["QuackenBurd#6969", "QuackenBurd#6969"]
-    },
-    {
         title: ["Minecraft Survival Games", "Jeux de survie de Minecraft"],
         image: ["../../images/events/upcoming/mc.png", "Minecraft logo", "Logo de Minecraft"],
         text: ["Survive or die (duh)! On November 27th, we'll be hosting our first ever Minecraft Survival Games! <hr /><a href='https://docs.google.com/forms/d/e/1FAIpQLSfKvLIoSMsi2nLbmPE_N0h2UAKlkVSL7mfoCdel2gEL5b9ENg/viewform' rel='external' target='_blank'>Click here</a> for more information and to sign up.", "Survivre ou mourir (évidemment)&nbsp;! Le 27 novembre, nous organiserons nos tout premiers jeux de survie de Minecraft&nbsp;! <hr /><a href='https://docs.google.com/forms/d/e/1FAIpQLSfKvLIoSMsi2nLbmPE_N0h2UAKlkVSL7mfoCdel2gEL5b9ENg/viewform' rel='external' target='_blank'>Cliquez ici</a> pour plus de renseignements et pour vous inscrire."],
