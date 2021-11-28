@@ -58,7 +58,7 @@ const events = [
     {
         title: ["5v5 Summoner's Rift", "Tournoi 5v5 Summoner's Rift"],
         image: ["../../images/events/upcoming/lol.png", "League of Legends logo", "Logo de League of Legends"],
-        text: ["The tournament is open to everyone, but registration is prioritized towards uOttawa Students depending on if spots are limited. (Exceptions may be granted if there is low registration). <hr /><a href='https://forms.gle/UtcE89bUZGumqetU7' rel='external' target='_blank'>Click here</a> to sign up and for more information.", "Le tournoi est ouvert à tous, mais l'inscription est prioritairement destinée aux étudiant(e)s de l'Université d'Ottawa, ce qui dépend du nombre de places ouvertes. (Des exceptions peuvent être accordées s'il y a peu d'inscriptions)."],
+        text: ["The tournament is open to everyone, but registration is prioritized towards uOttawa Students depending on if spots are limited. (Exceptions may be granted if there is low registration). <hr /><a href='https://forms.gle/UtcE89bUZGumqetU7' rel='external' target='_blank'>Click here</a> to sign up and for more information.", "Le tournoi est ouvert à tous, mais l'inscription est prioritairement destinée aux étudiant(e)s de l'Université d'Ottawa, ce qui dépend du nombre de places ouvertes. (Des exceptions peuvent être accordées s'il y a peu d'inscriptions). <hr /><a href='https://forms.gle/UtcE89bUZGumqetU7' rel='external' target='_blank'>Cliquez ici</a> pour vous inscrire et pour plus de renseignements."],
         date: ["Saturday, December 4, and Sunday, December 5", "Samedi, le 4 décembre et dimanche, le 5 décembre"],
         time: ["3:30 PM", "15h30"],
         location: ["Discord", "Discord"],
