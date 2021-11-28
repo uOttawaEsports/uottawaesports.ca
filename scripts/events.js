@@ -38,15 +38,6 @@ const events = [
     //     contact: ["Tai#0391", "Tai#0391"]
     // },
     {
-        title: ["Minecraft Survival Games", "Jeux de survie de Minecraft"],
-        image: ["../../images/events/upcoming/mc.png", "Minecraft logo", "Logo de Minecraft"],
-        text: ["Survive or die (duh)! On November 27th, we'll be hosting our first ever Minecraft Survival Games! <hr /><a href='https://docs.google.com/forms/d/e/1FAIpQLSfKvLIoSMsi2nLbmPE_N0h2UAKlkVSL7mfoCdel2gEL5b9ENg/viewform' rel='external' target='_blank'>Click here</a> for more information and to sign up.", "Survivre ou mourir (évidemment)&nbsp;! Le 27 novembre, nous organiserons nos tout premiers jeux de survie de Minecraft&nbsp;! <hr /><a href='https://docs.google.com/forms/d/e/1FAIpQLSfKvLIoSMsi2nLbmPE_N0h2UAKlkVSL7mfoCdel2gEL5b9ENg/viewform' rel='external' target='_blank'>Cliquez ici</a> pour plus de renseignements et pour vous inscrire."],
-        date: ["Saturday, November 27", "Samedi, le 27 novembre"],
-        time: ["7:00 PM - 8:45 PM", "19h00 à 20h45"],
-        location: ["Discord and <a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>", "Discord et <a href='https://www.twitch.tv/uottawaesports' rel='external' target='_blank'>Twitch</a>"],
-        contact: ["Calvin#2150", "Calvin#2150"]
-    },
-    {
         title: ["November Clip Contest", "Concours des extraits de novembre"],
         image: ["../../images/events/upcoming/general.png", "uOttawa Esports logo", "Logo de uOttawa Esports"],
         text: ["This month we have a special contest, with more winners and more prizes than ever before! This month’s theme is “Highlight of the year.” We are looking for your top gaming moment of the year, regardless of what it is. If you have a play or moment that truly stood out and you had to save it then this is the moment to share it. <hr /><strong>Important links:</strong> <a href='https://docs.google.com/document/d/1vOChZFu8sL9uKP_VS3tbZP5y3VVjEuvQMOTgUX1FRB0/edit?usp=sharing' rel='external' target='_blank'>Description/Rules/Submission Requirements document</a> | <a href='https://forms.gle/TXx7SrCYwdTGJbDS8' rel='external' target='_blank'>Clip submission form</a>", "Ce mois-ci, nous organisons un concours spécial, avec plus de gagnants et plus de prix&nbsp;! Le thème de ce mois est «&nbsp;Le meilleur moment de l'année&nbsp;». Nous sommes à la recherche de votre meilleur moment de jeu de l'année, quel qu'il soit. Si vous avez un jeu ou un moment qui vous a vraiment marqué et que vous avez dû sauvegarder, maintenant c'est le moment de le partager. <hr /><strong>Liens importants (offert en anglais seulement)&nbsp;:</strong> <a href='https://docs.google.com/document/d/1vOChZFu8sL9uKP_VS3tbZP5y3VVjEuvQMOTgUX1FRB0/edit?usp=sharing' rel='external' target='_blank'>Description/règles/exigences de soumission</a> | <a href='https://forms.gle/TXx7SrCYwdTGJbDS8' rel='external' target='_blank'>Formulaire de soumission de extraits</a>"],
@@ -63,6 +54,15 @@ const events = [
         time: ["7:00 PM - 11:00 PM", "19h00 à 23h00"],
         location: ["<a href='https://classfind.com/ottawa/room/LMX242' rel='external' target='_blank'>Lamoureux (LMX 242)</a>", "<a href='https://classfind.com/ottawa/room/LMX242' rel='external' target='_blank'>Lamoureux (LMX 242)</a>"],
         contact: ["Tai#0391", "Tai#0391"]
+    },
+    {
+        title: ["5v5 Summoner's Rift", "Tournoi 5v5 Summoner's Rift"],
+        image: ["../../images/events/upcoming/lol.png", "League of Legends logo", "Logo de League of Legends"],
+        text: ["The tournament is open to everyone, but registration is prioritized towards uOttawa Students depending on if spots are limited. (Exceptions may be granted if there is low registration). <hr /><a href='https://forms.gle/UtcE89bUZGumqetU7' rel='external' target='_blank'>Click here</a> to sign up and for more information.", "Le tournoi est ouvert à tous, mais l'inscription est prioritairement destinée aux étudiant(e)s de l'Université d'Ottawa, ce qui dépend du nombre de places ouvertes. (Des exceptions peuvent être accordées s'il y a peu d'inscriptions)."],
+        date: ["Saturday, December 4, and Sunday, December 5", "Samedi, le 4 décembre et dimanche, le 5 décembre"],
+        time: ["3:30 PM", "15h30"],
+        location: ["Discord", "Discord"],
+        contact: ["Narth#1623", "Narth#1623"]
     }
 ];
 
