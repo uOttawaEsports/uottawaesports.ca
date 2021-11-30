@@ -1,4 +1,4 @@
-let date = "2021-11-16";
+let date = "2021-11-30";
 
 let members = {
     "Xssant#0454": 1,
@@ -43,7 +43,14 @@ let members = {
     "Copper#5088": 3,
     "ZEK#7486": 2,
     "Overider21#9041": 3,
-    "Kobatron#4228": 2
+    "Kobatron#4228": 2,
+    "meredithJimenez#9563": 1,
+    "Narth#1623": 1,
+    "Yell#8888": 3,
+    "chessguy13#4162": 1,
+    "Emnicbert#8486": 1,
+    "VenuxCore5#8055": 1,
+    "MistahFrosty#3915": 1,
 }
 
 let isEnglish = window.location.href.includes("/en");
