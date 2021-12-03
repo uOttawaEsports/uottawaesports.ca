@@ -22,7 +22,7 @@ let pastExecs = {
             "Ben Stephenson": ["VP Competitive", "VP Compétitif"],
             "Ryan Heffernan": ["VP Events", "VP Événements"],
             "Jaxon Murphy": ["VP Social", "VP Social"],
-            "Luchhuman Gotame": ["CS:GO Game Head", "Chef de jeu de CS:GO"],
+            "Lachhuman Gotame": ["CS:GO Game Head", "Chef de jeu de CS:GO"],
             "Deschanel Li": ["DOTA 2 Game Head", "Chef de jeu de DOTA 2"],
             "Andrew Leblanc": ["Hearthstone Game Head", "Chef de jeu de Hearthstone"],
             "Ryan Adam": ["Rainbow Six Siege Game Head", "Chef de jeu de Rainbow Six Siege"],
