@@ -102,6 +102,16 @@ let execs = {
         desc: ["Hey I'm Owen, I grew up in Montreal and moved here a few years ago, so if you need someone who speaks French, let me know &#128578; I just started at uOttawa and look forward to meeting anyone in the club!", "Je m'appelle Owen, j'ai grandi à Montréal et j'ai déménagé ici il y a quelques années, alors si vous avez besoin de quelqu'un qui parle français, faites-moi savoir &#128578; Je viens de commencer à l'Université d'Ottawa et j'ai hâte de rencontrer tous les membres du club&nbsp;!"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
+    "Varis Gupta": {
+        name: "Varis Gupta",
+        image: "../../../images/execs/2021-2022/varis-gupta.jpg",
+        role: ["<span class='fw-bold'>Game Head</span> <br /> Casual Games", "<span class='fw-bold'>Chef de jeu</span> <br /> Jeux occasionnels"],
+        prog: ["Masters, Chemistry", "Maîtrise, Chimie"],
+        year: ["3rd Year", "3e année"],
+        game: "Warframe, Danganronpa, Civilization V",
+        desc: ["Hey peeps, I'm Varis! I've seen the rise of esports over the years here, and I'm happy to be able to rejoin the exec and help out with the club. Fun fact: This is my 7th year at uOttawa, having finished an undergrad in Translational and Molecular Medicine here before my current program!", "Salut les gars, je suis Varis&nbsp;! J'ai vu l'augmentation de la popularité des e-sports au cours des années ici et je suis heureux de rejoindre le comité exécutif. Fait amusant&nbsp;: c'est ma 7e année à l'Université d'Ottawa, ayant terminé un baccalauréat en médecine moléculaire et translationnelle ici avant mon programme actuel&nbsp;!"],
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2021-2022/backgrounds/varis-gupta.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
     "Bora Basar": {
         name: "Bora Basar",
         image: "../../../images/execs/2021-2022/bora-basar.jpg",
@@ -151,16 +161,6 @@ let execs = {
         game: "Pokémon, League of Legends",
         desc: ["My name is Narththanaan and I am the brand new LoL Game Head for uOttawa Esports where I assist in managing the LoL competitive teams alongside hosting LoL related events. I'm an aspiring writer and LoL esports enthusiast.", "Je m'appelle Narththanaan et je suis le tout nouveau chef de jeu LoL pour uOttawa Esports, où j'aide à gérer les équipes compétitives LoL et à organiser des événements liés à LoL. Je suis un écrivain en herbe et un passionné des e-sports de LoL."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-    },
-    "Varis Gupta": {
-        name: "Varis Gupta",
-        image: "../../../images/execs/2021-2022/varis-gupta.jpg",
-        role: ["<span class='fw-bold'>Game Head</span> <br /> Casual Games", "<span class='fw-bold'>Chef de jeu</span> <br /> Jeux occasionnels"],
-        prog: ["Masters, Chemistry", "Maîtrise, Chimie"],
-        year: ["3rd Year", "3e année"],
-        game: "Warframe, Danganronpa, Civilization V",
-        desc: ["Hey peeps, I'm Varis! I've seen the rise of esports over the years here, and I'm happy to be able to rejoin the exec and help out with the club. Fun fact: This is my 7th year at uOttawa, having finished an undergrad in Translational and Molecular Medicine here before my current program!", "Salut les gars, je suis Varis&nbsp;! J'ai vu l'augmentation de la popularité des e-sports au cours des années ici et je suis heureux de rejoindre le comité exécutif. Fait amusant&nbsp;: c'est ma 7e année à l'Université d'Ottawa, ayant terminé un baccalauréat en médecine moléculaire et translationnelle ici avant mon programme actuel&nbsp;!"],
-        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2021-2022/backgrounds/varis-gupta.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Brandon Ly": {
         name: "Brandon Ly",
