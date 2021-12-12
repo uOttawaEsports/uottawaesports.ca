@@ -107,6 +107,10 @@ const images = [{
         image: "../../images/gallery/ssbu_2021-11-15-2.jpg",
         alt: ["2021-11-15 Super Smash Bros. Ultimate Tournament", "2021-11-15 Tournoi de Super Smash Bros. Ultimate"]
     },
+    {
+        image: "../../images/gallery/overwatch-garnet_2021-12-11.jpg",
+        alt: ["2021-12-11 Overwatch Garnet Team", "2021-12-11 Équipe Garnet de Overwatch"]
+    },
 ];
 
 let isEnglish = window.location.href.includes("/en")
