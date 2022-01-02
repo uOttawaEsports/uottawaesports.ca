@@ -401,12 +401,14 @@ function teams(names) {
     document.getElementById("modalBackground").style.backgroundColor = team.background;
 
     if (team.photo) {
+        let photoDiv = document.getElementById("photo");
+        photoDiv.innerHTML = "";
         let photo = document.createElement('img');
         photo.src = team.photo;
         photo.className = "w-100 rounded mb-3";
         photo.style = "object-fit: cover; height: 20rem;";
         photo.alt = isEnglish ? (team.title[0] + " Photo") : ("Photo de l'" + team.title[1]);
-        document.getElementById("modalBody").prepend(photo);
+        photoDiv.append(photo);
     }
 
     let body = document.getElementById("tableBody");
