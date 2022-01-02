@@ -28,10 +28,6 @@ const images = [{
         alt: ["Clubs Fair 2021", "La Foire des clubs 2021"]
     },
     {
-        image: "../../images/gallery/clubs-fair-2021-3.jpg",
-        alt: ["Clubs Fair 2021", "La Foire des clubs 2021"]
-    },
-    {
         image: "../../images/gallery/clubs-fair-2021-4.jpg",
         alt: ["Clubs Fair 2021", "La Foire des clubs 2021"]
     },
@@ -56,10 +52,6 @@ const images = [{
         alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
     },
     {
-        image: "../../images/gallery/agm-2021-2.jpg",
-        alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
-    },
-    {
         image: "../../images/gallery/agm-2021-3.jpg",
         alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
     },
@@ -68,19 +60,7 @@ const images = [{
         alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
     },
     {
-        image: "../../images/gallery/agm-2021-5.jpg",
-        alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
-    },
-    {
-        image: "../../images/gallery/agm-2021-6.jpg",
-        alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
-    },
-    {
         image: "../../images/gallery/agm-2021-7.jpg",
-        alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
-    },
-    {
-        image: "../../images/gallery/agm-2021-8.jpg",
         alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
     },
     {
@@ -90,10 +70,6 @@ const images = [{
     {
         image: "../../images/gallery/egn_2021-10-26.jpg",
         alt: ["October 2021 Exec Game Night - Goose Goose Duck", "Octobre 2021 soirée de jeux avec les cadres - Goose Goose Duck"]
-    },
-    {
-        image: "../../images/gallery/valorant-grey_2021-11-05.jpg",
-        alt: ["2021-11-05 VALORANT Grey Team", "2021-11-05 Équipe Grey de VALORANT"]
     },
     {
         image: "../../images/gallery/egn_2021-11-14.jpg",
@@ -106,10 +82,6 @@ const images = [{
     {
         image: "../../images/gallery/ssbu_2021-11-15-2.jpg",
         alt: ["2021-11-15 Super Smash Bros. Ultimate Tournament", "2021-11-15 Tournoi de Super Smash Bros. Ultimate"]
-    },
-    {
-        image: "../../images/gallery/overwatch-garnet_2021-12-11.jpg",
-        alt: ["2021-12-11 Overwatch Garnet Team", "2021-12-11 Équipe Garnet de Overwatch"]
     },
 ];
 

@@ -14,7 +14,6 @@ const gameheads = {
 }
 
 // Teams that will be displayed will only be "garnet", "grey", and "gold".
-// If there exists a second gold team, name the first gold team "gold" and the second "gold 2".
 const modals = {
     "cod-team": {
         "garnet": {
@@ -28,13 +27,15 @@ const modals = {
                 "Nacho": ["Main Roster", "Formation principale"],
                 "Lego": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-04"]
+            lastUpdated: ["2021-09-04"],
+            photo: ""
         },
         "grey": {
             title: ["Call of Duty Grey Team", "Équipe Grey de Call of Duty"],
             background: "#303031",
             members: {},
-            lastUpdated: []
+            lastUpdated: [],
+            photo: ""
         }
     },
     "csgo-team": {
@@ -49,13 +50,15 @@ const modals = {
                 "Tense": ["Main Roster", "Formation principale"],
                 "Wyndz": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-04"]
+            lastUpdated: ["2021-09-04"],
+            photo: ""
         },
         "grey": {
             title: ["CS:GO Grey Team", "Équipe Grey de CS:GO"],
             background: "#303031",
             members: {},
-            lastUpdated: ["2021-09-04"]
+            lastUpdated: ["2021-09-04"],
+            photo: ""
         }
     },
     "dota2-team": {
@@ -72,13 +75,15 @@ const modals = {
                 "Lyrebird": ["Main Roster", "Formation principale"],
                 "salem600": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-10-14"]
+            lastUpdated: ["2021-10-14"],
+            photo: ""
         },
         "grey": {
             title: ["DOTA 2 Grey Team", "Équipe Grey de DOTA 2"],
             background: "#303031",
             members: {},
-            lastUpdated: []
+            lastUpdated: [],
+            photo: ""
         }
     },
     "fortnite-team": {
@@ -86,13 +91,15 @@ const modals = {
             title: ["Fortnite Garnet Team", "Équipe Garnet de Fortnite"],
             background: "#800020",
             members: {},
-            lastUpdated: []
+            lastUpdated: [],
+            photo: ""
         },
         "grey": {
             title: ["Fortnite Grey Team", "Équipe Grey de Fortnite"],
             background: "#303031",
             members: {},
-            lastUpdated: []
+            lastUpdated: [],
+            photo: ""
         }
     },
     "hs-team": {
@@ -104,13 +111,15 @@ const modals = {
                 "Norman": ["Main Roster", "Formation principale"],
                 "Vinyl": ["Main Roster", "Formation principale"],
             },
-            lastUpdated: ["2021-10-22"]
+            lastUpdated: ["2021-10-22"],
+            photo: ""
         },
         "grey": {
             title: ["Hearthstone Grey Team", "Équipe Grey de Hearthstone"],
             background: "#303031",
             members: {},
-            lastUpdated: []
+            lastUpdated: [],
+            photo: ""
         }
     },
     "lol-team": {
@@ -126,7 +135,8 @@ const modals = {
                 "sprinklr": ["Support", "Support"],
                 "Draig": ["Substitute - Mid/Support", "Remplaçant(e) - Milieu/Support"]
             },
-            lastUpdated: ["2021-09-19"]
+            lastUpdated: ["2021-09-19"],
+            photo: ""
         },
         "grey": {
             title: ["League of Legends Grey Team", "Équipe Grey de League of Legends"],
@@ -141,13 +151,15 @@ const modals = {
                 "MistahFrosty": ["Substitute - Top/Jungle", "Remplaçant(e) - Haut/Jungle"],
                 "Narth": ["Substitute - Support", "Remplaçant(e) - Support"]
             },
-            lastUpdated: ["2021-09-19"]
+            lastUpdated: ["2021-09-19"],
+            photo: ""
         },
         "gold": {
             title: ["League of Legends Gold Team", "Équipe Gold de League of Legends"],
             background: "#665814",
             members: {},
-            lastUpdated: []
+            lastUpdated: [],
+            photo: ""
         }
     },
     "osu-team": {
@@ -161,7 +173,8 @@ const modals = {
                 "Jimin": ["Main Roster", "Formation principale"],
                 "poppypop": ["Main Roster", "Formation principale"]
             },
-            lastUpdated: ["2021-09-26"]
+            lastUpdated: ["2021-09-26"],
+            photo: ""
         },
         "grey": {
             title: ["osu! Grey Team", "Équipe Grey de osu!"],
@@ -173,7 +186,8 @@ const modals = {
                 "TiBlinn": ["Main Roster", "Formation principale"],
                 "Zyoulou": ["Main Roster", "Formation principale"]
             },
-            lastUpdated: ["2021-09-26"]
+            lastUpdated: ["2021-09-26"],
+            photo: ""
         }
     },
     "ow-team": {
@@ -190,13 +204,15 @@ const modals = {
                 "Supreme": ["Substitute", "Remplaçant(e)"],
                 "Vinyl": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-24"]
+            lastUpdated: ["2021-09-24"],
+            photo: "../../images/gallery/overwatch-garnet_2021-12-11.jpg"
         },
         "grey": {
             title: ["Overwatch Grey Team", "Équipe Grey de Overwatch"],
             background: "#303031",
             members: {},
-            lastUpdated: []
+            lastUpdated: [],
+            photo: ""
         }
     },
     "r6-team": {
@@ -213,7 +229,8 @@ const modals = {
                 "Vaal": ["Substitute", "Remplaçant(e)"],
                 "Vinyl": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-23"]
+            lastUpdated: ["2021-09-23"],
+            photo: ""
         },
         "grey": {
             title: ["Rainbow Six Siege Grey Team", "Équipe Grey de Rainbow Six Siege"],
@@ -227,9 +244,10 @@ const modals = {
                 "ohkaysher": ["Main Roster", "Formation principale"],
                 "Average Canadian": ["Substitute", "Remplaçant(e)"],
                 "KingStar": ["Substitute", "Remplaçant(e)"],
-                
+
             },
-            lastUpdated: ["2021-09-23"]
+            lastUpdated: ["2021-09-23"],
+            photo: ""
         }
     },
     "rl-team": {
@@ -242,7 +260,8 @@ const modals = {
                 "JChan": ["Main Roster", "Formation principale"],
                 "koat": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-07"]
+            lastUpdated: ["2021-09-07"],
+            photo: ""
         },
         "grey": {
             title: ["Rocket League Grey Team", "Équipe Grey de Rocket League"],
@@ -253,7 +272,8 @@ const modals = {
                 "tannwan0625": ["Main Roster", "Formation principale"],
                 "Mystyclious": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-07"]
+            lastUpdated: ["2021-09-07"],
+            photo: ""
         },
         "gold": {
             title: ["Rocket League Gold Team", "Équipe Gold de Rocket League"],
@@ -264,7 +284,8 @@ const modals = {
                 "Tahzo": ["Main Roster", "Formation principale"],
                 "Zyoulou": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-07"]
+            lastUpdated: ["2021-09-07"],
+            photo: ""
         }
     },
     "ssbu-team": {
@@ -272,13 +293,15 @@ const modals = {
             title: ["Super Smash Bros. Ultimate Garnet Team", "Équipe Garnet de Super Smash Bros. Ultimate"],
             background: "#800020",
             members: {},
-            lastUpdated: []
+            lastUpdated: [],
+            photo: ""
         },
         "grey": {
             title: ["Super Smash Bros. Ultimate Grey Team", "Équipe Grey de Super Smash Bros. Ultimate"],
             background: "#303031",
             members: {},
-            lastUpdated: []
+            lastUpdated: [],
+            photo: ""
         }
     },
     "val-team": {
@@ -297,7 +320,8 @@ const modals = {
                 "prompt": ["Substitute", "Remplaçant(e)"],
                 "SyCo": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-14"]
+            lastUpdated: ["2021-09-14"],
+            photo: ""
         },
         "grey": {
             title: ["VALORANT Grey Team", "Équipe Grey de VALORANT"],
@@ -313,7 +337,8 @@ const modals = {
                 "Rodwave": ["Substitute", "Remplaçant(e)"],
                 "Xssant": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-14"]
+            lastUpdated: ["2021-09-14"],
+            photo: "../../images/gallery/valorant-grey_2021-11-05.jpg"
         },
         "gold": {
             title: ["VALORANT Gold Team", "Équipe Gold de VALORANT"],
@@ -328,7 +353,8 @@ const modals = {
                 "JasonFGC": ["Substitute", "Remplaçant(e)"],
                 "Noctember": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-13"]
+            lastUpdated: ["2021-09-13"],
+            photo: ""
         }
     }
 }
@@ -349,18 +375,18 @@ function display() {
                 button.setAttribute("data-bs-toggle", "modal");
                 button.setAttribute("data-bs-target", "#modal");
                 if (isEnglish) {
-                    button.innerHTML = (teamName == "garnet") ? "Garnet Team" : ((teamName == "grey") ? "Grey Team" : ((teamName == "gold") ? ((game.hasOwnProperty("gold 2")) ? "Gold Team 1" : "Gold Team") : "Gold Team 2"));
+                    button.innerHTML = (teamName == "garnet") ? "Garnet Team" : (teamName == "grey") ? "Grey Team" : "Gold Team";
                 } else {
-                    button.innerHTML = (teamName == "garnet") ? "Équipe Garnet" : ((teamName == "grey") ? "Équipe Grey" : ((teamName == "gold") ? ((game.hasOwnProperty("gold 2")) ? "Équipe Gold 1" : "Équipe Gold") : "Équipe Gold 2"));
+                    button.innerHTML = (teamName == "garnet") ? "Équipe Garnet" : (teamName == "grey") ? "Équipe Grey" : "Équipe Gold";
                 }
                 document.getElementById(gameName).appendChild(button);
             }
         }
     }
 
-    for (let gh in gameheads){
+    for (let gh in gameheads) {
         if (gameheads[gh] === "") continue;
-        document.getElementById(gh).innerHTML = `<h2 class="fs-4 text-end fw-bold">${isEnglish? "Game Head: " : "Chef de jeu&nbsp;: "}<i class="fab fa-discord ms-1"></i> ${gameheads[gh]}</h2>`;
+        document.getElementById(gh).innerHTML = `<h2 class="fs-4 text-end fw-bold">${isEnglish ? "Game Head: " : "Chef de jeu&nbsp;: "}<i class="fab fa-discord ms-1"></i> ${gameheads[gh]}</h2>`;
     }
 }
 
@@ -374,10 +400,20 @@ function teams(names) {
     document.getElementById("modalTitle").innerHTML = isEnglish ? team.title[0] : team.title[1];
     document.getElementById("modalBackground").style.backgroundColor = team.background;
 
-    let body = document.getElementById("modalBody");
+    if (team.photo) {
+        let photo = document.createElement('img');
+        photo.src = team.photo;
+        photo.className = "w-100 rounded mb-3";
+        photo.style = "object-fit: cover; height: 20rem;";
+        photo.alt = isEnglish ? (team.title[0] + " Photo") : ("Photo de l'" + team.title[1]);
+        document.getElementById("modalBody").prepend(photo);
+    }
+
+    let body = document.getElementById("tableBody");
     body.innerHTML = "";
 
     for (let member in team["members"]) {
+        let photo = document.createElement('img');
         let pos = isEnglish ? team["members"][member][0] : team["members"][member][1];
         let tr = document.createElement('tr');
         let td = document.createElement('td');
