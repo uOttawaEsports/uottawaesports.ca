@@ -399,10 +399,10 @@ function teams(names) {
 
     document.getElementById("modalTitle").innerHTML = isEnglish ? team.title[0] : team.title[1];
     document.getElementById("modalBackground").style.backgroundColor = team.background;
-
-    if (team.photo) {
-        let photoDiv = document.getElementById("photo");
-        photoDiv.innerHTML = "";
+    
+    let photoDiv = document.getElementById("photo");
+    photoDiv.innerHTML = "";
+    if (team.photo) { 
         let photo = document.createElement('img');
         photo.src = team.photo;
         photo.className = "w-100 rounded mb-3";
