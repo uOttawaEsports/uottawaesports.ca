@@ -43,7 +43,7 @@ let execs = {
     },
     "Prem Gupta": {
         name: "Prem Gupta",
-        image: "../../../images/execs/2021-2022/prem-gupta.jpg",
+        image: "../../../images/execs/2021-2022/prem-gupta-2.jpg",
         role: ["VP External", "VP Externe"],
         prog: ["History and Political Science", "Histoire et science politique"],
         year: ["3rd Year", "3e année"],
