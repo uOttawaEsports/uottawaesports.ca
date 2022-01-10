@@ -128,14 +128,18 @@ const modals = {
             background: "#800020",
             members: {
                 "BeAn": ["Manager", "Manager"],
+                "RareAdamCasts": ["Manager", "Manager"],
                 "Doraro": ["Top", "Haut"],
                 "gumbee power": ["Jungle", "Jungle"],
                 "Midnight Akuma": ["Mid", "Milieu"],
                 "PieckPerformance": ["Bot", "Bas"],
                 "sprinklr": ["Support", "Support"],
-                "Draig": ["Substitute - Mid/Support", "Remplaçant(e) - Milieu/Support"]
+                "Amlo" : ["Substitute", "Remplaçant(e)"],
+                "Draig": ["Substitute - Mid/Support", "Remplaçant(e) - Milieu/Support"],
+                "ShiroiYuki" : ["Substitute", "Remplaçant(e)"]
+                
             },
-            lastUpdated: ["2021-09-19"],
+            lastUpdated: ["2022-01-10"],
             photo: ""
         },
         "grey": {
@@ -143,22 +147,31 @@ const modals = {
             background: "#303031",
             members: {
                 "Jessica": ["Manager", "Manager"],
-                "bobbyisfree": ["Top", "Haut"],
+                "MistahFrosty": ["Top", "Haut"],
                 "oKyle": ["Jungle", "Jungle"],
                 "bred": ["Mid", "Milieu"],
-                "amlo12": ["Bot", "Bas"],
+                "XML": ["Bot", "Bas"],
                 "darkutopia": ["Support", "Support"],
-                "MistahFrosty": ["Substitute - Top/Jungle", "Remplaçant(e) - Haut/Jungle"],
+                "chuzday" : ["Substitute", "Remplaçant(e)"],
+                "Mystyclious" : ["Substitute", "Remplaçant(e)"],
                 "Narth": ["Substitute - Support", "Remplaçant(e) - Support"]
             },
-            lastUpdated: ["2021-09-19"],
+            lastUpdated: ["2022-01-10"],
             photo: ""
         },
         "gold": {
             title: ["League of Legends Gold Team", "Équipe Gold de League of Legends"],
             background: "#665814",
-            members: {},
-            lastUpdated: [],
+            members: {
+                "Shanks": ["Manager/Substitute", "Manager/Remplaçant(e)"],
+                "Admasil": ["Main Roster", "Formation principale"],
+                "C'est moi": ["Main Roster", "Formation principale"],
+                "MehdiB4": ["Main Roster", "Formation principale"],
+                "plnat": ["Main Roster", "Formation principale"],
+                "xMorphasis": ["Main Roster", "Formation principale"],
+                "chessguy13" : ["Substitute", "Remplaçant(e)"],
+            },
+            lastUpdated: ["2022-01-10"],
             photo: ""
         }
     },
@@ -195,16 +208,18 @@ const modals = {
             title: ["Overwatch Garnet Team", "Équipe Garnet de Overwatch"],
             background: "#800020",
             members: {
+                "Tundr4": ["Manager/Captain/Tank", "Manager/Capitaine/Tank"],
                 "Dunks": ["Tank", "Tank"],
-                "Tundr4": ["Tank", "Tank"],
                 "Norman": ["Damage", "Dégâts"],
                 "VStriker": ["Damage", "Dégâts"],
                 "QebQake": ["Support", "Soutien"],
                 "Twigloo": ["Support", "Soutien"],
+                "Lamortdeboo": ["Substitute", "Remplaçant(e)"],
+                "Kun": ["Substitute", "Remplaçant(e)"],
                 "Supreme": ["Substitute", "Remplaçant(e)"],
-                "Vinyl": ["Substitute", "Remplaçant(e)"]
+                "YoChrisyBoi": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-24"],
+            lastUpdated: ["2022-01-10"],
             photo: "../../images/gallery/overwatch-garnet_2021-12-11.jpg"
         },
         "grey": {
@@ -221,32 +236,30 @@ const modals = {
             background: "#800020",
             members: {
                 "Zander": ["Captain/Main Roster", "Capitaine/Formation principale"],
-                "Axent": ["Main Roster", "Formation principale"],
-                "Chrs": ["Main Roster", "Formation principale"],
-                "Echodrive": ["Main Roster", "Formation principale"],
-                "k3addy": ["Main Roster", "Formation principale"],
-                "Lits": ["Substitute", "Remplaçant(e)"],
-                "Vaal": ["Substitute", "Remplaçant(e)"],
-                "Vinyl": ["Substitute", "Remplaçant(e)"]
+                "K3addy": ["Main Roster", "Formation principale"],
+                "Kiro": ["Main Roster", "Formation principale"],
+                "Riven": ["Main Roster", "Formation principale"],
+                "Vaal": ["Main Roster", "Formation principale"],
+                "Cronder": ["Substitute", "Remplaçant(e)"],
+                "FREE TAYK": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-23"],
+            lastUpdated: ["2022-01-10"],
             photo: ""
         },
         "grey": {
             title: ["Rainbow Six Siege Grey Team", "Équipe Grey de Rainbow Six Siege"],
             background: "#303031",
             members: {
-                "Kiro": ["Coach/Substitute", "Entraîneur(se)/Remplaçant(e)"],
-                "Apollo": ["Captain/Main Roster", "Capitaine/Formation principale"],
-                "AsianFlow": ["Main Roster", "Formation principale"],
-                "Cronder": ["Main Roster", "Formation principale"],
+                "Dj": ["Main Roster", "Formation principale"],
+                "KingStar": ["Main Roster", "Formation principale"],
                 "Nacho": ["Main Roster", "Formation principale"],
-                "ohkaysher": ["Main Roster", "Formation principale"],
+                "ohkshr": ["Main Roster", "Formation principale"],
+                "tommy": ["Main Roster", "Formation principale"],
                 "Average Canadian": ["Substitute", "Remplaçant(e)"],
-                "KingStar": ["Substitute", "Remplaçant(e)"],
+                "Murderable": ["Substitute", "Remplaçant(e)"],
 
             },
-            lastUpdated: ["2021-09-23"],
+            lastUpdated: ["2022-01-10"],
             photo: ""
         }
     },
@@ -256,11 +269,11 @@ const modals = {
             background: "#800020",
             members: {
                 "fabienlef": ["Main Roster", "Formation principale"],
-                "Hexki": ["Main Roster", "Formation principale"],
-                "JChan": ["Main Roster", "Formation principale"],
-                "koat": ["Substitute", "Remplaçant(e)"]
+                "koat": ["Main Roster", "Formation principale"],
+                "tannwan0625": ["Main Roster", "Formation principale"],
+                "Hexki": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-07"],
+            lastUpdated: ["2022-01-10"],
             photo: ""
         },
         "grey": {
@@ -268,23 +281,24 @@ const modals = {
             background: "#303031",
             members: {
                 "JoBone": ["Main Roster", "Formation principale"],
-                "koat": ["Main Roster", "Formation principale"],
-                "tannwan0625": ["Main Roster", "Formation principale"],
+                "Keagan": ["Main Roster", "Formation principale"],
+                "Lobster": ["Main Roster", "Formation principale"],
                 "Mystyclious": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-07"],
+            lastUpdated: ["2022-01-10"],
             photo: ""
         },
         "gold": {
             title: ["Rocket League Gold Team", "Équipe Gold de Rocket League"],
             background: "#665814",
             members: {
-                "AKRAM": ["Main Roster", "Formation principale"],
+                "alecsibby": ["Main Roster", "Formation principale"],
                 "Shail": ["Main Roster", "Formation principale"],
                 "Tahzo": ["Main Roster", "Formation principale"],
-                "Zyoulou": ["Substitute", "Remplaçant(e)"]
+                "AKRAM": ["Substitute", "Remplaçant(e)"],
+                "Chair": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-07"],
+            lastUpdated: ["2022-01-10"],
             photo: ""
         }
     },
@@ -310,50 +324,51 @@ const modals = {
             background: "#800020",
             members: {
                 "Kiro": ["Manager", "Manager"],
-                "kang xd": ["Coach", "Entraîneur(se)"],
-                "Apl": ["Main Roster", "Formation principale"],
+                "APL": ["Main Roster", "Formation principale"],
                 "bladee": ["Main Roster", "Formation principale"],
-                "housieee": ["Main Roster", "Formation principale"],
                 "Jacob": ["Main Roster", "Formation principale"],
-                "Jer": ["Main Roster", "Formation principale"],
-                "coal": ["Substitute", "Remplaçant(e)"],
-                "prompt": ["Substitute", "Remplaçant(e)"],
+                "jeremy": ["Main Roster", "Formation principale"],
+                "housieee": ["Main Roster", "Formation principale"],
+                "LittleBozz": ["Substitute", "Remplaçant(e)"],
                 "SyCo": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-14"],
+            lastUpdated: ["2022-01-10"],
             photo: ""
         },
         "grey": {
             title: ["VALORANT Grey Team", "Équipe Grey de VALORANT"],
             background: "#303031",
             members: {
-                "Kiro": ["Manager", "Manager"],
-                "Econ God": ["Coach", "Entraîneur(se)"],
+                "1Lil'Bit": ["Manager", "Manager"],
                 "chriski": ["Main Roster", "Formation principale"],
                 "Goff": ["Main Roster", "Formation principale"],
                 "inertia": ["Main Roster", "Formation principale"],
                 "Leek": ["Main Roster", "Formation principale"],
-                "LittleBozz": ["Main Roster", "Formation principale"],
-                "Rodwave": ["Substitute", "Remplaçant(e)"],
-                "Xssant": ["Substitute", "Remplaçant(e)"]
+                "Xssant": ["Main Roster", "Formation principale"],
+                "Iteel": ["Substitute", "Remplaçant(e)"],
+                "LittleBozz": ["Substitute", "Remplaçant(e)"],
+                "NeziMart": ["Substitute", "Remplaçant(e)"],
+                "SyCo": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-14"],
+            lastUpdated: ["2022-01-10"],
             photo: "../../images/gallery/valorant-grey_2021-11-05.jpg"
         },
         "gold": {
             title: ["VALORANT Gold Team", "Équipe Gold de VALORANT"],
             background: "#665814",
             members: {
+                "erraine": ["Manager", "Manager"],
                 "Dish": ["Main Roster", "Formation principale"],
                 "ERIC": ["Main Roster", "Formation principale"],
                 "Overider21": ["Main Roster", "Formation principale"],
                 "RainbowPigCake": ["Main Roster", "Formation principale"],
                 "yj": ["Main Roster", "Formation principale"],
-                "Artu": ["Substitute", "Remplaçant(e)"],
                 "JasonFGC": ["Substitute", "Remplaçant(e)"],
-                "Noctember": ["Substitute", "Remplaçant(e)"]
+                "Kojiro": ["Substitute", "Remplaçant(e)"],
+                "Noctember": ["Substitute", "Remplaçant(e)"],
+                "uhapppy": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2021-09-13"],
+            lastUpdated: ["2022-01-10"],
             photo: ""
         }
     }

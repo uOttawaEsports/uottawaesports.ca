@@ -41,6 +41,11 @@ footer {
     border-radius: .25rem;
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 /* Custom classes */
 
 .bg-darkmaroon {
@@ -57,13 +62,6 @@ footer {
 
 .dropdown-item:active {
     background-color: #FF3A7F;
-}
-
-/* Existing classes */
-
-.row {
-    margin-right: 0;
-    margin-left: 0;
 }
 
 /* Style for Small-Medium Screen */
