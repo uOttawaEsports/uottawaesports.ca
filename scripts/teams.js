@@ -240,8 +240,8 @@ const modals = {
                 "Kiro": ["Main Roster", "Formation principale"],
                 "Riven": ["Main Roster", "Formation principale"],
                 "Vaal": ["Main Roster", "Formation principale"],
-                "Cronder": ["Substitute", "Remplaçant(e)"],
-                "FREE TAYK": ["Substitute", "Remplaçant(e)"]
+                "A": ["Substitute", "Remplaçant(e)"],
+                "Cronder": ["Substitute", "Remplaçant(e)"]
             },
             lastUpdated: ["2022-01-10"],
             photo: ""
