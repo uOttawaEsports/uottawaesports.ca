@@ -306,8 +306,16 @@ const modals = {
         "garnet": {
             title: ["Super Smash Bros. Ultimate Garnet Team", "Équipe Garnet de Super Smash Bros. Ultimate"],
             background: "#800020",
-            members: {},
-            lastUpdated: [],
+            members: {
+                "Tai": ["Coach/Captain/Main Roster", "Entraîneur(se)/Capitaine/Formation principale"],
+                "BravEmblem": ["Main Roster", "Formation principale"],
+                "jd": ["Main Roster", "Formation principale"],
+                "Key": ["Main Roster", "Formation principale"],
+                "Harbinger": ["Substitute", "Remplaçant(e)"],
+                "Snow Mexican": ["Substitute", "Remplaçant(e)"],
+                "Thanos": ["Substitute", "Remplaçant(e)"]
+            },
+            lastUpdated: ["2022-01-18"],
             photo: ""
         },
         "grey": {
