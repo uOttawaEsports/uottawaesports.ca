@@ -7,7 +7,7 @@ let execs = {
         prog: ["Economics and Management", "Science économique et gestion"],
         year: ["4th Year", "4e année"],
         game: "CS:GO, Destiny, Monster Hunter",
-        desc: ["Hey y’all I’m Jaxon, and I’ve been a Co-President of the club since 2020! If it’s worth anything, I can name every national flag in the world.", "Salut à tous, je m'appelle Jaxon, et je suis co-président du club depuis 2020&nbsp;! Un fait intéressant: je peux nommer tous les drapeaux nationaux du monde."],
+        desc: ["Hey y'all I'm Jaxon, and I've been a Co-President of the club since 2020! If it's worth anything, I can name every national flag in the world.", "Salut à tous, je m'appelle Jaxon, et je suis co-président du club depuis 2020&nbsp;! Un fait intéressant: je peux nommer tous les drapeaux nationaux du monde."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2021-2022/backgrounds/jaxon-murphy.webp); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%; background-position-x: 50%;"
     },
     "Dhruv Kumar": {
@@ -35,11 +35,21 @@ let execs = {
         name: "Steven Li",
         image: "../../../images/execs/2021-2022/steven-li-2.jpg",
         role: ["VP Internal", "VP Interne"],
-        prog: ["Computer Engineering", "Génie informatique"],
+        prog: ["Interdisciplinary Research in Music", "Génie informatique"],
         year: ["3rd Year", "3e année"],
         game: "VALORANT, Bus Simulator",
         desc: ["Hey, I'm Steven! I love playing video games, keeping up with politics, volunteering, and sushi! Avid OC Transpo fan. I'm also the creator of this brand new website :)", "Hé, je m'appelle Steven&nbsp;! J'aime jouer aux jeux vidéo, suivre la politique, faire du bénévolat et manger du sushi&nbsp;! Je suis un admirateur inconditionnel d'OC Transpo. Je suis aussi le créateur de ce tout nouveau site Web :)"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2021-2022/backgrounds/steven-li.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "Nicholas Séguin": {
+        name: "Nicholas Séguin",
+        image: "../../../images/execs/2021-2022/nicholas-seguin.jpg",
+        role: ["VP Bilingualism", "VP Bilinguisme"],
+        prog: ["PhD, Interdisciplinary Research in Music", "Ph.D., Recherche interdisciplinaire en musique"],
+        year: ["1st Year", "1ère année"],
+        game: "League of Legends, Dark Souls, Outer Wilds",
+        desc: ["Hey, I'm Nicholas &#128578; I'm a pianist fascinated by music psychology and I love playing video games!", "Salut, je m'appelle Nicholas &#128578; Je suis un pianiste fasciné par la psychologie de la musique et j'adore jouer aux jeux vidéo&nbsp;!"],
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2021-2022/backgrounds/nicholas-seguin.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Prem Gupta": {
         name: "Prem Gupta",
@@ -66,7 +76,7 @@ let execs = {
         image: "../../../images/execs/2021-2022/calvin-koehl.jpg",
         role: ["VP Events", "VP Événements"],
         prog: ["Teacher Education", "Formation à l'enseignement"],
-        year: ["6th Year", "6e année"],
+        year: ["2nd Year", "2e année"],
         game: "CS:GO, League of Legends, Forza, American Truck Simulator",
         desc: ["Hey hey! It's my second year as VP Events and my 6th year at uOttawa, I did my undergrad in Criminology here as well. I love playing sports and video games. Currently, I also work as a program coordinator for Intramurals. If you ever want to work out, play video games at a mediocre level, or have even ideas, let me know!", "Hey hey&nbsp;! C'est ma deuxième année en tant que VP Événements et ma sixième année à l'Université d'Ottawa. J'ai fait mon baccalauréat en criminologie ici aussi. J'adore faire du sport et jouer à des jeux vidéo. Actuellement, je travaille aussi comme coordonnateur de programme pour Intramurals. Si vous voulez faire de l'exercice, jouer à des jeux vidéo à un niveau médiocre, ou si vous avez des idées, dites-le moi&nbsp;!"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2021-2022/backgrounds/calvin-koehl.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
@@ -202,7 +212,7 @@ let execs = {
         desc: ["Hey I'm Fabien. This is my first year managing the Rocket League teams for the club. I spend most of my time playing video games that make me tilt, along with throwing a plastic frisbee competitively.", "Salut, je m'appelle Fabien. C'est ma première année à gérer les équipes Rocket League pour le club. Je passe la plupart de mon temps à jouer à des jeux vidéo qui me font tilter, ainsi qu'à lancer un frisbee en plastique en compétition."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
-    "alexander Joe": {
+    "Alexander Joe": {
         name: "Alexander Joe",
         image: "../../../images/execs/2021-2022/alexander-joe.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Super Smash Bros. Melee", "<span class='fw-bold'>Chef de jeu</span> <br /> Super Smash Bros. Melee"],
@@ -229,7 +239,7 @@ let execs = {
         prog: ["Marketing", "Marketing"],
         year: ["4th Year", "4e année"],
         game: "VALORANT, League of Legends",
-        desc: ["Hey, I’m Marti and I will be the Valorant Game Head once again this year. Last year, I was VP Social for the club, and the year prior, I was as VP Internal/External. This year marks my third year involved with uOttawa Esports. Can’t wait to have an amazing season with the competitive Valorant teams this year!!", "Salut, je m'appelle Marti et je serai le chef de jeu de Valorant une fois de plus cette année. L'année dernière, j'étais VP Social du club, et l'année précédente, j'étais VP Interne/Externe. Cette année marque ma troisième année d'implication à uOttawa Esports. J'ai hâte de vivre une saison incroyable avec les équipes compétitives de Valorant cette année&nbsp;!!"],
+        desc: ["Hey, I'm Marti and I will be the Valorant Game Head once again this year. Last year, I was VP Social for the club, and the year prior, I was as VP Internal/External. This year marks my third year involved with uOttawa Esports. Can't wait to have an amazing season with the competitive Valorant teams this year!!", "Salut, je m'appelle Marti et je serai le chef de jeu de Valorant une fois de plus cette année. L'année dernière, j'étais VP Social du club, et l'année précédente, j'étais VP Interne/Externe. Cette année marque ma troisième année d'implication à uOttawa Esports. J'ai hâte de vivre une saison incroyable avec les équipes compétitives de Valorant cette année&nbsp;!!"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     }
 }
@@ -266,10 +276,9 @@ function cards() {
         div2.appendChild(img);
         div2.appendChild(div1);
 
-        if(exec.role[0] === "Co-President") {
-            document.getElementById("co-presidents").appendChild(div2);
-        } else if (exec.role[0].includes("VP")){
-            document.getElementById("vice-presidents").appendChild(div2);
+
+        if (exec.role[0].includes("Co-President") || exec.role[0].includes("VP")){
+            document.getElementById("presidents").appendChild(div2);
         } else {
             document.getElementById("game-heads").appendChild(div2);
         }
