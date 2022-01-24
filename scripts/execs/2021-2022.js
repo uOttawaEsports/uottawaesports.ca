@@ -33,7 +33,7 @@ let execs = {
     },
     "Steven Li": {
         name: "Steven Li",
-        image: "../../../images/execs/2021-2022/steven-li-2.jpg",
+        image: "../../../images/execs/2021-2022/steven-li-3.jpg",
         role: ["VP Internal", "VP Interne"],
         prog: ["Interdisciplinary Research in Music", "Génie informatique"],
         year: ["3rd Year", "3e année"],
