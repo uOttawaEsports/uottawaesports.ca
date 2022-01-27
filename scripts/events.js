@@ -43,7 +43,7 @@ const events = [
         text: ["We are nearing the end of the month, so its time for our first monthly online Melee tournament of the semester. <br />The tournament will take place on January 30, starting at 7pm. <br />This semester, we have a prize pool of $60 to split among our best performing players! <br/ >The bracket can be found here: <a href='https://challonge.com/4i3zm0j' rel='external' target='_blank'>https://challonge.com/4i3zm0j</a> <br />If you guys need any help setting up, or have any other questions, you can find me on the Discord @QuackenBurd or in the #smash-melee chat", "La fin du mois approche, c’est donc l’heure de notre premier tournoi mensuel en ligne de Melee du semestre. Le tournoi aura lieu le 30 janvier, à 19h. <br />Ce semestre, nous avons un total de 60$ en prix à partager entre nos meilleurs joueurs&nbsp;! <br />Retrouvez l’arbre du tournoi ici&nbsp;: <a href='https://challonge.com/4i3zm0j' rel='external' target='_blank'>https://challonge.com/4i3zm0j</a> <br />Si vous avez besoin d’aide ou avez des questions, vous pouvez me joindre sur Discord @QuackenBurd ou dans la chaîne #smash-melee"],
         date: ["Sunday, November 30", "Dimanche, le 30 novembre"],
         time: ["7:00 PM", "19h00"],
-        location: ["<a href='https://challonge.com/4i3zm0j' rel='external' target='_blank'>Challonge</a> and Discord", "<a href='https://challonge.com/4i3zm0j' rel='external' target='_blank'>challonge</a> et Discord"],
+        location: ["<a href='https://challonge.com/4i3zm0j' rel='external' target='_blank'>Challonge</a> and Discord", "<a href='https://challonge.com/4i3zm0j' rel='external' target='_blank'>Challonge</a> et Discord"],
         contact: ["QuackenBurd#6969", "QuackenBurd#6969"]
     },
     // {
