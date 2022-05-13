@@ -37,94 +37,7 @@
 
 <body>
   <!-- Navbar -->
-  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top bg-maroon p-0">
-    <div class="container-fluid">
-      <h1 class="navbar-brand fs-3 fw-bold m-0"><img src="../../images/logo-square.png" alt="uOttawa Esports"
-          width="60rem" height="60rem" class="d-inline-block align-text-middle me-1">uOttawa Esports</h1>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger"
-        aria-controls="hamburger" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end text-center fs-5" id="hamburger">
-        <ul class="navbar-nav">
-          <li class="nav-item mx-1">
-            <a class="nav-link" href="/en/"><i class="fas fa-home me-1"></i> Home</a>
-          </li>
-          <li class="nav-item dropdown mx-1">
-            <a class="nav-link dropdown-toggle" href="#" id="execsDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              <i class="fas fa-users me-1"></i> Execs
-            </a>
-            <ul class="dropdown-menu text-center" aria-labelledby="execsDropdown">
-              <li><a class="dropdown-item text-white" href="/en/execs/2021-2022/">Execs 2021-2022</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item text-white" href="/en/execs/past/">Past Execs</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown mx-1">
-            <a class="nav-link dropdown-toggle active" href="#" id="eventsDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="true">
-              <i class="fas fa-calendar-alt me-1"></i> Events
-            </a>
-            <ul class="dropdown-menu text-center" aria-labelledby="eventsDropdown">
-              <li><a class="dropdown-item text-white" href="/en/events/">Events</a></li>
-              <li><a class="dropdown-item text-white disabled fw-bold bg-dark" aria-current="page"
-                  href="/en/leaderboard/">Leaderboard</a></li>
-            </ul>
-          </li>
-          <li class="nav-item mx-1">
-            <a class="nav-link" href="/en/teams/"><i class="fas fa-headset me-1"></i> Teams</a>
-          </li>
-          <li class="nav-item mx-1">
-            <a class="nav-link" href="/en/contact/"><i class="fas fa-comment-dots me-1"></i> Contact</a>
-          </li>
-          <li class="nav-item dropdown mx-1">
-            <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              <i class="fas fa-angle-double-right me-1"></i> More
-            </a>
-            <ul class="dropdown-menu text-center" aria-labelledby="moreDropdown">
-              <li><a class="dropdown-item text-white" href="https://www.akquire.ca/uottawa/" target="_blank"><i
-                class="fas fa-tshirt me-1"></i> Merchandise</a></li>
-              <li><a class="dropdown-item text-white" href="/en/documents/constitution.pdf" target="_blank"><i
-                    class="fas fa-university me-1"></i>
-                  Constitution</a></li>
-              <li><a class="dropdown-item text-white" href="/en/documents/behavioural-guidelines.pdf" target="_blank"><i
-                    class="fas fa-gamepad me-1"></i>
-                  Behavioural <br />Guidelines</a></li>
-              <li><a class="dropdown-item text-white" href="/en/gallery/"><i class="fas fa-images me-1"></i>
-                  Gallery</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item text-white" href="https://discord.gg/uAbd5uRTCA" target="_blank"><i
-                    class="fab fa-discord me-1"></i> Discord</a>
-              </li>
-              <li><a class="dropdown-item text-white" href="https://linktr.ee/uottawaesports" target="_blank"><i
-                    class="fas fa-tree me-1"></i> Linktree</a></li>
-              <li><a class="dropdown-item text-white" href="https://www.facebook.com/uOttawaEsports" target="_blank"><i
-                    class="fab fa-facebook-square me-1"></i> Facebook</a></li>
-              <li><a class="dropdown-item text-white" href="https://www.instagram.com/uottawaesports/"
-                  target="_blank"><i class="fab fa-instagram me-1"></i> Instagram</a></li>
-              <li><a class="dropdown-item text-white" href="https://twitch.tv/uottawaesports" target="_blank"><i
-                    class="fab fa-twitch me-1"></i> Twitch</a>
-              </li>
-              <li><a class="dropdown-item text-white" href="https://twitter.com/uOttawaEsports" target="_blank"><i
-                    class="fab fa-twitter me-1"></i> Twitter</a></li>
-              <li><a class="dropdown-item text-white" href="https://www.youtube.com/channel/UCZYAfKclLKB3WN7ZBwUmgoQ"
-                  target="_blank"><i class="fab fa-youtube me-1"></i> YouTube</a></li>
-            </ul>
-          </li>
-          <li class="nav-item ms-lg-4 mb-2 mb-lg-0 mt-3 mt-lg-0 mx-1">
-            <a role="button" class="btn btn-dark nav-link fs-5 p-2" href="/fr/classement/" rel="alternate"
-              hreflang="fr"><i class="fas fa-globe"></i> Français</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <div w3-include-html="../../components/navbar-en.html"></div>
   <!-- Navbar End -->
 
   <!-- Main Content -->
@@ -175,7 +88,7 @@
   <script type="text/javascript" src="../../scripts/leaderboard.js"></script>
 
   <!-- External Footer JavaScript -->
-  <script type="text/javascript" src="../../scripts/footer.js"></script>
+  <script type="text/javascript" src="../../scripts/components.js"></script>
 </body>
 
 </html>
