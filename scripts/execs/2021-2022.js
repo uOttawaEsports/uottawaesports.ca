@@ -35,7 +35,7 @@ let execs = {
         name: "Steven Li",
         image: "../../../images/execs/2021-2022/steven-li-3.jpg",
         role: ["VP Internal", "VP Interne"],
-        prog: ["Interdisciplinary Research in Music", "Génie informatique"],
+        prog: ["Computer Engineering", "Génie informatique"],
         year: ["3rd Year", "3e année"],
         game: "VALORANT, Bus Simulator",
         desc: ["Hey, I'm Steven! I love playing video games, keeping up with politics, volunteering, and sushi! Avid OC Transpo fan. I'm also the creator of this brand new website :)", "Hé, je m'appelle Steven&nbsp;! J'aime jouer aux jeux vidéo, suivre la politique, faire du bénévolat et manger du sushi&nbsp;! Je suis un admirateur inconditionnel d'OC Transpo. Je suis aussi le créateur de ce tout nouveau site Web :)"],
