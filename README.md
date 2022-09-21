@@ -10,6 +10,7 @@
 ## Contributors
 
 1. Steven Li (VP Internal 2021-2022)
+2. Peter Karpov (VP Internal 2022-2023)
 
 ## Languages Used
 - HTML

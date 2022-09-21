@@ -56,7 +56,7 @@ function includeHTML() {
         if (window.location.href.includes("/cadres/2021-2022")) {
             document.getElementById("translate").href = '/en/execs/2021-2022/' // add new else if for each new exec year
         } else if (window.location.href.includes("/cadres/anciens")) {
-            document.getElementById("translate").href = '/en/cadres/past/'
+            document.getElementById("translate").href = '/en/execs/past/'
         } else if (window.location.href.includes("/evenements")) {
             document.getElementById("translate").href = '/en/events/'
         } else if (window.location.href.includes("/classement")) {
