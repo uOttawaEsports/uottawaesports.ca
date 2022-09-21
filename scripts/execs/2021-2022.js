@@ -1,7 +1,7 @@
 let execs = {
     /* Co-Presidents */
-    "Zack Gold": {
-        name: "Zack Gold",
+    "Zack Goldstein": {
+        name: "Zack Goldstein",
         image: "../../../images/execs/2022-2023/zack-gold.png",
         role: ["Co-President", "Co-Président"],
         prog: ["Biotechnology", "Biotechnologie"],
