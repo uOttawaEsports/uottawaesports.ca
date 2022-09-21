@@ -51,6 +51,34 @@ let pastExecs = {
             "Simon Lamontagne": ["Starcraft 2 Game Head", "Chef de jeu de Starcraft 2"],
             "Tyler Lindsay": ["Super Smash Bros. Ultimate Game Head", "Chef de jeu de Super Smash Bros. Ultimate"]
         }
+    },
+    "2021-2022": {
+        image: "../../../images/execs/2022-2023/tabling.jpg",
+        people: {
+            "Jaxon Murphy": ["Co-President", "Co-Président"],
+            "Dhruv Kamar": ["Co-President", "Co-Président"],
+            "Steven Li": ["VP Internal", "VP Internale"],
+            "Alex Lisitsas": ["VP Finance", "VP Finances"],
+            "Prem Gupta": ["VP External", "VP Externe"],
+            "Andrew Leblanc": ["VP Competitive", "VP Compétitif"],
+            "Calvin Koehl": ["VP Events", "VP Événements"],
+            "Jessica Guo": ["VP Social", "VP Social "],
+            "Nicholas Séguin" : ["VP Bilingualism", "VP Bilinguisme"],
+            "Owen Stafford": ["Call of Duty Game Head", "Chef de jeu de Call of Duty"],
+            "Bora Basar": ["CS:GO Game Head", "Chef de jeu de CS:GO"],
+            "Peter Karpov": ["DOTA 2 Game Head", "Chef de jeu de DOTA 2"],
+            "Ryan Farrell": ["Fighting Games Game Head", "Chef de jeu des jeux de combat"],
+            "Narth Rajeswaran": ["League of Legends Game Head", "Chef de jeu de League of Legends"],
+            "Benoit Gagnier": ["Overwatch Game Head", "Chef de jeu de Overwatch"],
+            "Griffin Taylor": ["Rainbow Six Siege Game Head", "Chef de jeu de Rainbow Six Siege"],
+            "Fabien Lefebvre": ["Rocket League Game Head", "Chef de jeu de Rocket League"],
+            "Michael Vo": ["Apex Legends Game Head", "Chef de jeu de Apex Legends"],
+            "Tyler Lindsay": ["Super Smash Bros. Ultimate Game Head", "Chef de jeu de Super Smash Bros. Ultimate"],
+            "Matthew Awrey": ["Fortnite Game Head","Chef de jeu de Fortnite"],
+            "Brandon Ly":["Osu! Game Head","Chef de jeu de osu!"],
+            "Martina On":["Valorant Game Head", "Chef de jeu de Valorant"],
+            "Alexander Joe":["Super Smash Bros. Melee Game head", "Chef de jeu Super Smash Bros.Melee"]
+        }
     }
 }
 
