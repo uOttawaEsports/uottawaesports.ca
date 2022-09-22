@@ -53,31 +53,31 @@ let pastExecs = {
         }
     },
     "2021-2022": {
-        image: "../../../images/execs/2022-2023/tabling.jpg",
+        image: "../../../images/execs/past/2021-2022.png",
         people: {
             "Jaxon Murphy": ["Co-President", "Co-Président"],
-            "Dhruv Kamar": ["Co-President", "Co-Président"],
-            "Steven Li": ["VP Internal", "VP Internale"],
+            "Dhruv Kumar": ["Co-President", "Co-Président"],
             "Alex Lisitsas": ["VP Finance", "VP Finances"],
+            "Steven Li": ["VP Internal", "VP Interne"],
+            "Nicholas Séguin": ["VP Bilingualism", "VP Bilinguisme"],
             "Prem Gupta": ["VP External", "VP Externe"],
             "Andrew Leblanc": ["VP Competitive", "VP Compétitif"],
             "Calvin Koehl": ["VP Events", "VP Événements"],
-            "Jessica Guo": ["VP Social", "VP Social "],
-            "Nicholas Séguin" : ["VP Bilingualism", "VP Bilinguisme"],
+            "Jessica Guo": ["VP Social", "VP Social"],
+            "Michael Vo": ["Apex Legends Game Head", "Chef de jeu de Apex Legends"],
             "Owen Stafford": ["Call of Duty Game Head", "Chef de jeu de Call of Duty"],
             "Bora Basar": ["CS:GO Game Head", "Chef de jeu de CS:GO"],
             "Peter Karpov": ["DOTA 2 Game Head", "Chef de jeu de DOTA 2"],
             "Ryan Farrell": ["Fighting Games Game Head", "Chef de jeu des jeux de combat"],
+            "Matthew Awrey": ["Fortnite Game Head", "Chef de jeu de Fortnite"],
             "Narth Rajeswaran": ["League of Legends Game Head", "Chef de jeu de League of Legends"],
+            "Brandon Ly": ["osu! Game Head", "Chef de jeu de osu!"],
             "Benoit Gagnier": ["Overwatch Game Head", "Chef de jeu de Overwatch"],
             "Griffin Taylor": ["Rainbow Six Siege Game Head", "Chef de jeu de Rainbow Six Siege"],
             "Fabien Lefebvre": ["Rocket League Game Head", "Chef de jeu de Rocket League"],
-            "Michael Vo": ["Apex Legends Game Head", "Chef de jeu de Apex Legends"],
+            "Alexander Joe": ["Super Smash Bros. Melee Game Head", "Chef de jeu de Super Smash Bros. Melee"],
             "Tyler Lindsay": ["Super Smash Bros. Ultimate Game Head", "Chef de jeu de Super Smash Bros. Ultimate"],
-            "Matthew Awrey": ["Fortnite Game Head","Chef de jeu de Fortnite"],
-            "Brandon Ly":["Osu! Game Head","Chef de jeu de osu!"],
-            "Martina On":["Valorant Game Head", "Chef de jeu de Valorant"],
-            "Alexander Joe":["Super Smash Bros. Melee Game head", "Chef de jeu Super Smash Bros.Melee"]
+            "Martina On": ["VALORANT Game Head", "Chef de jeu de VALORANT"]
         }
     }
 }
