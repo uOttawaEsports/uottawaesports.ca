@@ -7,7 +7,7 @@ let execs = {
         prog: ["Biotechnology", "Biotechnologie"],
         year: ["6th Year", "6e année"],
         game: "League of Legends, Smash Ultimate, Minecraft, Minesweeper",
-        desc: ["Hey everyone! My name's Zack, aka Thanos. This is my 4th and final year running uOttawa Esports. My goals this year are to elevate the club to new peaks and set the benchmark for how we run our teams, plan events, and build external relationships. With our return to in-person schooling, I know this year will be a great one.", "fr translation."],
+        desc: ["Hey everyone! My name's Zack, aka Thanos. This is my 4th and final year running uOttawa Esports. My goals this year are to elevate the club to new peaks and set the benchmark for how we run our teams, plan events, and build external relationships. With our return to in-person schooling, I know this year will be a great one.", "Bonjour tout le monde ! Je m’appelle Zack, alias Thanos. Il s’agit de ma 4e et dernière année à la gestion d’uOttawa Esports. Mes buts cette année sont d’élever le club vers de nouveaux sommets et d’établir la référence pour la façon dont nous gérons nos équipes, planifions les événements et établissons des relations externes. Avec le retour des classes en présentiel, je suis convaincu que cette année sera géniale."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%; background-position-x: 50%;" // edit the url() for each exec if they'd like a custom background - /images/execs/(year)/background/
     },
     "Dhruv Kumar": {
@@ -28,7 +28,7 @@ let execs = {
         prog: ["Computer Science", "Finance"],
         year: ["2nd Year", "2e année"],
         game: "Osu!, Geometry Dash, Minecraft",
-        desc: ["Hi, I'm Thomas! This is my first year as the VP for Finance. I played competitive hockey as a goalie for 7 years and last year I played on the osu! Garnet team for uOttawa (very similar hobbies I know). I'm also an avid weeb.", "fr translation."],
+        desc: ["Hi, I'm Thomas! This is my first year as the VP for Finance. I played competitive hockey as a goalie for 7 years and last year I played on the osu! Garnet team for uOttawa (very similar hobbies I know). I'm also an avid weeb.", "Bonjour, je m’appelle Thomas ! C’est ma première année en tant que VP des finances. J’ai été un gardien de but de hockey compétitif pendant 7 ans et, l’année dernière, j’ai été membre de l’équipe Garnet d’osu! d’uOttawa (des hobbies très similaires, je sais). Je suis également un avide weeb!"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 75%;"
     },
     "Peter Karpov": {
@@ -38,7 +38,7 @@ let execs = {
         prog: ["Bachelor of Commerce & Juris Doctor", "Sciences Commerciales et Juris Doctor"],
         year: ["4th Year", "4e année"],
         game: "Dota 2 , Genshin Impact, Legends of Runeterra, Pokemon Shuffle",
-        desc: ["Hey, I'm Peter. My favorite hobbies are gaming and lifting weights. I'm excited to be the one working on this website this year!", "fr translation"],
+        desc: ["Hey, I'm Peter. My favorite hobbies are gaming and lifting weights. I'm excited to be the one working on this website this year!", "Salut, je m’appelle Peter. Mes hobbies préférés sont les jeux vidéo et l’haltérophilie. J’ai très hâte d’être celui qui travaillera sur ce site web cette année !"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Nicholas Séguin": {
@@ -58,7 +58,7 @@ let execs = {
         prog: ["Interdisciplinary Health Science/ French Immersion", "Sciences de la santé interdisciplinaires/ Immersion française"],
         year: ["4th Year", "4e année"],
         game: "VALORANT, League of Legends, Monster Hunter, Mario Kart",
-        desc: ["Hello I'm Scarlett and will be VP External for UOttawa Esports. I have recently become a big fan of League of legends and hope to rank up to diamond this year. When i'm not studying , gaming, or in class, I either spend my time working as a Patient service Clerk the Childrens Hospital of Eastern Ontario (CHEO) or reading books at home.;" , "fr translation;"],
+        desc: ["Hello I'm Scarlett and will be VP External for UOttawa Esports. I have recently become a big fan of League of legends and hope to rank up to diamond this year. When i'm not studying , gaming, or in class, I either spend my time working as a Patient service Clerk the Childrens Hospital of Eastern Ontario (CHEO) or reading books at home.;" , "Bonjour, je m’appelle Scarlett et je serai la VP des affaires externes pour uOttawa Esports. Je suis récemment devenue une grande fan de League of Legends et j’espère atteindre le rang Diamant cette année. Lorsque je ne suis pas en train d’étudier, de jouer à des jeux vidéo, ou d’aller à mes cours, je travaille en tant que commise aux services aux patients à l’hôpital CHEO, et je lis des livres dans le confort de ma maison !"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Jay Moon": {
@@ -68,7 +68,7 @@ let execs = {
         prog: ["Finance", "Finance"],
         year: ["3rd Year", "3e année"],
         game: "Valorant, CSGO, Destiny",
-        desc: ["Hi, I’m Jay. I probably spend too much money on boba. Excited to take over the role of VP Comp this year :)", "fr translation"],
+        desc: ["Hi, I’m Jay. I probably spend too much money on boba. Excited to take over the role of VP Comp this year :)", "Salut, je m’appelle Jay. Je dépense probablement beaucoup trop d’argent sur du thé boba. J’ai hâte d’assumer le rôle de VP des affaires compétitives cette année :)"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Dominic Salas": {
@@ -78,7 +78,7 @@ let execs = {
         prog: ["Software engineering", "Génie logiciel"],
         year: ["3rd Year", "3e année"],
         game: "Overcooked 2",
-        desc: ["Similar to my developing talent in unicycle riding, I aim to output uOttawa eSports events so efficiently you wouldn't even realize you were having fun", "fr translation"],
+        desc: ["Similar to my developing talent in unicycle riding, I aim to output uOttawa eSports events so efficiently you wouldn't even realize you were having fun", "À l’instar de mon talent en monocyclisme, je vise à organiser des événements pour uOttawa Esports de manière si efficace que vous ne vous rendrez même pas compte que vous vous amusez."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Jessica Guo": {
@@ -88,7 +88,7 @@ let execs = {
         prog: ["Software Engineering", "Génie logiciel"],
         year: ["2nd Year", "2e année"],
         game: "Minesweeper, Phasmophobia, League of Legends, VALORANT, Apex Legends, Dead by Daylight, ARK: Survival Evolved, Deep Rock Galactic",
-        desc: ["Hello, I'm Jessica. I enjoy learning about people's lives and sharing my own. I love cats, otters and tomatoes. I also manage the LOL Grey team", "fr translation"],
+        desc: ["Hello, I'm Jessica. I enjoy learning about people's lives and sharing my own. I love cats, otters and tomatoes. I also manage the LOL Grey team", "Bonjour, je m’appelle Jessica. J’adore en apprendre plus sur la vie des gens tout en partageant ce qui se passe dans la mienne. J’aime les chats, les loutres, et les tomates. Je gère également l’équipe Grey de LoL. "],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2021-2022/backgrounds/jessica-guo.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     /* Game Heads */
@@ -129,7 +129,7 @@ let execs = {
         prog: ["Software engineering", "génie logiciel"],
         year: ["4th Year", "4e année"],
         game: "Yu-Gi-Oh, Omori, Valorant, and League",
-        desc: ["hi guys im dish and i make videos for fun like and subscribe https://youtube.com/channel/UCQdYw-TNT-dfr3r8R70toNQ.", "fr translation."],
+        desc: ["hi guys im dish and i make videos for fun like and subscribe https://youtube.com/channel/UCQdYw-TNT-dfr3r8R70toNQ.", "Salut tout le monde, je m’appelle Dish et je produis des vidéos durant mon temps libre, abonnez-vous  https://youtube.com/channel/UCQdYw-TNT-dfr3r8R70toNQ."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Jacob Pilon": {
@@ -139,7 +139,7 @@ let execs = {
         prog: ["software engineering", "génie logiciel"],
         year: ["3rd Year", "3e année"],
         game: "Destiny 2, Rimworld, Civ 5, Overwatch, and CSGO",
-        desc: ["Hey Everyone! I'm Jacob and I've been a huge Destiny fan since the 7th grade. I also enjoy keeping active in the gym and doing some baking from time to time. I look forward to running some raid nights with you all!.", "fr translation."],
+        desc: ["Hey Everyone! I'm Jacob and I've been a huge Destiny fan since the 7th grade. I also enjoy keeping active in the gym and doing some baking from time to time. I look forward to running some raid nights with you all!.", "Salut tout le monde ! Je m’appelle Jacob et je suis un énorme fan de Destiny depuis que j’étais en 7e année. J’aime aussi demeurer actif en allant au gym, et faire de la pâtisserie de temps à autre. J’ai hâte d’organiser des soirées de raid avec vous tous!"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Matthew Awrey": {
@@ -149,7 +149,7 @@ let execs = {
         prog: ["International Management", "Gestion internationale"],
         year: ["3rd Year", "3e année"],
         game: "Rainbow Six Siege, Apex Legends, KovaaKs",
-        desc: ["Hey I'm Matthew. This is my first year as a Game Head and I'm very excited!", "Bonjour, je m'appelle Matthew. C'est ma première année en tant que chef de jeu et je suis très heureux&nbsp;!"],
+        desc: ["Hey I'm Matthew. This is my first year as a Game Head and I'm very excited!", "Salut, je m’appelle Matthew. C’est ma première année en tant que Chef de jeu et je suis très enthousiaste!"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Narth Rajeswaran": {
@@ -179,7 +179,7 @@ let execs = {
         prog: ["computer science", "l'informatique"],
         year: ["2nd Year", "2e année"],
         game: "team fortress 2",
-        desc: ["i dislike playing overwatch", "fr translation"],
+        desc: ["i dislike playing overwatch", "Je n’aime pas jouer à overwatch."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Griffin Taylor": {
@@ -199,7 +199,7 @@ let execs = {
         prog: ["Communications", "Communications"],
         year: ["3rd Year", "3e année"],
         game: "Rocket League, VALORANT, Minecraft",
-        desc: ["Hey I'm Keagan. This is my first year managing the rocket league teams for the club. I spend most of my time sitting in freeplay in rocket league hoping to 1 day be good at the game. I also like spending time with friends and I have a cat..", "fr translation."],
+        desc: ["Hey I'm Keagan. This is my first year managing the rocket league teams for the club. I spend most of my time sitting in freeplay in rocket league hoping to 1 day be good at the game. I also like spending time with friends and I have a cat..", "Salut, je m’appelle Keagan. Il s’agit de ma première année à la gestion des équipes de rocket league du club. Je passe surtout mon temps à jouer à rocket league dans l’espoir d’un jour être bon au jeu. J’aime également passer du temps avec mes amis, et j’ai un chat."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Tyler Lindsay": {
@@ -219,7 +219,7 @@ let execs = {
         prog: ["Honours BA in Communications", "Marketing"],
         year: ["3rd Year", "3e année"],
         game: "Valorant, most Zelda games, Spiritfarer, and the Dragon Age series",
-        desc: ["Hey my names Elizabeth, but I typically go by Liz, and I am an avid Nintendo/cozy gamer turned esports player (tho I still love Nintendo and cozy games)", "fr translation"],
+        desc: ["Hey my names Elizabeth, but I typically go by Liz, and I am an avid Nintendo/cozy gamer turned esports player (tho I still love Nintendo and cozy games)", "Salut, je m’appelle Elizabeth mais on me surnomme typiquement Liz. Je suis une avide fan de Nintendo et d’autres jeux douillets, maintenant devenue une compétitrice d’esports (bien que j’aime toujours Nintendo et les jeux plus relax)"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     }
 }
