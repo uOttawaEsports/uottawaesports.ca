@@ -128,7 +128,7 @@ let execs = {
         role: ["<span class='fw-bold'>Game Head</span> <br /> Minecraft", "<span class='fw-bold'>Chef de jeu</span> <br /> Minecraft"],
         prog: ["Software engineering", "génie logiciel"],
         year: ["4th Year", "4e année"],
-        game: "Yu-Gi-Oh, Omori, Valorant, and League",
+        game: "Yu-Gi-Oh, Omori, Valorant, League",
         desc: ["hi guys im dish and i make videos for fun like and subscribe https://youtube.com/channel/UCQdYw-TNT-dfr3r8R70toNQ.", "Salut tout le monde, je m’appelle Dish et je produis des vidéos durant mon temps libre, abonnez-vous  https://youtube.com/channel/UCQdYw-TNT-dfr3r8R70toNQ."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
@@ -138,7 +138,7 @@ let execs = {
         role: ["<span class='fw-bold'>Game Head</span> <br /> Destiny 2", "<span class='fw-bold'>Chef de jeu</span> <br /> Destiny 2"],
         prog: ["software engineering", "génie logiciel"],
         year: ["3rd Year", "3e année"],
-        game: "Destiny 2, Rimworld, Civ 5, Overwatch, and CSGO",
+        game: "Destiny 2, Rimworld, Civ 5, Overwatch, CSGO",
         desc: ["Hey Everyone! I'm Jacob and I've been a huge Destiny fan since the 7th grade. I also enjoy keeping active in the gym and doing some baking from time to time. I look forward to running some raid nights with you all!.", "Salut tout le monde ! Je m’appelle Jacob et je suis un énorme fan de Destiny depuis que j’étais en 7e année. J’aime aussi demeurer actif en allant au gym, et faire de la pâtisserie de temps à autre. J’ai hâte d’organiser des soirées de raid avec vous tous!"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
@@ -218,7 +218,7 @@ let execs = {
         role: ["<span class='fw-bold'>Game Head</span> <br /> VALORANT", "<span class='fw-bold'>Chef de jeu</span> <br /> VALORANT"],
         prog: ["Honours BA in Communications", "Marketing"],
         year: ["3rd Year", "3e année"],
-        game: "Valorant, most Zelda games, Spiritfarer, and the Dragon Age series",
+        game: ["Valorant, most Zelda games, Spiritfarer, and the Dragon Age series", "Valorant, la plupart des jeux Zelda, Spiritfarer, et la série Dragon Age"],
         desc: ["Hey my names Elizabeth, but I typically go by Liz, and I am an avid Nintendo/cozy gamer turned esports player (tho I still love Nintendo and cozy games)", "Salut, je m’appelle Elizabeth mais on me surnomme typiquement Liz. Je suis une avide fan de Nintendo et d’autres jeux douillets, maintenant devenue une compétitrice d’esports (bien que j’aime toujours Nintendo et les jeux plus relax)"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     }
