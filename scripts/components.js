@@ -44,6 +44,8 @@ function includeHTML() {
             document.getElementById("translate").href = '/fr/classement/'
         } else if (window.location.href.includes("/teams")) {
             document.getElementById("translate").href = '/fr/equipes/'
+        } else if (window.location.href.includes("/bourse")) {
+            document.getElementById("translate").href = '/fr/bourse/'
         } else if (window.location.href.includes("/contact")) {
             document.getElementById("translate").href = '/fr/contact/'
         } else if (window.location.href.includes("/gallery")) {
@@ -67,6 +69,8 @@ function includeHTML() {
             document.getElementById("translate").href = '/en/leaderboard/'
         } else if (window.location.href.includes("/equipes")) {
             document.getElementById("translate").href = '/en/teams/'
+        } else if (window.location.href.includes("/scholarship")) {
+            document.getElementById("translate").href = '/en/scholarship/'
         } else if (window.location.href.includes("/contact")) {
             document.getElementById("translate").href = '/en/contact/'
         } else if (window.location.href.includes("/galerie")) {
