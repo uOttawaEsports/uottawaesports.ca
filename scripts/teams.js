@@ -6,7 +6,7 @@ const gameheads = {
     "hs-gh": "",
     "lol-gh": "Narth#1623",
     "osu-gh": "Fulserish#3239",
-    "ow-gh": "Lamortdeboo#7218",
+    "ow-gh": "Qeb#3026",
     "r6-gh": "Zander#6846",
     "rl-gh": "fabienlef#5103",
     "ssbu-gh": "Tai#0391",
@@ -20,14 +20,13 @@ const modals = {
             title: ["Call of Duty Garnet Team", "Équipe Garnet de Call of Duty"],
             background: "#800020",
             members: {
-                "corey camirand": ["Captain/Main Roster", "Capitaine/Formation principale"],
-                "cam19mac": ["Main Roster", "Formation principale"],
-                "Goonski": ["Main Roster", "Formation principale"],
-                "hishash": ["Main Roster", "Formation principale"],
-                "Nacho": ["Main Roster", "Formation principale"],
-                "Lego": ["Substitute", "Remplaçant(e)"]
+                "Steppy": ["Main Roster", "Formation principale"],
+                "FeyD": ["Main Roster", "Formation principale"],
+                "Hish": ["Main Roster", "Formation principale"],
+                "eK": ["Main Roster", "Formation principale"]
+                
             },
-            lastUpdated: ["2021-09-04"],
+            lastUpdated: ["2023-03-14"],
             photo: ""
         },
         "grey": {
