@@ -241,32 +241,17 @@ const modals = {
             background: "#800020",
             members: {
                 "Zander": ["Captain/Main Roster", "Capitaine/Formation principale"],
-                "K3addy": ["Main Roster", "Formation principale"],
-                "Kiro": ["Main Roster", "Formation principale"],
-                "Riven": ["Main Roster", "Formation principale"],
-                "Vaal": ["Main Roster", "Formation principale"],
-                "A": ["Substitute", "Remplaçant(e)"],
-                "Cronder": ["Substitute", "Remplaçant(e)"]
+                "DKxMD": ["Main Roster", "Formation principale"],
+                "st4rmoon.UO": ["Main Roster", "Formation principale"],
+                "GalaxEyeToga.UO": ["Main Roster", "Formation principale"],
+                "Dav1d-.-": ["Main Roster", "Formation principale"],
+                "ohkshr.UO": ["Substitute", "Remplaçant(e)"],
+                "AxHanSolo": ["Substitute", "Remplaçant(e)"],
+                "PeterPumpkin": ["Substitute", "Remplaçant(e)"]
             },
-            lastUpdated: ["2022-01-10"],
+            lastUpdated: ["2022-03-20"],
             photo: ""
         },
-        "grey": {
-            title: ["Rainbow Six Siege Grey Team", "Équipe Grey de Rainbow Six Siege"],
-            background: "#303031",
-            members: {
-                "Dj": ["Main Roster", "Formation principale"],
-                "KingStar": ["Main Roster", "Formation principale"],
-                "Nacho": ["Main Roster", "Formation principale"],
-                "ohkshr": ["Main Roster", "Formation principale"],
-                "tommy": ["Main Roster", "Formation principale"],
-                "Average Canadian": ["Substitute", "Remplaçant(e)"],
-                "Murderable": ["Substitute", "Remplaçant(e)"],
-
-            },
-            lastUpdated: ["2022-01-10"],
-            photo: ""
-        }
     },
     "rl-team": {
         "garnet": {
