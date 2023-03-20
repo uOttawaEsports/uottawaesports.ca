@@ -33,6 +33,10 @@
 
 /* Button backgrounds */
 
+#apex-bg {
+    background-image: url(../images/teams/buttons/apex-bg.png);
+}
+
 #cod-bg {
     background-image: url(../images/teams/buttons/cod-bg.jpg);
 }
@@ -86,6 +90,15 @@
 }
 
 /* Content backgrounds */
+
+#apex-legends {
+    scroll-margin-top: 4.375rem;
+    background-image: linear-gradient(#000000dc, #000000dc), url(../images/teams/content/apex-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
 
 #call-of-duty {
     scroll-margin-top: 4.375rem;
