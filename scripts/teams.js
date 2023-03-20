@@ -1,4 +1,5 @@
 const gameheads = {
+    "apex-gh": "SuperSkillz#2043",
     "cod-gh": "Lego#2121",
     "csgo-gh": "Static#0063",
     "dota2-gh": "Hulasaur#0265",
@@ -15,6 +16,28 @@ const gameheads = {
 
 // Teams that will be displayed will only be "garnet", "grey", and "gold".
 const modals = {
+    "apex-team": {
+        "garnet": {
+            title: ["Apex Legends Garnet Team", "Équipe Garnet de Apex Legends"],
+            background: "#800020",
+            members: {
+                "Steppy": ["Main Roster", "Formation principale"],
+                "FeyD": ["Main Roster", "Formation principale"],
+                "Hish": ["Main Roster", "Formation principale"],
+                "eK": ["Main Roster", "Formation principale"]
+                
+            },
+            lastUpdated: ["2023-03-20"],
+            photo: ""
+        },
+        "grey": {
+            title: ["Call of Duty Grey Team", "Équipe Grey de Call of Duty"],
+            background: "#303031",
+            members: {},
+            lastUpdated: [],
+            photo: ""
+        }
+    },
     "cod-team": {
         "garnet": {
             title: ["Call of Duty Garnet Team", "Équipe Garnet de Call of Duty"],
