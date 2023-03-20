@@ -207,26 +207,32 @@ const modals = {
             title: ["Overwatch Garnet Team", "Équipe Garnet de Overwatch"],
             background: "#800020",
             members: {
-                "Tundr4": ["Manager/Captain/Tank", "Manager/Capitaine/Tank"],
+                "Innocent": ["Tank", "Tank"],
                 "Dunks": ["Tank", "Tank"],
                 "Norman": ["Damage", "Dégâts"],
-                "VStriker": ["Damage", "Dégâts"],
-                "QebQake": ["Support", "Soutien"],
-                "Twigloo": ["Support", "Soutien"],
-                "Lamortdeboo": ["Substitute", "Remplaçant(e)"],
-                "Kun": ["Substitute", "Remplaçant(e)"],
-                "Supreme": ["Substitute", "Remplaçant(e)"],
-                "YoChrisyBoi": ["Substitute", "Remplaçant(e)"]
+                "Grugz": ["Damage", "Dégâts"],
+                "IceVolcano": ["Support", "Soutien"],
+                "Twigloo": ["Captain/Support", "Capitaine/Soutien"],
+                "Supreme": ["Support", "Soutien"],
             },
-            lastUpdated: ["2022-01-10"],
-            photo: "../../images/gallery/overwatch-garnet_2021-12-11.jpg"
+            lastUpdated: ["2023-03-17"],
+            photo: "../../images/gallery/ow_garnet.jpeg"
         },
         "grey": {
             title: ["Overwatch Grey Team", "Équipe Grey de Overwatch"],
             background: "#303031",
-            members: {},
-            lastUpdated: [],
-            photo: ""
+            members: {
+                "Tundr4": ["Tank", "Tank"],
+                "Impres": ["Tank", "Tank"],
+                "YoChrisyBoi": ["Damage", "Dégâts"],
+                "VStriker": ["Captain/Damage", "Capitaine/Dégâts"],
+                "FloppyChicken": ["Damage", "Dégâts"],
+                "Achieu": ["Support", "Soutien"],
+                "Lamortdeboo": ["Support", "Soutien"],
+                "Flask": ["Support", "Soutien"],
+            },
+            lastUpdated: ["2023-03-17"],
+            photo: "../../images/gallery/ow_grey.jpeg"
         }
     },
     "r6-team": {
