@@ -359,7 +359,7 @@ const modals = {
             background: "#665814",
             members: {
                 "erraine": ["Manager", "Manager"],
-                "Dish": ["Main Roster", "Formation principale"],
+                "TheBlueSpirit": ["Main Roster", "Formation principale"],
                 "ERIC": ["Main Roster", "Formation principale"],
                 "Overider21": ["Main Roster", "Formation principale"],
                 "RainbowPigCake": ["Main Roster", "Formation principale"],
