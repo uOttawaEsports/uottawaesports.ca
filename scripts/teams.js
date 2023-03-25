@@ -1,4 +1,5 @@
 const gameheads = {
+    "apex-gh": "SuperSkillz#2043",
     "cod-gh": "Lego#2121",
     "csgo-gh": "Static#0063",
     "dota2-gh": "Hulasaur#0265",
@@ -16,6 +17,19 @@ const gameheads = {
 
 // Teams that will be displayed will only be "garnet", "grey", and "gold".
 const modals = {
+    "apex-team": {
+        "garnet": {
+            title: ["Apex Legends Garnet Team", "Équipe Garnet de Apex Legends"],
+            background: "#800020",
+            members: {
+                "Juice": ["Main Roster", "Formation principale"],
+                "Divine": ["Main Roster", "Formation principale"],
+                "sprtn": ["Main Roster", "Formation principale"],
+            },
+            lastUpdated: ["2023-03-20"],
+            photo: ""
+        },
+    },
     "cod-team": {
         "garnet": {
             title: ["Call of Duty Garnet Team", "Équipe Garnet de Call of Duty"],
@@ -208,26 +222,32 @@ const modals = {
             title: ["Overwatch Garnet Team", "Équipe Garnet de Overwatch"],
             background: "#800020",
             members: {
-                "Tundr4": ["Manager/Captain/Tank", "Manager/Capitaine/Tank"],
+                "Innocent": ["Tank", "Tank"],
                 "Dunks": ["Tank", "Tank"],
                 "Norman": ["Damage", "Dégâts"],
-                "VStriker": ["Damage", "Dégâts"],
-                "QebQake": ["Support", "Soutien"],
-                "Twigloo": ["Support", "Soutien"],
-                "Lamortdeboo": ["Substitute", "Remplaçant(e)"],
-                "Kun": ["Substitute", "Remplaçant(e)"],
-                "Supreme": ["Substitute", "Remplaçant(e)"],
-                "YoChrisyBoi": ["Substitute", "Remplaçant(e)"]
+                "Gurgz": ["Damage", "Dégâts"],
+                "IceVolcano": ["Support", "Soutien"],
+                "Twigloo": ["Captain/Support", "Capitaine/Soutien"],
+                "Supreme": ["Support", "Soutien"],
             },
-            lastUpdated: ["2022-01-10"],
-            photo: "../../images/gallery/overwatch-garnet_2021-12-11.jpg"
+            lastUpdated: ["2023-03-17"],
+            photo: "../../images/gallery/ow_garnet.jpeg"
         },
         "grey": {
             title: ["Overwatch Grey Team", "Équipe Grey de Overwatch"],
             background: "#303031",
-            members: {},
-            lastUpdated: [],
-            photo: ""
+            members: {
+                "Tundr4": ["Tank", "Tank"],
+                "Impres": ["Tank", "Tank"],
+                "YoChrisyBoi": ["Damage", "Dégâts"],
+                "VStriker": ["Captain/Damage", "Capitaine/Dégâts"],
+                "FloppyChicken": ["Damage", "Dégâts"],
+                "Achieu": ["Support", "Soutien"],
+                "Lamortdeboo": ["Support", "Soutien"],
+                "Flask": ["Support", "Soutien"],
+            },
+            lastUpdated: ["2023-03-17"],
+            photo: "../../images/gallery/ow_grey.jpeg"
         }
     },
     "r6-team": {
@@ -247,22 +267,6 @@ const modals = {
             lastUpdated: ["2023-03-25"],
             photo: ""
         },
-        "grey": {
-            title: ["Rainbow Six Siege Grey Team", "Équipe Grey de Rainbow Six Siege"],
-            background: "#303031",
-            members: {
-                "Dj": ["Main Roster", "Formation principale"],
-                "KingStar": ["Main Roster", "Formation principale"],
-                "Nacho": ["Main Roster", "Formation principale"],
-                "ohkshr": ["Main Roster", "Formation principale"],
-                "tommy": ["Main Roster", "Formation principale"],
-                "Average Canadian": ["Substitute", "Remplaçant(e)"],
-                "Murderable": ["Substitute", "Remplaçant(e)"],
-
-            },
-            lastUpdated: ["2022-01-10"],
-            photo: ""
-        }
     },
     "rl-team": {
         "garnet": {
