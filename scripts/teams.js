@@ -10,7 +10,8 @@ const gameheads = {
     "r6-gh": "Zander#6846",
     "rl-gh": "fabienlef#5103",
     "ssbu-gh": "Tai#0391",
-    "val-gh": "onmarti#4347",
+    "val-gh": "1Lil’Bit#5755",
+    "apex-gh":"SuperSkillz#2043"
 }
 
 // Teams that will be displayed will only be "garnet", "grey", and "gold".
@@ -235,14 +236,15 @@ const modals = {
             background: "#800020",
             members: {
                 "Zander": ["Captain/Main Roster", "Capitaine/Formation principale"],
-                "K3addy": ["Main Roster", "Formation principale"],
-                "Kiro": ["Main Roster", "Formation principale"],
-                "Riven": ["Main Roster", "Formation principale"],
-                "Vaal": ["Main Roster", "Formation principale"],
-                "A": ["Substitute", "Remplaçant(e)"],
-                "Cronder": ["Substitute", "Remplaçant(e)"]
+                "DKxMD": ["Main Roster", "Formation principale"],
+                "GalaxEyeToga": ["Main Roster", "Formation principale"],
+                "ohkshr": ["Main Roster", "Formation principale"],
+                "David": ["Main Roster", "Formation principale"],
+                "Axent": ["Main Roster", "Formation principale"],
+                "st4rmoon": ["Main Roster", "Formation principale"],
+                "PeterPumpkin": ["Main Roster", "Formation principale"]
             },
-            lastUpdated: ["2022-01-10"],
+            lastUpdated: ["2023-03-25"],
             photo: ""
         },
         "grey": {
@@ -358,18 +360,17 @@ const modals = {
             title: ["VALORANT Gold Team", "Équipe Gold de VALORANT"],
             background: "#665814",
             members: {
-                "erraine": ["Manager", "Manager"],
                 "TheBlueSpirit": ["Main Roster", "Formation principale"],
-                "ERIC": ["Main Roster", "Formation principale"],
-                "Overider21": ["Main Roster", "Formation principale"],
-                "RainbowPigCake": ["Main Roster", "Formation principale"],
-                "yj": ["Main Roster", "Formation principale"],
-                "JasonFGC": ["Substitute", "Remplaçant(e)"],
-                "Kojiro": ["Substitute", "Remplaçant(e)"],
-                "Noctember": ["Substitute", "Remplaçant(e)"],
-                "uhapppy": ["Substitute", "Remplaçant(e)"]
+                "Mr Racoon": ["Main Roster", "Formation principale"],
+                "Mr Ginatron": ["Main Roster", "Formation principale"],
+                "Mr Planet xd": ["Main Roster", "Formation principale"],
+                "awe QWQ": ["Main Roster", "Formation principale"],
+                "elric": ["Main Roster", "Formation principale"],
+                "tros": ["Main Roster", "Formation principale"],
+                "Mr Tron": ["Main Roster", "Formation principale"],
+                "Mcnuggies": ["Main Roster", "Formation principale"]
             },
-            lastUpdated: ["2022-01-10"],
+            lastUpdated: ["2023-03-25"],
             photo: ""
         }
     }
