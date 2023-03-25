@@ -330,34 +330,28 @@ const modals = {
             title: ["VALORANT Garnet Team", "Équipe Garnet de VALORANT"],
             background: "#800020",
             members: {
-                "Kiro": ["Manager", "Manager"],
-                "APL": ["Main Roster", "Formation principale"],
+                "kwsp": ["Main Roster", "Formation principale"],
+                "rahr": ["Main Roster", "Formation principale"],
+                "apl": ["Main Roster", "Formation principale"],
                 "bladee": ["Main Roster", "Formation principale"],
-                "Jacob": ["Main Roster", "Formation principale"],
-                "jeremy": ["Main Roster", "Formation principale"],
-                "housieee": ["Main Roster", "Formation principale"],
-                "LittleBozz": ["Substitute", "Remplaçant(e)"],
-                "SyCo": ["Substitute", "Remplaçant(e)"]
+                "coal": ["Main Roster", "Formation principale"]
             },
-            lastUpdated: ["2022-01-10"],
+            lastUpdated: ["2023-03-25"],
             photo: ""
         },
         "grey": {
             title: ["VALORANT Grey Team", "Équipe Grey de VALORANT"],
             background: "#303031",
             members: {
-                "1Lil'Bit": ["Manager", "Manager"],
-                "chriski": ["Main Roster", "Formation principale"],
-                "Goff": ["Main Roster", "Formation principale"],
-                "inertia": ["Main Roster", "Formation principale"],
-                "Leek": ["Main Roster", "Formation principale"],
-                "Xssant": ["Main Roster", "Formation principale"],
-                "Iteel": ["Substitute", "Remplaçant(e)"],
-                "LittleBozz": ["Substitute", "Remplaçant(e)"],
-                "NeziMart": ["Substitute", "Remplaçant(e)"],
-                "SyCo": ["Substitute", "Remplaçant(e)"]
+                "kiwisareawesome": ["Main Roster", "Formation principale"],
+                "chirubain": ["Main Roster", "Formation principale"],
+                "munost": ["Main Roster", "Formation principale"],
+                "noshed": ["Main Roster", "Formation principale"],
+                "raizen": ["Main Roster", "Formation principale"],
+                "ricebowl247": ["Main Roster", "Formation principale"],
+                "sitxchi": ["Main Roster", "Formation principale"]
             },
-            lastUpdated: ["2022-01-10"],
+            lastUpdated: ["2023-03-25"],
             photo: "../../images/gallery/valorant-grey_2021-11-05.jpg"
         },
         "gold": {
