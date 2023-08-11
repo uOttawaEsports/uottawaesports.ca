@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Execs 2023-2024 | uOttawa Esports</title>
+  <meta name="description" property="og:description" content="Execs 2023-2024 at uOttawa Esports.">
+  <link rel="canonical" href="https://www.uottawaesports.ca/en/execs/2023-2024/">
+  <meta name="robots" content="index">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Execs 2023-2024 | uOttawa Esports">
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/uOttawaEsports/uottawaesports.ca/main/images/meta.png">
+  <meta property="og:url" content="https://www.uottawaesports.ca/">
+  <meta property="og:site_name" content="uOttawa Esports">
+  <meta name="twitter:title" content="Execs 2023-2024 | uOttawa Esports">
+  <meta name="twitter:description" content="Execs 2023-2024 at uOttawa Esports.">
+  <meta name="twitter:image"
+    content="https://raw.githubusercontent.com/uOttawaEsports/uottawaesports.ca/main/images/meta.png">
+  <meta name="twitter:site" content="@uOttawaEsports">
+  <meta name="twitter:creator" content="@uOttawaEsports">
+  <meta name="keywords" content="uOttawa Esports, execs 2023-2024, game heads 2023-2024">
+  <meta name="google" content="notranslate">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../../../images/logo-square.png" />
+  <!-- Bootstrap 5.0.2 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="../../styles/styles.css">
+  <link rel="stylesheet" href="../../../styles/execs.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1eb2ce7a7c.js" crossorigin="anonymous"></script>
+</head>
+
+<body onload="cards()">
+  <!-- Navbar -->
+  <div w3-include-html="../../../components/navbar-en.html" class="fixed-top"></div>
+  <!-- Navbar End -->
+
+  <!-- Team -->
+  <div id="execs-background">
+
+    <!-- Execs -->
+    <div id="execs" class="container-fluid">
+      <div class="row pb-1 pt-3 pt-lg-4">
+        <h1 class="display-6 fw-bold text-center text-white text-shadow">Execs 2023-2024</h1>
+      </div>
+      <div id="presidents" class="row d-flex justify-content-center"></div>
+    </div>
+    <!-- Execs End -->
+
+    <!-- Game Heads -->
+    <div class="container-fluid">
+      <div class="row pb-1 pt-2">
+        <h1 class="display-6 fw-bold text-center text-white text-shadow">Game Heads 2023-2024</h1>
+      </div>
+      <div id="game-heads" class="row d-flex justify-content-center pb-3"></div>
+    </div>
+    <!-- Game Heads End -->
+
+  </div>
+  <!-- Team End -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalTitle" aria-modal="true" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+      <div id="modalBackground" class="modal-content text-white">
+        <div class="modal-header">
+          <h2 id="modalTitle" class="modal-title fs-4 fw-bold">PLACEHOLDER</h2>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-5 pe-4">
+              <img id="modalImage" src="../../../images/execs/placeholder.png" alt="">
+              <h3 id="modalRole" class="card-title fs-5 text-center mt-2">PLACEHOLDER</h3>
+            </div>
+            <div class="col-7 border-left">
+              <p><span class="fw-bold">Year of Study:</span> <span id="modalYear"></span> <br />
+                <span class="fw-bold">Program:</span> <span id="modalProg"></span> <br />
+                <span class="fw-bold">Favourite Game(s):</span> <span id="modalGame"></span>
+              </p>
+              <p id="modalDesc"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal End -->
+
+  <!-- Footer -->
+  <div w3-include-html="../../../components/footer.html"></div>
+  <!-- Footer End -->
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+  <!-- External JavaScript -->
+  <script type="text/javascript" src="../../../scripts/execs/2023-2024.js"></script>
+
+  <!-- External Footer JavaScript -->
+  <script type="text/javascript" src="../../../scripts/components.js"></script>
+
+</body>
+
+</html>
