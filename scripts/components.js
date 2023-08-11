@@ -36,6 +36,8 @@ function includeHTML() {
             document.getElementById("translate").href = '/fr/cadres/2021-2022/' // add new else if for each new exec year
         } else if (window.location.href.includes("/execs/2022-2023")) {
             document.getElementById("translate").href = '/fr/cadres/2022-2023/'
+        } else if (window.location.href.includes("/execs/2023-2024")) {
+            document.getElementById("translate").href = '/fr/cadres/2023-2024/'
         } else if (window.location.href.includes("/execs/past")) {
             document.getElementById("translate").href = '/fr/cadres/anciens/'
         } else if (window.location.href.includes("/events")) {
@@ -61,6 +63,8 @@ function includeHTML() {
             document.getElementById("translate").href = '/en/execs/2021-2022/' // add new else if for each new exec year
         } else if (window.location.href.includes("/cadres/2022-2023")) {
             document.getElementById("translate").href = '/en/execs/2022-2023/'
+        } else if (window.location.href.includes("/cadres/2023-2024")) {
+            document.getElementById("translate").href = '/en/execs/2023-2024/'
         } else if (window.location.href.includes("/cadres/anciens")) {
             document.getElementById("translate").href = '/en/execs/past/'
         } else if (window.location.href.includes("/evenements")) {
