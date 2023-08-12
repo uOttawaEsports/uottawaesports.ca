@@ -30,7 +30,7 @@ function includeHTML() {
     let isEnglish = window.location.href.includes("/en");
 
     if (isEnglish) {
-        document.getElementById("footer-content").innerHTML = 'Proud club of <a class="text-white" href="https://www.cvuo.ca/home/" target="_blank">CVUO</a><br />&copy; uOttawa Esports 2022';
+        document.getElementById("footer-content").innerHTML = 'Proud club of <a class="text-white" href="https://www.cvuo.ca/home/" target="_blank">CVUO</a><br />&copy; uOttawa Esports 2023';
 
         if (window.location.href.includes("/execs/2021-2022")) {
             document.getElementById("translate").href = '/fr/cadres/2021-2022/' // add new else if for each new exec year
@@ -57,7 +57,7 @@ function includeHTML() {
         }
 
     } else {
-        document.getElementById("footer-content").innerHTML = 'Un club fier du <a class="text-white" href="https://www.cvuo.ca/accueil/" target="_blank">CVUO</a><br />&copy; uOttawa Esports 2022';
+        document.getElementById("footer-content").innerHTML = 'Un club fier du <a class="text-white" href="https://www.cvuo.ca/accueil/" target="_blank">CVUO</a><br />&copy; uOttawa Esports 2023';
 
         if (window.location.href.includes("/cadres/2021-2022")) {
             document.getElementById("translate").href = '/en/execs/2021-2022/' // add new else if for each new exec year
