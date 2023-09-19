@@ -1,55 +1,7 @@
 // The website will display a maximum of six (6) events at a time. You can add more than six if you'd like to queue up the events for organizational purposes.
 // Events in closest proximity must be placed at the top of the object.
 const events = [
-    {
-         title: ["Super Smash Bros. GGWP#38", "Super Smash Bros. GGWP#38"],
-         image: ["../../images/events/upcoming/ssbu.png", "SSBU logo", "Logo de SSBU"],
-         text: ["We're back with GGWP#38, happening this Thursday the 21st, as promised. As usual, doors open at 6 with the tournament starting at 7, in the Makerspace as ever. Sign up <a href='https://docs.google.com/forms/d/e/1FAIpQLSfIcjTfcrVkpoIoaQEhp8pp8KwSWEmTD_cWBQeFaUprjeusgA/viewform?usp=sf_link' rel='external' target='_blank'>here</a> to join us!", "fr"],
-         date: ["Thursday, September 21", "Jeudi 21 septembre"],
-         time: ["6:00 PM", "18h00"],
-         location: ["Makerspace, STEM107", "Makerspace, STEM107"],
-         contact: ["tai0391", "tai0391"]
-     },
 
-     {
-         title: ["OW Minigame madness", "fr"],
-         image: ["../../images/events/upcoming/ow.png", "OW2 LOGO", "LOGO OW2"],
-         text: ["eng", "fr"],
-         date: ["Saturday, September 23 2023", "Samedi 23 septembre 2023"],
-         time: ["8-10 PM", "20h-22h"],
-         location: ["Discord", "Discord"],
-         contact: ["Gamehead of Overwatch 2 - achieu", "Chef de jeu de Overwatch 2 - achieu"]
-     },
-
-     {
-        title: ["Osu! Tryouts", "Essais collégiaux de Osu!"],
-        image: ["../../images/events/upcoming/osu.png", "Osu! logo", "Logo de Osu!"],
-        text: ["eng", "fr"],
-        date: ["Saturday, September 23 2023", "Samedi 23 septembre 2023"],
-        time: ["8-10 PM", "20h-22h"],
-        location: ["Discord", "Discord"],
-        contact: ["Gamehead of Osu! - glowrock", "Chef de jeu de Osu! - glowrock"]
-     },
-
-     {
-        title: ["Osu! in-house", "Partie interne de Osu!"],
-        image: ["../../images/events/upcoming/osu.png", "Osu! logo", "Logo de Osu!"],
-        text: ["eng", "fr"],
-        date: ["Tuesday, September 26 2023", "Mardi 26 septembre 2023"],
-        time: ["9:00 PM", "21h00"],
-        location: ["Discord", "Discord"],
-        contact: ["Gamehead of Osu! - glowrock", "Chef de jeu de Osu! - glowrock"]
-     },
-
-     {
-         title: ["Introduction to Commander MTG", "Introduction au Commander MTG"],
-         image: ["../../images/events/upcoming/general.png", "uOttawa Esports logo", "Logo de uOttawa Esports"],
-         text: ["After collecting responses from the various surveys that were put out, it seems the majority of us felt that Sunday worked best for In-Person Magic the Gathering events. As a result there will be weekly meetings every Sunday starting on September 28th with an Introduction to Commander MTG event. More details will be shared in early September regarding to location and specific time of this event.", "Après avoir recueilli les réponses aux différents sondages, il semble que la majorité d'entre nous pense que le dimanche est le meilleur jour pour les événements Magic the Gathering en personne. Il y aura donc des réunions hebdomadaires tous les dimanches à partir du 28 septembre avec un événement Introduction au Commander MTG. Plus de détails seront communiqués au début du mois de septembre concernant le lieu et l'heure de cet événement."],
-         date: ["Thursday, September 28, 2023", "Jeudi, le 28 septembre 2023"],
-         time: ["TBA", "À annoncer prochainment"],
-         location: ["TBA", "À annoncer prochainment"],
-         contact: ["psiderman", "psiderman"]
-     },
 
     // {
     //     title: ["VALORANT In-house", "In-house de VALORANT"],
