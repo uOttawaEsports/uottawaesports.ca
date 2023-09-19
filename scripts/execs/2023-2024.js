@@ -92,14 +92,14 @@ let execs = {
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2023-2024/backgrounds/elaine_tran.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     /* Game Heads */
-    "Oscar Li": {
-        name: "Oscar Li",
-        image: "../../../images/execs/2023-2024/Oscar Li.jpg",
+    "VACANT": {
+        name: "VACANT",
+        image: "../../../images/execs/placeholder.png",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Apex Legends", "<span class='fw-bold'>Chef de jeu</span> <br /> Apex Legends"],
-        prog: ["Computer science", "Science de l'Informatique"],
-        year: ["3rd Year", "3e année"],
-        game: "Apex Legends, Team Fortress 2 and Overwatch",
-        desc: ["Aspiring ancient warfare in history nerd!", "Intello en herbe à propos des guerres anciennes !"],
+        prog: ["N/A", "N/A"],
+        year: ["N/A", "N/A"],
+        game: "N/A",
+        desc: ["N/A", "N/A"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 75%;"
     },
     "VACANT": {
@@ -142,14 +142,14 @@ let execs = {
         desc: ["I like to keep myself busy with keeping active, especially during the summer. During the winter I spend most of my days grinding out games and collecting flags. Since I'm in Software engineering I hope to get into game dev as either a career or just a hobby :)", "Je préfère me garder occupé en restant actif, surtout durant l'été. Durant l'hiver, je passe la plupart de mes journées à jouer sans arrêt et à collectionner des drapeaux. Étant en génie logiciel, je voudrais faire du développement de jeux soit comme carrière ou comme passe-temps :)"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
-    "VACANT": {
-        name: "VACANT",
+    "Shaun Francis": {
+        name: "Shaun Francis",
         image: "../../../images/execs/placeholder.png",
-        role: ["<span class='fw-bold'>Game Head</span> <br /> Fortnite", "<span class='fw-bold'>Chef de jeu</span> <br /> Fortnite"],
-        prog: ["N/A", "N/A"],
-        year: ["N/A", "N/A"],
-        game: "N/A",
-        desc: ["N/A", "N/A"],
+        role: ["<span class='fw-bold'>Game Head</span> <br /> Magic the Gathering", "<span class='fw-bold'>Chef de jeu</span> <br /> Magic the Gathering"],
+        prog: ["Computer Science", "Informatique"],
+        year: ["3rd Year", "3e année"],
+        game: "Sea of Thieves, League of Legends, DnD, Magic the Gathering",
+        desc: ["ENG", "FR"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Narththanaan Rajeswaran": {
