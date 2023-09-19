@@ -144,7 +144,7 @@ let execs = {
     },
     "Shaun Francis": {
         name: "Shaun Francis",
-        image: "../../../images/execs/placeholder.png",
+        image: "../../../images/execs/2023-2024/Shaun Francis.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Magic the Gathering", "<span class='fw-bold'>Chef de jeu</span> <br /> Magic the Gathering"],
         prog: ["Computer Science", "Informatique"],
         year: ["3rd Year", "3e année"],
