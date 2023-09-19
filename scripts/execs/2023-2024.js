@@ -149,7 +149,7 @@ let execs = {
         prog: ["Computer Science", "Informatique"],
         year: ["3rd Year", "3e année"],
         game: "Sea of Thieves, League of Legends, DnD, Magic the Gathering",
-        desc: ["ENG", "FR"],
+        desc: ["I'm Shaun, while I am new to the UOttawa Esports Club I am no stranger to video games, tabletop games, and most importantly, trading card games. I've been playing all sorts of games my whole life as a means of bringing people together and I'm thrilled to be able to sit around a table and play with all of you!", "Je suis Shaun, et même étant nouveau au Club d’Esports uOttawa, je ne suis pas étranger aux jeux vidéo, aux jeux de table, et surtout, aux jeux de cartes. J’ai joué à tout type de jeux toute ma vie comme manière d’amener les gens à s’approcher et je suis très heureux de pouvoir m’asseoir autour d’une table à jouer avec vous tous!"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Narththanaan Rajeswaran": {
