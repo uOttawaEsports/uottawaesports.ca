@@ -1,16 +1,42 @@
 // The website will display a maximum of six (6) events at a time. You can add more than six if you'd like to queue up the events for organizational purposes.
 // Events in closest proximity must be placed at the top of the object.
 const events = [
-
-
+    
+     {
+         title: ["GGWP #38", "GGWP #38"],
+         image: ["../../images/events/upcoming/ssbu.png", "SSBU logo", "Logo de SSBU"],
+         text: ["Every week, Smash Ultimate fans come together to play in an in-person tournament at uOttawa. Both casual and competitive players alike join in and enjoy themselves, whether they wish to make friends, enjoy playing a game they like, or strive to be the best. To join, you can sign up through the form available on our Discord!", "Chaque semaine, les fans de Smash Ultimate se joignent en personne pour jouer un tournoi à uOttawa. Joueurs compétitifs et d’occasion viennent pour un moment de plaisir, que ce soit pour faire des amis, jouer à un jeu qu’ils aiment, ou être le meilleur. Pour t’y joindre, tu peux t’inscrire sur le formulaire disponible dans notre Discord!"],
+         date: ["Thursday, September 21, 2023", "Jeudi, 21 septembre, 2023"],
+         time: ["7:00 PM", "19h00"],
+         location: ["STEM107 - MakerSpace", "STEM107 - MakerSpace"],
+         contact: ["SSBU GameHead - Tai", "Chef de Jeu SSBU - Tai"]
+     },
+     {
+         title: ["osu! Tryouts","Essais collégiaux de osu!"],
+         image: ["../../images/events/upcoming/osu.png","Osu! logo","logo de Osu!"],
+         text: ["We have upcoming tryouts for our osu! collegiate team! During tryouts, we will play through an old o!CL map pool in a multi lobby. Participants will be evaluated and selected for a team based on their performance.","Nous avions des essais pour notre équipe collégiale de osu! Durant les essais, on jouera à travers une vieille sélection de cartes d’o!CL dans un lobby à plusieurs joueurs. Les participants seront évalués et sélectionnés pour une équipe basée sur leur performance."],
+         date: ["Saturday, September 23, 2023","Samedi, 23 septembre, 2023"],
+         time: ["8-10PM","20h-22h"],
+         location: ["Discord","Discord"],
+         contact: ["osu! Gamehead - GlowRock","Chef de Jeu osu! - GlowRock"],
+     },
     // {
-    //     title: ["VALORANT In-house", "In-house de VALORANT"],
-    //     image: ["../../images/events/upcoming/val-jett.png", "VALORANT logo with Jett", "Logo de VALORANT avec Jett"],
-    //     text: ["Join other VALORANT players in an in-house! This is a great way of meeting new people who enjoy the same game as you!", "Rejoignez d'autres joueurs de VALORANT dans un «&nbsp;in-house&nbsp;»&nbsp;! C'est un excellent moyen de rencontrer de nouvelles personnes qui aiment le même jeu que vous&nbsp;!"],
+    //     title: [],
+    //     image: [],
+    //     text: [],
+    //     date: [],
+    //     time: [],
+    //     location: [],
+    //     contact: [],
+    // },
+    // {
+    //     title: ["GGWP", "GGWP"],
+    //     image: ["../../images/events/upcoming/ssbu.png", "SSBU logo", "Logo de SSBU"],
+    //     text: ["Every week, Smash Ultimate fans come together to play in an in-person tournament at uOttawa. Both casual and competitive players alike join in and enjoy themselves, whether they wish to make friends, enjoy playing a game they like, or strive to be the best. To join, you can sign up through the form available on our Discord!", "Chaque semaine, les fans de Smash Ultimate se joignent en personne pour jouer un tournoi à uOttawa. Joueurs compétitifs et d’occasion viennent pour un moment de plaisir, que ce soit pour faire des amis, jouer à un jeu qu’ils aiment, ou être le meilleur. Pour t’y joindre, tu peux t’inscrire sur le formulaire disponible dans notre Discord!"],
     //     date: ["Saturday, September 25", "Samedi 25 septembre"],
-    //     time: ["4:00 PM", "16h00"],
-    //     location: ["Discord", "Discord"],
-    //     contact: ["Kiro#3697", "Kiro#3697"]
+    //     time: ["7:00 PM", "19h00"],
+    //     location: ["STEM107 - MakerSpace", "STEM107 - MakerSpace"],
+    //     contact: ["SSBU GameHead - tai0391", "SSBU GameHead - tai0391"]
     // },
     // {
     //     title: ["VALORANT In-house", "In-house de VALORANT"],
