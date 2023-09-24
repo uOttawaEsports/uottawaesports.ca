@@ -2,24 +2,6 @@
 // Events in closest proximity must be placed at the top of the object.
 const events = [
     
-     {
-         title: ["Overwatch Minigame Madness","Overwatch Mini-jeux en folie"],
-         image: ["../../images/events/upcoming/ow.png","Overwatch logo","Logo de Overwatch"],
-         text: ["Are you down for some Ana Paintball, 12 Hogs 1 Hole, or some classic Gun Game and more? Come join us for a whole 2 hours of some of your favourite minigames. This time, we’ve got prizes to hand out for first, second, and third place in the form of Overwatch Coins for you to buy some of your favourite skins or skips for the battlepass with. Everyone is welcome to join regardless of any skill range or competitive experience, so please don't be shy to participate!</br><b>If you want to participate, please <a href='https://forms.gle/r3d2JqC9nwfnC1iT8' rel='external' target='_blank'>sign up here</a> by Saturday, Sept. 23rd at 5pm EST at the latest as we will be capping the lobby to 24 people!!!</b>","Êtes-vous prêt pour un peu d'Ana Paintball, du 12 Hogs 1 Hole, le classique Gun Game et plus encore? Rejoignez-nous pour 2 heures de vos mini-jeux préférés. Cette fois-ci, on a des prix à distribuer pour les première, deuxième et troisième places sous la forme d'Overwatch Coins afin que vous puissiez vous procurer vos skins préférés ou des skips pour la battlepass. Tout le monde est bienvenue, peu importe le niveau d'expertise ou d'expérience de compétition. N'hésitez pas à participer !</br> <b>Si tu veux t'y joindre, <a href='https://forms.gle/r3d2JqC9nwfnC1iT8' rel='external' target='_blank'>inscris-toi ici</a> au plus tard le 23 septembre à 17h HE vu qu'on acceptera jusqu'à un maximum 24 participants!!!</b>"],
-         date: ["Saturday, September 23, 2023","Samedi, 23 septembre, 2023"],
-         time: ["8:00PM-10:00PM","20h00-22h00"],
-         location: ["uOttawa Esports Discord","Esports uOttawa Discord"],
-         contact: ["Overwatch Gamehead - Achieu","Chef de Jeu Overwatch - Achieu"],
-     },
-     {
-        title: ["osu! Tryouts","Essais collégiaux de osu!"],
-        image: ["../../images/events/upcoming/osu.png","Osu! logo","logo de Osu!"],
-        text: ["We have upcoming tryouts for our osu! collegiate team! During tryouts, we will play through an old o!CL map pool in a multi lobby. Participants will be evaluated and selected for a team based on their performance.","Nous avions des essais pour notre équipe collégiale de osu! Durant les essais, on jouera à travers une vieille sélection de cartes d’o!CL dans un lobby à plusieurs joueurs. Les participants seront évalués et sélectionnés pour une équipe basée sur leur performance."],
-        date: ["Saturday, September 23, 2023","Samedi, 23 septembre, 2023"],
-        time: ["8:00PM-10:00PM","20h00-22h00"],
-        location: ["uOttawa Esports Discord","Esports uOttawa Discord"],
-        contact: ["osu! Gamehead - GlowRock","Chef de Jeu osu! - GlowRock"],
-     },
       {
          title: ["League of Legends In-House","League of Legends In-House"],
          image: ["../../images/events/upcoming/lol.png","League of Legends logo","Logo de League of Legends"],
