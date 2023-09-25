@@ -2,24 +2,6 @@
 // Events in closest proximity must be placed at the top of the object.
 const events = [
     
-      {
-         title: ["League of Legends In-House","League of Legends In-House"],
-         image: ["../../images/events/upcoming/lol.png","League of Legends logo","Logo de League of Legends"],
-         text: ["Our first League in-house of the year is happening! To new students: slots are first come, first serve, and we require at least ten people to form a lobby. As always, all skill levels and ranks are welcome so please stop by on Sunday to participate.</br><b>If you're interested in participating, please join our Discord and follow the gamehead's instructions!</b>","Notre première partie interne de l'année se déroule! Aux nouveaux étudiants : les places sont premier arrivé, premier servi, et il faut au moins 10 participants pour former un salon de jeu. Comme toujours, tous les niveaux d'expertise sont les bienvenus, alors n'hésitez pas à nous rejoindre dimanche pour participer.</br><b>Si tu es intéressé à participer, joins-toi à notre Discord et suis les instructions du chef de jeu!</b>"],
-         date: ["Sunday, September 24th, 2023","Dimanche, 24 septembre, 2023"],
-         time: ["7:00PM","19h00"],
-         location: ["uOttawa Esports Discord","Esports uOttawa Discord"],
-         contact: ["League of Legends Gamehead - Narth","Chef de Jeu League of Legends - Narth"],
-     },
-     {
-        title: ["VALORANT In-House","Partie Interne de VALORANT"],
-        image: ["../../images/events/upcoming/val.png","VALORANT Logo","Logo de VALORANT"],
-        text: ["Hey VALORANT... <b>IN HOUSE IN HOUSE IN HOUSE !!!</b></br>In-Houses are run in a first come, first serve fashion. So mark the date down in your calendar and be ready to play at the set time!</br>For those who have never played in an in-house before : they're essentially just organized custom games for our casual community, so people of all skill level are welcome and encouraged to participate. <b>There is a max limit of 1 lobby that will be run, so a 10 participant cap.</b>","Hé VALORANT... <b>PARTIE INTERNE PARTIE INTERNE PARTIE INTERNE !!!</b></br>Les places au parties internes sont premier arrivé, premier servi. Alors notez la date dans votre calendrier et soyez prêts à jouer à l'heure convenue!</br>Pour ceux et celles qui n'ont jamais participé à une partie interne auparavant, il s'agit essentiellement de parties customs organisées pour notre communauté amatrice, alors les gens de tous les niveaux d'expertise sont les bienvenus et encouragés à participer.<b>Il y aura une limite de 1 salon de jeu, et donc 10 participants.</b>"],
-        date: ["Sunday, September 24, 2023","Dimanche, septembre 24, 2023"],
-        time: ["8:00PM","20h00"],
-        location: ["uOttawa Esports Discord","Esports uOttawa Discord"],
-        contact: ["VALORANT Gamehead - 1Lil'Bit","Chef de Jeu VALORANT - 1Lil'Bit"],
-     },
     // {
     //     title: [],
     //     image: [],
