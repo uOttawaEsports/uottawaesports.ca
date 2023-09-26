@@ -22,7 +22,7 @@ const events = [
      },
      {
          title: ["GGWP #39","GGWP #39"],
-         image: ["","",""],
+         image: ["../../images/events/upcoming/ssbu.png","SSBU logo","Logo de SSBU"],
          text: ["Every week, Smash Ultimate fans come together to play in an in-person tournament at uOttawa. Both casual and competitive players alike join in and enjoy themselves, whether they wish to make friends, enjoy playing a game they like, or strive to be the best. To join, you can sign up through the form available on our Discord!","Chaque semaine, les fans de Smash Ultimate se joignent en personne pour jouer un tournoi à uOttawa. Joueurs compétitifs et d’occasion viennent pour un moment de plaisir, que ce soit pour faire des amis, jouer à un jeu qu’ils aiment, ou être le meilleur. Pour t’y joindre, tu peux t’inscrire sur le formulaire disponible dans notre Discord!"],
          date: ["Thursday, September 28, 2023","Jeudi, 26 septembre, 2023"],
          time: ["7:00PM","19h00"],
