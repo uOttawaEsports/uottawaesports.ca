@@ -2,6 +2,15 @@
 // Events in closest proximity must be placed at the top of the object.
 const events = [
     
+     {
+         title: ["osu! In-house","Partie Interne de osu!"],
+         image: ["../../images/events/upcoming/osu.png","osu! logo","Logo de osu!"],
+         text: ["Our bi-monthly osu! in-houses are back! To sign up, please join our Discord and follow the gamehead's instructions.","Nos parties internes bimensuelles de osu! sont de retour! Pour s'inscrire, joins-toi à notre Discord et suis les instructions du chef de jeu."],
+         date: ["Tuesday, September 26, 2023","Mardi, 26 septembre, 2023"],
+         time: ["9:00PM","21h00"],
+         location: ["uOttawa Esports Discord","Discord d'Esports uOttawa"],
+         contact: ["osu! Gamehead - GlowRock","Chef de Jeu d'osu! - GlowRock"],
+     },
     // {
     //     title: [],
     //     image: [],
