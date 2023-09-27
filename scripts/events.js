@@ -3,7 +3,7 @@
 const events = [
     {
         title: ["Introduction to Commander MTG","Introduction au Commander MTG"],
-        image: ["../../images/events/upcoming/fss-1007.jpg","Should be MTG logo","Logo de MTG"],
+        image: ["../../images/events/upcoming/MTG.PNG","MTG logo","Logo de MTG"],
         text: ["Interested in learning how to play magic the Gatherings Commander format? Already know how to play and looking to play with both new and experienced players? Our introduction to commander night is a perfect place to get to know the other MtG players at UOttawa and an event better event to learn how to play!","Vous souhaitez apprendre à jouer au format Commander de Magic the Gathering? Vous savez déjà jouer et vous cherchez à jouer avec des joueurs nouveaux et expérimentés ? Notre soirée d'introduction au format Commander est l'endroit idéal pour faire connaissance avec les autres joueurs de MtG à l'Université d'Ottawa et un meilleur événement pour apprendre à jouer !"],
         date: ["Thursday, September 28, 2023","Jeudi, 28 septembre, 2023"],
         time: ["7:00PM","19h00"],
