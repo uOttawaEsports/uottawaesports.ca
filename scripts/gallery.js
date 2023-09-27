@@ -13,11 +13,11 @@ const images = [{
     },
     {
         image: "../../images/gallery/clubs-week-2019-1.jpg",
-        alt: ["Clubs week 2019", "La semaine des clubs 2018"]
+        alt: ["Clubs week 2019", "La semaine des clubs 2019"]
     },
     {
         image: "../../images/gallery/clubs-week-2019-2.jpg",
-        alt: ["Clubs week 2019", "La semaine des clubs 2018"]
+        alt: ["Clubs week 2019", "La semaine des clubs 2019"]
     },
     {
         image: "../../images/gallery/clubs-fair-2021-1.jpg",
@@ -32,20 +32,12 @@ const images = [{
         alt: ["Clubs Fair 2021", "La Foire des clubs 2021"]
     },
     {
-        image: "../../images/gallery/egn_2021-09-30.jpg",
-        alt: ["Inaugural Exec Game Night - Among Us", "La toute première soirée de jeux avec les cadres - Among Us"]
-    },
-    {
         image: "../../images/gallery/clubs-fair-2021-6.jpg",
         alt: ["Clubs Fair 2021", "La Foire des clubs 2021"]
     },
     {
         image: "../../images/gallery/clubs-fair-2021-7.jpeg",
         alt: ["Clubs Fair 2021", "La Foire des clubs 2021"]
-    },
-    {
-        image: "../../images/gallery/agm-2021-1.jpg",
-        alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
     },
     {
         image: "../../images/gallery/agm-2021-3.jpg",
@@ -62,14 +54,6 @@ const images = [{
     {
         image: "../../images/gallery/agm-2021-9.jpg",
         alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
-    },
-    {
-        image: "../../images/gallery/egn_2021-10-26.jpg",
-        alt: ["October 2021 Exec Game Night - Goose Goose Duck", "Octobre 2021 soirée de jeux avec les cadres - Goose Goose Duck"]
-    },
-    {
-        image: "../../images/gallery/egn_2021-11-14.jpg",
-        alt: ["November 2021 Exec Game Night - VALORANT", "Novembre 2021 soirée de jeux avec les cadres - VALORANT"]
     },
     {
         image: "../../images/gallery/ssbu_2021-11-15.jpg",
