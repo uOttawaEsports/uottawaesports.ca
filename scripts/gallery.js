@@ -12,34 +12,6 @@ const images = [{
         alt: ["A gaming session chez CRX", "Une séance de jeu chez CRX"]
     },
     {
-        image: "../../images/gallery/clubs-week-2019-1.jpg",
-        alt: ["Clubs week 2019", "La semaine des clubs 2019"]
-    },
-    {
-        image: "../../images/gallery/clubs-week-2019-2.jpg",
-        alt: ["Clubs week 2019", "La semaine des clubs 2019"]
-    },
-    {
-        image: "../../images/gallery/clubs-fair-2021-1.jpg",
-        alt: ["Clubs Fair 2021", "La Foire des clubs 2021"]
-    },
-    {
-        image: "../../images/gallery/clubs-fair-2021-4.jpg",
-        alt: ["Clubs Fair 2021", "La Foire des clubs 2021"]
-    },
-    {
-        image: "../../images/gallery/clubs-fair-2021-5.jpg",
-        alt: ["Clubs Fair 2021", "La Foire des clubs 2021"]
-    },
-    {
-        image: "../../images/gallery/clubs-fair-2021-6.jpg",
-        alt: ["Clubs Fair 2021", "La Foire des clubs 2021"]
-    },
-    {
-        image: "../../images/gallery/clubs-fair-2021-7.jpeg",
-        alt: ["Clubs Fair 2021", "La Foire des clubs 2021"]
-    },
-    {
         image: "../../images/gallery/agm-2021-3.jpg",
         alt: ["Annual General Meeting 2021", "Assemblée générale annuelle 2021"]
     },
