@@ -2,15 +2,6 @@
 // Events in closest proximity must be placed at the top of the object.
 const events = [
     {
-         title: ["osu! In-house","Partie Interne de osu!"],
-         image: ["../../images/events/upcoming/osu.png","osu! logo","Logo de osu!"],
-         text: ["Our bi-monthly osu! in-houses are back! To sign up, please join our Discord and follow the gamehead's instructions.","Nos parties internes bimensuelles de osu! sont de retour! Pour s'inscrire, joins-toi à notre Discord et suis les instructions du chef de jeu."],
-         date: ["Tuesday, September 26, 2023","Mardi, 26 septembre, 2023"],
-         time: ["9:00PM","21h00"],
-         location: ["uOttawa Esports Discord","Discord d'Esports uOttawa"],
-         contact: ["osu! Gamehead - GlowRock","Chef de Jeu d'osu! - GlowRock"],
-    },
-    {
         title: ["Introduction to Commander MTG","Introduction au Commander MTG"],
         image: ["../../images/events/upcoming/fss-1007.jpg","Should be MTG logo","Logo de MTG"],
         text: ["Interested in learning how to play magic the Gatherings Commander format? Already know how to play and looking to play with both new and experienced players? Our introduction to commander night is a perfect place to get to know the other MtG players at UOttawa and an event better event to learn how to play!","Vous souhaitez apprendre à jouer au format Commander de Magic the Gathering? Vous savez déjà jouer et vous cherchez à jouer avec des joueurs nouveaux et expérimentés ? Notre soirée d'introduction au format Commander est l'endroit idéal pour faire connaissance avec les autres joueurs de MtG à l'Université d'Ottawa et un meilleur événement pour apprendre à jouer !"],
