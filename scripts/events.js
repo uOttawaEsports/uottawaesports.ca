@@ -5,7 +5,7 @@ const events = [
          title: ["Skywars","Guerres au ciel"],
          image: ["../../images/events/upcoming/mc.png","Minecraft Logo","Logo de Minecraft"],
          text: ["Skywars is a popular Minecraft minigame with a simple premise: fight until one player (or team) is left alive. The catch is that you begin on a small island. It's up to you to build bridges to attack other players, or walls to defend yourself.</br>If you're interested in participating, join our Discord and follow the gamehead's instructions!","Guerres au ciel est un minijeu populaire de Minecraft avec un simple but: se battre jusqu'à ce qu'il rest un joueur (ou une équipe) vivant(e). Le piège est qu'on commence sur une petite île. C'est à toi de bâtir des ponts pour attaquer d'autres joueurs, ou bâtir des murs pour te défendre.</br>Si tu t'intéresses à participer, joins-toi à notre Discord et suis les instructions du chef de jeu!"],
-         date: ["Saturday, September 30, 2023","Samedi, 30 septembre, 2023"],
+         date: ["Saturday, October 7, 2023","Samedi, 7 octobre, 2023"],
          time: ["8:00PM","20h00"],
          location: ["uOttawa Esports Discord","Discord d'uOttawa Esports"],
          contact: ["Minecraft Gamehead - Dish","Chef de Jeu de Minecraft - Dish"],
