@@ -2,15 +2,6 @@
 // Events in closest proximity must be placed at the top of the object.
 const events = [
     {
-         title: ["GGWP #40", "GGWP #40"],
-         image: ["../../images/events/upcoming/ssbu.png", "SSBU logo", "Logo de SSBU"],
-         text: ["Every week, Smash Ultimate fans come together to play in an in-person tournament at uOttawa. Both casual and competitive players alike join in and enjoy themselves, whether they wish to make friends, enjoy playing a game they like, or strive to be the best. To join, you can sign up through the form available on our Discord!", "Chaque semaine, les fans de Smash Ultimate se joignent en personne pour jouer un tournoi à uOttawa. Joueurs compétitifs et d’occasion viennent pour un moment de plaisir, que ce soit pour faire des amis, jouer à un jeu qu’ils aiment, ou être le meilleur. Pour t’y joindre, tu peux t’inscrire sur le formulaire disponible dans notre Discord!"],
-         date: ["Thursday, October 5, 2023", "Jeudi, 5 octobre, 2023"],
-         time: ["7:00 PM", "19h00"],
-         location: ["STEM107 - MakerSpace", "STEM107 - MakerSpace"],
-         contact: ["SSBU GameHead - tai0391", "SSBU GameHead - tai0391"]
-    },
-    {
          title: ["Skywars","Guerres au ciel"],
          image: ["../../images/events/upcoming/mc.png","Minecraft Logo","Logo de Minecraft"],
          text: ["Skywars is a popular Minecraft minigame with a simple premise: fight until one player (or team) is left alive. The catch is that you begin on a small island. It's up to you to build bridges to attack other players, or walls to defend yourself.</br>If you're interested in participating, join our Discord and follow the gamehead's instructions!","Guerres au ciel est un minijeu populaire de Minecraft avec un simple but: se battre jusqu'à ce qu'il rest un joueur (ou une équipe) vivant(e). Le piège est qu'on commence sur une petite île. C'est à toi de bâtir des ponts pour attaquer d'autres joueurs, ou bâtir des murs pour te défendre.</br>Si tu t'intéresses à participer, joins-toi à notre Discord et suis les instructions du chef de jeu!"],
