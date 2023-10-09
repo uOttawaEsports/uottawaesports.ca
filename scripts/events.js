@@ -1,15 +1,6 @@
 // The website will display a maximum of six (6) events at a time. You can add more than six if you'd like to queue up the events for organizational purposes.
 // Events in closest proximity must be placed at the top of the object.
 const events = [
-    {
-         title: ["Skywars","Guerres au ciel"],
-         image: ["../../images/events/upcoming/mc.png","Minecraft Logo","Logo de Minecraft"],
-         text: ["Skywars is a popular Minecraft minigame with a simple premise: fight until one player (or team) is left alive. The catch is that you begin on a small island. It's up to you to build bridges to attack other players, or walls to defend yourself.</br>If you're interested in participating, join our Discord and follow the gamehead's instructions!","Guerres au ciel est un minijeu populaire de Minecraft avec un simple but: se battre jusqu'à ce qu'il rest un joueur (ou une équipe) vivant(e). Le piège est qu'on commence sur une petite île. C'est à toi de bâtir des ponts pour attaquer d'autres joueurs, ou bâtir des murs pour te défendre.</br>Si tu t'intéresses à participer, joins-toi à notre Discord et suis les instructions du chef de jeu!"],
-         date: ["Saturday, October 7, 2023","Samedi, 7 octobre, 2023"],
-         time: ["8:00PM","20h00"],
-         location: ["uOttawa Esports Discord","Discord d'uOttawa Esports"],
-         contact: ["Minecraft Gamehead - Dish","Chef de Jeu de Minecraft - Dish"],
-    },
     // {
     //     title: [],
     //     image: [],
