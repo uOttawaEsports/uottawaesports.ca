@@ -1,6 +1,42 @@
 // The website will display a maximum of six (6) events at a time. You can add more than six if you'd like to queue up the events for organizational purposes.
 // Events in closest proximity must be placed at the top of the object.
 const events = [
+    {
+        title: ["osu! In-House","Partie Interne d'osu!"],
+        image: ["../../images/events/upcoming/osu.png","osu! logo","Logo de osu!"],
+        text: ["A new osu! in-house is happening this week! Interested in playing? Join our Discord and sign up through the gamehead's form!","Une nouvelle partie interne d'osu! se passe cette semaine! Intéressé(e) à y participer? Joins-toi à notre Discord et inscris-toi à travers le formulaire du chef de jeu!"],
+        date: ["Tuesday, October 10, 2023","Mardi, 10 octobre, 2023"],
+        time: ["9:00PM","21h00"],
+        location: ["uOttawa Esports Discord","Discord d'uOttawa Esports"],
+        contact: ["osu! Gamehead - Glowrock","Chef de Jeu osu! - Glowrock"],
+   },
+    {
+         title: ["GGWP#41", "GGWP#41"],
+         image: ["../../images/events/upcoming/ssbu.png", "SSBU logo", "Logo de SSBU"],
+         text: ["Every week, Smash Ultimate fans come together to play in an in-person tournament at uOttawa. Both casual and competitive players alike join in and enjoy themselves, whether they wish to make friends, enjoy playing a game they like, or strive to be the best. To join, you can sign up through the form available on our Discord!", "Chaque semaine, les fans de Smash Ultimate se joignent en personne pour jouer un tournoi à uOttawa. Joueurs compétitifs et d’occasion viennent pour un moment de plaisir, que ce soit pour faire des amis, jouer à un jeu qu’ils aiment, ou être le meilleur. Pour t’y joindre, tu peux t’inscrire sur le formulaire disponible dans notre Discord!"],
+         date: ["Thursday, October 12, 2023", "Jeudi, 12 octobre, 2023"],
+         time: ["7:00 PM", "19h00"],
+         location: ["STEM107 - MakerSpace", "STEM107 - MakerSpace"],
+         contact: ["SSBU GameHead - tai0391", "SSBU GameHead - tai0391"]
+    },
+    {
+         title: ["uOttawa Esports x uOttawa Anime present : Pokemon Showdown Tournament! 2nd edition","uOttawa Esports x uOttawa Anime vous présente : tournoi de Pokemon Showdown! 2ème édition"],
+         image: ["../../images/events/upcoming/fss-1007.jpg","Physical Location","Endroit Présentiel"],
+         text: ["For the 2nd year in a row, uOttawa Esports and uOttawa Anime will collaborate together to bring to you : a Pokemon Showdown Tournament!</br>If you want to sign up, please make sure to read through our <a href='https://docs.google.com/document/d/1QUJzXasr1ls7Yn-hM0IU3_C6kZ2fBb6Q-aAYVX_8i20/edit?usp=sharing' rel='external' target='_blank'><b>rulebook</b></a> and join the uOttawa Esports and the uOttawa Anime Discords to enter the sign up form!","Pour une deuxième année consécutive, uOttawa Esports et uOttawa Anime collaborent pour vous apporter : un tournoi Pokemon Showdown !</br>Si tu souhaites t'inscrire, SVP t'assurer de bien lire le <a href='https://docs.google.com/document/d/10MmO49Ts81_-BFpEDjl33rzb_XJhedjq9-7ENA6P_Lk/edit?usp=sharing' rel='external' target='_blank'><b>livret des règles</b></a> et de joindre les Discords d'uOttawa Esports et d'uOttawa Anime pour remplir le formulaire d'inscription!"],
+         date: ["Friday, October 13, 2023","Vendredi, 13 octobre, 2023"],
+         time: ["5:00PM","17h00"],
+         location: ["Desmarais - DMS 1140","Desmarais - DMS 1140"],
+         contact: ["uOttawa Esports Discord, uOttawa Anime Discord","Discords d'uOttawa Esports et d'uOttawa Anime"],
+    },
+    {
+         title: ["Mario Kart 8 Deluxe tournament, 2nd edition","Tournoi de Mario Kart 8 Deluxe, 2ème édition"],
+         image: ["../../images/events/upcoming/general.png","Physical location","Endroit présentiel"],
+         text: ["Our Gameheads Tai and Liz have teamed up once again to bring you another Mario Kart 8 Deluxe Tournament! Last time, in April, we only invited students from uOttawa. This time, we're happy to extend the invitation to current students of Carleton University and Algonquin College.</br>Want to join in? Enter the uOttawa Esports server and sign up at the form provided in our announcement.<br><b>To ensure the event goes smoothly, we also need your help!</b> If you have any extra controllers with a copy of the game, as well as monitors that you can bring, <b>please enter it in the sign up form as well!</b>","Nos Chefs de Jeu Tai et Liz ont faite équipe de nouveau pour vous livrer un nouveau Tournoi de Mario Kart 8 Deluxe! La dernière fois en avril, le tournoi était ouvert seulement aux étudiant(e)s de l'université d'Ottawa. Cette-fois ci, on invite également les étudiant(e)s de l'université de Carleton et le collège Algonquin.</br>Tu veux y participer? Joins le Discord d'uOttawa Esports et inscris-toi dans le formulaire inclu dans notre annonce.<br><b>Pour assurer le bon déroulement de l'évènement, nous avions aussi besoin de ton aide!</b> Si tu possèdes des Switches supplémentaires avec une copie du jeu, ainsi que des écrans que tu peux apporter, <b>SVP les ajouter aussi dans le formulaire d'inscription!</b>"],
+         date: ["Saturday, October 15, 2023","Samedi, 15 octobre, 2023"],
+         time: ["2:00PM","14h00"],
+         location: ["STEM107 - MakerSpace","STEM107 - MakerSpace"],
+         contact: ["Event hosts - Tai & Liz","Hôtes de l'évènement - Tai & Liz"],
+    },
     // {
     //     title: [],
     //     image: [],
