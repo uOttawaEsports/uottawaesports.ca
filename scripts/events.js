@@ -2,15 +2,6 @@
 // Events in closest proximity must be placed at the top of the object.
 const events = [
     {
-         title: ["GGWP#41", "GGWP#41"],
-         image: ["../../images/events/upcoming/ssbu.png", "SSBU logo", "Logo de SSBU"],
-         text: ["Every week, Smash Ultimate fans come together to play in an in-person tournament at uOttawa. Both casual and competitive players alike join in and enjoy themselves, whether they wish to make friends, enjoy playing a game they like, or strive to be the best. To join, you can sign up through the form available on our Discord!", "Chaque semaine, les fans de Smash Ultimate se joignent en personne pour jouer un tournoi à uOttawa. Joueurs compétitifs et d’occasion viennent pour un moment de plaisir, que ce soit pour faire des amis, jouer à un jeu qu’ils aiment, ou être le meilleur. Pour t’y joindre, tu peux t’inscrire sur le formulaire disponible dans notre Discord!"],
-         date: ["Thursday, October 12, 2023", "Jeudi, 12 octobre, 2023"],
-         time: ["7:00 PM", "19h00"],
-         location: ["STEM107 - MakerSpace", "STEM107 - MakerSpace"],
-         contact: ["SSBU GameHead - tai0391", "SSBU GameHead - tai0391"]
-    },
-    {
          title: ["uOttawa Esports x uOttawa Anime present : Pokemon Showdown Tournament! 2nd edition","uOttawa Esports x uOttawa Anime vous présente : tournoi de Pokemon Showdown! 2ème édition"],
          image: ["../../images/events/upcoming/fss-1007.jpg","Physical Location","Endroit Présentiel"],
          text: ["For the 2nd year in a row, uOttawa Esports and uOttawa Anime will collaborate together to bring to you : a Pokemon Showdown Tournament!</br>If you want to sign up, please make sure to read through our <a href='https://docs.google.com/document/d/1QUJzXasr1ls7Yn-hM0IU3_C6kZ2fBb6Q-aAYVX_8i20/edit?usp=sharing' rel='external' target='_blank'><b>rulebook</b></a> and join the uOttawa Esports and the uOttawa Anime Discords to enter the sign up form!","Pour une deuxième année consécutive, uOttawa Esports et uOttawa Anime collaborent pour vous apporter : un tournoi Pokemon Showdown !</br>Si tu souhaites t'inscrire, SVP t'assurer de bien lire le <a href='https://docs.google.com/document/d/10MmO49Ts81_-BFpEDjl33rzb_XJhedjq9-7ENA6P_Lk/edit?usp=sharing' rel='external' target='_blank'><b>livret des règles</b></a> et de joindre les Discords d'uOttawa Esports et d'uOttawa Anime pour remplir le formulaire d'inscription!"],
