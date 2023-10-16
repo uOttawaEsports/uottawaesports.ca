@@ -122,16 +122,6 @@ let execs = {
         desc: ["N/A", "N/A"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
-    "Daanish Khan": {
-        name: "Daanish Khan",
-        image: "../../../images/execs/2023-2024/Daanish_Khan.png",
-        role: ["<span class='fw-bold'>Game Head</span> <br /> Minecraft", "<span class='fw-bold'>Chef de jeu</span> <br /> Minecraft"],
-        prog: ["Software Engineering", "Génie logiciel"],
-        year: ["4th Year", "4e année"],
-        game: "Minecraft, Pokemon, League, Monster Hunter, OMORI",
-        desc: ["Hi! I'm excited to be apart of the uOttawa Esports team. My hobbies other than games are playing guitar and programming :)", "Bonjour! Je suis joyeux de faire partie de l'équipe d'Esports uOttawa. Mes passe-temps autres que les jeux vidéo sont la guitare et la programmation :)"],
-        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-    },
     "Jacob Pilon": {
         name: "Jacob Pilon",
         image: "../../../images/execs/2023-2024/Jacob_Pilon.jpg",
@@ -140,6 +130,16 @@ let execs = {
         year: ["4th Year", "4e année"],
         game: "Destiny 2, Overwatch 2, Civ5, Rimworld",
         desc: ["I like to keep myself busy with keeping active, especially during the summer. During the winter I spend most of my days grinding out games and collecting flags. Since I'm in Software engineering I hope to get into game dev as either a career or just a hobby :)", "Je préfère me garder occupé en restant actif, surtout durant l'été. Durant l'hiver, je passe la plupart de mes journées à jouer sans arrêt et à collectionner des drapeaux. Étant en génie logiciel, je voudrais faire du développement de jeux soit comme carrière ou comme passe-temps :)"],
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "Daanish Khan": {
+        name: "Daanish Khan",
+        image: "../../../images/execs/2023-2024/Daanish_Khan.png",
+        role: ["<span class='fw-bold'>Game Head</span> <br /> Minecraft", "<span class='fw-bold'>Chef de jeu</span> <br /> Minecraft"],
+        prog: ["Software Engineering", "Génie logiciel"],
+        year: ["4th Year", "4e année"],
+        game: "Minecraft, Pokemon, League, Monster Hunter, OMORI",
+        desc: ["Hi! I'm excited to be apart of the uOttawa Esports team. My hobbies other than games are playing guitar and programming :)", "Bonjour! Je suis joyeux de faire partie de l'équipe d'Esports uOttawa. Mes passe-temps autres que les jeux vidéo sont la guitare et la programmation :)"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Shaun Francis": {
