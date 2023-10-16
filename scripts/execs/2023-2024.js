@@ -97,7 +97,7 @@ let execs = {
         image: "../../../images/execs/2023-2024/Wing Chi Erica Chan.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Apex Legends", "<span class='fw-bold'>Chef de jeu</span> <br /> Apex Legends"],
         prog: ["BA Honours Psychology", "Baccalauréat en psychologie spécialisé"],
-        year: ["1st Year", "1ère année"],
+        year: ["1st Year", "1e année"],
         game: "Stardew Valley, Apex Legends, Valorant, and Omori",
         desc: ["I like reading manga and collecting plushies.", "J'aime lire des mangas et collectionner des peluches."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 75%;"
@@ -200,6 +200,16 @@ let execs = {
         year: ["N/A", "N/A"],
         game: "N/A",
         desc: ["N/A", "N/A"],
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
+    "Miles Besignano": {
+        name: "Miles Besignano",
+        image: "../../../images/execs/2023-2024/Miles Besignano.jpeg",
+        role: ["<span class='fw-bold'>Game Head</span> <br /> Super Smash Bros. Melee", "<span class='fw-bold'>Chef de jeu</span> <br /> Super Smash Bros. Melee"],
+        prog: ["English", "Anglais"],
+        year: ["1st Year", "1e année"],
+        game: "Super Smash Bros Melee, Rainbow Six Siege, Final Fantasy 6,  Street Fighter 5, Titanfall 2",
+        desc: ["Hey, I’m Miles. I like melee, it’s pretty cool. If you want to play or have any ideas for Melee in the club, then hmu.", "Hé, je suis Miles. J’aime Melee, c'est plutôt cool. Si tu veux y jouer ou si t'as des idées pour Melee au sein du club, laisses-moi savoir."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Tyler Lindsay": {
