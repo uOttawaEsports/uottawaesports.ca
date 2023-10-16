@@ -1,15 +1,15 @@
 // The website will display a maximum of six (6) events at a time. You can add more than six if you'd like to queue up the events for organizational purposes.
 // Events in closest proximity must be placed at the top of the object.
 const events = [
-    //{
-    //     title: ["Annual General Meeting","Assemblée générale annuelle"],
-    //     image: ["../../images/events/upcoming/general.png","uOttawa Esports logo","Logo d'uOttawa Esports"],
-    //     text: ["It’s that time of the year again: our Annual General Meeting!</br>Come meet the executive team, play some games and see what we have planned for the rest of the year.</br><b>We will be streaming League Worlds game! There will also be give aways by our sponsors, raffles, food and more!</b>","C'est encore ce moment de l'année: notre Assemblée générale annuelle!</br>Venez rencontrer notre équipe exécutive, jouer à des jeux et voir ce que nous avons en réserve pour l'année à venir.</br><b>Nous allons diffuser une partie du Mondial de League ! Il y aura également des tirages au sort de nos commanditaires, de la nourriture, et encore plus!</b>"],
-    //     date: ["Friday, October 20, 2023","Vendredi, octobre 20, 2023"],
-    //     time: ["6:00PM-9:00PM","18h à 21h"],
-    //     location: ["<a href='https://www.classfind.com/ottawa/room/MRT211' rel='external' target='_blank'>Morrisset Hall, room 211</a>","<a href='https://www.classfind.com/ottawa/room/MRT211' rel='external' target='_blank'>Pavillon Morrisset, salle 211</a>"],
-    //     contact: ["uOttawa Esports Discord","Discord d'uOttawa Esports"],
-    //},
+    {
+         title: ["Annual General Meeting","Assemblée générale annuelle"],
+         image: ["../../images/events/upcoming/general.png","uOttawa Esports logo","Logo d'uOttawa Esports"],
+         text: ["It’s that time of the year again: our Annual General Meeting!</br>Come meet the executive team, play some games and see what we have planned for the rest of the year.</br><b>We will be streaming League Worlds game! There will also be give aways by our sponsors, raffles, food and more!</b>","C'est encore ce moment de l'année: notre Assemblée générale annuelle!</br>Venez rencontrer notre équipe exécutive, jouer à des jeux et voir ce que nous avons en réserve pour l'année à venir.</br><b>Nous allons diffuser une partie du Mondial de League ! Il y aura également des tirages au sort de nos commanditaires, de la nourriture, et encore plus!</b>"],
+         date: ["Friday, October 20, 2023","Vendredi, octobre 20, 2023"],
+         time: ["6:00PM-9:00PM","18h à 21h"],
+         location: ["<a href='https://www.classfind.com/ottawa/room/MRT211' rel='external' target='_blank'>Morrisset Hall, room 211</a>","<a href='https://www.classfind.com/ottawa/room/MRT211' rel='external' target='_blank'>Pavillon Morrisset, salle 211</a>"],
+         contact: ["uOttawa Esports Discord","Discord d'uOttawa Esports"],
+    },
     // {
     //     title: ["event title ENG","event title FR"],
     //     image: ["image path here","logo ENG","logo FR"],
