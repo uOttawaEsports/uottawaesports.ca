@@ -92,14 +92,14 @@ let execs = {
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2023-2024/backgrounds/elaine_tran.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     /* Game Heads */
-    "VACANT": {
-        name: "VACANT",
-        image: "../../../images/execs/placeholder.png",
+    "Wing Chi Erica Chan": {
+        name: "Wing Chi Erica Chan",
+        image: "../../../images/execs/2023-2024/Wing Chi Erica Chan.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Apex Legends", "<span class='fw-bold'>Chef de jeu</span> <br /> Apex Legends"],
-        prog: ["N/A", "N/A"],
-        year: ["N/A", "N/A"],
-        game: "N/A",
-        desc: ["N/A", "N/A"],
+        prog: ["BA Honours Psychology", "Baccalauréat en psychologie spécialisé"],
+        year: ["1st Year", "1ère année"],
+        game: "Stardew Valley, Apex Legends, Valorant, and Omori",
+        desc: ["I like reading manga and collecting plushies.", "J'aime lire des mangas et collectionner des peluches."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 75%;"
     },
     "VACANT": {
