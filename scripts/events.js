@@ -1,32 +1,23 @@
 // The website will display a maximum of six (6) events at a time. You can add more than six if you'd like to queue up the events for organizational purposes.
 // Events in closest proximity must be placed at the top of the object.
 const events = [
-    {
-         title: ["uOttawa Esports x uOttawa Anime present : Pokemon Showdown Tournament! 2nd edition","uOttawa Esports x uOttawa Anime vous présente : tournoi de Pokemon Showdown! 2ème édition"],
-         image: ["../../images/events/upcoming/fss-1007.jpg","Physical Location","Endroit Présentiel"],
-         text: ["For the 2nd year in a row, uOttawa Esports and uOttawa Anime will collaborate together to bring to you : a Pokemon Showdown Tournament!</br>If you want to sign up, please make sure to read through our <a href='https://docs.google.com/document/d/1QUJzXasr1ls7Yn-hM0IU3_C6kZ2fBb6Q-aAYVX_8i20/edit?usp=sharing' rel='external' target='_blank'><b>rulebook</b></a> and join the uOttawa Esports and the uOttawa Anime Discords to enter the sign up form!","Pour une deuxième année consécutive, uOttawa Esports et uOttawa Anime collaborent pour vous apporter : un tournoi Pokemon Showdown !</br>Si tu souhaites t'inscrire, SVP t'assurer de bien lire le <a href='https://docs.google.com/document/d/10MmO49Ts81_-BFpEDjl33rzb_XJhedjq9-7ENA6P_Lk/edit?usp=sharing' rel='external' target='_blank'><b>livret des règles</b></a> et de joindre les Discords d'uOttawa Esports et d'uOttawa Anime pour remplir le formulaire d'inscription!"],
-         date: ["Friday, October 13, 2023","Vendredi, 13 octobre, 2023"],
-         time: ["5:00PM","17h00"],
-         location: ["Desmarais - DMS 1140","Desmarais - DMS 1140"],
-         contact: ["uOttawa Esports Discord, uOttawa Anime Discord","Discords d'uOttawa Esports et d'uOttawa Anime"],
-    },
-    {
-         title: ["Mario Kart 8 Deluxe tournament, 2nd edition","Tournoi de Mario Kart 8 Deluxe, 2ème édition"],
-         image: ["../../images/events/upcoming/general.png","Physical location","Endroit présentiel"],
-         text: ["Our Gameheads Tai and Liz have teamed up once again to bring you another Mario Kart 8 Deluxe Tournament! Last time, in April, we only invited students from uOttawa. This time, we're happy to extend the invitation to current students of Carleton University and Algonquin College.</br>Want to join in? Enter the uOttawa Esports server and sign up at the form provided in our announcement.<br><b>To ensure the event goes smoothly, we also need your help!</b> If you have any extra controllers with a copy of the game, as well as monitors that you can bring, <b>please enter it in the sign up form as well!</b>","Nos Chefs de Jeu Tai et Liz ont faite équipe de nouveau pour vous livrer un nouveau Tournoi de Mario Kart 8 Deluxe! La dernière fois en avril, le tournoi était ouvert seulement aux étudiant(e)s de l'université d'Ottawa. Cette-fois ci, on invite également les étudiant(e)s de l'université de Carleton et le collège Algonquin.</br>Tu veux y participer? Joins le Discord d'uOttawa Esports et inscris-toi dans le formulaire inclu dans notre annonce.<br><b>Pour assurer le bon déroulement de l'évènement, nous avions aussi besoin de ton aide!</b> Si tu possèdes des Switches supplémentaires avec une copie du jeu, ainsi que des écrans que tu peux apporter, <b>SVP les ajouter aussi dans le formulaire d'inscription!</b>"],
-         date: ["Saturday, October 15, 2023","Samedi, 15 octobre, 2023"],
-         time: ["2:00PM","14h00"],
-         location: ["STEM107 - MakerSpace","STEM107 - MakerSpace"],
-         contact: ["Event hosts - Tai & Liz","Hôtes de l'évènement - Tai & Liz"],
-    },
+    //{
+    //     title: ["Annual General Meeting","Assemblée générale annuelle"],
+    //     image: ["../../images/events/upcoming/general.png","uOttawa Esports logo","Logo d'uOttawa Esports"],
+    //     text: ["It’s that time of the year again: our Annual General Meeting!</br>Come meet the executive team, play some games and see what we have planned for the rest of the year.</br><b>We will be streaming League Worlds game! There will also be give aways by our sponsors, raffles, food and more!</b>","C'est encore ce moment de l'année: notre Assemblée générale annuelle!</br>Venez rencontrer notre équipe exécutive, jouer à des jeux et voir ce que nous avons en réserve pour l'année à venir.</br><b>Nous allons diffuser une partie du Mondial de League ! Il y aura également des tirages au sort de nos commanditaires, de la nourriture, et encore plus!</b>"],
+    //     date: ["Friday, October 20, 2023","Vendredi, octobre 20, 2023"],
+    //     time: ["6:00PM-9:00PM","18h à 21h"],
+    //     location: ["<a href='https://www.classfind.com/ottawa/room/MRT211' rel='external' target='_blank'>Morrisset Hall, room 211</a>","<a href='https://www.classfind.com/ottawa/room/MRT211' rel='external' target='_blank'>Pavillon Morrisset, salle 211</a>"],
+    //     contact: ["uOttawa Esports Discord","Discord d'uOttawa Esports"],
+    //},
     // {
-    //     title: [],
-    //     image: [],
-    //     text: [],
-    //     date: [],
-    //     time: [],
-    //     location: [],
-    //     contact: [],
+    //     title: ["event title ENG","event title FR"],
+    //     image: ["image path here","logo ENG","logo FR"],
+    //     text: ["desc ENG","desc FR"],
+    //     date: ["day with week ENG","day with week FR"],
+    //     time: ["AM/PM","24HR"],
+    //     location: ["location ENG","location FR"],
+    //     contact: ["gamehead/host ENG","gamehead/host FR"],
     // },
     // {
     //     title: ["GGWP", "GGWP"],
