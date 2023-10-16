@@ -132,6 +132,16 @@ let execs = {
         desc: ["I like to keep myself busy with keeping active, especially during the summer. During the winter I spend most of my days grinding out games and collecting flags. Since I'm in Software engineering I hope to get into game dev as either a career or just a hobby :)", "Je préfère me garder occupé en restant actif, surtout durant l'été. Durant l'hiver, je passe la plupart de mes journées à jouer sans arrêt et à collectionner des drapeaux. Étant en génie logiciel, je voudrais faire du développement de jeux soit comme carrière ou comme passe-temps :)"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
+    "Gabrielle Tao": {
+        name: "Gabrielle Tao",
+        image: "../../../images/execs/2023-2024/Gabrielle Tao.png",
+        role: ["<span class='fw-bold'>Game Head</span> <br /> DOTA 2", "<span class='fw-bold'>Chef de jeu</span> <br /> DOTA 2"],
+        prog: ["Honours Psychology","Baccalauréat en psychologie spécialisé"],
+        year: ["1st Year","1e année"],
+        game: "Dota 2, Stardew Valley, Genshin",
+        desc: ["Yo I’m Pohohoro~ Aside from feeding in DOTA2, I quite enjoy crochet, pottery, hiking and some good music. Here are a few of my favourite things!</br>top 3 animes:<ul><li>Hunter x Hunter</li><li>Samurai Champloo</li><li>Wolf Children</li></ul>top 2 songs:<ul><li>Stella By Starlight by Ella Fitzgerald</li><li>Black Orpheus by Paul Desmond</li></ul>Favourite DOTA2 hero: JAKIRO!", "Yo je suis Pohohoro~ Apart de commettre des actes de sabotage en DOTA 2, j'aime bien le crochet, la poterie, les randonnées et de la bonne musique. Voici quelques-unes de mes choses préférées!</br>top 3 animes:<ul><li>Hunter x Hunter</li><li>Samurai Champloo</li><li>Wolf Children</li></ul>top 2 chansons:<ul><li>Stella By Starlight by Ella Fitzgerald</li><li>Black Orpheus by Paul Desmond</li></ul>Héro favori de DOTA2: JAKIRO!"],
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2023-2024/backgrounds/Gabrielle_Tao.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
     "Daanish Khan": {
         name: "Daanish Khan",
         image: "../../../images/execs/2023-2024/Daanish_Khan.png",
