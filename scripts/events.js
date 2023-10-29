@@ -1,24 +1,6 @@
 // The website will display a maximum of six (6) events at a time. You can add more than six if you'd like to queue up the events for organizational purposes.
 // Events in closest proximity must be placed at the top of the object.
 const events = [
-    {
-         title: ["GGWP #42", "GGWP #42"],
-         image: ["../../images/events/upcoming/ssbu.png", "SSBU logo", "Logo de SSBU"],
-         text: ["Every week, Smash Ultimate fans come together to play in an in-person tournament at uOttawa. Both casual and competitive players alike join in and enjoy themselves, whether they wish to make friends, enjoy playing a game they like, or strive to be the best. To join, you can sign up through the form available on our Discord!", "Chaque semaine, les fans de Smash Ultimate se joignent en personne pour jouer un tournoi à uOttawa. Joueurs compétitifs et d’occasion viennent pour un moment de plaisir, que ce soit pour faire des amis, jouer à un jeu qu’ils aiment, ou être le meilleur. Pour t’y joindre, tu peux t’inscrire sur le formulaire disponible dans notre Discord!"],
-         date: ["Thursday, October 19, 2023", "Jeudi, 19 octobre, 2023"],
-         time: ["7:00 PM", "19h00"],
-         location: ["STEM107 - MakerSpace", "STEM107 - MakerSpace"],
-         contact: ["SSBU GameHead - Tai", "SSBU GameHead - Tai"]
-    },
-    {
-         title: ["Annual General Meeting","Assemblée générale annuelle"],
-         image: ["../../images/events/upcoming/general.png","uOttawa Esports logo","Logo d'uOttawa Esports"],
-         text: ["It is that time of the year again: our Annual General Meeting!</br>Come meet the executive team, play some games and see what we have planned for the rest of the year.</br><b>We will be streaming League Worlds game! There will also be giveaways by our sponsors, raffles, food and more!</b> If you want to join us, sign up through the announcement on our Discord server!","C'est encore ce moment de l'année: notre Assemblée générale annuelle!</br>Venez rencontrer notre équipe exécutive, jouer à des jeux et voir ce que nous avons en réserve pour l'année à venir.</br><b>Nous allons diffuser une partie du Mondial de League ! Il y aura également des tirages au sort de nos commanditaires, de la nourriture, et encore plus!</b> Si tu veux nous joindre, inscris-toi sur l'annonce dans notre serveur Discord!"],
-         date: ["Friday, October 20, 2023","Vendredi, octobre 20, 2023"],
-         time: ["6:00PM-9:00PM","18h à 21h"],
-         location: ["<a href='https://www.classfind.com/ottawa/room/MRT211' rel='external' target='_blank'>Morrisset Hall, room 211</a>","<a href='https://www.classfind.com/ottawa/room/MRT211' rel='external' target='_blank'>Pavillon Morrisset, salle 211</a>"],
-         contact: ["uOttawa Esports Discord","Discord d'uOttawa Esports"],
-    },
     // {
     //     title: ["event title ENG","event title FR"],
     //     image: ["image path here","logo ENG","logo FR"],
