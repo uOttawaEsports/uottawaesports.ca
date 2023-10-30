@@ -1,6 +1,15 @@
 // The website will display a maximum of six (6) events at a time. You can add more than six if you'd like to queue up the events for organizational purposes.
 // Events in closest proximity must be placed at the top of the object.
 const events = [
+    {
+         title: ["GGWP#44", "GGWP#44"],
+         image: ["../../images/events/upcoming/ssbu.png", "SSBU logo", "Logo de SSBU"],
+         text: ["Every week, Smash Ultimate fans come together to play in an in-person tournament at uOttawa. Both casual and competitive players alike join in and enjoy themselves, whether they wish to make friends, enjoy playing a game they like, or strive to be the best. To join, you can sign up through the form available on our Discord!", "Chaque semaine, les fans de Smash Ultimate se joignent en personne pour jouer un tournoi à uOttawa. Joueurs compétitifs et d’occasion viennent pour un moment de plaisir, que ce soit pour faire des amis, jouer à un jeu qu’ils aiment, ou être le meilleur. Pour t’y joindre, tu peux t’inscrire sur le formulaire disponible dans notre Discord!"],
+         date: ["Thursday, November 2nd, 2023", "Jeudi, 2 novembre, 2023"],
+         time: ["7:00 PM", "19h00"],
+         location: ["STEM107 - MakerSpace", "STEM107 - MakerSpace"],
+         contact: ["SSBU GameHead - Tai", "SSBU GameHead - Tai"]
+    },
     // {
     //     title: ["event title ENG","event title FR"],
     //     image: ["image path here","logo ENG","logo FR"],
