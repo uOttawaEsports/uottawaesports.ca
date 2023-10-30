@@ -202,15 +202,15 @@ let execs = {
         desc: ["I've been Gamehead since May of 2020, and am the longest continuous serving Gamehead of any game in our club's history. I have been the captain, IGL, and entry for the R6 Garnet team for 3 years now.", "Je suis chef de jeu depuis mai 2020, et je suis le chef de jeu qui est resté le plus longtemps en poste dans l'histoire de notre club, tous jeux confondus. Je suis le capitaine, le leader en jeu, et le “entry” pour l’équipe Garnet de R6 depuis maintenant trois ans."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
-    "VACANT": {
-        name: "VACANT",
-        image: "../../../images/execs/placeholder.png",
+    "Zacharie LeBrun-LeMay": {
+        name: "Zacharie LeBrun-LeMay",
+        image: "../../../images/execs/2023-2024/Zacharie LeBrun-LeMay.jpeg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Rocket League", "<span class='fw-bold'>Chef de jeu</span> <br /> Rocket League"],
-        prog: ["N/A", "N/A"],
-        year: ["N/A", "N/A"],
-        game: "N/A",
-        desc: ["N/A", "N/A"],
-        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        prog: ["Criminology in French", "Criminologie, français"],
+        year: ["4th Year", "4e année"],
+        game: "Rocket League and Valorant",
+        desc: ["I love video games! I’ve tried out almost every free to play game in our Discord but always come back to Rocket League and Valorant. Outside of video games, I like building and collecting legos (especially Star Wars). I’m also the beatboxer for one of uOttawa’s a capella groups called achezzo :)", "J'aime les jeux vidéo! J'ai essayé presque tous les jeux gratuits dans notre discord, mais je reviens toujours à Rocket League et Valorant. Autre que les jeux vidéo, j'aime bien construire et collectionner des Legos (notamment Star Wars). Je suis également le beatboxer d'un des groupes a capella de l'université d'Ottawa appelé achezzo :)"],
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2023-2024/backgrounds/Zacharie_LeBrun-LeMay.jpeg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Miles Besignano": {
         name: "Miles Besignano",
