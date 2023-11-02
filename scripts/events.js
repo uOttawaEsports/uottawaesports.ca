@@ -8,7 +8,16 @@ const events = [
          date: ["Thursday, November 2nd, 2023", "Jeudi, 2 novembre, 2023"],
          time: ["7:00 PM", "19h00"],
          location: ["STEM107 - MakerSpace", "STEM107 - MakerSpace"],
-         contact: ["SSBU GameHead - Tai", "SSBU GameHead - Tai"]
+         contact: ["SSBU GameHead - Tai", "Chef de Jeu SSBU - Tai"]
+    },
+    {
+         title: ["Pokemon Go community day meetup","Réunion journée communautaire de Pokemon Go"],
+         image: ["../../images/events/upcoming/pokemon-go.png","Pokemon Go logo","Logo de Pokemon Go"],
+         text: ["Pokemon GO is having a community day featuring Wooper and its Paldea form. During this event, Shiny Wooper will be more likely to appear and you can get some extra stuff for catching more pokemon in general.<br>Our pokemon gamehead thought this would be a great way to meet each other in-person and catch pokemon, battle gyms and do some raids together too.<br>While this on-campus event has a set time, <b>the in-game event continues until 5PM</b> so whoever wants to stick around after and continue to hang out can do so.","Pokémon GO organise une journée communautaire qui met en vedette Axoloto (Wooper) dans sa forme de Paldea. Pendant cet événement, les Axolotos chromatiques (shiny) auront plus de chance d'apparaître et vous pourrez obtenir des objets supplémentaires en attrapant plus de pokémons en général.<br>Notre chef de jeu Pokemon trouve que cela pourrait être une excellente façon de se rencontrer en personne et d'attraper des pokémons, défier des gyms, et faire des raids ensemble.<br>Même si la réunion sur campus est planifiée pour le temps indiqué, l'événement du jeu se terminera à 17h alors vous êtes les bienvenus à rester si vous en avez envie."],
+         date: ["Sunday, November 5, 2023","dimanche, 5 novembre, 2023"],
+         time: ["2-3:30PM","14h-15h30"],
+         location: ["Front of uOttawa train station","En face de la station de train d'uOttawa"],
+         contact: ["Pokemon Gamehead - Key","Chef de Jeu Pokemon - Key"],
     },
     // {
     //     title: ["event title ENG","event title FR"],
