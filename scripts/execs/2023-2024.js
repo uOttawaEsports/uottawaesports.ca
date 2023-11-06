@@ -192,6 +192,16 @@ let execs = {
         desc: ["Hi, I'm Janica, but you can call me Jay! I used to play for Overwatch Grey during the 2022-2023 semester. Outside of playing video games, I love reading books, watching Criminal Minds, and drinking tea. My favourite genre to read is fantasy, and I have a shih-poo dog named Toast (who is far too spoiled). I look forward to meeting all of you in the upcoming comp tryouts and future Overwatch 2 events!", "Salut, je suis Janica, mais vous pouvez m’appeller Jay! J’ai joué pour notre équipe Overwatch Grey durant le semestre 2022-2023. En dehors des jeux vidéo, j’aime lire les livres, regarder Criminal Minds, et boire du thé. Mon genre littéraire préféré est le genre fantastique, et j’ai un shih-poo nommé Toast (qui est beaucoup trop gâté). J’ai hâte de vous rencontrer aux prochains essais compétitifs et dans les futurs évènements Overwatch 2!"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2023-2024/backgrounds/janica_adame.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
+    "Keynaan Ismail": {
+        name: "Keynaan Ismail",
+        image: "../../../images/execs/2023-2024/Keynaan.jpg",
+        role: ["<span class='fw-bold'>Game Head</span> <br /> Pokemon", "<span class='fw-bold'>Chef de jeu</span> <br /> Pokemon"],
+        prog: ["Computer Science", "Informatique"],
+        year: ["4th Year", "4e année"],
+        game: "Pokemon, Super Smash bros, Halo, Rocket League, Wii Sports and Lego Star Wars: The Complete Saga",
+        desc: ["Hi my name is Keynaan or Key for short. I've been gaming ever since I was a little lad with Pokemon being one of my very first games that i still love today. I also like watching anime and movies with One Piece being one of my favorites. I've been in a bunch of competitive scenes like Pokemon, Smash Ultimate, Rocket league, Halo and more. But I really enjoy the casual side of games too.", "Bonjour, mon nom est Keynaan ou Key pour faire court. Je joue aux jeux vidéo depuis que je suis jeune bambin, avec Pokémon étant l'un des premiers jeux que j'ai touché que j'adore encore aujourd'hui. J'aime aussi voir des animes et des films, One Piece étant parmi mes favoris. J'ai été dans plusieurs scènes compétitives comme Pokemon, Smash Ultimate, Rocket League, Halo et plus. Mais j'aime bien le côté plus occasionel des jeux vidéo également."],
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2023-2024/backgrounds/Keynaan.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    },
     "Griffin Taylor": {
         name: "Griffin Taylor",
         image: "../../../images/execs/2023-2024/griffin_taylor.jpg",
