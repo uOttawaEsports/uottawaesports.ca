@@ -2,13 +2,22 @@
 // Events in closest proximity must be placed at the top of the object.
 const events = [
     {
-         title: ["Pokemon Go community day meetup","Réunion journée communautaire de Pokemon Go"],
-         image: ["../../images/events/upcoming/pokemon-go.png","Pokemon Go logo","Logo de Pokemon Go"],
-         text: ["Pokemon GO is having a community day featuring Wooper and its Paldea form. During this event, Shiny Wooper will be more likely to appear and you can get some extra stuff for catching more pokemon in general. Our pokemon gamehead thought this would be a great way to meet each other in-person and catch pokemon, battle gyms and do some raids together too!<br>While this on-campus event has a set time, <b>the in-game event continues until 5PM</b> so whoever wants to stick around after and continue to hang out can do so.","Pokémon GO organise une journée communautaire qui met en vedette Axoloto (Wooper) dans sa forme de Paldea. Pendant cet événement, les Axolotos chromatiques (shiny) auront plus de chance d'apparaître et vous pourrez obtenir des objets supplémentaires en attrapant plus de pokémons en général. Notre chef de jeu Pokemon trouve que cela pourrait être une excellente façon de se rencontrer en personne et d'attraper des pokémons, défier des gyms, et faire des raids ensemble!<br>Même si la réunion sur campus est planifiée pour le temps indiqué, l'événement du jeu se terminera à 17h alors vous êtes les bienvenus à rester si vous en avez envie."],
-         date: ["Sunday, November 5, 2023","dimanche, 5 novembre, 2023"],
-         time: ["2-3:30PM","14h-15h30"],
-         location: ["Front of uOttawa train station","En face de la station de train d'uOttawa"],
-         contact: ["Pokemon Gamehead - Key","Chef de Jeu Pokemon - Key"],
+         title: ["Canada-wide Hunger Games","Les Hunger Games pancanadiens"],
+         image: ["../../images/events/upcoming/mc.png","Minecraft Logo","logo de minecraft"],
+         text: ["Introducing the Canadian Cross-Collegiate Minecraft League (3CML)! They are an ever-growing network of Canadian universities and colleges that hosts Canada-wide Minecraft events! They are hosting their first-ever Canada-wide Hunger Games and we're joining in!<br>If you want to sign up, please join uOttawa Esports' Discord for all the information on our announcement. The deadline to sign up is November 9th at 11:59 PM.","J'ai le plaisir d'annoncer la Canadian Cross-Collegiate Minecraft League, une communauté grandissante d'universités et de collèges canadiens qui organisent des événements de Minecraft partout au Canada ! Ils organisent leur tout premierHunger Games pancanadien, et nous faisions de la partie!<br>Si t'as intérêt à t'inscrire, joins-toi à notre Discord pour toutes les informations dans notre annonce. La date limite pour s'inscrire est le 9 novembre à 23h59."],
+         date: ["Saturday, November 11, 2023","samedi, 11 novembre, 2023"],
+         time: ["9:00PM","21h00"],
+         location: ["Canadian Cross-Collegiate Minecraft League Discord Server","Serveur Discord de la Canadian Cross-Collegiate Minecraft League"],
+         contact: ["Minecraft gamehead - Dish","Chef de Jeu Minecraft - Dish"],
+    },
+    {
+         title: ["League Worlds 2023 Watch Party","Soirée de visionnement du Mondial 2023 de League"],
+         image: ["../../images/events/upcoming/fss-1007.jpg","In-person location","Endroit en présentiel"],
+         text: ["It is that time of the year again!<br>This year although League Worlds are being held in South Korea this will not stop us from doing a viewing party! Thanks to the generosity and help from Professor Thomas Burrelli we have secured a room for early morning on the day for League World Finals!<br>The event itself will start at 3am EST, but the room will be open to students since 12am. There will be snacks, Red Bull (to keep us awake) and some league related prizes. Participants are more than welcome to bring sleeping bags, blankets and come in comfortable clothes. It will be a long and exciting night.<br>To sign up, please join our Discord and enter through the form posted in our announcement!","C'est encore ce temps de l'année !<br>Cette année, même si le Mondial se tient en Corée du sud, cela ne nous empêchera pas d'organiser une soirée de visionnement ! Grâce à la générosité et à l'aide du Professeur Thomas Burrelli, nous avons pu réservé une salle tôt le matin la journée de la finale du Mondial de League !<br>L'événement en soi débutera à 3 am, mais la salle sera ouverte aux étudiants dès minuit. Il y aura des collations, du Red Bull (pour nous tenir éveillé) et quelques prix en lien à League.Vous êtes les bienvenus à apporter avec vous des sacs de couchage, des couvertures, et d'arriver en vêtements confortables. Ce sera une longue nuit très excitante!"],
+         date: ["Sunday, November 19, 2023","dimanche, 19 novembre, 2023"],
+         time: ["12-7AM","minuit à 7h"],
+         location: ["FTX 302","FTX 302"],
+         contact: ["uOttawa Esports Discord","Discord Esports uOttawa"],
     },
     // {
     //     title: ["event title ENG","event title FR"],
