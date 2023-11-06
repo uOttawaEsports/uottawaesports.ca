@@ -29,6 +29,15 @@ const events = [
          contact: ["Minecraft gamehead - Dish","Chef de Jeu Minecraft - Dish"],
     },
     {
+         title: ["Rocket League 6mans","6mans de Rocket League"],
+         image: ["../../images/events/upcoming/rl.png","Rocket League logo","logo de Rocket League"],
+         text: ["6mans is back soon!!!<br>Our Rocket League gamehead hosts in-houses every once in a while! If you're interested, please join our Discord server and follow the gamehead's instructions.","6mans est de retour bientôt!!!<br>Notre chef de jeu de Rocket League organise des parties internes de temps à autre! Si tu t'y intéresses, S.V.P. joins-toi à notre Discord et suis les instructions du chef de jeu."],
+         date: ["Friday, November 17, 2023","vendredi, 17 novembre, 2023"],
+         time: ["Between 7-9PM","Entre 19h et 21h"],
+         location: ["uOttawa Esports Discord","Discord uOttawa Esports"],
+         contact: ["Rocket League gamehead - Zefex","Chef de Jeu Rocket League - Zefex"],
+    },
+    {
          title: ["League Worlds 2023 Watch Party","Soirée de visionnement du Mondial 2023 de League"],
          image: ["../../images/events/upcoming/fss-1007.jpg","In-person location","Endroit en présentiel"],
          text: ["It is that time of the year again!<br>This year although League Worlds are being held in South Korea this will not stop us from doing a viewing party! Thanks to the generosity and help from Professor Thomas Burrelli we have secured a room for early morning on the day for League World Finals!<br>The event itself will start at 3am EST, but the room will be open to students since 12am. There will be snacks, Red Bull (to keep us awake) and some league related prizes. Participants are more than welcome to bring sleeping bags, blankets and come in comfortable clothes. It will be a long and exciting night.<br>To sign up, please join our Discord and enter through the form posted in our announcement!","C'est encore ce temps de l'année !<br>Cette année, même si le Mondial se tient en Corée du sud, cela ne nous empêchera pas d'organiser une soirée de visionnement ! Grâce à la générosité et à l'aide du Professeur Thomas Burrelli, nous avons pu réservé une salle tôt le matin la journée de la finale du Mondial de League !<br>L'événement en soi débutera à 3 am, mais la salle sera ouverte aux étudiants dès minuit. Il y aura des collations, du Red Bull (pour nous tenir éveillé) et quelques prix en lien à League.Vous êtes les bienvenus à apporter avec vous des sacs de couchage, des couvertures, et d'arriver en vêtements confortables. Ce sera une longue nuit très excitante!"],
