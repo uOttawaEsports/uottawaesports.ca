@@ -11,6 +11,15 @@ const events = [
          contact: ["osu! gamehead - Glowrock","chef de jeu osu! - Glowrock"],
     },
     {
+         title: ["GGWP#45","GGWP#45"],
+         image: ["../../images/events/upcoming/ssbu.png", "SSBU logo", "Logo de SSBU"],
+         text: ["Every week, Smash Ultimate fans come together to play in an in-person tournament at uOttawa. Both casual and competitive players alike join in and enjoy themselves, whether they wish to make friends, enjoy playing a game they like, or strive to be the best. To join, you can sign up through the form available on our Discord!", "Chaque semaine, les fans de Smash Ultimate se joignent en personne pour jouer un tournoi à uOttawa. Joueurs compétitifs et d’occasion viennent pour un moment de plaisir, que ce soit pour faire des amis, jouer à un jeu qu’ils aiment, ou être le meilleur. Pour t’y joindre, tu peux t’inscrire sur le formulaire disponible dans notre Discord!"],
+         date: ["Thursday, November 9, 2023", "jeudi, 9 novembre, 2023"],
+         time: ["7:00 PM", "19h00"],
+         location: ["STEM107 - MakerSpace", "STEM107 - MakerSpace"],
+         contact: ["SSBU GameHead - Tai", "SSBU GameHead - Tai"]
+    },
+    {
          title: ["Canada-wide Hunger Games","Les Hunger Games pancanadiens"],
          image: ["../../images/events/upcoming/mc.png","Minecraft Logo","logo de minecraft"],
          text: ["Introducing the Canadian Cross-Collegiate Minecraft League (3CML)! They are an ever-growing network of Canadian universities and colleges that hosts Canada-wide Minecraft events! They are hosting their first-ever Canada-wide Hunger Games and we're joining in!<br>If you want to sign up, please join uOttawa Esports' Discord for all the information on our announcement. The deadline to sign up is November 9th at 11:59 PM.","J'ai le plaisir d'annoncer la Canadian Cross-Collegiate Minecraft League, une communauté grandissante d'universités et de collèges canadiens qui organisent des événements de Minecraft partout au Canada ! Ils organisent leur tout premierHunger Games pancanadien, et nous faisions de la partie!<br>Si t'as intérêt à t'inscrire, joins-toi à notre Discord pour toutes les informations dans notre annonce. La date limite pour s'inscrire est le 9 novembre à 23h59."],
