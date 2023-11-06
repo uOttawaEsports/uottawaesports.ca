@@ -2,6 +2,15 @@
 // Events in closest proximity must be placed at the top of the object.
 const events = [
     {
+         title: ["osu! In-House","Partie Interne d'osu!"],
+         image: ["../../images/events/upcoming/osu.png","osu! logo","logo d'osu!"],
+         text: ["Every two weeks, our osu! gamehead hosts an in-house Tuesday evenings for casual players and fans of the rythm game to join in and have fun.<br>Want in? Join our discord and sign up through our osu! gamehead's announcement form!","À toutes les deux semaines, notre chef de jeu d'osu! organise une partie interne les mardis en soirée pour que les joueurs occasionels et les fans de ce jeu de rythme se réunissent pour s'amuser.<br>Tu veux t'y mettre de la partie? Joins-toi à notre Discord et inscris-toi dans le formulaire se trouvant dans l'annonce du chef de jeu!"],
+         date: ["Tuesday, November 7, 2023","mardi, 7 novembre, 2023"],
+         time: ["9:00PM","21h00"],
+         location: ["uOttawa Esports Discord","Discord d'uOttawa Esports"],
+         contact: ["osu! gamehead - Glowrock","chef de jeu osu! - Glowrock"],
+    },
+    {
          title: ["Canada-wide Hunger Games","Les Hunger Games pancanadiens"],
          image: ["../../images/events/upcoming/mc.png","Minecraft Logo","logo de minecraft"],
          text: ["Introducing the Canadian Cross-Collegiate Minecraft League (3CML)! They are an ever-growing network of Canadian universities and colleges that hosts Canada-wide Minecraft events! They are hosting their first-ever Canada-wide Hunger Games and we're joining in!<br>If you want to sign up, please join uOttawa Esports' Discord for all the information on our announcement. The deadline to sign up is November 9th at 11:59 PM.","J'ai le plaisir d'annoncer la Canadian Cross-Collegiate Minecraft League, une communauté grandissante d'universités et de collèges canadiens qui organisent des événements de Minecraft partout au Canada ! Ils organisent leur tout premierHunger Games pancanadien, et nous faisions de la partie!<br>Si t'as intérêt à t'inscrire, joins-toi à notre Discord pour toutes les informations dans notre annonce. La date limite pour s'inscrire est le 9 novembre à 23h59."],
@@ -21,7 +30,7 @@ const events = [
     },
     // {
     //     title: ["event title ENG","event title FR"],
-    //     image: ["image path here","logo ENG","logo FR"],
+    //     image: ["../../image path here","logo ENG","logo FR"],
     //     text: ["desc ENG","desc FR"],
     //     date: ["day with week ENG","day with week FR"],
     //     time: ["AM/PM","24HR"],
