@@ -102,14 +102,14 @@ let execs = {
         desc: ["I like reading manga and collecting plushies.", "J'aime lire des mangas et collectionner des peluches."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 75%;"
     },
-    "VACANT": {
-        name: "VACANT",
+    "Ethan Bradley": {
+        name: "Ethan Bradley",
         image: "../../../images/execs/placeholder.png",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Call of Duty", "<span class='fw-bold'>Chef de jeu</span> <br /> Call of Duty"],
-        prog: ["N/A","N/A"],
-        year: ["N/A","N/A"],
-        game: "N/A",
-        desc: ["N/A", "N/A"],
+        prog: ["Honours bachelor of Human kinetics - Recreation and Sport Management","Baccalauréat en sciences de l'activité physique - Gestion du sport et des loisirs"],
+        year: ["2nd Year","2e année"],
+        game: "Call of Duty, Apex Legends, Rocket League",
+        desc: ["Hi, I'm Ethan. I've been gaming my whole life and am currently playing for the COD Garnet team here at uOttawa. I also enjoy rock climbing, and my peak chess rating is 1050.", "Bonjour, je suis Ethan. J'ai joué aux jeux vidéo toute ma vie et je suis présentement joueur pour l'équipe Garnet de COD ici à l'université d'Ottawa. Je prends plaisir à l'escalade, et mon record classement Elo aux échecs est de 1500."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Philip L.": {
