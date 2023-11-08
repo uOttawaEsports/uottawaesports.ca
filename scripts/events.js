@@ -13,7 +13,7 @@ const events = [
     {
          title: ["Canada-wide Hunger Games","Les Hunger Games pancanadiens"],
          image: ["../../images/events/upcoming/mc.png","Minecraft Logo","logo de minecraft"],
-         text: ["Introducing the Canadian Cross-Collegiate Minecraft League (3CML)! They are an ever-growing network of Canadian universities and colleges that hosts Canada-wide Minecraft events! They are hosting their first-ever Canada-wide Hunger Games and we're joining in!<br>If you want to sign up, please join uOttawa Esports' Discord for all the information on our announcement. The deadline to sign up is November 9th at 11:59 PM.","J'ai le plaisir d'annoncer la Canadian Cross-Collegiate Minecraft League, une communauté grandissante d'universités et de collèges canadiens qui organisent des événements de Minecraft partout au Canada ! Ils organisent leur tout premierHunger Games pancanadien, et nous faisions de la partie!<br>Si t'as intérêt à t'inscrire, joins-toi à notre Discord pour toutes les informations dans notre annonce. La date limite pour s'inscrire est le 9 novembre à 23h59."],
+         text: ["Introducing the Canadian Cross-Collegiate Minecraft League (3CML)! They are an ever-growing network of Canadian universities and colleges that hosts Canada-wide Minecraft events! They are hosting their first-ever Canada-wide Hunger Games and we're joining in!<br>If you want to sign up, please join uOttawa Esports' Discord for all the information on our announcement. The deadline to sign up is November 9th at 11:59 PM.","J'ai le plaisir d'annoncer la Canadian Cross-Collegiate Minecraft League, une communauté grandissante d'universités et de collèges canadiens qui organisent des événements de Minecraft partout au Canada ! Ils organisent leur tout premier Hunger Games pancanadien, et nous faisions de la partie!<br>Si t'as intérêt à t'inscrire, joins-toi à notre Discord pour toutes les informations dans notre annonce. La date limite pour s'inscrire est le 9 novembre à 23h59."],
          date: ["Saturday, November 11, 2023","samedi, 11 novembre, 2023"],
          time: ["9:00PM","21h00"],
          location: ["Canadian Cross-Collegiate Minecraft League Discord Server","Serveur Discord de la Canadian Cross-Collegiate Minecraft League"],
@@ -27,6 +27,15 @@ const events = [
          time: ["Between 7-9PM","Entre 19h et 21h"],
          location: ["uOttawa Esports Discord","Discord uOttawa Esports"],
          contact: ["Rocket League gamehead - Zefex","Chef de Jeu Rocket League - Zefex"],
+    },
+    {
+         title: ["Pokemon VGC Tournament","Tournoi VGC de Pokemon"],
+         image: ["../../images/events/upcoming/pokemon.png","Pokemon logo","Logo de Pokemon"],
+         text: ["Our next Pokemon event is a VGC-format Pokemon tournament!<br>Here’s the idea: using a website to battle and make pokemon teams, everyone will make a team of 6 pokemon and play in double battles, bringing 4 of your 6 pokemon to every battle. It will be open-team sheet so your opponents can see your moves, items, tera and abilities and you can see theirs. We encourage everyone, whether new to competitive pokemon or experienced, to participate and try making your own team. If you don’t have time or aren’t too familiar, our Pokemon gamehead can help you find a starting point!<br>If you're interested in participating, please join our Discord and check out all the announcement details to sign up!","Notre prochain événement est un tournoi de format VGC de Pokemon!<br>Voici l'idée principale: à partir d'un site web qui permet la création d'équipes de pokémon et d'organiser des combats, chaque personne sera en mesure de créer une équipe de 6 pokémons et jouer dans des combats doubles, où vous amènerez 4 de vos 6 pokémons. Les informations concernant votre équipe seront publiques, alors votre adversaire pourra voir vos mouvements, articles, téra et habiletés, et vous pourrez voir les leurs. On vous encourage, que vous soyez débutant ou expert, à participer et d'essayer de former votre propre équipe. Mais si vous n'avez pas le temps ou vous n'êtes pas familier, notre chef de jeu de Pokemon peut vous aider à trouver un point de départ!<br>Si tu t'intéresses à participer, S.V.P. joins-toi à notre Discord et trouves tous les détails de l'annonce pour t'inscrire!"],
+         date: ["Saturday, November 18, 2023","samedi, 18 novembre, 2023"],
+         time: ["3:00PM","15h00"],
+         location: ["Lamoureux Hall, room 257 (LMX257)","Pavillon Lamoureux, salle 257 (LMX257)"],
+         contact: ["Pokemon gamehead - Key","Chef de Jeu Pokemon - Key"],
     },
     {
          title: ["League Worlds 2023 Watch Party","Soirée de visionnement du Mondial 2023 de League"],
