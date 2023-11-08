@@ -2,15 +2,6 @@
 // Events in closest proximity must be placed at the top of the object.
 const events = [
     {
-         title: ["osu! In-House","Partie Interne d'osu!"],
-         image: ["../../images/events/upcoming/osu.png","osu! logo","logo d'osu!"],
-         text: ["Every two weeks, our osu! gamehead hosts an in-house Tuesday evenings for casual players and fans of the rythm game to join in and have fun.<br>Want in? Join our discord and sign up through our osu! gamehead's announcement form!","À toutes les deux semaines, notre chef de jeu d'osu! organise une partie interne les mardis en soirée pour que les joueurs occasionels et les fans de ce jeu de rythme se réunissent pour s'amuser.<br>Tu veux t'y mettre de la partie? Joins-toi à notre Discord et inscris-toi dans le formulaire se trouvant dans l'annonce du chef de jeu!"],
-         date: ["Tuesday, November 7, 2023","mardi, 7 novembre, 2023"],
-         time: ["9:00PM","21h00"],
-         location: ["uOttawa Esports Discord","Discord d'uOttawa Esports"],
-         contact: ["osu! gamehead - Glowrock","chef de jeu osu! - Glowrock"],
-    },
-    {
          title: ["GGWP#45","GGWP#45"],
          image: ["../../images/events/upcoming/ssbu.png", "SSBU logo", "Logo de SSBU"],
          text: ["Every week, Smash Ultimate fans come together to play in an in-person tournament at uOttawa. Both casual and competitive players alike join in and enjoy themselves, whether they wish to make friends, enjoy playing a game they like, or strive to be the best. To join, you can sign up through the form available on our Discord!", "Chaque semaine, les fans de Smash Ultimate se joignent en personne pour jouer un tournoi à uOttawa. Joueurs compétitifs et d’occasion viennent pour un moment de plaisir, que ce soit pour faire des amis, jouer à un jeu qu’ils aiment, ou être le meilleur. Pour t’y joindre, tu peux t’inscrire sur le formulaire disponible dans notre Discord!"],
