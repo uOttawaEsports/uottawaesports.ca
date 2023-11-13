@@ -2,15 +2,6 @@
 // Events in closest proximity must be placed at the top of the object.
 const events = [
     {
-         title: ["Canada-wide Hunger Games","Les Hunger Games pancanadiens"],
-         image: ["../../images/events/upcoming/mc.png","Minecraft Logo","logo de minecraft"],
-         text: ["Introducing the Canadian Cross-Collegiate Minecraft League (3CML)! They are an ever-growing network of Canadian universities and colleges that hosts Canada-wide Minecraft events! They are hosting their first-ever Canada-wide Hunger Games and we're joining in!<br>If you want to sign up, please join uOttawa Esports' Discord for all the information on our announcement. The deadline to sign up is November 9th at 11:59 PM.","J'ai le plaisir d'annoncer la Canadian Cross-Collegiate Minecraft League, une communauté grandissante d'universités et de collèges canadiens qui organisent des événements de Minecraft partout au Canada ! Ils organisent leur tout premier Hunger Games pancanadien, et nous faisions de la partie!<br>Si t'as intérêt à t'inscrire, joins-toi à notre Discord pour toutes les informations dans notre annonce. La date limite pour s'inscrire est le 9 novembre à 23h59."],
-         date: ["Saturday, November 11, 2023","samedi, 11 novembre, 2023"],
-         time: ["9:00PM","21h00"],
-         location: ["Canadian Cross-Collegiate Minecraft League Discord Server","Serveur Discord de la Canadian Cross-Collegiate Minecraft League"],
-         contact: ["Minecraft gamehead - Dish","Chef de Jeu Minecraft - Dish"],
-    },
-    {
          title: ["Rocket League 6mans","6mans de Rocket League"],
          image: ["../../images/events/upcoming/rl.png","Rocket League logo","logo de Rocket League"],
          text: ["6mans is back soon!!!<br>Our Rocket League gamehead hosts in-houses every once in a while! If you're interested, please join our Discord server and follow the gamehead's instructions.","6mans est de retour bientôt!!!<br>Notre chef de jeu de Rocket League organise des parties internes de temps à autre! Si tu t'y intéresses, S.V.P. joins-toi à notre Discord et suis les instructions du chef de jeu."],
