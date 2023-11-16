@@ -132,7 +132,7 @@ let execs = {
         desc: ["Yo I’m Pohohoro~ Aside from feeding in DOTA2, I quite enjoy crochet, pottery, hiking and some good music. Here are a few of my favourite things!</br>top 3 animes:<ul><li>Hunter x Hunter</li><li>Samurai Champloo</li><li>Wolf Children</li></ul>top 2 songs:<ul><li>Stella By Starlight by Ella Fitzgerald</li><li>Black Orpheus by Paul Desmond</li></ul>Favourite DOTA2 hero: JAKIRO!", "Yo je suis Pohohoro~ Apart de commettre des actes de sabotage en DOTA 2, j'aime bien le crochet, la poterie, les randonnées et de la bonne musique. Voici quelques-unes de mes choses préférées!</br>top 3 animes:<ul><li>Hunter x Hunter</li><li>Samurai Champloo</li><li>Wolf Children</li></ul>top 2 chansons:<ul><li>Stella By Starlight by Ella Fitzgerald</li><li>Black Orpheus by Paul Desmond</li></ul>Héro favori de DOTA2: JAKIRO!"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2023-2024/backgrounds/Gabrielle_Tao.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
-/*    "McKenna J-H": {
+    "McKenna J-H": {
         name: "McKenna J-H",
         image: "../../../images/execs/2023-2024/McKenna J-H.jpeg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Fortnite", "<span class='fw-bold'>Chef de jeu</span> <br /> Fortnite"],
@@ -141,7 +141,7 @@ let execs = {
         game: "Fortnite, Call of Duty(franchise), Eyes of Heaven, Minecraft, super smash bros",
         desc: ["Other than gaming I love anime and cartoons. I’m also a Disney fan with a deep love for Star Wars and Pirates of the Caribbean. Outside of my nerd world I am a competitive dancer in all styles. Oh and, I can’t skate but I’m a die hard Leafs fan … sorry Ottawa :(", "Hors des jeux, j'aime les séries anime et les séries animées. Je suis aussi fan de Disney avec un profond amour pour Star Wars et Pirates des Caraïbes. Hors de mon monde intello, je suis danceuse compétitive dans tout style. Oh, et je ne peux patiner, mais je suis une avide fan des Leafs... désolé Ottawa :("],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2023-2024/backgrounds/McKenna_J-H.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-    }, */
+    },
     "Daanish Khan": {
         name: "Daanish Khan",
         image: "../../../images/execs/2023-2024/Daanish_Khan.png",
