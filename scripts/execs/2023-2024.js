@@ -81,15 +81,15 @@ let execs = {
         desc: ["Hi! My name is Mia. I am an anthropologist in the making who loves tons of nerdy stuff like video games and Magic: The Gathering. My hobbies are all primarily centered around video games but I also love to create digital art and play music.", "Bonjour! Mon nom est Mia. Je suis anthropologue en devenir qui aime les trucs intello comme les jeux vidéo et Magic : The Gathering. Mes passe-temps sont tous principalement centrés sur les jeux vidéo mais j'aime aussi faire de l'art numérique et jouer de la musique."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
-    "Elaine Tran": {
-        name: "Elaine Tran",
-        image: "../../../images/execs/2023-2024/Elaine Tran.jpeg",
+    "Billy Zhou": {
+        name: "Billy Zhou",
+        image: "../../../images/execs/2023-2024/pfp - Rysair.png",
         role: ["VP Social", "VP Social"],
-        prog: ["Private", "Privé"],
-        year: ["Private", "Privé"],
-        game: "Valorant, TFT, Minecraft",
-        desc: ["Before being promoted to VP Social, I was the manager of two of our Valorant teams. Being the manager provided me with a lot of fun memories as well as experience in the world of Esports. I’ve dabbled in a couple of other games as well other than Valorant, such as TFT, LOL, and MC.", "Avant d'avoir été promue à VP social, j'étais manager de deux de nos équipes Valorant. Être manager m'a apporté beaucoup de beaux souvenirs ainsi que de l'expérience dans le monde des esports. J'ai aussi essayé quelques jeux autres que Valorant, comme TFT, LOL, et MC."],
-        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2023-2024/backgrounds/elaine_tran.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        prog: ["Honours Bachelor in Political Science", "Baccalauréat Spécialisé en Science Politique"],
+        year: ["4th Year", "4e année"],
+        game: "Mega Man, Under Night In-Birth, Arknights, Melty Blood Actress Again Current Code, Sound Voltex",
+        desc: ["Hi! I'm a freelance graphic designer who frequently plays various anime fighting games. I'm also a massive closeted weeb.", "Salut! Je suis un graphiste indépendant qui joue différents jeux anime de combat. Je suis aussi un énorme weeb caché."],
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2023-2024/backgrounds/Rysair.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     /* Game Heads */
     "Wing Chi Erica Chan": {
@@ -112,16 +112,6 @@ let execs = {
         desc: ["Hi, I'm Ethan. I've been gaming my whole life and am currently playing for the COD Garnet team here at uOttawa. I also enjoy rock climbing, and my peak chess rating is 1050.", "Bonjour, je suis Ethan. J'ai joué aux jeux vidéo toute ma vie et je suis présentement joueur pour l'équipe Garnet de COD ici à l'université d'Ottawa. Je prends plaisir à l'escalade, et mon record classement Elo aux échecs est de 1500."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
-    "Philip L.": {
-        name: "Philip L.",
-        image: "../../../images/execs/placeholder.png",
-        role: ["<span class='fw-bold'>Game Head</span> <br /> CS:GO", "<span class='fw-bold'>Chef de jeu</span> <br /> CS:GO"],
-        prog: ["N/A", "N/A"],
-        year: ["N/A", "N/A"],
-        game: "N/A",
-        desc: ["N/A", "N/A"],
-        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
-    },
     "Jacob Pilon": {
         name: "Jacob Pilon",
         image: "../../../images/execs/2023-2024/Jacob_Pilon.jpg",
@@ -142,6 +132,16 @@ let execs = {
         desc: ["Yo I’m Pohohoro~ Aside from feeding in DOTA2, I quite enjoy crochet, pottery, hiking and some good music. Here are a few of my favourite things!</br>top 3 animes:<ul><li>Hunter x Hunter</li><li>Samurai Champloo</li><li>Wolf Children</li></ul>top 2 songs:<ul><li>Stella By Starlight by Ella Fitzgerald</li><li>Black Orpheus by Paul Desmond</li></ul>Favourite DOTA2 hero: JAKIRO!", "Yo je suis Pohohoro~ Apart de commettre des actes de sabotage en DOTA 2, j'aime bien le crochet, la poterie, les randonnées et de la bonne musique. Voici quelques-unes de mes choses préférées!</br>top 3 animes:<ul><li>Hunter x Hunter</li><li>Samurai Champloo</li><li>Wolf Children</li></ul>top 2 chansons:<ul><li>Stella By Starlight by Ella Fitzgerald</li><li>Black Orpheus by Paul Desmond</li></ul>Héro favori de DOTA2: JAKIRO!"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2023-2024/backgrounds/Gabrielle_Tao.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
+/*    "McKenna J-H": {
+        name: "McKenna J-H",
+        image: "../../../images/execs/2023-2024/McKenna J-H.jpeg",
+        role: ["<span class='fw-bold'>Game Head</span> <br /> Fortnite", "<span class='fw-bold'>Chef de jeu</span> <br /> Fortnite"],
+        prog: ["Criminology", "Criminologie"],
+        year: ["1st Year", "1e année"],
+        game: "Fortnite, Call of Duty(franchise), Eyes of Heaven, Minecraft, super smash bros",
+        desc: ["Other than gaming I love anime and cartoons. I’m also a Disney fan with a deep love for Star Wars and Pirates of the Caribbean. Outside of my nerd world I am a competitive dancer in all styles. Oh and, I can’t skate but I’m a die hard Leafs fan … sorry Ottawa :(", "Hors des jeux, j'aime les séries anime et les séries animées. Je suis aussi fan de Disney avec un profond amour pour Star Wars et Pirates des Caraïbes. Hors de mon monde intello, je suis danceuse compétitive dans tout style. Oh, et je ne peux patiner, mais je suis une avide fan des Leafs... désolé Ottawa :("],
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2023-2024/backgrounds/McKenna_J-H.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+    }, */
     "Daanish Khan": {
         name: "Daanish Khan",
         image: "../../../images/execs/2023-2024/Daanish_Khan.png",
