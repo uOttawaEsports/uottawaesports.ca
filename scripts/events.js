@@ -2,24 +2,6 @@
 // Events in closest proximity must be placed at the top of the object.
 const events = [
     {
-         title: ["Rocket League 6mans","6mans de Rocket League"],
-         image: ["../../images/events/upcoming/rl.png","Rocket League logo","logo de Rocket League"],
-         text: ["6mans is back soon!!!<br>Our Rocket League gamehead hosts in-houses every once in a while! If you're interested, please join our Discord server and follow the gamehead's instructions.","6mans est de retour bientôt!!!<br>Notre chef de jeu de Rocket League organise des parties internes de temps à autre! Si tu t'y intéresses, S.V.P. joins-toi à notre Discord et suis les instructions du chef de jeu."],
-         date: ["Friday, November 17, 2023","vendredi, 17 novembre, 2023"],
-         time: ["Between 7-9PM","Entre 19h et 21h"],
-         location: ["uOttawa Esports Discord","Discord uOttawa Esports"],
-         contact: ["Rocket League gamehead - Zefex","Chef de Jeu Rocket League - Zefex"],
-    },
-    {
-         title: ["Pokemon VGC Tournament","Tournoi VGC de Pokemon"],
-         image: ["../../images/events/upcoming/pokemon.png","Pokemon logo","Logo de Pokemon"],
-         text: ["Our next Pokemon event is a VGC-format Pokemon tournament!<br>Here’s the idea: using a website to battle and make pokemon teams, everyone will make a team of 6 pokemon and play in double battles, bringing 4 of your 6 pokemon to every battle. It will be open-team sheet so your opponents can see your moves, items, tera and abilities and you can see theirs. We encourage everyone, whether new to competitive pokemon or experienced, to participate and try making your own team. If you don’t have time or aren’t too familiar, our Pokemon gamehead can help you find a starting point!<br>If you're interested in participating, please join our Discord and check out all the announcement details to sign up!","Notre prochain événement est un tournoi de format VGC de Pokemon!<br>Voici l'idée principale: à partir d'un site web qui permet la création d'équipes de pokémon et d'organiser des combats, chaque personne sera en mesure de créer une équipe de 6 pokémons et jouer dans des combats doubles, où vous amènerez 4 de vos 6 pokémons. Les informations concernant votre équipe seront publiques, alors votre adversaire pourra voir vos mouvements, articles, téra et habiletés, et vous pourrez voir les leurs. On vous encourage, que vous soyez débutant ou expert, à participer et d'essayer de former votre propre équipe. Mais si vous n'avez pas le temps ou vous n'êtes pas familier, notre chef de jeu de Pokemon peut vous aider à trouver un point de départ!<br>Si tu t'intéresses à participer, S.V.P. joins-toi à notre Discord et trouves tous les détails de l'annonce pour t'inscrire!"],
-         date: ["Saturday, November 18, 2023","samedi, 18 novembre, 2023"],
-         time: ["3:00PM","15h00"],
-         location: ["Lamoureux Hall, room 257 (LMX257)","Pavillon Lamoureux, salle 257 (LMX257)"],
-         contact: ["Pokemon gamehead - Key","Chef de Jeu Pokemon - Key"],
-    },
-    {
          title: ["Monthly Overwatch In-house","Partie Interne Mensuelle d'Overwatch"],
          image: ["../../images/events/upcoming/ow.png","Overwatch logo","logo d'Overwatch"],
          text: ["Hello Overwatch! It’s time for our monthly inhouse! Our Overwatch gamehead aimed for a time that wouldn't inconvenience midterms, but just like last time, we will be holding 2 lobbies of 5v5s. Please use the sign-up sheet our gamehead made and posted in her announcement so that she may properly balance the lobbies. Anyone of any rank is welcome to join, regardless of comp experience because this is all for casual fun :))","Salut Overwatch! C'est l'heure de notre partie interne mensuelle! Notre chef de jeu d'Overwatch a essayé de faire en sorte qu'elle ne se passe pas en même temps que les examens, et comme la dernière fois, nous aurons deux salons de jeu 5v5. S.V.P utiliser le formulaire d'inscription que notre chef de jeu d'Overwatch a créée et inclus dans l'annonce mis en ligne afin qu'elle puisse équilibrer les salons de jeu. Tout le monde est bienvenue, peu importe le rang et l'expérience de compétition car on joue pour s'amuser :))"],
@@ -27,15 +9,6 @@ const events = [
          time: ["8-10PM","20-22h"],
          location: ["uOttawa Esports Discord","Discord Esports uOttawa"],
          contact: ["Overwatch Gamehead - Achieu","Chef de Jeu Overwatch - Achieu"],
-    },
-    {
-         title: ["League Worlds 2023 Watch Party","Soirée de visionnement du Mondial 2023 de League"],
-         image: ["../../images/events/upcoming/fss-1007.jpg","In-person location","Endroit en présentiel"],
-         text: ["It is that time of the year again!<br>This year although League Worlds are being held in South Korea this will not stop us from doing a viewing party! Thanks to the generosity and help from Professor Thomas Burrelli we have secured a room for early morning on the day for League World Finals!<br>The event itself will start at 3am EST, but the room will be open to students since 12am. There will be snacks, Red Bull (to keep us awake) and some league related prizes. Participants are more than welcome to bring sleeping bags, blankets and come in comfortable clothes. It will be a long and exciting night!<br>It is no longer possible to sign up for this event.","C'est encore ce temps de l'année !<br>Cette année, même si le Mondial se tient en Corée du sud, cela ne nous empêchera pas d'organiser une soirée de visionnement ! Grâce à la générosité et à l'aide du Professeur Thomas Burrelli, nous avons pu réservé une salle tôt le matin la journée de la finale du Mondial de League !<br>L'événement en soi débutera à 3 am, mais la salle sera ouverte aux étudiants dès minuit. Il y aura des collations, du Red Bull (pour nous tenir éveillé) et quelques prix en lien à League.Vous êtes les bienvenus à apporter avec vous des sacs de couchage, des couvertures, et d'arriver en vêtements confortables. Ce sera une longue nuit très excitante!<br>Il n'est plus possible de s'inscrire pour cet évènement."],
-         date: ["Sunday, November 19, 2023","dimanche, 19 novembre, 2023"],
-         time: ["12-7AM","minuit à 7h"],
-         location: ["FTX 302","FTX 302"],
-         contact: ["uOttawa Esports Discord","Discord Esports uOttawa"],
     },
     // {
     //     title: ["event title ENG","event title FR"],
