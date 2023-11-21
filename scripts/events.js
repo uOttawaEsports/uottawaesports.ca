@@ -1,15 +1,6 @@
 // The website will display a maximum of six (6) events at a time. You can add more than six if you'd like to queue up the events for organizational purposes.
 // Events in closest proximity must be placed at the top of the object.
 const events = [
-    {
-         title: ["Monthly Overwatch In-house","Partie Interne Mensuelle d'Overwatch"],
-         image: ["../../images/events/upcoming/ow.png","Overwatch logo","logo d'Overwatch"],
-         text: ["Hello Overwatch! It’s time for our monthly inhouse! Our Overwatch gamehead aimed for a time that wouldn't inconvenience midterms, but just like last time, we will be holding 2 lobbies of 5v5s. Please use the sign-up sheet our gamehead made and posted in her announcement so that she may properly balance the lobbies. Anyone of any rank is welcome to join, regardless of comp experience because this is all for casual fun :))","Salut Overwatch! C'est l'heure de notre partie interne mensuelle! Notre chef de jeu d'Overwatch a essayé de faire en sorte qu'elle ne se passe pas en même temps que les examens, et comme la dernière fois, nous aurons deux salons de jeu 5v5. S.V.P utiliser le formulaire d'inscription que notre chef de jeu d'Overwatch a créée et inclus dans l'annonce mis en ligne afin qu'elle puisse équilibrer les salons de jeu. Tout le monde est bienvenue, peu importe le rang et l'expérience de compétition car on joue pour s'amuser :))"],
-         date: ["Sunday, November 19, 2023","dimanche, 19 novembre, 2023"],
-         time: ["8-10PM","20-22h"],
-         location: ["uOttawa Esports Discord","Discord Esports uOttawa"],
-         contact: ["Overwatch Gamehead - Achieu","Chef de Jeu Overwatch - Achieu"],
-    },
     // {
     //     title: ["event title ENG","event title FR"],
     //     image: ["../../image path here","logo ENG","logo FR"],
