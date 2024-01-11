@@ -45,7 +45,7 @@ let execs = {
         name: "Nicholas Séguin",
         image: "../../../images/execs/2023-2024/Nicholas Séguin.jpeg",
         role: ["VP Bilingualism", "VP Bilinguisme"],
-        prog: ["Ph.D. Interdisciplinary Resarch in Music", "Doctorat en Recherche interdisciplinaire en musique"],
+        prog: ["Ph.D. Interdisciplinary Research in Music", "Doctorat en Recherche interdisciplinaire en musique"],
         year: ["2nd Year", "2e année"],
         game: "Soulsborne games, Outer Wilds, Prince of Persia",
         desc: ["Hey, I'm Nick, and I love everything music and psychology. Currently studying video game music and games that revolve around sound. In my spare time, I like to play piano, play video games, and speedrun!", "Salut, je m'appelle Nick, et j'aime tout ce qui est musique et psychologie. J'étudie actuellement la musique des jeux vidéos et les jeux centrés sur le son. Dans mon temps libre, j'aime jouer au piano, jouer aux jeux vidéo, et faire des speedruns!"],
