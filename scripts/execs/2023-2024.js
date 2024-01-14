@@ -202,14 +202,14 @@ let execs = {
         desc: ["Hi my name is Keynaan or Key for short. I've been gaming ever since I was a little lad with Pokemon being one of my very first games that i still love today. I also like watching anime and movies with One Piece being one of my favorites. I've been in a bunch of competitive scenes like Pokemon, Smash Ultimate, Rocket league, Halo and more. But I really enjoy the casual side of games too.", "Bonjour, mon nom est Keynaan ou Key pour faire court. Je joue aux jeux vidéo depuis que je suis jeune bambin, avec Pokémon étant l'un des premiers jeux que j'ai touché que j'adore encore aujourd'hui. J'aime aussi voir des animes et des films, One Piece étant parmi mes favoris. J'ai été dans plusieurs scènes compétitives comme Pokemon, Smash Ultimate, Rocket League, Halo et plus. Mais j'aime bien le côté plus occasionel des jeux vidéo également."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2023-2024/backgrounds/Keynaan.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
-    "Griffin Taylor": {
-        name: "Griffin Taylor",
-        image: "../../../images/execs/2023-2024/griffin_taylor.jpg",
+    "Qitao Chen": {
+        name: "Qitao Chen",
+        image: "../../../images/execs/2023-2024/Toga.png",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Rainbow Six Siege", "<span class='fw-bold'>Chef de jeu</span> <br /> Rainbow Six Siege"],
-        prog: ["Computer Engineering", "Génie Informatique"],
-        year: ["4th Year", "4e année"],
-        game: "Rainbow Six Siege, Dishonored, Genshin Impact",
-        desc: ["I've been Gamehead since May of 2020, and am the longest continuous serving Gamehead of any game in our club's history. I have been the captain, IGL, and entry for the R6 Garnet team for 3 years now.", "Je suis chef de jeu depuis mai 2020, et je suis le chef de jeu qui est resté le plus longtemps en poste dans l'histoire de notre club, tous jeux confondus. Je suis le capitaine, le leader en jeu, et le “entry” pour l’équipe Garnet de R6 depuis maintenant trois ans."],
+        prog: ["Environmental Studies", "§tudes environnementales"],
+        year: ["3rd Year", "3e année"],
+        game: "COD BO4&BOCW, Monster Hunter World",
+        desc: ["Inui Toko daisuki", "Inui Toko daisuki"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Zacharie LeBrun-LeMay": {
