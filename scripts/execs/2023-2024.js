@@ -142,15 +142,15 @@ let execs = {
         desc: ["Other than gaming I love anime and cartoons. I’m also a Disney fan with a deep love for Star Wars and Pirates of the Caribbean. Outside of my nerd world I am a competitive dancer in all styles. Oh and, I can’t skate but I’m a die hard Leafs fan … sorry Ottawa :(", "Hors des jeux, j'aime les séries anime et les séries animées. Je suis aussi fan de Disney avec un profond amour pour Star Wars et Pirates des Caraïbes. Hors de mon monde intello, je suis danceuse compétitive dans tout style. Oh, et je ne peux patiner, mais je suis une avide fan des Leafs... désolé Ottawa :("],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2023-2024/backgrounds/McKenna_J-H.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
-    "Daanish Khan": {
-        name: "Daanish Khan",
-        image: "../../../images/execs/2023-2024/Daanish_Khan.png",
+    "Dylan Jones": {
+        name: "Dylan Jones",
+        image: "../../../images/execs/2023-2024/Dylan Jones.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Minecraft", "<span class='fw-bold'>Chef de jeu</span> <br /> Minecraft"],
-        prog: ["Software Engineering", "Génie logiciel"],
-        year: ["4th Year", "4e année"],
-        game: "Minecraft, Pokemon, League, Monster Hunter, OMORI",
-        desc: ["Hi! I'm excited to be apart of the uOttawa Esports team. My hobbies other than games are playing guitar and programming :)", "Bonjour! Je suis joyeux de faire partie de l'équipe d'Esports uOttawa. Mes passe-temps autres que les jeux vidéo sont la guitare et la programmation :)"],
-        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
+        prog: ["Physics", "Physics"],
+        year: ["2nd/3rd Year", "2e/3e année"],
+        game: "Minecraft",
+        desc: ["Hi! My name is Dylan, I often go by DrJones or Jones. I love all kinds of games, whether casual, competitive, or tabletop!<br>Outside of the gaming sphere, I enjoy movies. If you have any recommendations, I'm all ears. I'm trying to get my list of films to 1,000!", "Bonjour! Mon nom est Dylan, je m'appelle aussi DrJones ou  Jones. J'aime tout genre de jeux, qu'ils soient occasionnel, compétitif, ou sur table!<br>Hors de la sphère des jeux, j'aime les films.  Si tu as des recommendations, je suis toute ouïe. J'essaie d'allonger ma liste de films à 1000!"],
+        background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2023-2024/backgrounds/Dylan_Jones.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Shaun Francis": {
         name: "Shaun Francis",
