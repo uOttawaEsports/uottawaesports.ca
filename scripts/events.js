@@ -10,6 +10,15 @@ const events = [
          location: ["STEM107 - MakerSpace", "STEM107 - MakerSpace"],
          contact: ["SSBU GameHead - Tai", "SSBU GameHead - Tai"]
     },
+    {
+         title: ["Pokemon Presents!","Pokemon Presents!"],
+         image: ["../../images/events/upcoming/pokemon.png","Pokemon Logo","Logo de pokemon"],
+         text: ["Hey everyone! This week, there'll be a Pokemon Presents event! A pokemon Presents is essentially an announcement livestream of the new and upcoming pokemon games. We'll be doing a watch party in the Discord so we can all watch and react to the news together. See you there!","Salut tout le monde! Cette semaine, il y aura un évènement Pokemon Presents! Un pokemon Presents est essentiellement une diffusion en direct avec des annonces concernant les prochains jeux de Pokemon. Nous allons le visionner ensemble dans le Discord afin que nous puissions tous réagir aux nouvelles ensemble. À bientôt!"],
+         date: ["Tuesday, February 27, 2024","mardi, 27 février, 2024"],
+         time: ["9:00AM","9h00"],
+         location: ["uOttawa Esports Discord","Discord d'uOttawa Esports"],
+         contact: ["Pokemon gamehead - Key","Chef de jeu de Pokemon - Key"],
+    },
     // {
     //     title: ["event title ENG","event title FR"],
     //     image: ["../../image path here","logo ENG","logo FR"],
