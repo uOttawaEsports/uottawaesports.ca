@@ -1,24 +1,6 @@
 // The website will display a maximum of six (6) events at a time. You can add more than six if you'd like to queue up the events for organizational purposes.
 // Events in closest proximity must be placed at the top of the object.
 const events = [
-    {
-         title: ["GGWP #52", "GGWP #52"],
-         image: ["../../images/events/upcoming/ssbu.png", "SSBU logo", "Logo de SSBU"],
-         text: ["Every week, Smash Ultimate fans come together to play in an in-person tournament at uOttawa. Both casual and competitive players alike join in and enjoy themselves, whether they wish to make friends, enjoy playing a game they like, or strive to be the best. To join, you can sign up through the link available on our Discord!", "Chaque semaine, les fans de Smash Ultimate se joignent en personne pour jouer un tournoi à uOttawa. Joueurs compétitifs et d’occasion viennent pour un moment de plaisir, que ce soit pour faire des amis, jouer à un jeu qu’ils aiment, ou être le meilleur. Pour t’y joindre, tu peux t’inscrire à travers le lien disponible dans notre Discord!"],
-         date: ["Monday, February 26, 2024", "lundi, le 26 février, 2024"],
-         time: ["7:00 PM", "19h00"],
-         location: ["STEM107 - MakerSpace", "STEM107 - MakerSpace"],
-         contact: ["SSBU GameHead - Tai", "SSBU GameHead - Tai"]
-    },
-    {
-         title: ["Pokemon Presents!","Pokemon Presents!"],
-         image: ["../../images/events/upcoming/pokemon.png","Pokemon Logo","Logo de pokemon"],
-         text: ["Hey everyone! This week, there'll be a Pokemon Presents event! A pokemon Presents is essentially an announcement livestream of the new and upcoming pokemon games. We'll be doing a watch party in the Discord so we can all watch and react to the news together. See you there!","Salut tout le monde! Cette semaine, il y aura un évènement Pokemon Presents! Un pokemon Presents est essentiellement une diffusion en direct avec des annonces concernant les prochains jeux de Pokemon. Nous allons le visionner ensemble dans le Discord afin que nous puissions tous réagir aux nouvelles ensemble. À bientôt!"],
-         date: ["Tuesday, February 27, 2024","mardi, 27 février, 2024"],
-         time: ["9:00AM","9h00"],
-         location: ["uOttawa Esports Discord","Discord d'uOttawa Esports"],
-         contact: ["Pokemon gamehead - Key","Chef de jeu de Pokemon - Key"],
-    },
     // {
     //     title: ["event title ENG","event title FR"],
     //     image: ["../../image path here","logo ENG","logo FR"],
