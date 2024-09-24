@@ -5,10 +5,10 @@ let execs = {
         image: "../../../images/execs/2024-2025/Janica Adame.jpeg",
         role: ["Co-President", "Co-Présidente"],
         prog: ["Psychology", "Psychologie"],
-        pronoun: ["She / They", "Elle / Elles"],
+        pronoun: ["She / They", "Elle / Iel"],
         year: ["4th Year", "4e année"],
         game: "Overwatch, Resident Evil (entire franchise; specifically 4), Coffee Talk, Potion Permit, Papa’s Freezeria",
-        desc: ["Hi, I’m Janica (or Jay), and I’ve had a fond love for video games ever since I was six. From watching my dad play World of Warcraft in his lap, to competing with my sibling in Mario Kart as Shy Guy, to playing Flash games late into the night on our family computer. Since then, I’ve played competitively in Overwatch Grey for uOttawa as a main roster support, as well as managed both Grey and Garnet for Overwatch last year. Outside of games, I love cuddling with my dog Toast, reading fantasy books, rewatching Criminal Minds, going to concerts, and making handmade jewelry! This club has given me a space to be myself, and to give that sense of community back is everything I could ever ask for in my position."],
+        desc: ["Hi, I’m Janica (or Jay), and I’ve had a fond love for video games ever since I was six. From watching my dad play World of Warcraft in his lap, to competing with my sibling in Mario Kart as Shy Guy, to playing Flash games late into the night on our family computer. Since then, I’ve played competitively in Overwatch Grey for uOttawa as a main roster support, as well as managed both Grey and Garnet for Overwatch last year. Outside of games, I love cuddling with my dog Toast, reading fantasy books, rewatching Criminal Minds, going to concerts, and making handmade jewelry! This club has given me a space to be myself, and to give that sense of community back is everything I could ever ask for in my position.","Bonjour, je m'appelle Janica (ou Jay) et j'adore les jeux vidéo depuis l'âge de six ans. Lorsque je regardais mon père jouer à World of Warcraft sur ses genoux, que je faisais concurrence à mes frères et sœurs dans Mario Kart en tant que Shy Guy et que je jouais à des jeux Flash jusque tard dans la nuit sur notre ordinateur familial. Par la suite, j'ai joué en compétition dans Overwatch Grey pour l'uOttawa en tant que soutien de la liste principale, et j'ai géré Grey et Garnet pour Overwatch l'année dernière. En dehors des jeux vidéos, j'aime faire des câlins à mon chien Toast, lire des livres fantastiques, revoir Criminal Minds, aller à des concerts et fabriquer des bijoux à la main ! Ce club m'a donné un espace pour être moi-même, et redonner ce sens de la communauté est tout ce que je pouvais demander à mon poste."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2024-2025/backgrounds/JanicaAdame1.jpeg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;" // edit the url() for each exec if they'd like a custom background - /images/execs/(year)/background/
     },
     "Scarlett Montserrat Sanabria-Ramos": {
@@ -19,7 +19,7 @@ let execs = {
         pronoun: ["She / Her", "Elle"],
         year: ["2nd Year", "2e année"],
         game: "League of legends, Pokemon TCG",
-        desc: ["I work at cheo as an administrative assistant for mental health department. I like reading, running and sleeping"],
+        desc: ["I work at CHEO as an administrative assistant for mental health department. I like reading, running and sleeping.","Je travaille au CHEO en tant qu'assistante administrative pour le département de santé mentale. J'aime lire, courir et dormir."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2024-2025/backgrounds/ScarlettMontserratSanabria-Ramos1.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     /* Execs */
@@ -27,11 +27,11 @@ let execs = {
         name: "Alex Lisitsas",
         image: "../../../images/execs/2024-2025/Alex Lisitsas.jpeg",
         role: ["VP Finance", "VP Finances"],
-        prog: ["Finance", "Finance"],
-        pronoun: ["He / Him", "Il"],
+        prog: ["Finance", "Finances"],
+        pronoun: ["He / Him", "Il / Lui"],
         year: ["5th Year", "5e année"],
-        game: "R6, Rocket League, Minecraft, Elden Ring",
-        desc: ["Avid golfer"],
+        game: "Rainbow 6 Siege, Rocket League, Minecraft, Elden Ring",
+        desc: ["Avid golfer.", "Golfeur passionné."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2024-2025/backgrounds/AlexLisitsas1.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Jessica Guo": {
@@ -42,15 +42,15 @@ let execs = {
         pronoun: ["She / Her", "Elle"],
         year: ["4th Year", "4e année"],
         game: "Minesweeper, VALORANT, Phasmophobia, League of Legends, For the King",
-        desc: ["Hello, I'm Jessica. My goal for this year is to remember the first a hundred digits of pi. I love cats and tomatoes.", "fr"],
+        desc: ["Hello, I'm Jessica. My goal for this year is to remember the first a hundred digits of pi. I love cats and tomatoes.", "Bonjour, je m'appelle Jessica. Mon objectif pour cette année est de me souvenir des cent premiers chiffres de pi. J'aime les chats et les tomates."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Brandon Ly": {
         name: "Brandon Ly",
         image: "../../../images/execs/2024-2025/Brandon Ly.jpg",
         role: ["VP Bilingualism", "VP Bilinguisme"],
-        prog: ["Public Administration and Political Science", "Administration publique et science politique"],
-        pronoun: ["Any", "Tous"],
+        prog: ["Public Administration and Political Science", "Administration publique et sciences politiques"],
+        pronoun: ["Any", "Peu n'importe"],
         year: ["4th Year", "4e année"],
         game: "osu!, Baldur's Gate 3, Persona, Stardew Valley, Professor Layton",
         desc: ["Hiya, I'm Brandon, and I'm the VP Bilingualism for this year! I was the first Game Head for osu! (you should check it out 😉). I watch way too much anime for my own good, and play most games on my couch. Outside of the club, you can find me involved in all forms of politics, nerding out in the uOttawa Model Parliament, or running my osu! tournament called Battle of the Box!", "Bonjour, je m'appelle Brandon et je suis le VP du bilinguisme pour cette année! J'ai été le premier chef de jeu pour osu! (vous devriez l'essayer 😉 ). Je regarde beaucoup trop d'anime pour mon propre bien, et je joue à la plupart des jeux sur mon couch. À l'extérieur du club, vous pouvez me trouver impliqué dans toutes les formes de politique, en train de m'amuser au Simulation parlementaire de l'Université d'Ottawa, ou en train d'organiser mon tournoi osu! appelé Battle of the Box!"],
@@ -61,10 +61,10 @@ let execs = {
         image: "../../../images/execs/2024-2025/Mattéo Brucale.jpeg",
         role: ["VP External", "VP Externe"],
         prog: ["Criminology", "Criminologie"],
-        pronoun: ["He / Him", "Il"],
+        pronoun: ["He / Him", "Il / Lui"],
         year: ["2nd Year", "2e année"],
-        game: "R6S and Rocket League are my two absolute favorite games. I've also played a lot of Fifa, COD, Minecraft, PUBG and GTA (4 & 5).",
-        desc: ["Originally from Narbonne, France, I moved to New-Brunswick in 2016 before coming to Ottawa in 2018. My hobbies and passions include sports (I'm a huge Olympique de Marseille fan), photography, listening to music, and, of course, gaming."],
+        game: "Rainbow 6 Siege, Rocket League, Fifa, Call of Duty, Minecraft, PUBG, GTA (4 & 5).",
+        desc: ["Originally from Narbonne, France, I moved to New-Brunswick in 2016 before coming to Ottawa in 2018. My hobbies and passions include sports (I'm a huge Olympique de Marseille fan), photography, listening to music, and, of course, gaming.","Originaire de Narbonne, en France, j'ai déménagé au Nouveau-Brunswick en 2016 avant de venir à Ottawa en 2018. Mes loisirs et mes passions comprennent le sport (je suis un grand fan de l'Olympique de Marseille), la photographie, écouter de la musique et, bien sûr, les jeux vidéos."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2024-2025/backgrounds/MattéoBrucale1.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Elizabeth Thacker": {
@@ -72,10 +72,10 @@ let execs = {
         image: "../../../images/execs/2024-2025/Elizabeth Thacker.jpg",
         role: ["VP Competitive", "VP Compétitif"],
         prog: ["Communications", "Communication"],
-        pronoun: ["She / They", "Elle / Elles"],
+        pronoun: ["She / They", "Elle / Iel"],
         year: ["4th Year", "4e année"],
-        game: "Dragon Age Series, the Legend of Zelda games, Pokemon, and Fire Emblem Three Houses",
-        desc: ["Helloo my name's Elizabeth, but I mostly go by Liz, and I am an avid Nintendo/cozy gamer turned esports player (tho I still love Nintendo and cozy games). Some of my other hobbies are crocheting, reading, watching animated movies, and playing with my cat! Though gaming is definitely what you'll find me doing 90% of the time, which also means I pretty much live on Discord, so feel free to hit me up whenever whether to play some games or to just chat!!"],
+        game: "Dragon Age Series, Legend of Zelda, Pokemon, Fire Emblem Three Houses",
+        desc: ["Helloo my name's Elizabeth, but I mostly go by Liz, and I am an avid Nintendo/cozy gamer turned esports player (tho I still love Nintendo and cozy games). Some of my other hobbies are crocheting, reading, watching animated movies, and playing with my cat! Though gaming is definitely what you'll find me doing 90% of the time, which also means I pretty much live on Discord, so feel free to hit me up whenever whether to play some games or to just chat!!","Bonjour, je m'appelle Elizabeth, mais je m'appelle surtout Liz, et je suis une joueuse passionnée de Nintendo/de jeux douillets, devenue joueuse d'esports (bien que j'aime toujours Nintendo et les jeux douillets). J'aime aussi crocheter, lire, regarder des films d'animation et jouer avec mon chat! Bien que le jeu soit ce que vous trouverez à faire 90% du temps, ce qui signifie aussi que je vis pratiquement sur Discord, alors n'hésitez pas à me contacter quand vous le souhaitez, que ce soit pour jouer à des jeux ou simplement pour discuter!"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2024-2025/backgrounds/ElizabethThacker1.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     /*"Mia Burdeau": {
@@ -97,7 +97,7 @@ let execs = {
         pronoun: ["She / Her", "Elle"],
         year: ["4th Year", "4e année"],
         game: "Valorant, Minecraft",
-        desc: ["Hello!! Ive always loved games ever since I got wii sports when i was 8. Other than that, I'm such a foodie! I'm always down to find new places to eat and drink. I also enjoy a good show and will rot in my bed until I finish it or will play a movie in the back as background noise. In my spare time you'll most likely see me on Sims 4 for 5 hours."],
+        desc: ["Hello!! Ive always loved games ever since I got wii sports when i was 8. Other than that, I'm such a foodie! I'm always down to find new places to eat and drink. I also enjoy a good show and will rot in my bed until I finish it or will play a movie in the back as background noise. In my spare time you'll most likely see me on Sims 4 for 5 hours.","Bonjour !! J'ai toujours aimé les jeux depuis que j'ai eu Wii Sports à l'âge de 8 ans. A part ça, je suis une vraie gourmande! Je suis toujours à la recherche de nouveaux endroits pour manger et boire. J'aime aussi les bonnes séries et je reste dans mon lit jusqu'à ce que je les finisse ou je passe un film à l'arrière pour faire un bruit de fond. Pendant mon temps libre, vous me verrez probablement sur les Sims 4 pendant 5 heures."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2024-2025/backgrounds/MikaelaSoliman1.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     /* Game Heads */
@@ -105,14 +105,15 @@ let execs = {
         name: "Wing Chi Erica Chan",
         image: "../../../images/execs/2024-2025/Wing Chi Erica Chan.png",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Apex Legends", "<span class='fw-bold'>Chef de jeu</span> <br /> Apex Legends"],
-        prog: ["BA Honours Psychology", "Baccalauréat en psychologie spécialisé"],
+        prog: ["Psychology", "Psychologie"],
         pronoun: ["She / Her", "Elle"],
         year: ["2nd Year", "2e année"],
-        game: "Stardew Valley and I've been really into Dark and Darker",
-        desc: ["I like reading and watching movies"],
+        game: "Stardew Valley, Dark and Darker",
+        desc: ["I like reading and watching movies.","J'aime lire et regarder des films."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 75%;"
     },
-    /*"Ethan Bradley": {
+    /* not responding
+    "Ethan Bradley": {
         name: "Ethan Bradley",
         image: "../../../images/execs/placeholder.png",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Call of Duty", "<span class='fw-bold'>Chef de jeu</span> <br /> Call of Duty"],
@@ -128,24 +129,25 @@ let execs = {
         image: "../../../images/execs/2024-2025/Sherman Leung.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Destiny 2", "<span class='fw-bold'>Chef de jeu</span> <br /> Destiny 2"],
         prog: ["Computer Engineering", "Génie informatique"],
-        pronoun: ["He / They", "Il / Ils"],
+        pronoun: ["He / They", "Il / Iel"],
         year: ["3rd Year", "3e année"],
         game: "Destiny 2, Call of Duty, Yakuza series, DMC series, Star rail, ZZZ",
-        desc: ["I spend too much time on destiny, and when I'm not playing it chances are I'm making content about it 💀"],
+        desc: ["I spend too much time on destiny, and when I'm not playing it chances are I'm making content about it. 💀","Je passe trop de temps sur Destiny, et quand je n'y joue pas, il y a de fortes chances que je fasse du contenu à ce sujet. 💀"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2024-2025/backgrounds/ShermanLeung1.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Gabrielle Tao": {
         name: "Gabrielle Tao",
         image: "../../../images/execs/2024-2025/Gabrielle Tao.jpeg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> DOTA 2", "<span class='fw-bold'>Chef de jeu</span> <br /> DOTA 2"],
-        prog: ["Honours Psychology","Baccalauréat en psychologie spécialisé"],
+        prog: ["Psychology","Psychologie"],
         pronoun: ["She / Her", "Elle"],
         year: ["3rd Year", "3e année"],
         game: "Dota 2, Stardew Valley",
-        desc: ["Hey there I’m Poho or Gabi. I love hiking, pottery and jazz. I also enjoy reading copious amounts of manga and good novels. Play hard work hard (*☻-☻*)"],
+        desc: ["Hey there I’m Poho or Gabi. I love hiking, pottery and jazz. I also enjoy reading copious amounts of manga and good novels. Play hard work hard. (*☻-☻*)", "Bonjour, je m'appelle Poho ou Gabi. J'aime la randonnée, la poterie et le jazz. J'aime aussi lire de grandes quantités de mangas et de bons romans. Travail et loisirs sans limites. (*☻-☻*)"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2024-2025/backgrounds/GabrielleTao1.jpeg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
-    /*"McKenna J-H": {
+    /* Does not exist
+    "McKenna J-H": {
         name: "McKenna J-H",
         image: "../../../images/execs/2023-2024/McKenna J-H.jpeg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Fortnite", "<span class='fw-bold'>Chef de jeu</span> <br /> Fortnite"],
@@ -156,7 +158,7 @@ let execs = {
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2023-2024/backgrounds/McKenna_J-H.gif); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     */
-   /*
+   /* TBD
     "Dylan Jones": {
         name: "Dylan Jones",
         image: "../../../images/execs/2023-2024/Dylan Jones.jpg",
@@ -173,13 +175,14 @@ let execs = {
         image: "../../../images/execs/2024-2025/Shaun Francis.png",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Magic the Gathering", "<span class='fw-bold'>Chef de jeu</span> <br /> Magic the Gathering"],
         prog: ["Computer Science", "Informatique"],
-        pronoun: ["He / Him", "Il"],
+        pronoun: ["He / Him", "Il / Lui"],
         year: ["5th Year", "5e année"],
         game: "Magic the Gathering, Sea of Thieves, Disco Elysium, Dredge, League of Legends",
-        desc: ["'m Shaun, I'm a huge tabletop game player. be it card games, board games, ttrpgs, anything I can sit around a table and physically play is my bread and butter! On top of that I love video games too, especially multiplayer games! Whenever someone wants to get a group-game together I'm always the first one ready to join a lobby!"],
+        desc: ["I'm Shaun, I'm a huge tabletop game player. be it card games, board games, ttrpgs, anything I can sit around a table and physically play is my bread and butter! On top of that I love video games too, especially multiplayer games! Whenever someone wants to get a group-game together I'm always the first one ready to join a lobby!","Je m'appelle Shaun et je suis un grand joueur de jeux de table. Qu'il s'agisse de jeux de cartes, de jeux de plateau, de jeux de TTRPGs, tout ce qui peut être joué autour d'une table est mon pain et mon beurre! En plus de cela, j'adore les jeux vidéo, surtout les jeux multijoueurs! Dès que quelqu'un veut organiser un jeu en groupe, je suis toujours le premier à rejoindre un lobby!"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
-    /*"Narththanaan Rajeswaran": {
+    /*Yann is lazy
+    "Narththanaan Rajeswaran": {
         name: "Narththanaan Rajeswaran",
         image: "../../../images/execs/2023-2024/Narththanaan Rajeswaran.jpeg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> League of Legends", "<span class='fw-bold'>Chef de jeu</span> <br /> League of Legends"],
@@ -191,7 +194,8 @@ let execs = {
     },
     */
 
-    /*"Thomas Ford": {
+    /* Does not exist
+    "Thomas Ford": {
         name: "Thomas Ford",
         image: "../../../images/execs/2023-2024/Thomas Ford.PNG",
         role: ["<span class='fw-bold'>Game Head</span> <br /> osu!", "<span class='fw-bold'>Chef de jeu</span> <br /> osu!"],
@@ -207,10 +211,10 @@ let execs = {
         image: "../../../images/execs/2024-2025/Michael O'Sullivan.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Overwatch", "<span class='fw-bold'>Chef de jeu</span> <br /> Overwatch"],
         prog: ["Computer Science", "Informatique"],
-        pronoun: ["He / Him", "Il"],
+        pronoun: ["He / Him", "Il / Lui"],
         year: ["3rd Year", "3e année"],
         game: "Overwatch",
-        desc: ["Hello I'm Micahel, I am interested in Piano, Overwatch, exercise and coding."],
+        desc: ["Hello I'm Michael, I am interested in Piano, Overwatch, exercise and coding.","Bonjour je suis Michael, j'aime le Piano, Overwatch, Exercice et Coding."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2024-2025/backgrounds/MichaelOSullivan.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Keynaan Ismail": {
@@ -220,11 +224,12 @@ let execs = {
         prog: ["Computer Science", "Informatique"],
         pronoun: ["He / Him", "Il"],
         year: ["5th Year", "5e année"],
-        game: "Pokemon, Super Smash bros, Halo, Rocket League, Wii Sports and Lego Star Wars: The Complete Saga",
+        game: "Pokemon, Super Smash bros, Halo, Rocket League, Wii Sports, Lego Star Wars: The Complete Saga",
         desc: ["Hi my name is Keynaan or Key for short. I've been gaming ever since I was a little lad with Pokemon being one of my very first games that i still love today. I also like watching anime and movies with One Piece being one of my favorites. I've been in a bunch of competitive scenes like Pokemon, Smash Ultimate, Rocket league, Halo and more. But I really enjoy the casual side of games too.", "Bonjour, mon nom est Keynaan ou Key pour faire court. Je joue aux jeux vidéo depuis que je suis jeune bambin, avec Pokémon étant l'un des premiers jeux que j'ai touché que j'adore encore aujourd'hui. J'aime aussi voir des animes et des films, One Piece étant parmi mes favoris. J'ai été dans plusieurs scènes compétitives comme Pokemon, Smash Ultimate, Rocket League, Halo et plus. Mais j'aime bien le côté plus occasionel des jeux vidéo également."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2024-2025/backgrounds/Keynaan.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
-    /*"Qitao Chen": {
+    /* Does not exist
+    "Qitao Chen": {
         name: "Qitao Chen",
         image: "../../../images/execs/2023-2024/Toga.png",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Rainbow Six Siege", "<span class='fw-bold'>Chef de jeu</span> <br /> Rainbow Six Siege"],
@@ -240,10 +245,10 @@ let execs = {
         image: "../../../images/execs/2024-2025/Zacharie LeBrun-LeMay.jpeg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Rocket League", "<span class='fw-bold'>Chef de jeu</span> <br /> Rocket League"],
         prog: ["Criminology and Psychology", "Criminologie et Psychologie"],
-        pronoun: ["He / Him", "Il"],
+        pronoun: ["He / Him", "Il / Lui"],
         year: ["5th Year", "5e année"],
-        game: "Rocket League and Valorant",
-        desc: ["I love video games! I’ve tried out almost every free to play game in our Discord but always come back to Rocket League and Valorant. Outside of video games, I like building and collecting legos (especially Star Wars). I’m also the beatboxer for one of uOttawa’s a capella groups called gleegees :)"],
+        game: "Rocket League, Valorant",
+        desc: ["I love video games! I’ve tried out almost every free to play game in our Discord but always come back to Rocket League and Valorant. Outside of video games, I like building and collecting legos (especially Star Wars). I’m also the beatboxer for one of uOttawa’s a capella groups called gleegees. :)","J'adore les jeux vidéo! J'ai essayé presque tous les jeux gratuits de notre Discord, mais je reviens toujours à Rocket League et Valorant. En dehors des jeux vidéo, j'aime construire et collectionner des Legos (surtout ceux de Star Wars). Je suis aussi le beatboxer d'un des groupes d'acapella de l'Université d'Ottawa, les GleeGees :)"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2024-2025/backgrounds/ZacharieLeBrun-LeMay1.jpeg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Roman Chong": {
@@ -253,19 +258,19 @@ let execs = {
         prog: ["Computer Engineering", "Génie informatique"],
         pronoun: ["Any", "Tous"],
         year: ["2nd Year", "2e année"],
-        game: "Super Smash Bros Melee, Guilty Gear: Strive",
-        desc: ["Hey, I'm Roman. I enjoy everything related to computers and hardware projects, and spent most of high school playing Counter-Strike before rediscovering the Melee scene I used to watch as a kid. TOing is a great feeling when you're able to give back to your community. Feel free to discuss controllers or fighting games with me!"],
+        game: "Super Smash Bros. Melee, Guilty Gear: Strive",
+        desc: ["Hey, I'm Roman. I enjoy everything related to computers and hardware projects, and spent most of high school playing Counter-Strike before rediscovering the Melee scene I used to watch as a kid. TOing is a great feeling when you're able to give back to your community. Feel free to discuss controllers or fighting games with me!","Bonjour, je m'appelle Roman. J'aime tout ce qui touche à l'informatique et aux projets matériels, et j'ai passé la majeure partie de secondaire à jouer à Counter-Strike avant de redécouvrir la scène Melee que j'avais l'habitude de regarder quand j'étais enfant.  L'organisation de tournois est un sentiment formidable lorsque vous êtes en mesure de rendre à votre communauté ce qu'elle vous a donné. N'hésitez pas à discuter de manettes ou de jeux de combat avec moi!"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2024-2025/backgrounds/RomanChong1.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Tyler Lindsay": {
         name: "Tyler Lindsay",
         image: "../../../images/execs/2024-2025/Tyler Lindsay.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> Super Smash Bros. Ultimate", "<span class='fw-bold'>Chef de jeu</span> <br /> Super Smash Bros. Ultimate"],
-        prog: ["History and Political Science", "Histoire et Science Politique"],
-        pronoun: ["He / Him", "Il"],
+        prog: ["History and Political Science", "Histoire et Sciences Politiques"],
+        pronoun: ["He / Him", "Il / Lui"],
         year: ["5th Year", "5e année"],
         game: "Legend of Zelda, Pokemon, Fire Emblem",
-        desc: ["Hi, I'm Tai! I like most things Nintendo, particularly Smash Ultimate. I'm very happy to run events for the game with the club, as well as other events, such as the occasional Mario Kart. Hope to see you around!"],
+        desc: ["Hi, I'm Tai! I like most things Nintendo, particularly Smash Ultimate. I'm very happy to run events for the game with the club, as well as other events, such as the occasional Mario Kart. Hope to see you around!","Bonjour, je m'appelle Tai! J'aime la plupart des choses de Nintendo, en particulier Smash Ultimate. Je suis très heureux d'organiser des événements pour le jeu avec le club, ainsi que d'autres événements, comme un Mario Kart occasionnel. J'espère vous voir dans les parages!"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/tabaret-hall.jpg); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Tyler Sooknanan": {
@@ -273,10 +278,10 @@ let execs = {
         image: "../../../images/execs/2024-2025/Tyler Sooknanan.jpg",
         role: ["<span class='fw-bold'>Game Head</span> <br /> VALORANT", "<span class='fw-bold'>Chef de jeu</span> <br /> VALORANT"],
         prog: ["Interdisciplinary Studies", "Études interdisciplinaires"],
-        pronoun: ["He / Him", "Il"],
+        pronoun: ["He / Him", "Il / Lui"],
         year: ["4th Year", "4e année"],
         game: "Valorant, iRacing, Cyberpunk 2077",
-        desc: ["Hey there! I'm Tyler, and I've been an avid FPS game lover since I was a child. I also enjoy any types of game whether it be Tekken, Rocket League, MTG, FFXIV, or even Baldur's Gate 3. Outside of games I love reading, music and going out with friends! If you have any questions regarding any FPS or games in general feel free to DM me!"],
+        desc: ["Hey there! I'm Tyler, and I've been an avid FPS game lover since I was a child. I also enjoy any types of game whether it be Tekken, Rocket League, MTG, FFXIV, or even Baldur's Gate 3. Outside of games I love reading, music and going out with friends! If you have any questions regarding any FPS or games in general feel free to DM me!","Bonjour à tous ! Je m'appelle Tyler, et je suis un passionné de jeux FPS depuis mon enfance. J'aime aussi tous les types de jeux, que ce soit Tekken, Rocket League, MTG, FFXIV ou même Baldur's Gate 3. En dehors des jeux vidéos, j'aime lire, écouter de la musique et sortir avec mes amis! Si vous avez des questions concernant les FPS ou les jeux en général, n'hésitez pas à m'envoyer un DM!"],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2024-2025/backgrounds/TylerSooknanan1.JPG); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     }
 }
