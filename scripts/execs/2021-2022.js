@@ -283,6 +283,7 @@ function more(current) {
     document.getElementById("modalRole").innerHTML = isEnglish ? execs[current].role[0] : execs[current].role[1];
     document.getElementById("modalBackground").style = execs[current].background;
     document.getElementById("modalProg").innerHTML = isEnglish ? execs[current].prog[0] : execs[current].prog[1];
+    document.getElementById("modalPronoun").innerHTML = isEnglish ? execs[current].pronoun[0] : execs[current].pronoun[1];
     document.getElementById("modalYear").innerHTML = isEnglish ? execs[current].year[0] : execs[current].year[1];
     document.getElementById("modalGame").innerHTML = execs[current].game;
     document.getElementById("modalDesc").innerHTML = isEnglish ? execs[current].desc[0] : execs[current].desc[1];
