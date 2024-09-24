@@ -33,11 +33,13 @@ function includeHTML() {
         document.getElementById("footer-content").innerHTML = 'Proud club of <a class="text-white" href="https://www.cvuo.ca/home/" target="_blank">CVUO</a><br />&copy; uOttawa Esports 2023';
 
         if (window.location.href.includes("/execs/2021-2022")) {
-            document.getElementById("translate").href = '/fr/cadres/2021-2022/' // add new else if for each new exec year
+            document.getElementById("translate").href = '/fr/cadres/2021-2022/'
         } else if (window.location.href.includes("/execs/2022-2023")) {
             document.getElementById("translate").href = '/fr/cadres/2022-2023/'
         } else if (window.location.href.includes("/execs/2023-2024")) {
             document.getElementById("translate").href = '/fr/cadres/2023-2024/'
+        } else if (window.location.href.includes("/execs/2024-2025")) {
+            document.getElementById("translate").href = '/fr/cadres/2024-2025/' // add new else if for each new exec year
         } else if (window.location.href.includes("/execs/past")) {
             document.getElementById("translate").href = '/fr/cadres/anciens/'
         } else if (window.location.href.includes("/events")) {
@@ -60,11 +62,13 @@ function includeHTML() {
         document.getElementById("footer-content").innerHTML = 'Un club fier du <a class="text-white" href="https://www.cvuo.ca/accueil/" target="_blank">CVUO</a><br />&copy; uOttawa Esports 2023';
 
         if (window.location.href.includes("/cadres/2021-2022")) {
-            document.getElementById("translate").href = '/en/execs/2021-2022/' // add new else if for each new exec year
+            document.getElementById("translate").href = '/en/execs/2021-2022/' 
         } else if (window.location.href.includes("/cadres/2022-2023")) {
             document.getElementById("translate").href = '/en/execs/2022-2023/'
         } else if (window.location.href.includes("/cadres/2023-2024")) {
             document.getElementById("translate").href = '/en/execs/2023-2024/'
+        } else if (window.location.href.includes("/cadres/2024-2025")) {
+            document.getElementById("translate").href = '/en/execs/2024-2025/' // add new else if for each new exec year
         } else if (window.location.href.includes("/cadres/anciens")) {
             document.getElementById("translate").href = '/en/execs/past/'
         } else if (window.location.href.includes("/evenements")) {

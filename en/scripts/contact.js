@@ -29,13 +29,13 @@ function validateName(input) {
 
 function validateDiscord(input) {
     let label = document.getElementById("discordLabel");
-    const di = new RegExp("^.{3,32}#[0-9]{4}$");
+    const di = new RegExp("^.{3,32}"); //Discord username no longer has #1234
 
     if (!di.test(input.value) && input.value.length !== 0) {
         input.classList.remove("valid");
         input.classList.add("error");
         label.innerHTML = '<i class="fas fa-exclamation-circle px-1 text-danger"></i> Discord&nbsp;Username';
-        document.getElementById('discordTooltip').setAttribute('data-bs-original-title', 'Invalid Discord username. Format: Example#1234');
+        document.getElementById('discordTooltip').setAttribute('data-bs-original-title', 'Invalid Discord username.');
         return false;
     } else if (input.value.length !== 0) {
         input.classList.remove("error");

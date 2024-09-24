@@ -13,6 +13,7 @@
 2. Peter Karpov (VP Internal 2022-2023)
 3. Oscar Li (GH Overwatch 2022-2023)
 4. Laura Manrique (VP Internal 2023-2024)
+5. Jessica Guo (VP Internal 2024-2025)
 
 ## Languages Used
 - HTML
