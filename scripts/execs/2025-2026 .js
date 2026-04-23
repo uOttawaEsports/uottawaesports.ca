@@ -31,7 +31,7 @@ let execs = {
         pronoun: ["He / Him", "Il / Lui"],
         year: ["2nd Year", "2e année"],
         game: "League of Legends",
-        desc: ["I enjoy reading and wrestling.", "I enjoy reading and wrestling."],
+        desc: ["I enjoy reading and wrestling.", "J'aime lire et faire de la lutte."],
         background: "background-image: linear-gradient(#000000cc, #000000cc), url(../../../images/execs/2025-2025/backgrounds/AlexLisitsas1.png); background-repeat: no-repeat; background-size: cover; background-position-x: 50%; background-position-y: 50%;"
     },
     "Kimora Lee": {
